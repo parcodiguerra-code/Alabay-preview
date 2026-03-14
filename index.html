@@ -1926,21 +1926,6 @@ function render(root,pushHistory){
       img.setAttribute('clip-path','url(#'+clipId+')');
       img.setAttribute('href',fotos[0]);
       img.setAttributeNS('http://www.w3.org/1999/xlink','xlink:href',fotos[0]);
-      /* hide thumb + reposition text if image fails to load */
-      (function(imgEl,bbEl,gEl,fallbackX){
-        function onImgError(){
-          imgEl.style.display='none';
-          bbEl.style.display='none';
-          /* shift all tName/tMeta/tYear text nodes back to fallback x */
-          var txts=gEl.querySelectorAll('.tName,.tMeta,.tYear');
-          for(var ti=0;ti<txts.length;ti++) txts[ti].setAttribute('x',fallbackX);
-        }
-        imgEl.addEventListener('error', onImgError);
-        /* also handle load to verify it actually rendered (0x0 or broken) */
-        imgEl.addEventListener('load', function(){
-          if(imgEl.getBoundingClientRect && imgEl.getBoundingClientRect().width===0) onImgError();
-        });
-      })(img, null, g, isSubject?14:10);
       g.appendChild(img);
       var bb=svgEl('rect');
       bb.setAttribute('x',thumbX); bb.setAttribute('y',thumbY);
@@ -1948,9 +1933,16 @@ function render(root,pushHistory){
       bb.setAttribute('rx',thumbR); bb.setAttribute('ry',thumbR);
       bb.setAttribute('fill','none'); bb.setAttribute('class','thumbBorder');
       g.appendChild(bb);
-      /* pass bb reference to the error handler closure above */
-      (function(imgEl2,bbEl2){ imgEl2._bbEl=bbEl2; })(img,bb);
-      img.addEventListener('error',function(){ if(img._bbEl) img._bbEl.style.display='none'; });
+      /* hide thumb + reposition text if image fails to load */
+      (function(imgEl,bbEl,gEl,fallbackX){
+        function onImgError(){
+          imgEl.style.display='none';
+          bbEl.style.display='none';
+          var txts=gEl.querySelectorAll('.tName,.tMeta,.tYear');
+          for(var ti=0;ti<txts.length;ti++) txts[ti].setAttribute('x',String(fallbackX));
+        }
+        imgEl.addEventListener('error', onImgError);
+      })(img, bb, g, isSubject?14:10);
       var hit=svgEl('rect');
       hit.setAttribute('x',thumbX); hit.setAttribute('y',thumbY);
       hit.setAttribute('width',thumbSize); hit.setAttribute('height',thumbSize);
@@ -1966,13 +1958,32 @@ function render(root,pushHistory){
     }
 
     // -- TEXT BLOCK ---------------------------------------
-    var nameMaxLen=isSubject?28:(hasPhoto?18:22);
+    // Calculate available text width and derive maxLen
+    var pillRightPad = (sx==='M'||sx==='F') ? 38 : 8;
+    var availW = W - leftPad - pillRightPad;
+    // chars per pixel at given font sizes (conservative estimate for Playfair Display)
+    var nameMaxLen = Math.max(8, Math.floor(availW / (isSubject ? 10 : 8.5)));
+    var metaMaxLen = Math.max(8, Math.floor(availW / 7));
+    var yearMaxLen = Math.max(8, Math.floor(availW / 6.5));
+
+    // Clip group so text never escapes node bounds
+    var txtClipId = 'txtclip_'+safeId(r.id)+'_'+n.gen+'_'+n.slot;
+    var txtClip = svgEl('clipPath'); txtClip.setAttribute('id', txtClipId);
+    var tcr = svgEl('rect');
+    tcr.setAttribute('x', String(leftPad));
+    tcr.setAttribute('y', '0');
+    tcr.setAttribute('width', String(availW));
+    tcr.setAttribute('height', String(H));
+    txtClip.appendChild(tcr); defs.appendChild(txtClip);
+    var tg = svgEl('g');
+    tg.setAttribute('clip-path', 'url(#'+txtClipId+')');
+
     var t1=svgEl('text');
     t1.setAttribute('x',leftPad);
     t1.setAttribute('y',isSubject?'42':'34');
     t1.setAttribute('class',isSubject?'tName isSubject':'tName');
-    t1.textContent=ellipsize(r.name||'(Senza nome)',nameMaxLen);
-    g.appendChild(t1);
+    t1.textContent=ellipsize(r.name||'(Senza nome)', nameMaxLen);
+    tg.appendChild(t1);
 
     // breeder / owner line
     var line1=[];
@@ -1983,8 +1994,8 @@ function render(root,pushHistory){
       t2.setAttribute('x',leftPad);
       t2.setAttribute('y',isSubject?'60':'49');
       t2.setAttribute('class','tMeta');
-      t2.textContent=ellipsize(line1[0],isSubject?34:28);
-      g.appendChild(t2);
+      t2.textContent=ellipsize(line1[0], metaMaxLen);
+      tg.appendChild(t2);
     }
 
     // year + country line
@@ -1998,7 +2009,7 @@ function render(root,pushHistory){
       t3.setAttribute('y',isSubject?'76':'62');
       t3.setAttribute('class','tYear');
       t3.textContent=meta3parts.join(' / ');
-      g.appendChild(t3);
+      tg.appendChild(t3);
     }
 
     // pedigree number (small, bottom-left) - only for non-subject
@@ -2009,9 +2020,11 @@ function render(root,pushHistory){
       tp.setAttribute('class','tYear');
       tp.setAttribute('font-size','9.5');
       tp.setAttribute('opacity','.45');
-      tp.textContent=ellipsize(r.pedigree,20);
-      g.appendChild(tp);
+      tp.textContent=ellipsize(r.pedigree, Math.max(8, Math.floor(availW / 6)));
+      tg.appendChild(tp);
     }
+
+    g.appendChild(tg);
 
     // -- click handler -------------------------------------
     (function(rec2,gEl){
