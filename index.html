@@ -1556,7 +1556,7 @@ function buildTree(root,genMax){
 =========================== */
 function layoutTree(tree){
   var nodeW=(tree.genMax>=5)?270:(tree.genMax>=4?280:300);
-  var nodeH=(tree.genMax>=5)?78:(tree.genMax>=4?84:96);
+  var nodeH=(tree.genMax>=5)?88:(tree.genMax>=4?94:104);
   var gapY=(tree.genMax>=5)?8:(tree.genMax>=4?10:18);
   var stepY=nodeH+gapY;
   var svgElem=$('svg');
@@ -1958,32 +1958,57 @@ function render(root,pushHistory){
     }
 
     // -- TEXT BLOCK ---------------------------------------
-    // Calculate available text width and derive maxLen
+    // No clipPath (coordinate space mismatch with translate). Use 2-line name wrapping instead.
     var pillRightPad = (sx==='M'||sx==='F') ? 38 : 8;
-    var availW = W - leftPad - pillRightPad;
-    // chars per pixel at given font sizes (conservative estimate for Playfair Display)
-    var nameMaxLen = Math.max(8, Math.floor(availW / (isSubject ? 10 : 8.5)));
-    var metaMaxLen = Math.max(8, Math.floor(availW / 7));
-    var yearMaxLen = Math.max(8, Math.floor(availW / 6.5));
+    var availTextW = W - leftPad - pillRightPad;
 
-    // Clip group so text never escapes node bounds
-    var txtClipId = 'txtclip_'+safeId(r.id)+'_'+n.gen+'_'+n.slot;
-    var txtClip = svgEl('clipPath'); txtClip.setAttribute('id', txtClipId);
-    var tcr = svgEl('rect');
-    tcr.setAttribute('x', '4');
-    tcr.setAttribute('y', '0');
-    tcr.setAttribute('width', String(W - pillRightPad - 4));
-    tcr.setAttribute('height', String(H));
-    txtClip.appendChild(tcr); defs.appendChild(txtClip);
-    var tg = svgEl('g');
-    tg.setAttribute('clip-path', 'url(#'+txtClipId+')');
+    // ── helper: split name into max 2 lines at word boundary ──────────────
+    function splitName(name, maxCharsPerLine) {
+      if(!name) return ['(Senza nome)'];
+      if(name.length <= maxCharsPerLine) return [name];
+      // find best split point (space nearest to middle)
+      var best = -1, mid = Math.floor(name.length / 2);
+      for(var d=0; d<=mid; d++){
+        if(mid-d>0 && name[mid-d]===' '){ best=mid-d; break; }
+        if(mid+d<name.length && name[mid+d]===' '){ best=mid+d; break; }
+      }
+      if(best<=0) return [name]; // no space found, can't split
+      var l1=name.slice(0,best), l2=name.slice(best+1);
+      // if second line still too long, truncate it
+      if(l2.length > maxCharsPerLine) l2 = l2.slice(0, maxCharsPerLine-1)+'…';
+      return [l1, l2];
+    }
 
-    var t1=svgEl('text');
-    t1.setAttribute('x',leftPad);
-    t1.setAttribute('y',isSubject?'42':'34');
-    t1.setAttribute('class',isSubject?'tName isSubject':'tName');
-    t1.textContent=ellipsize(r.name||'(Senza nome)', nameMaxLen);
-    tg.appendChild(t1);
+    // chars per pixel estimate for Playfair Display
+    var charsPerPx = isSubject ? 10.5 : 8.8;
+    var maxCharsPerLine = Math.max(10, Math.floor(availTextW / charsPerPx));
+    var metaMaxLen = Math.max(10, Math.floor(availTextW / 7));
+
+    var nameParts = splitName(r.name || '(Senza nome)', maxCharsPerLine);
+    var twoLines  = nameParts.length === 2;
+
+    // Y positions shift down when 2-line name to make room
+    var nameY1    = isSubject ? 34 : (twoLines ? 26 : 32);
+    var nameY2    = isSubject ? 50 : (twoLines ? 40 : 32);  // only used if twoLines
+    var metaY     = isSubject ? (twoLines ? 64 : 58) : (twoLines ? 52 : 47);
+    var yearY     = isSubject ? (twoLines ? 78 : 72) : (twoLines ? 64 : 60);
+    var pedY      = H - 7;
+
+    var t1 = svgEl('text');
+    t1.setAttribute('x', String(leftPad));
+    t1.setAttribute('y', String(nameY1));
+    t1.setAttribute('class', isSubject ? 'tName isSubject' : 'tName');
+    t1.textContent = nameParts[0];
+    g.appendChild(t1);
+
+    if(twoLines){
+      var t1b = svgEl('text');
+      t1b.setAttribute('x', String(leftPad));
+      t1b.setAttribute('y', String(nameY2));
+      t1b.setAttribute('class', isSubject ? 'tName isSubject' : 'tName');
+      t1b.textContent = nameParts[1];
+      g.appendChild(t1b);
+    }
 
     // breeder / owner line
     var line1=[];
@@ -1991,11 +2016,11 @@ function render(root,pushHistory){
     if(!r.allevatore&&r.proprietario) line1.push('Propr. '+r.proprietario);
     if(line1.length){
       var t2=svgEl('text');
-      t2.setAttribute('x',leftPad);
-      t2.setAttribute('y',isSubject?'60':'49');
+      t2.setAttribute('x',String(leftPad));
+      t2.setAttribute('y',String(metaY));
       t2.setAttribute('class','tMeta');
       t2.textContent=ellipsize(line1[0], metaMaxLen);
-      tg.appendChild(t2);
+      g.appendChild(t2);
     }
 
     // year + country line
@@ -2005,26 +2030,25 @@ function render(root,pushHistory){
     if(year2)   meta3parts.push(year2);
     if(meta3parts.length){
       var t3=svgEl('text');
-      t3.setAttribute('x',leftPad);
-      t3.setAttribute('y',isSubject?'76':'62');
+      t3.setAttribute('x',String(leftPad));
+      t3.setAttribute('y',String(yearY));
       t3.setAttribute('class','tYear');
       t3.textContent=meta3parts.join(' / ');
-      tg.appendChild(t3);
+      g.appendChild(t3);
     }
 
-    // pedigree number (small, bottom-left) - only for non-subject
+    // pedigree number (small, bottom-right) - only for non-subject
     if(!isSubject&&r.pedigree){
       var tp=svgEl('text');
-      tp.setAttribute('x',leftPad);
-      tp.setAttribute('y',String(H-8));
+      tp.setAttribute('x',String(leftPad));
+      tp.setAttribute('y',String(pedY));
       tp.setAttribute('class','tYear');
       tp.setAttribute('font-size','9.5');
       tp.setAttribute('opacity','.45');
-      tp.textContent=ellipsize(r.pedigree, Math.max(8, Math.floor(availW / 6)));
-      tg.appendChild(tp);
+      tp.textContent=ellipsize(r.pedigree, Math.max(8, Math.floor(availTextW/6)));
+      g.appendChild(tp);
     }
 
-    g.appendChild(tg);
 
     // -- click handler -------------------------------------
     (function(rec2,gEl){
