@@ -1970,9 +1970,9 @@ function render(root,pushHistory){
     var txtClipId = 'txtclip_'+safeId(r.id)+'_'+n.gen+'_'+n.slot;
     var txtClip = svgEl('clipPath'); txtClip.setAttribute('id', txtClipId);
     var tcr = svgEl('rect');
-    tcr.setAttribute('x', String(leftPad));
+    tcr.setAttribute('x', '4');
     tcr.setAttribute('y', '0');
-    tcr.setAttribute('width', String(availW));
+    tcr.setAttribute('width', String(W - pillRightPad - 4));
     tcr.setAttribute('height', String(H));
     txtClip.appendChild(tcr); defs.appendChild(txtClip);
     var tg = svgEl('g');
