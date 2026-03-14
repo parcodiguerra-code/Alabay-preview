@@ -1,0 +1,2070 @@
+<!doctype html>
+
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Editor Alabay Club Italia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a1120; --panel:#0d1729; --panel2:#101e30;
+  --ink:#dde4f0; --mut:#8899b8; --border:#1a2540;
+  --ok:#6ee7b7; --warn:#fcd34d; --bad:#f87171; --accent:#60a5fa;
+  --sire:rgba(71,120,210,.7); --dam:rgba(168,65,130,.7);
+  --coi-low-fg:#5eead4;  --coi-low-bg:rgba(20,184,166,.09);  --coi-low-border:rgba(20,184,166,.25);
+  --coi-mid-fg:#fbbf24;  --coi-mid-bg:rgba(245,158,11,.09);  --coi-mid-border:rgba(245,158,11,.28);
+  --coi-high-fg:#fb923c; --coi-high-bg:rgba(234,88,12,.09);  --coi-high-border:rgba(234,88,12,.28);
+  --coi-vhigh-fg:#f87171;--coi-vhigh-bg:rgba(220,38,38,.09); --coi-vhigh-border:rgba(220,38,38,.28);
+  --f-display:"Playfair Display",Georgia,serif;
+  --f-body:"Inter",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%}
+body{
+  background:radial-gradient(ellipse 120% 80% at 50% 0%,#0f1e3a,#070d1c 60%);
+  color:var(--ink);
+  font-family:var(--f-body);
+  overflow:auto;
+  font-size:14px;
+}
+@keyframes fadeSlideUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+/* HEADER */
+header{
+position:sticky; top:0; z-index:50;
+background:rgba(6,13,26,.94);
+backdrop-filter:blur(12px);
+-webkit-backdrop-filter:blur(12px);
+border-bottom:1px solid rgba(148,163,184,.12);
+}
+.bar{
+display:flex;gap:4px;align-items:center;flex-wrap:wrap;
+padding:8px 14px;
+}
+.bar-sep{width:1px;height:20px;background:rgba(148,163,184,.14);margin:0 5px;flex-shrink:0;}
+.bar-group{display:flex;align-items:center;gap:4px;}
+.brand{
+font-weight:700;font-family:var(--f-display);font-size:16px;letter-spacing:.2px;color:#c7d9f5;
+white-space:nowrap;
+}
+.sp{flex:1; min-width:8px;}
+
+/* BUTTONS */
+.btn{
+border:1px solid rgba(148,163,184,.16);
+background:rgba(13,21,42,.65);
+color:var(--ink);
+padding:7px 11px;
+border-radius:10px;
+font-weight:600;
+font-size:13px;
+font-family:var(--f-body);
+cursor:pointer;
+user-select:none;
+white-space:nowrap;
+transition:background .15s,border-color .15s,box-shadow .15s;
+display:inline-flex;align-items:center;gap:5px;
+letter-spacing:.01em;
+}
+.btn:not(:disabled):hover{background:rgba(96,165,250,.10);border-color:rgba(96,165,250,.30);box-shadow:0 2px 10px rgba(0,0,0,.25);}
+.btn:not(:disabled):active{transform:translateY(1px);}
+.btn:disabled{opacity:.32;cursor:not-allowed;}
+.btn.ghost{background:transparent;border-color:transparent;}
+.btn.ghost:not(:disabled):hover{background:rgba(96,165,250,.08);border-color:rgba(96,165,250,.2);}
+.btn.danger{border-color:rgba(252,165,165,.25);}
+.btn.danger:not(:disabled):hover{background:rgba(239,68,68,.12);border-color:rgba(252,165,165,.5);}
+.btn.primary{background:rgba(96,165,250,.15);border-color:rgba(96,165,250,.45);}
+.btn.primary:not(:disabled):hover{background:rgba(96,165,250,.25);}
+
+/* PILLS */
+.pill{
+border:1px solid rgba(148,163,184,.2);
+background:rgba(15,23,42,.55);
+color:var(--mut);
+padding:5px 10px;
+border-radius:999px;
+font-size:12px;
+white-space:nowrap;
+}
+.pillSmall{
+border:1px solid rgba(148,163,184,.15);
+background:rgba(15,23,42,.45);
+color:rgba(148,163,184,.9);
+padding:3px 8px;
+border-radius:999px;
+font-size:11px;
+}
+
+/* STATUS */
+.status{
+padding:6px 10px; border-radius:12px;
+border:1px solid rgba(148,163,184,.20);
+background:rgba(15,23,42,.35);
+color:var(--mut); font-size:12px;
+white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+max-width:340px;
+}
+.status.ok  { color:var(--ok);  border-color:rgba(134,239,172,.35); background:rgba(134,239,172,.06); }
+.status.warn{ color:var(--warn);border-color:rgba(253,230,138,.35); background:rgba(253,230,138,.06); }
+.status.bad { color:var(--bad); border-color:rgba(252,165,165,.35); background:rgba(252,165,165,.06); }
+
+/* DIRTY FLAG */
+#dirtyPill{
+display:none;
+padding:4px 10px; border-radius:999px;
+background:rgba(253,230,138,.12);
+border:1px solid rgba(253,230,138,.35);
+color:var(--warn);
+font-size:11px; font-weight:700;
+animation:pulse 2s infinite;
+}
+@keyframes pulse{ 0%,100%{opacity:1} 50%{opacity:.6} }
+
+/* LAYOUT */
+main{
+display:grid;
+grid-template-columns:1fr 440px;
+gap:12px;
+padding:12px;
+min-height:0;
+}
+@media(max-width:900px){ main{grid-template-columns:1fr;} }
+
+/* CARD */
+.card{
+border:1px solid rgba(148,163,184,.18);
+background:rgba(15,23,42,.55);
+border-radius:16px;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+overflow:hidden;
+}
+.cardHead{
+display:flex; align-items:center; gap:8px; flex-wrap:wrap;
+padding:10px 14px;
+border-bottom:1px solid rgba(148,163,184,.10);
+background:rgba(15,23,42,.4);
+}
+.cardHead strong{font-weight:700;font-family:var(--f-display);font-size:13.5px;color:#c7d9f5;}
+.cardBody{ padding:14px; }
+
+/* SECTION DIVIDERS */
+.sectionTitle{
+font-size:11px;font-weight:700;letter-spacing:.6px;
+text-transform:uppercase;color:rgba(148,163,184,.5);
+margin:16px 0 10px;font-family:var(--f-body);
+}
+.sectionTitle:first-child{margin-top:0;}
+.hr{ border:none; border-top:1px solid rgba(148,163,184,.10); margin:14px 0; }
+
+/* PHOTO AREA */
+.photoRow{
+display:grid;
+grid-template-columns:280px 1fr;
+gap:14px;
+align-items:start;
+margin-bottom:14px;
+}
+@media(max-width:900px){ .photoRow{grid-template-columns:1fr;} }
+
+.photoBox{
+border:1px solid rgba(148,163,184,.14);
+border-radius:14px;
+background:rgba(15,23,42,.4);
+padding:10px;
+}
+.previewWrap{
+width:100%; height:190px;
+border-radius:12px;
+border:1px solid rgba(148,163,184,.14);
+background:rgba(6,13,26,.7);
+display:flex; align-items:center; justify-content:center;
+overflow:hidden; position:relative;
+}
+.previewEmpty{
+color:rgba(148,163,184,.3); font-size:36px; pointer-events:none;
+}
+#photoPreview{
+display:none; width:100%; height:190px; object-fit:cover;
+}
+.photoNav{
+position:absolute; bottom:8px; left:50%; transform:translateX(-50%);
+display:none; gap:6px; align-items:center;
+}
+.photoNavBtn{
+background:rgba(0,0,0,.6); border:1px solid rgba(255,255,255,.15);
+color:#e2e8f0; border-radius:8px; width:32px; height:32px;
+cursor:pointer; font-size:18px; display:flex; align-items:center; justify-content:center;
+}
+.photoNavBtn:disabled{ opacity:.25; }
+#photoCounter{
+background:rgba(0,0,0,.55); color:#e2e8f0; font-size:11px;
+padding:2px 8px; border-radius:10px;
+}
+.thumbs{ margin-top:8px; display:flex; gap:6px; flex-wrap:wrap; }
+.thumb{
+width:48px; height:48px; border-radius:10px;
+border:1px solid rgba(148,163,184,.15);
+object-fit:cover; cursor:pointer; opacity:.8;
+transition:opacity .12s, border-color .12s;
+}
+.thumb:hover{ opacity:1; }
+.thumb.sel{ border-color:rgba(96,165,250,.85); opacity:1; box-shadow:0 0 0 2px rgba(96,165,250,.2); }
+.photoControls{
+display:flex; gap:8px; margin-top:8px; flex-wrap:wrap; justify-content:center;
+}
+#photoStat{
+margin-top:8px; text-align:center;
+font-size:11px; color:rgba(148,163,184,.7);
+}
+
+/* SUMMARY BOX */
+.summaryBox{
+border:1px solid rgba(148,163,184,.14);
+border-radius:14px;
+padding:12px 14px;
+background:rgba(15,23,42,.4);
+margin-bottom:12px;
+position:relative;
+}
+.sumName{font-weight:700;font-family:var(--f-display);font-size:18px;line-height:1.2;color:#edf2ff;}
+.sumMeta{ margin-top:4px; color:rgba(148,163,184,.85); font-size:12px; }
+.sumGrid{
+margin-top:10px;
+display:grid; grid-template-columns:1fr 1fr;
+gap:8px;
+}
+.sumLbl{ color:rgba(148,163,184,.65); font-size:10px; text-transform:uppercase; letter-spacing:.4px; margin-bottom:2px; }
+.sumVal{ font-weight:700; font-size:13px; }
+.sumFoot{ margin-top:10px; color:rgba(148,163,184,.5); font-size:11px; }
+.sumSexBadge{
+position:absolute; top:12px; right:12px;
+padding:3px 10px; border-radius:999px;
+font-size:11px; font-weight:800;
+}
+.sumSexM{ background:rgba(71,120,210,.2); border:1px solid rgba(71,120,210,.5); color:rgba(147,197,253,1); }
+.sumSexF{ background:rgba(168,65,130,.2); border:1px solid rgba(168,65,130,.5); color:rgba(249,168,212,1); }
+
+/* FORM FIELDS */
+.grid2{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.grid2 > div{ min-width:0; }
+.field{ margin-bottom:0; }
+label{
+display:block; font-weight:700; font-size:11px;
+color:rgba(148,163,184,.75); margin-bottom:5px;
+text-transform:uppercase; letter-spacing:.3px;
+}
+input, select, textarea{
+width:100%; padding:9px 11px;
+border-radius:10px;
+border:1px solid rgba(148,163,184,.18);
+background:rgba(11,18,32,.85);
+color:var(--ink); outline:none; font-size:13px;
+transition:border-color .15s,box-shadow .15s;
+font-family:var(--f-body);
+}
+input:focus, select:focus, textarea:focus{
+border-color:rgba(96,165,250,.60);
+background:rgba(11,18,32,.95);
+box-shadow:0 0 0 3px rgba(96,165,250,.12);
+}
+input.error{ border-color:rgba(252,165,165,.6) !important; }
+input[readonly]{ opacity:.55; cursor:default; }
+textarea{ min-height:72px; resize:vertical; }
+select option{ background:#0f172a; }
+
+/* AUTOCOMPLETE */
+.acWrap{ position:relative; }
+.acBox{
+position:absolute;
+top:calc(100% + 4px); left:0; right:0;
+background:rgba(10,18,32,.98);
+border:1px solid rgba(148,163,184,.22);
+border-radius:12px;
+max-height:340px; overflow:auto;
+display:none; z-index:999;
+box-shadow:0 8px 32px rgba(0,0,0,.5);
+}
+.acItem{
+padding:9px 12px;
+border-bottom:1px solid rgba(148,163,184,.08);
+cursor:pointer;
+transition:background .1s;
+}
+.acItem:last-child{ border-bottom:none; }
+.acItem:hover{ background:rgba(96,165,250,.1); }
+.acTitle{font-weight:700;font-family:var(--f-display);font-size:13.5px;}
+.acMeta{ color:rgba(148,163,184,.85); font-size:11.5px; margin-top:3px; line-height:1.45; }
+
+/* LIST */
+.qRow{ display:flex; gap:8px; margin-bottom:10px; }
+#sortBtns{ display:flex; gap:4px; margin-bottom:8px; }
+.sortBtn{
+font-size:11px; padding:3px 8px; border-radius:8px;
+border:1px solid rgba(148,163,184,.15);
+background:rgba(15,23,42,.4); color:rgba(148,163,184,.8);
+cursor:pointer; font-weight:600;
+}
+.sortBtn.active{ background:rgba(96,165,250,.15); border-color:rgba(96,165,250,.4); color:var(--accent); }
+#list{ overflow:auto; max-height:calc(100vh - 240px); }
+.item{
+padding:9px 12px;
+border:1px solid rgba(148,163,184,.12);
+border-radius:12px;
+background:rgba(15,23,42,.3);
+cursor:pointer;
+margin-bottom:6px;
+transition:border-color .12s, background .12s;
+}
+.item:hover{ border-color:rgba(96,165,250,.35); background:rgba(96,165,250,.04); }
+.item.sel{
+border-color:rgba(96,165,250,.8);
+background:rgba(96,165,250,.08);
+box-shadow:0 0 0 1px rgba(96,165,250,.2) inset;
+}
+.iTitle{font-weight:700;font-family:var(--f-display);font-size:13px;}
+.iMeta{ color:rgba(148,163,184,.8); font-size:11px; margin-top:3px; }
+.iSex{
+display:inline-block; font-size:10px; font-weight:800;
+padding:1px 6px; border-radius:6px; margin-right:4px;
+}
+.iSexM{ background:rgba(71,120,210,.25); color:rgba(147,197,253,.9); }
+.iSexF{ background:rgba(168,65,130,.25); color:rgba(249,168,212,.9); }
+
+/* INTEGRITY BADGE */
+.intBadge{
+display:inline-block; font-size:10px; font-weight:700;
+padding:1px 6px; border-radius:6px; margin-left:4px;
+background:rgba(252,165,165,.15); color:rgba(252,165,165,.9);
+border:1px solid rgba(252,165,165,.25);
+}
+
+/* ROW BUTTONS */
+.rowBtn{ display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; }
+
+/* HINT */
+.hint{
+margin-top:10px; color:rgba(148,163,184,.7); font-size:11px;
+border:1px solid rgba(148,163,184,.1); border-radius:10px;
+padding:8px 10px; background:rgba(15,23,42,.3);
+line-height:1.5;
+}
+
+/* CONFIRM OVERLAY */
+#confirmOverlay{
+display:none; position:fixed; inset:0; z-index:200;
+background:rgba(0,0,0,.65); backdrop-filter:blur(4px);
+align-items:center; justify-content:center;
+}
+#confirmOverlay.show{ display:flex; }
+.confirmBox{
+background:#0d1729; border:1px solid rgba(148,163,184,.2);
+border-radius:18px; padding:24px; max-width:360px; width:90%;
+box-shadow:0 20px 60px rgba(0,0,0,.6);
+animation:fadeSlideUp .18s cubic-bezier(.22,1,.36,1) both;
+}
+.confirmTitle{font-weight:700;font-family:var(--f-display);font-size:16px;margin-bottom:8px;color:#edf2ff;}
+.confirmMsg{ color:rgba(148,163,184,.85); font-size:13px; margin-bottom:18px; line-height:1.5; }
+.confirmBtns{ display:flex; gap:8px; justify-content:flex-end; }
+
+/* COMPLETENESS BAR */
+.compBar{margin-top:10px;}
+.compBarLabel{font-size:10px;color:rgba(148,163,184,.5);font-weight:700;letter-spacing:.4px;text-transform:uppercase;display:flex;justify-content:space-between;margin-bottom:4px;}
+.compBarTrack{height:4px;border-radius:99px;background:rgba(148,163,184,.1);overflow:hidden;}
+.compBarFill{height:100%;border-radius:99px;transition:width .3s ease,background .3s ease;}
+
+/* INTEGRITY PANEL */
+#intPanel{
+display:none; margin-top:12px;
+border:1px solid rgba(252,165,165,.25);
+border-radius:12px; padding:12px;
+background:rgba(252,165,165,.05);
+}
+.intTitle{ font-weight:700; color:rgba(252,165,165,.9); font-size:12px; margin-bottom:8px; }
+.intItem{ font-size:12px; color:rgba(148,163,184,.85); padding:3px 0; }
+.iTipo{display:inline-block;font-size:9px;font-weight:700;padding:1px 5px;border-radius:5px;background:rgba(148,163,184,.1);color:rgba(148,163,184,.65);border:1px solid rgba(148,163,184,.15);margin-left:4px;vertical-align:middle;}
+.compBar{height:3px;border-radius:99px;background:rgba(255,255,255,.07);overflow:hidden;margin-top:6px;}
+.compFill{height:100%;border-radius:99px;transition:width .3s;}
+.compLbl{font-size:9.5px;font-weight:700;letter-spacing:.3px;color:rgba(148,163,184,.45);margin-top:3px;}
+
+/* TOAST */
+#toast{
+position:fixed; bottom:20px; left:50%; transform:translateX(-50%);
+background:rgba(15,23,42,.96); border:1px solid rgba(148,163,184,.2);
+border-radius:12px; padding:10px 18px; font-size:13px; font-weight:600;
+box-shadow:0 8px 32px rgba(0,0,0,.4); z-index:300;
+opacity:0; transition:opacity .2s; pointer-events:none;
+white-space:nowrap;
+}
+#toast.show{ opacity:1; }
+</style>
+
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="brand">&#9998; Editor Alabay Club Italia</div>
+    <div class="bar-sep"></div>
+    <div class="bar-group">
+      <button id="btnViewer" type="button" class="btn" title="Apri il Viewer">&#127795; Viewer</button>
+    </div>
+    <div class="bar-sep"></div>
+    <div class="bar-group">
+      <button id="btnOpen" type="button" class="btn" title="Apri file JSON">&#128194; Apri JSON</button>
+      <input id="jsonPicker" type="file" accept=".json,application/json" hidden>
+      <button id="btnSave" type="button" class="btn primary" disabled title="Salva su disco">&#128190; Salva</button>
+      <button id="btnCopyJson" type="button" class="btn" disabled title="Copia JSON negli appunti">&#128203; Copia</button>
+      <button id="btnBackupToggle" type="button" class="btn" disabled title="Attiva/disattiva backup automatico">&#128736; Backup</button>
+    </div>
+    <div class="bar-sep"></div>
+    <div class="bar-group">
+      <button id="btnIntegrity" type="button" class="btn" disabled title="Controlla integrità database">&#128270; Integrità</button>
+    </div>
+    <div class="sp"></div>
+    <span id="dirtyPill">&#9679; Non salvato</span>
+    <span class="pill" id="filePill">Nessun DB</span>
+    <span id="stat" class="status">Apri un JSON per iniziare.</span>
+  </div>
+</header>
+
+<main>
+  <!-- EDITOR PANEL -->
+  <section class="card">
+    <div class="cardHead">
+      <strong>Editor</strong>
+      <span class="pillSmall" id="selPill">Nessuna selezione</span>
+      <div class="sp"></div>
+      <div id="intPanel" style="display:none;margin:0;padding:6px 10px;border-radius:8px;font-size:11px;border:1px solid rgba(252,165,165,.3);background:rgba(252,165,165,.07);color:rgba(252,165,165,.9)"></div>
+    </div>
+
+```
+<div class="cardBody">
+
+  <!-- FOTO + SUMMARY -->
+  <div class="photoRow">
+
+    <!-- FOTO -->
+    <div class="photoBox">
+      <div class="previewWrap">
+        <div class="previewEmpty" id="previewEmpty">&#128444;</div>
+        <img id="photoPreview" alt="Anteprima foto">
+        <div class="photoNav" id="photoNav">
+          <button class="photoNavBtn" id="photoNavPrev">&#8249;</button>
+          <span id="photoCounter">1/1</span>
+          <button class="photoNavBtn" id="photoNavNext">&#8250;</button>
+        </div>
+      </div>
+      <div id="photoThumbs" class="thumbs"></div>
+      <div id="photoStat">Nessuna foto</div>
+      <div class="photoControls">
+        <button id="btnPhotoPick" type="button" class="btn" disabled>&#128247; Aggiungi</button>
+        <button id="btnPhotoRemove" type="button" class="btn danger" disabled>&#128465; Rimuovi</button>
+        <button id="btnPhotoDownload" type="button" class="btn" disabled style="display:none">&#11015; Scarica foto</button>
+        <input id="photoPicker" type="file" accept="image/*" multiple hidden>
+      </div>
+      <div class="hint" style="margin-top:8px;font-size:10px">Max 10 foto · rinominate automaticamente come {id}.jpg · scarica per caricare su GitHub</div>
+    </div>
+
+    <!-- SUMMARY + CAMPI TOP -->
+    <div>
+      <div class="summaryBox">
+        <div id="sum_sex" class="sumSexBadge" style="display:none"></div>
+        <div id="sum_name" class="sumName">--</div>
+        <div id="sum_meta" class="sumMeta">--</div>
+        <div class="sumGrid">
+          <div><div class="sumLbl">Pedigree</div><div id="sum_ped" class="sumVal">--</div></div>
+          <div><div class="sumLbl">Nascita</div><div id="sum_birth" class="sumVal">--</div></div>
+          <div><div class="sumLbl">Allevatore</div><div id="sum_all" class="sumVal">--</div></div>
+          <div><div class="sumLbl">Proprietario</div><div id="sum_prop" class="sumVal">--</div></div>
+        </div>
+        <div class="sumFoot">ID: <span id="sum_id">--</span></div>
+        <div class="compBar"><div id="compFill" class="compFill" style="width:0%;background:#60a5fa"></div></div>
+        <div class="compLbl" id="compLbl">Completezza: --</div>
+        <div class="compBar">
+          <div class="compBarLabel"><span>Completezza record</span><span id="compPct">—</span></div>
+          <div class="compBarTrack"><div class="compBarFill" id="compFill" style="width:0%"></div></div>
+        </div>
+      </div>
+
+      <div class="grid2">
+        <div>
+          <label>ID</label>
+          <input id="f_id" placeholder="Auto-generato" readonly>
+        </div>
+        <div>
+          <label>Sesso</label>
+          <select id="f_sex">
+            <option value="">--</option>
+            <option value="M">M -- Maschio</option>
+            <option value="F">F -- Femmina</option>
+          </select>
+        </div>
+        <div style="grid-column:1/-1">
+          <label>Nome completo</label>
+          <input id="f_name" placeholder="es: KARA KELLE AYBAR">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr">
+  <div class="sectionTitle">Dati anagrafici</div>
+
+  <div class="grid2">
+    <div>
+      <label>Allevatore</label>
+      <input id="f_all" placeholder="es: Gorokhov">
+    </div>
+    <div>
+      <label>Proprietario</label>
+      <input id="f_prop" placeholder="es: Kyarizov">
+    </div>
+    <div>
+      <label>Paese</label>
+      <input id="f_country" list="countriesList" placeholder="es: TURKMENISTAN" autocomplete="off">
+      
+      
+    </div>
+    <div>
+      <label>Tipo</label>
+      <input id="f_tipo" list="tipoList" placeholder="Scegli o scrivi tipo..." autocomplete="off">
+    </div>
+    <div>
+      <label>Colore</label>
+      <input id="f_colore" placeholder="es: WHITE WITH ORANGE" list="coloriList">
+      <datalist id="coloriList">
+        <option value="WHITE"><option value="WHITE WITH ORANGE"><option value="WHITE WITH BLACK">
+        <option value="WHITE WITH BROWN"><option value="BLACK WITH WHITE"><option value="REDDISH WITH WHITE">
+        <option value="WHITE WITH GREY"><option value="REDDISH"><option value="LIGHT FAWN">
+        <option value="FAWN"><option value="GREY WITH WHITE"><option value="BLACK">
+        <option value="BRINDLE"><option value="PIEBALD">
+      </datalist>
+    </div>
+    <div>
+      <label>Pedigree</label>
+      <input id="f_ped" placeholder="es: UKU.R.000989/00">
+    </div>
+    <div>
+      <label>Nascita (YYYY-MM-DD)</label>
+      <input id="f_birth" placeholder="2020-05-15" maxlength="10">
+    </div>
+  </div>
+
+  <hr class="hr">
+  <div class="sectionTitle">Genealogia</div>
+
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <div>
+      <label>Padre</label>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div class="acWrap" style="flex:1">
+          <input id="f_sire" placeholder="Digita nome padre e scegli dalla lista…">
+          <div id="ac_sire" class="acBox"></div>
+        </div>
+        <button id="btnForceSire" type="button" class="btn" disabled>&#43; Crea</button>
+        <button id="btnClearSire" type="button" class="btn ghost" title="Rimuovi padre">&#10005;</button>
+      </div>
+    </div>
+    <div>
+      <label>Madre</label>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div class="acWrap" style="flex:1">
+          <input id="f_dam" placeholder="Digita nome madre e scegli dalla lista…">
+          <div id="ac_dam" class="acBox"></div>
+        </div>
+        <button id="btnForceDam" type="button" class="btn" disabled>&#43; Crea</button>
+        <button id="btnClearDam" type="button" class="btn ghost" title="Rimuovi madre">&#10005;</button>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr">
+  <div class="sectionTitle">Note</div>
+  <textarea id="f_note" placeholder="Note libere…"></textarea>
+
+  <div class="rowBtn" style="flex-wrap:wrap;gap:6px;align-items:center">
+    <div style="display:flex;gap:6px;align-items:center">
+      <button id="btnNew"    type="button" class="btn" disabled title="Crea nuovo record">＋ Nuovo</button>
+        <button id="btnTemplate"   type="button" class="btn" disabled title="Nuovo cane da allevatore">🏷️ Da allevatore</button>
+        <button id="btnImportText" type="button" class="btn" disabled title="Importa da testo / pedigree">📋 Importa testo</button>
+      <button id="btnApply"  type="button" class="btn primary" disabled title="Salva modifiche nel record corrente">✓ Applica</button>
+      <button id="btnClear"  type="button" class="btn" disabled title="Pulisci tutti i campi">↺ Pulisci</button>
+    </div>
+    <div style="width:1px;height:18px;background:rgba(148,163,184,.15);flex-shrink:0"></div>
+    <div style="display:flex;gap:6px;align-items:center">
+      <button id="btnDuplicate"      type="button" class="btn" disabled title="Duplica record corrente">⧉ Duplica</button>
+      <button id="btnCopyParents"    type="button" class="btn" disabled title="Copia genitori sul record in editing">↓ Genitori</button>
+      <button id="btnDupParentsOnly" type="button" class="btn" disabled title="Nuovo record con stessi genitori">⊕ Stessi genitori</button>
+    </div>
+    <div style="flex:1"></div>
+    <button id="btnDelete" type="button" class="btn danger" disabled title="Elimina record">🗑 Elimina</button>
+  </div>
+
+  <div class="hint">
+    <b>iPad:</b> usa <b>Copia JSON</b> e incollalo in Textastic nel file .json.<br>
+    <b>Windows/Mac:</b> <b>Salva</b> scrive direttamente (Chrome/Edge) o scarica il file.
+  </div>
+
+</div>
+```
+
+  </section>
+
+  <!-- LISTA -->
+
+  <aside class="card">
+    <div class="cardHead">
+      <strong>Lista cani</strong>
+      <span class="pillSmall" id="count">0</span>
+      <div class="sp"></div>
+    </div>
+    <div class="cardBody" style="padding-bottom:0">
+      <div class="qRow" style="flex-wrap:wrap;gap:6px;">
+      <select id="tipoFilter" class="tipoFilter" title="Filtra per tipo">
+        <option value="">Tutti i tipi</option>
+        <option value="PUREBRED TURKMEN ALABAY">Purebred Turkmen Alabay</option>
+        <option value="TURKMEN ALABAY">Turkmen Alabay</option>
+        <option value="CENTRAL ASIAN VOLKODAV">Central Asian Volkodav</option>
+        <option value="PUREBRED CENTRAL ASIAN SHEPHERD DOG">Purebred Central Asian Shepherd Dog</option>
+        <option value="CENTRAL ASIAN SHEPHERD DOG">Central Asian Shepherd Dog</option>
+        <option value="PUREBRED UZBEK SARKANJIK">Purebred Uzbek Sarkanjik</option>
+        <option value="PUREBRED TAJIK DAHMARDA">Purebred Tajik Dahmarda</option>
+        <option value="PUREBRED GEORGIAN NAGAZI">Purebred Georgian Nagazi</option>
+        <option value="PUREBRED KAZAKH TOBET">Purebred Kazakh Tobet</option>
+        <option value="CAUCASIAN VOLKODAV">Caucasian Volkodav</option>
+        <option value="PUREBRED KYRGYZ DOBOT">Purebred Kyrgyz Dobot</option>
+        <option value="CROSSBRED">Crossbred</option>
+        <option value="">-- Nessun tipo --</option>
+      </select>
+    </div>
+    <div class="qRow">
+        <input id="q" placeholder="Filtra nome / allevatore / paese / ID…" style="flex:1">
+      </div>
+      <div id="sortBtns">
+        <button class="sortBtn active" data-sort="name">Nome</button>
+        <button class="sortBtn" data-sort="birth">Anno</button>
+        <button class="sortBtn" data-sort="allevatore">Allevatore</button>
+      </div>
+      <div id="list"></div>
+    </div>
+  </aside>
+</main>
+
+<!-- CONFIRM DIALOG -->
+
+<div id="confirmOverlay">
+  <div class="confirmBox">
+    <div class="confirmTitle" id="confirmTitle">Conferma</div>
+    <div class="confirmMsg" id="confirmMsg">Sicuro?</div>
+    <div class="confirmBtns">
+      <button class="btn" id="confirmCancel">Annulla</button>
+      <button class="btn danger" id="confirmOk">Conferma</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+
+<div id="toast"></div>
+<script>
+
+function addPhotos(files){
+  var list = Array.prototype.slice.call(files||[]);
+  if(!list.length) return Promise.resolve();
+  var maxFotos = 10;
+  var remaining = Math.max(0, maxFotos - CURRENT_PHOTOS.length);
+  list = list.slice(0, remaining);
+  if(!list.length){ toast('Massimo '+maxFotos+' foto per soggetto.'); return Promise.resolve(); }
+
+  /* determine record id for naming */
+  var recId = ($('f_id')&&$('f_id').value) ? clean($('f_id').value) : 'unknown';
+
+  var chain = Promise.resolve();
+  list.forEach(function(f, fi){
+    chain = chain.then(function(){
+      return compressImage(f).then(function(res){
+        /* auto-name: id.jpg, id_2.jpg, id_3.jpg ... */
+        var photoIdx = CURRENT_PHOTOS.length + 1;
+        var ext = '.jpg';
+        var autoName = photoIdx === 1
+          ? recId + ext
+          : recId + '_' + photoIdx + ext;
+        var path = 'images/' + autoName;
+
+        CURRENT_PHOTOS.push(res.dataUrl);
+        CURRENT_PHOTO_PATHS.push(path);
+        CURRENT_PHOTO_FILES.push({ name: autoName, dataUrl: res.dataUrl });
+        toast('Foto aggiunta: ' + autoName + ' (' + res.origKB + 'KB → ' + res.compKB + 'KB)');
+      }).catch(function(err){
+        /* fallback: store as-is */
+        return new Promise(function(res2){
+          var rd = new FileReader();
+          rd.onload = function(){
+            var photoIdx = CURRENT_PHOTOS.length + 1;
+            var autoName = (photoIdx===1 ? recId : recId+'_'+photoIdx)+'.jpg';
+            CURRENT_PHOTOS.push(rd.result);
+            CURRENT_PHOTO_PATHS.push('images/'+autoName);
+            CURRENT_PHOTO_FILES.push({ name: autoName, dataUrl: rd.result });
+            res2();
+          };
+          rd.onerror = res2;
+          rd.readAsDataURL(f);
+        });
+      });
+    });
+  });
+  return chain.then(function(){
+    renderPhotoPreview(CURRENT_PHOTOS);
+    updateDownloadBtn();
+  });
+}
+
+function updateDownloadBtn(){
+  var btn = $('btnPhotoDownload');
+  if(!btn) return;
+  var hasNewFiles = CURRENT_PHOTO_FILES.some(function(f){ return f&&f.dataUrl; });
+  btn.style.display = hasNewFiles ? 'inline-flex' : 'none';
+  btn.disabled = !hasNewFiles;
+}
+
+function downloadPhotos(){
+  if(!CURRENT_PHOTO_FILES.length){ toast('Nessuna foto da scaricare.'); return; }
+  CURRENT_PHOTO_FILES.forEach(function(pf){
+    if(!pf||!pf.dataUrl) return;
+    var a = document.createElement('a');
+    a.href = pf.dataUrl;
+    a.download = pf.name;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function(){ document.body.removeChild(a); }, 200);
+  });
+  toast('Foto scaricate: caricale nella cartella images/ su GitHub.');
+}
+
+
+/* ===========================
+   HELPERS & STATE
+=========================== */
+function $(id){ return document.getElementById(id); }
+function clean(s){ return (s||'').toString().trim().replace(/\s+/g,' '); }
+function norm(s){ return clean(s).toLowerCase(); }
+function sexNorm(v){
+  v=clean(v).toUpperCase();
+  if(v==='M'||v==='F') return v;
+  return '';
+}
+
+var DATA=[], INDEX={}, SELECTED_ID=null, NEW_MODE=false;
+var backupEnabled=false, FILE_NAME='', fileHandle=null;
+var CURRENT_PHOTOS=[], CURRENT_PHOTO_IDX=0;
+var CURRENT_PHOTO_FILES=[];  /* {name, dataUrl} for download */
+var CURRENT_PHOTO_PATHS=[];  /* "images/id.jpg" paths to save in JSON */
+var SORT_BY='name';
+var DIRTY=false;
+
+// File System Access: only Chrome/Edge on desktop - NOT iOS Safari
+var canFS=!!(window.showOpenFilePicker&&window.showSaveFilePicker&&!/iPhone|iPad|iPod/i.test(navigator.userAgent));
+
+function setDirty(v){
+DIRTY=v;
+var p=$('dirtyPill');
+if(p) p.style.display=v?'inline-block':'none';
+}
+
+function rebuildIndex(){
+INDEX={};
+for(var i=0;i<DATA.length;i++){
+var r=DATA[i];
+if(r&&r.id) INDEX[String(r.id)]=r;
+}
+}
+
+/* ===========================
+TOAST
+=========================== */
+var toastTimer=null;
+function toast(msg,dur){
+var t=$('toast');
+if(!t) return;
+t.textContent=msg;
+t.classList.add('show');
+if(toastTimer) clearTimeout(toastTimer);
+toastTimer=setTimeout(function(){ t.classList.remove('show'); },dur||2200);
+}
+
+/* ===========================
+STATUS
+=========================== */
+function setStatus(msg,cls){
+var el=$('stat');
+if(!el) return;
+el.textContent=msg;
+el.className='status '+(cls||'');
+}
+
+/* ===========================
+CONFIRM DIALOG
+=========================== */
+function confirm(title,msg,onOk){
+$('confirmTitle').textContent=title;
+$('confirmMsg').textContent=msg;
+$('confirmOverlay').classList.add('show');
+$('confirmOk').onclick=function(){
+$('confirmOverlay').classList.remove('show');
+onOk();
+};
+$('confirmCancel').onclick=function(){
+$('confirmOverlay').classList.remove('show');
+};
+}
+$('confirmOverlay').onclick=function(e){
+if(e.target===$('confirmOverlay')) $('confirmOverlay').classList.remove('show');
+};
+
+/* ===========================
+ENABLE UI
+=========================== */
+function enableUI(on){
+var hasData=on&&DATA.length>0;
+var hasSel=on&&!!SELECTED_ID;
+var hasSelOrNew=on&&(!!SELECTED_ID||NEW_MODE);
+
+function set(id,v){ var e=$(id); if(e) e.disabled=!v; }
+set('btnSave',hasData);
+set('btnCopyJson',hasData);
+set('btnBackupToggle',hasData);
+set('btnIntegrity',hasData);
+set('btnNew',on);
+set('btnTemplate',hasData);
+set('btnImportText',on);
+set('btnApply',hasSelOrNew);
+set('btnClear',hasSelOrNew);
+set('btnDuplicate',hasSel);
+set('btnCopyParents',hasSel);
+set('btnDupParentsOnly',hasSel);
+set('btnDelete',hasSel);
+set('btnPhotoPick',hasSelOrNew);
+set('btnPhotoRemove',hasSelOrNew&&CURRENT_PHOTOS.length>0);
+set('btnForceSire',on);
+set('btnForceDam',on);
+}
+
+function setSelectedLabel(){
+var pill=$('selPill');
+if(!pill) return;
+if(SELECTED_ID&&INDEX[SELECTED_ID]) pill.textContent='Sel: '+(INDEX[SELECTED_ID].name||SELECTED_ID);
+else if(NEW_MODE) pill.textContent='Nuovo record';
+else pill.textContent='Nessuna selezione';
+}
+
+/* ===========================
+AUTO ID
+=========================== */
+function nextAutoId(){
+var max=0;
+for(var k in INDEX){
+var m=String(k).match(/(\d+)/g);
+if(!m) continue;
+var n=parseInt(m[m.length-1],10);
+if(!isNaN(n)&&n>max) max=n;
+}
+return 'auto_'+String(max+1).padStart(4,'0');
+}
+
+/* ===========================
+PHOTOS
+=========================== */
+function photosOf(r){
+if(!r) return [];
+if(Array.isArray(r.foto_list)) return r.foto_list.filter(Boolean).slice(0,5);
+if(Array.isArray(r.foto)) return r.foto.filter(Boolean).slice(0,5);
+if(r.foto) return [r.foto];
+return [];
+}
+
+function renderPhotoPreview(photos){
+CURRENT_PHOTOS=Array.isArray(photos)?photos.filter(Boolean).slice(0,5):[];
+if(CURRENT_PHOTOS.length===0) CURRENT_PHOTO_IDX=0;
+else CURRENT_PHOTO_IDX=Math.max(0,Math.min(CURRENT_PHOTO_IDX,CURRENT_PHOTOS.length-1));
+
+var img=$('photoPreview'), empty=$('previewEmpty');
+var nav=$('photoNav'), counter=$('photoCounter');
+var thumbs=$('photoThumbs'), stat=$('photoStat');
+
+if(CURRENT_PHOTOS.length){
+if(img){ img.src=CURRENT_PHOTOS[CURRENT_PHOTO_IDX]; img.style.display='block';
+  img.onerror=function(){ img.src=''; img.alt='📷 '+CURRENT_PHOTO_PATHS[CURRENT_PHOTO_IDX]; }; }
+if(empty) empty.style.display='none';
+if(nav) nav.style.display=CURRENT_PHOTOS.length>1?'flex':'none';
+if(counter) counter.textContent=(CURRENT_PHOTO_IDX+1)+'/'+CURRENT_PHOTOS.length;
+if($('photoNavPrev')) $('photoNavPrev').disabled=(CURRENT_PHOTO_IDX===0);
+if($('photoNavNext')) $('photoNavNext').disabled=(CURRENT_PHOTO_IDX===CURRENT_PHOTOS.length-1);
+} else {
+if(img){ img.removeAttribute('src'); img.style.display='none'; }
+if(empty) empty.style.display='block';
+if(nav) nav.style.display='none';
+}
+
+if(thumbs){
+thumbs.innerHTML='';
+for(var i=0;i<CURRENT_PHOTOS.length;i++){
+(function(i){
+var t=document.createElement('img');
+t.className='thumb'+(i===CURRENT_PHOTO_IDX?' sel':'');
+t.src=CURRENT_PHOTOS[i]; t.alt='';
+t.onclick=function(){ CURRENT_PHOTO_IDX=i; renderPhotoPreview(CURRENT_PHOTOS); };
+thumbs.appendChild(t);
+})(i);
+}
+}
+
+if(stat) stat.textContent=CURRENT_PHOTOS.length?('Foto: '+CURRENT_PHOTOS.length+'/5'):'Nessuna foto';
+enableUI(true);
+}
+
+$('photoNavPrev').onclick=function(){
+if(CURRENT_PHOTO_IDX>0){ CURRENT_PHOTO_IDX--; renderPhotoPreview(CURRENT_PHOTOS); }
+};
+$('photoNavNext').onclick=function(){
+if(CURRENT_PHOTO_IDX<CURRENT_PHOTOS.length-1){ CURRENT_PHOTO_IDX++; renderPhotoPreview(CURRENT_PHOTOS); }
+};
+
+/* ── Photo compression settings ── */
+var PHOTO_MAX_PX = 1200;   /* max width or height in pixels */
+var PHOTO_QUALITY = 0.78;  /* JPEG quality 0-1 */
+var PHOTO_MAX_KB = 300;    /* target max size per photo in KB */
+
+function compressImage(file){
+  return new Promise(function(resolve, reject){
+    var reader = new FileReader();
+    reader.onerror = function(){ reject(new Error('Errore lettura file')); };
+    reader.onload = function(e){
+      var img = new Image();
+      img.onerror = function(){ reject(new Error('Immagine non valida')); };
+      img.onload = function(){
+        var w = img.naturalWidth, h = img.naturalHeight;
+
+        /* Scale down if larger than PHOTO_MAX_PX */
+        if(w > PHOTO_MAX_PX || h > PHOTO_MAX_PX){
+          if(w >= h){ h = Math.round(h * PHOTO_MAX_PX / w); w = PHOTO_MAX_PX; }
+          else      { w = Math.round(w * PHOTO_MAX_PX / h); h = PHOTO_MAX_PX; }
+        }
+
+        var canvas = document.createElement('canvas');
+        canvas.width = w; canvas.height = h;
+        var ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, w, h);
+
+        /* Try decreasing quality until under PHOTO_MAX_KB */
+        var quality = PHOTO_QUALITY;
+        var dataUrl = canvas.toDataURL('image/jpeg', quality);
+        var kb = Math.round((dataUrl.length * 3) / 4 / 1024);
+        while(kb > PHOTO_MAX_KB && quality > 0.35){
+          quality = Math.max(0.35, quality - 0.08);
+          dataUrl = canvas.toDataURL('image/jpeg', quality);
+          kb = Math.round((dataUrl.length * 3) / 4 / 1024);
+        }
+        resolve({ dataUrl: dataUrl, origKB: Math.round(file.size/1024), compKB: kb, w: w, h: h });
+      };
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+function addPhotos(files){
+  var list = Array.prototype.slice.call(files || []);
+  if(!list.length) return Promise.resolve();
+  var remaining = Math.max(0, 5 - CURRENT_PHOTOS.length);
+  list = list.slice(0, remaining);
+  if(!list.length){ toast('Massimo 5 foto per soggetto.'); return Promise.resolve(); }
+
+  var stats = [];
+  var chain = Promise.resolve();
+  list.forEach(function(f){
+    chain = chain.then(function(){
+      return compressImage(f).then(function(res){
+        CURRENT_PHOTOS.push(res.dataUrl);
+        stats.push(res.origKB + 'KB → ' + res.compKB + 'KB');
+      }).catch(function(){
+        /* fallback: store as-is if compression fails */
+        return new Promise(function(res2, rej2){
+          var rd = new FileReader();
+          rd.onload = function(){ CURRENT_PHOTOS.push(rd.result); stats.push('(no compress)'); res2(); };
+          rd.onerror = rej2;
+          rd.readAsDataURL(f);
+        });
+      });
+    });
+  });
+  return chain.then(function(){
+    renderPhotoPreview(CURRENT_PHOTOS);
+    setDirty(true);
+    toast('Foto caricate (' + list.length + '): ' + stats.join(', ') + '. Premi Applica per salvare.');
+  });
+}
+
+/* ===========================
+SUMMARY
+=========================== */
+function updateSummary(r){
+if(!r){
+['sum_name','sum_meta','sum_ped','sum_birth','sum_all','sum_prop','sum_id'].forEach(function(id){
+var e=$(id); if(e) e.textContent='--';
+});
+var sb=$('sum_sex'); if(sb){ sb.style.display='none'; }
+return;
+}
+if($('sum_name')) $('sum_name').textContent=r.name||'--';
+if($('sum_meta')) $('sum_meta').textContent=[r.paese,r.tipo].filter(Boolean).join(' · ')||'--';
+/* completeness */
+var fields=[r.name,r.sesso,r.birth,r.padre,r.madre,r.paese,r.tipo,r.colore];
+var filled=fields.filter(Boolean).length;
+var pct=Math.round(filled/fields.length*100);
+var fillEl=$('compFill'),pctEl=$('compPct');
+if(fillEl){ fillEl.style.width=pct+'%'; fillEl.style.background=pct>=80?'var(--coi-low-fg)':pct>=50?'var(--coi-mid-fg)':'var(--coi-high-fg)'; }
+if(pctEl) pctEl.textContent=pct+'%';
+if($('sum_ped'))  $('sum_ped').textContent=r.pedigree||'--';
+if($('sum_birth'))$('sum_birth').textContent=r.birth||'--';
+if($('sum_all'))  $('sum_all').textContent=r.allevatore||'--';
+if($('sum_prop')) $('sum_prop').textContent=r.proprietario||'--';
+if($('sum_id'))   $('sum_id').textContent=r.id||'--';
+/* completeness score */
+(function(){
+  var fields=[r.name,r.sesso,r.birth,r.padre,r.madre,r.paese,r.tipo,r.colore];
+  var filled=fields.filter(function(v){ return v&&String(v).trim(); }).length;
+  var pct=Math.round(filled/fields.length*100);
+  var cf=$('compFill'),cl=$('compLbl');
+  if(cf){ cf.style.width=pct+'%'; cf.style.background=pct>=80?'#5eead4':pct>=50?'#fbbf24':'#fb923c'; }
+  if(cl) cl.textContent='Completezza: '+pct+'% ('+filled+'/'+fields.length+' campi)';
+})();
+var sb=$('sum_sex');
+if(sb){
+var sx=sexNorm(r.sesso);
+if(sx){
+sb.style.display='block';
+sb.textContent=sx==='M'?'M - Maschio':'F - Femmina';
+sb.className='sumSexBadge '+(sx==='M'?'sumSexM':'sumSexF');
+} else { sb.style.display='none'; }
+}
+}
+
+/* ===========================
+VALIDATION
+=========================== */
+function validateBirthDate(v){
+if(!v) return true; // optional
+return /^\d{4}(-\d{2}(-\d{2})?)?$/.test(v);
+}
+
+/* ===========================
+PARENTS AUTOCOMPLETE
+=========================== */
+function parentLabel(r){
+if(!r) return '';
+var p=[r.name||'(Senza nome)'];
+if(r.allevatore) p.push('all. '+r.allevatore);
+if(r.paese) p.push(r.paese);
+return p.join(' \u00b7 ')+'  ['+r.id+']';
+}
+
+function parseParentInput(v){
+v=clean(v); if(!v) return '';
+var m=v.match(/\[([^\]]+)\]\s*$/);
+if(m&&m[1]) return clean(m[1]);
+if(INDEX[v]) return v;
+var hits=DATA.filter(function(r){ return r&&r.id&&norm(r.name)===norm(v); });
+if(hits.length===1) return hits[0].id;
+return '';
+}
+
+function startsWordMatch(rec,q){
+q=norm(q); if(!q) return true;
+var hay=norm([rec.name,rec.allevatore,rec.proprietario,rec.paese,rec.id].filter(Boolean).join(' '));
+/* multi-word query (es. "a balto"): cerca come sottostringa nel testo completo */
+if(q.indexOf(' ')>=0) return hay.indexOf(q)>=0;
+/* query singola parola: cerca all'inizio di qualsiasi parola */
+return hay.split(/\s+/).some(function(p){ return p.indexOf(q)===0; });
+}
+
+function createPlaceholderParent(name,sexWanted){
+var id=nextAutoId();
+DATA.push({id:id,sesso:sexWanted||'',name:clean(name)||'--',
+allevatore:'',proprietario:'',paese:'',tipo:'',pedigree:'',birth:'',
+colore:'',note:'[Creato automaticamente]',padre:'',madre:'',foto_list:[]});
+rebuildIndex(); refreshList(); setDirty(true);
+return id;
+}
+
+function resolveParentIdFromField(inputEl,sexWanted){
+if(!inputEl) return '';
+var chosen=clean(inputEl.dataset.id||'');
+if(chosen) return chosen;
+var raw=clean(inputEl.value||'');
+if(!raw) return '';
+var fromLabel=parseParentInput(raw);
+if(fromLabel) return fromLabel;
+if(INDEX[raw]) return raw;
+var hits=DATA.filter(function(r){
+if(!r||!r.id) return false;
+if(sexWanted&&sexNorm(r.sesso)&&sexNorm(r.sesso)!==sexWanted) return false;
+return norm(r.name)===norm(raw);
+});
+if(hits.length===1) return hits[0].id;
+if(hits.length>1){ setStatus('Omonimia: scegli dalla tendina o premi Crea.','bad'); return '**AMBIGUO**'; }
+var newId=createPlaceholderParent(raw,sexWanted);
+inputEl.dataset.id=newId;
+inputEl.value=parentLabel(INDEX[newId]);
+toast('Genitore creato automaticamente.');
+return newId;
+}
+
+function makeAC(inputId,boxId,sexWanted){
+var inp=$(inputId), box=$(boxId);
+if(!inp||!box) return;
+function closeBox(){ box.style.display='none'; box.innerHTML=''; }
+function renderAC(q){
+var qTrim=clean(q||'');
+box.innerHTML=''; var n=0;
+for(var i=0;i<DATA.length;i++){
+var r=DATA[i];
+if(!r||!r.id) continue;
+if(sexWanted&&sexNorm(r.sesso)&&sexNorm(r.sesso)!==sexWanted) continue;
+if(!startsWordMatch(r,qTrim)) continue;
+(function(r){
+var it=document.createElement('div');
+it.className='acItem';
+var metaParts=[];
+if(r.allevatore) metaParts.push('all. '+r.allevatore);
+if(r.proprietario) metaParts.push('prop. '+r.proprietario);
+if(r.paese) metaParts.push(r.paese);
+if(r.birth) metaParts.push(r.birth.slice(0,4));
+if(r.tipo) metaParts.push(r.tipo);
+metaParts.push('['+r.id+']');
+it.innerHTML='<div class="acTitle">'+(r.name||'(Senza nome)')+'</div>'+
+'<div class="acMeta">'+metaParts.join(' · ')+'</div>';
+it.onmousedown=function(ev){ ev.preventDefault(); };
+it.onclick=function(){ inp.value=parentLabel(r); inp.dataset.id=r.id; closeBox(); };
+it.addEventListener('touchstart',function(ev){ ev.preventDefault(); },{ passive:false });
+it.addEventListener('touchend',function(ev){ ev.preventDefault(); inp.value=parentLabel(r); inp.dataset.id=r.id; closeBox(); });
+box.appendChild(it);
+})(r);
+if(++n>=30) break;
+}
+if(n===0){
+var empty=document.createElement('div');
+empty.className='acItem';
+empty.innerHTML='<div class="acTitle" style="opacity:.5">Nessun risultato</div>';
+box.appendChild(empty);
+}
+box.style.display='block';
+}
+inp.addEventListener('input',function(){ inp.dataset.id=''; renderAC(inp.value); });
+inp.addEventListener('focus',function(){ renderAC(inp.value); });
+inp.addEventListener('blur',function(){ setTimeout(closeBox,300); });
+}
+
+function setupAC(){
+makeAC('f_sire','ac_sire','M');
+makeAC('f_dam','ac_dam','F');
+}
+
+/* ===========================
+FORM
+=========================== */
+function clearForm(){
+['f_id','f_name','f_all','f_prop','f_country','f_colore','f_ped','f_birth','f_note'].forEach(function(id){
+var e=$(id); if(e) e.value=''; if(e) e.classList.remove('error');
+});
+if($('f_sex')) $('f_sex').value='';
+if($('f_tipo')) $('f_tipo').value='';
+if($('f_sire')){ $('f_sire').value=''; $('f_sire').dataset.id=''; }
+if($('f_dam')) { $('f_dam').value='';  $('f_dam').dataset.id=''; }
+CURRENT_PHOTO_FILES=[]; CURRENT_PHOTO_PATHS=[]; renderPhotoPreview([]); updateDownloadBtn();
+updateSummary(null);
+var ip=$('intPanel'); if(ip) ip.style.display='none';
+}
+
+function fillForm(r){
+if(!r) return;
+if($('f_id')) $('f_id').value=r.id||'';
+if($('f_sex')) $('f_sex').value=sexNorm(r.sesso)||'';
+if($('f_name')) $('f_name').value=r.name||'';
+if($('f_all')) $('f_all').value=r.allevatore||'';
+if($('f_prop')) $('f_prop').value=r.proprietario||'';
+if($('f_country')) $('f_country').value=r.paese||'';
+if($('f_tipo')) $('f_tipo').value=r.tipo||'';
+if($('f_colore')) $('f_colore').value=r.colore||'';
+if($('f_ped')) $('f_ped').value=r.pedigree||'';
+if($('f_birth')) $('f_birth').value=r.birth||'';
+if($('f_note')) $('f_note').value=r.note||'';
+if($('f_colore')) $('f_colore').value=r.colore||'';
+if($('f_sire')){
+if(r.padre&&INDEX[r.padre]){ $('f_sire').value=parentLabel(INDEX[r.padre]); $('f_sire').dataset.id=r.padre; }
+else { $('f_sire').value=r.padre||''; $('f_sire').dataset.id=r.padre||''; }
+}
+if($('f_dam')){
+if(r.madre&&INDEX[r.madre]){ $('f_dam').value=parentLabel(INDEX[r.madre]); $('f_dam').dataset.id=r.madre; }
+else { $('f_dam').value=r.madre||''; $('f_dam').dataset.id=r.madre||''; }
+}
+updateSummary(r);
+CURRENT_PHOTO_FILES=[]; CURRENT_PHOTO_PATHS=photosOf(r).filter(function(p){ return p&&p.indexOf('data:')<0; }); renderPhotoPreview(photosOf(r)); updateDownloadBtn();
+checkRecordIntegrity(r);
+}
+
+function checkRecordIntegrity(r){
+var ip=$('intPanel'); if(!ip) return;
+var issues=[];
+if(r.padre&&!INDEX[r.padre]) issues.push('Padre "'+r.padre+'" non trovato nel DB');
+if(r.madre&&!INDEX[r.madre]) issues.push('Madre "'+r.madre+'" non trovata nel DB');
+if(r.birth&&!validateBirthDate(r.birth)) issues.push('Data nascita non valida (usa YYYY-MM-DD)');
+/* date coherence */
+if(r.birth){
+  var yr=parseInt(String(r.birth).slice(0,4),10);
+  if(!isNaN(yr)){
+    if(r.padre&&INDEX[r.padre]&&INDEX[r.padre].birth){
+      var sireYr=parseInt(String(INDEX[r.padre].birth).slice(0,4),10);
+      if(!isNaN(sireYr)&&sireYr>=yr) issues.push('Nascita ('+yr+') non successiva al padre ('+sireYr+')');
+    }
+    if(r.madre&&INDEX[r.madre]&&INDEX[r.madre].birth){
+      var damYr=parseInt(String(INDEX[r.madre].birth).slice(0,4),10);
+      if(!isNaN(damYr)&&damYr>=yr) issues.push('Nascita ('+yr+') non successiva alla madre ('+damYr+')');
+    }
+  }
+
+if(r.sesso==='F'&&DATA.some(function(x){ return x&&x.padre===r.id; }))
+  issues.push('Femmina compare come padre in altri record');
+if(r.sesso==='M'&&DATA.some(function(x){ return x&&x.madre===r.id; }))
+  issues.push('Maschio compare come madre in altri record');
+if(issues.length){
+  ip.style.display='block';
+  ip.innerHTML='<div class="intTitle">&#9888; Problemi rilevati ('+issues.length+')</div>'+
+    issues.map(function(s){ return '<div class="intItem">• '+s+'</div>'; }).join('');
+} else {
+  ip.style.display='none';
+}
+}
+/* sex used as wrong parent */
+var sx=String(r.sesso||'').toUpperCase();
+if(sx==='F'&&DATA.some(function(x){ return x&&x.padre===r.id; })) issues.push('Soggetto F appare come padre in altri record');
+if(sx==='M'&&DATA.some(function(x){ return x&&x.madre===r.id; })) issues.push('Soggetto M appare come madre in altri record');
+/* loop: self-ancestor */
+function isAncestor(targetId,startId,depth){
+  if(depth>10||!startId) return false;
+  var rec=INDEX[startId]; if(!rec) return false;
+  if(rec.padre===targetId||rec.madre===targetId) return true;
+  return isAncestor(targetId,rec.padre,depth+1)||isAncestor(targetId,rec.madre,depth+1);
+}
+if(r.id&&(isAncestor(r.id,r.padre,0)||isAncestor(r.id,r.madre,0))) issues.push('Loop genealogico: soggetto è proprio antenato');
+if(issues.length){
+  ip.style.display='block';
+  ip.innerHTML='<div class="intTitle">&#9888; Problemi rilevati ('+issues.length+')</div>'+
+    issues.map(function(s){ return '<div class="intItem">• '+s+'</div>'; }).join('');
+} else {
+  ip.style.display='none';
+}
+}
+
+function selectRecord(id){
+if(!id||!INDEX[id]) return;
+SELECTED_ID=id; NEW_MODE=false;
+fillForm(INDEX[id]);
+setSelectedLabel(); enableUI(true); refreshList();
+setStatus('Sel: '+(INDEX[id].name||id),'ok');
+}
+
+function newRecord(){
+NEW_MODE=true; SELECTED_ID=null; clearForm();
+var id=nextAutoId();
+if($('f_id')) $('f_id').value=id;
+setSelectedLabel(); enableUI(true); refreshList();
+setStatus('Nuovo cane: ID generato.','warn');
+if($('f_name')) $('f_name').focus();
+}
+
+function applyChanges(){
+var id=clean($('f_id')?$('f_id').value:'');
+if(!id){ setStatus('ID obbligatorio.','bad'); return; }
+
+// validation
+var birth=clean($('f_birth')?$('f_birth').value:'');
+if(birth&&!validateBirthDate(birth)){
+if($('f_birth')) $('f_birth').classList.add('error');
+setStatus('Data nascita non valida (usa YYYY-MM-DD o YYYY).','bad'); return;
+}
+if($('f_birth')) $('f_birth').classList.remove('error');
+
+// Reserve current ID so nextAutoId() won't assign it to a placeholder parent
+var _reservedTemp=!INDEX[id];
+if(_reservedTemp) INDEX[id]={id:id,_temp:true};
+var sireId=resolveParentIdFromField($('f_sire'),'M');
+var damId=resolveParentIdFromField($('f_dam'),'F');
+if(_reservedTemp&&INDEX[id]&&INDEX[id]._temp) delete INDEX[id];
+if(sireId==='**AMBIGUO**'||damId==='**AMBIGUO**') return;
+
+// self-parent check
+if(sireId===id||damId===id){ setStatus('Un soggetto non puo essere genitore di se stesso.','bad'); return; }
+
+var rec={
+id:id, sesso:sexNorm($('f_sex')?$('f_sex').value:''),
+name:clean($('f_name')?$('f_name').value:''),
+allevatore:clean($('f_all')?$('f_all').value:''),
+proprietario:clean($('f_prop')?$('f_prop').value:''),
+paese:(clean($('f_country')?$('f_country').value:'')||'').toUpperCase(),
+colore:(clean($('f_colore')?$('f_colore').value:'')||'').toUpperCase(),
+tipo:clean($('f_tipo')?$('f_tipo').value:''),
+pedigree:clean($('f_ped')?$('f_ped').value:''),
+birth:birth,
+note:clean($('f_note')?$('f_note').value:''),
+colore:(clean($('f_colore')?$('f_colore').value:'')||'').toUpperCase(),
+padre:sireId, madre:damId,
+foto_list:CURRENT_PHOTO_PATHS.length ? CURRENT_PHOTO_PATHS.slice(0,10) : CURRENT_PHOTOS.slice(0,10)
+};
+
+if(INDEX[id]){ for(var k in rec) INDEX[id][k]=rec[k]; }
+else { DATA.push(rec); }
+rebuildIndex();
+
+SELECTED_ID=id; NEW_MODE=false;
+fillForm(INDEX[id]); setSelectedLabel(); enableUI(true);
+setDirty(true);
+if($('q')) $('q').value='';
+refreshList();
+toast('Modifiche applicate.');
+setStatus('Modifiche applicate (non ancora salvato).','warn');
+}
+
+/* ===========================
+DELETE / DUPLICATE / COPY
+=========================== */
+function deleteSelected(){
+if(!SELECTED_ID||!INDEX[SELECTED_ID]){ setStatus('Seleziona un cane.','warn'); return; }
+var id=SELECTED_ID, name=INDEX[id].name||id;
+confirm('Elimina record',
+'Eliminare "'+name+'" ('+id+')? Questa azione non e\' reversibile.',
+function(){
+DATA=DATA.filter(function(r){ return r.id!==id; });
+SELECTED_ID=null; NEW_MODE=false;
+rebuildIndex(); refreshList(); clearForm(); setSelectedLabel(); enableUI(true);
+setDirty(true);
+toast('Eliminato: '+name);
+setStatus('Eliminato: '+id,'warn');
+}
+);
+}
+
+function duplicateRecord(){
+if(!SELECTED_ID||!INDEX[SELECTED_ID]){ return; }
+var orig=INDEX[SELECTED_ID];
+var id=nextAutoId();
+var rec=JSON.parse(JSON.stringify(orig));
+rec.id=id;
+rec.name=(orig.name?orig.name+' (copia)':'Copia');
+rec.pedigree='';
+DATA.push(rec);
+rebuildIndex();
+SELECTED_ID=id; NEW_MODE=false;
+fillForm(INDEX[id]); setSelectedLabel(); setDirty(true);
+if($('q')) $('q').value='';
+refreshList();
+setStatus('Duplicato come '+id,'ok');
+toast('Record duplicato.');
+}
+
+function copyParentsFromSelected(){
+if(!SELECTED_ID||!INDEX[SELECTED_ID]){ return; }
+var r=INDEX[SELECTED_ID];
+if($('f_sire')){ $('f_sire').dataset.id=r.padre||''; $('f_sire').value=(r.padre&&INDEX[r.padre])?parentLabel(INDEX[r.padre]):(r.padre||''); }
+if($('f_dam')) { $('f_dam').dataset.id=r.madre||''; $('f_dam').value=(r.madre&&INDEX[r.madre])?parentLabel(INDEX[r.madre]):(r.madre||''); }
+toast('Genitori copiati.');
+}
+
+function duplicateParentsOnly(){
+if(!SELECTED_ID||!INDEX[SELECTED_ID]){ return; }
+var r=INDEX[SELECTED_ID];
+newRecord();
+if($('f_sire')){ $('f_sire').dataset.id=r.padre||''; $('f_sire').value=(r.padre&&INDEX[r.padre])?parentLabel(INDEX[r.padre]):(r.padre||''); }
+if($('f_dam')) { $('f_dam').dataset.id=r.madre||''; $('f_dam').value=(r.madre&&INDEX[r.madre])?parentLabel(INDEX[r.madre]):(r.madre||''); }
+setStatus('Nuovo record con genitori copiati. Inserisci nome e dati.','warn');
+}
+
+/* ===========================
+LIST
+=========================== */
+function refreshList(){
+var list=$('list'); if(!list) return;
+var q=norm($('q')?$('q').value:'');
+var tipoQ=($('tipoFilter')?$('tipoFilter').value:'');
+var rows=DATA.slice();
+if(q){
+rows=rows.filter(function(r){
+if(!r) return false;
+var hay=norm([r.name,r.allevatore,r.proprietario,r.paese,r.tipo,r.pedigree,r.id].filter(Boolean).join(' '));
+return hay.indexOf(q)!==-1;
+});
+}
+if(tipoQ!==''){
+rows=rows.filter(function(r){ return r&&(r.tipo||'')===(tipoQ); });
+}
+rows.sort(function(a,b){
+if(SORT_BY==='birth') return (b.birth||'').localeCompare(a.birth||'');
+if(SORT_BY==='allevatore') return (a.allevatore||'').localeCompare(b.allevatore||'','it');
+return (a.name||'').localeCompare(b.name||'','it');
+});
+
+list.innerHTML='';
+for(var i=0;i<rows.length;i++){
+(function(r){
+var sx=sexNorm(r.sesso);
+var hasIssue=(r.padre&&!INDEX[r.padre])||(r.madre&&!INDEX[r.madre]);
+var div=document.createElement('div');
+div.className='item'+(SELECTED_ID===r.id?' sel':'');
+var cmpF=[r.name,r.sesso,r.birth,r.padre,r.madre,r.paese,r.tipo,r.colore];
+var cmpN=cmpF.filter(function(v){ return v&&String(v).trim(); }).length;
+var cmpPct=Math.round(cmpN/cmpF.length*100);
+var cmpC=cmpPct>=80?'#5eead4':cmpPct>=50?'#fbbf24':'#fb923c';
+var stT=r.tipo?(r.tipo.slice(0,28)):'';
+div.innerHTML=
+'<div class="iTitle">'+
+(sx?'<span class="iSex '+(sx==='M'?'iSexM':'iSexF')+'">'+sx+'</span>':'')+
+(r.name||'(senza nome)')+
+(hasIssue?'<span class="intBadge">!</span>':'')+
+(stT?'<span class="iTipo">'+stT+'</span>':'')+
+'<span style="float:right;font-size:9px;font-weight:700;color:'+cmpC+'">'+cmpPct+'%</span>'+
+'</div>'+
+'<div class="iMeta">'+
+(r.allevatore?'all. '+r.allevatore:'')+
+(r.paese?' · '+r.paese:'')+
+(r.birth?' · '+r.birth.slice(0,4):'')+
+' ['+r.id+']'+
+'</div>';
+div.onclick=function(){
+  selectRecord(r.id);
+  var q=$('q'); if(q) q.value=r.name||'';
+};
+list.appendChild(div);
+})(rows[i]);
+}
+if($('count')) $('count').textContent=String(rows.length);
+}
+
+/* ===========================
+INTEGRITY CHECK
+=========================== */
+function runIntegrityCheck(){
+var issues=[];
+var idSeen={};
+var TIPO_VALID={'PUREBRED TURKMEN ALABAY':1,'TURKMEN ALABAY':1,'CENTRAL ASIAN VOLKODAV':1,
+  'PUREBRED CENTRAL ASIAN SHEPHERD DOG':1,'CENTRAL ASIAN SHEPHERD DOG':1,
+  'PUREBRED UZBEK SARKANJIK':1,'PUREBRED TAJIK DAHMARDA':1,'PUREBRED GEORGIAN NAGAZI':1,
+  'PUREBRED KAZAKH TOBET':1,'CAUCASIAN VOLKODAV':1,'PUREBRED KYRGYZ DOBOT':1,
+  'CROSSBRED':1,'UNDEFINED':1,'':1};
+DATA.forEach(function(r){
+  if(!r||!r.id) return;
+  var nm=r.name||r.id;
+  if(idSeen[r.id]) issues.push('ID duplicato: '+r.id);
+  idSeen[r.id]=true;
+  if(r.padre&&!INDEX[r.padre]) issues.push(nm+': padre "'+r.padre+'" non trovato');
+  if(r.madre&&!INDEX[r.madre]) issues.push(nm+': madre "'+r.madre+'" non trovata');
+  if(r.birth&&!validateBirthDate(r.birth)) issues.push(nm+': data "'+r.birth+'" non valida');
+  if(r.padre&&r.padre===r.id) issues.push(nm+': è padre di se stesso');
+  if(r.madre&&r.madre===r.id) issues.push(nm+': è madre di se stessa');
+  if(r.tipo&&!TIPO_VALID[r.tipo]) issues.push(nm+': tipo non canonico "'+r.tipo+'"');
+  if(r.birth&&r.padre&&INDEX[r.padre]&&INDEX[r.padre].birth){
+    var ry=parseInt(r.birth.slice(0,4),10),sy=parseInt(INDEX[r.padre].birth.slice(0,4),10);
+    if(!isNaN(ry)&&!isNaN(sy)&&ry<sy) issues.push(nm+': nato prima del padre');
+  }
+  if(r.birth&&r.madre&&INDEX[r.madre]&&INDEX[r.madre].birth){
+    var ry2=parseInt(r.birth.slice(0,4),10),dy=parseInt(INDEX[r.madre].birth.slice(0,4),10);
+    if(!isNaN(ry2)&&!isNaN(dy)&&ry2<dy) issues.push(nm+': nato prima della madre');
+  }
+  if(r.sesso==='F'&&DATA.some(function(x){ return x&&x.padre===r.id; }))
+    issues.push(nm+': femmina compare come padre');
+  if(r.sesso==='M'&&DATA.some(function(x){ return x&&x.madre===r.id; }))
+    issues.push(nm+': maschio compare come madre');
+});
+if(!issues.length){
+  toast('Nessun problema trovato — '+DATA.length+' record OK.');
+  setStatus('Integrità OK — '+DATA.length+' record.','ok');
+} else {
+  setStatus('Trovati '+issues.length+' probl.','bad');
+  /* show in modal overlay */
+  var overlay=$('confirmOverlay');
+  var box=overlay?overlay.querySelector('.confirmBox'):null;
+  if(box){
+    box.querySelector('.confirmTitle').textContent='Integrità database — '+issues.length+' problemi';
+    var msg=box.querySelector('.confirmMsg');
+    msg.style.maxHeight='50vh'; msg.style.overflow='auto'; msg.style.whiteSpace='pre-wrap';
+    msg.textContent=issues.join('\n');
+    var btns=box.querySelector('.confirmBtns');
+    btns.innerHTML='<button class="btn primary" id="confOk">OK</button>';
+    overlay.classList.add('show');
+    document.getElementById('confOk').onclick=function(){ overlay.classList.remove('show'); };
+  } else {
+    alert('Problemi ('+issues.length+'):\n'+issues.slice(0,15).join('\n')+(issues.length>15?'\n…':''));
+  }
+}
+}
+
+/* ===========================
+SORT BUTTONS
+=========================== */
+var sortBtns=document.querySelectorAll('.sortBtn');
+sortBtns.forEach(function(btn){
+btn.onclick=function(){
+SORT_BY=btn.dataset.sort;
+sortBtns.forEach(function(b){ b.classList.toggle('active',b===btn); });
+refreshList();
+};
+});
+
+/* ===========================
+LOAD / SAVE
+=========================== */
+function normalizeRec(r){
+r=r||{};
+/* Canonical tipo mapping — normalise typos */
+var TIPO_MAP={
+  'PUREBRED TURKMAN ALABAY':'PUREBRED TURKMEN ALABAY',
+  'PUREBRDE TURKMEN ALABAY':'PUREBRED TURKMEN ALABAY',
+  'PUREBRED TURKMEN ALABY':'PUREBRED TURKMEN ALABAY',
+  'PUREBRED TURKMEN VOLKODAV':'PUREBRED TURKMEN ALABAY',
+  'CENTARL ASIAN VOLKODAV':'CENTRAL ASIAN VOLKODAV',
+  'CENBTRAL ASIAN VOLKODAV':'CENTRAL ASIAN VOLKODAV',
+  'CENTRALA SIAN VOLKODAV':'CENTRAL ASIAN VOLKODAV',
+  'CENTRAL ASIAN VOLKODAW':'CENTRAL ASIAN VOLKODAV',
+  'CENTRAL ASIAN SHEPHERD DOG':'PUREBRED CENTRAL ASIAN SHEPHERD DOG',
+  'PUREBRED UZBEK SARKANDJIK':'PUREBRED UZBEK SARKANJIK',
+  'ALABAY':'PUREBRED TURKMEN ALABAY',
+};
+var rawTipo=(clean(r.tipo)||'').toUpperCase();
+/* lowercase variant */
+if(rawTipo==='PUREBRED TURKMEN ALABAY') rawTipo='PUREBRED TURKMEN ALABAY';
+var canonTipo=TIPO_MAP[rawTipo]||rawTipo;
+/* crossbred family */
+if(canonTipo.indexOf('CROSSBRED')===0) canonTipo='CROSSBRED';
+var out={
+id:clean(r.id), sesso:sexNorm(r.sesso),
+name:clean(r.name), allevatore:clean(r.allevatore),
+proprietario:clean(r.proprietario),
+paese:(clean(r.paese)||'').toUpperCase(),
+tipo:canonTipo, pedigree:clean(r.pedigree),
+birth:clean(r.birth), note:clean(r.note),
+colore:(clean(r.colore)||'').toUpperCase(),
+padre:clean(r.padre), madre:clean(r.madre), foto_list:[]
+};
+if(Array.isArray(r.foto_list)) out.foto_list=r.foto_list.filter(Boolean).slice(0,5);
+else if(Array.isArray(r.foto)) out.foto_list=r.foto.filter(Boolean).slice(0,5);
+else if(r.foto) out.foto_list=[r.foto];
+return out;
+}
+
+function loadFromText(text){
+var arr=text.trim()?JSON.parse(text):[];
+if(!Array.isArray(arr)) throw new Error('JSON non valido (atteso array)');
+DATA=arr.map(normalizeRec).filter(function(r){ return r.id; });
+rebuildIndex(); setupAC();
+SELECTED_ID=null; NEW_MODE=false;
+clearForm(); refreshList(); setSelectedLabel(); enableUI(true);
+setDirty(false);
+setStatus('Caricati '+DATA.length+' cani.','ok');
+toast('Database caricato: '+DATA.length+' record.');
+/* select from URL hash if present */
+var _hash=decodeURIComponent(location.hash.slice(1));
+if(_hash&&INDEX[_hash]){ selectRecord(_hash); }
+}
+
+function loadFromFileInput(file){
+return file.text().then(function(text){
+fileHandle=null;
+FILE_NAME=file.name||'';
+if($('filePill')) $('filePill').textContent=FILE_NAME||'DB aperto';
+loadFromText(text);
+});
+}
+
+async function openWithFS(){
+var picks=await window.showOpenFilePicker({
+multiple:false,
+types:[{description:'JSON',accept:{'application/json':['.json']}}]
+});
+if(!picks||!picks[0]) return;
+fileHandle=picks[0];
+var file=await fileHandle.getFile();
+FILE_NAME=file.name||'';
+if($('filePill')) $('filePill').textContent=FILE_NAME||'DB aperto';
+loadFromText(await file.text());
+}
+
+function jsonText(){ return JSON.stringify(DATA,null,2); }
+
+function downloadBlob(text,filename){
+var blob=new Blob([text],{type:'application/json'});
+var a=document.createElement('a');
+a.href=URL.createObjectURL(blob); a.download=filename;
+document.body.appendChild(a); a.click();
+setTimeout(function(){ URL.revokeObjectURL(a.href); document.body.removeChild(a); },250);
+}
+
+async function saveDatabase(){
+if(!DATA||!DATA.length){ setStatus('Niente da salvare.','warn'); return; }
+var text=jsonText();
+try{
+if(canFS){
+if(!fileHandle){
+fileHandle=await window.showSaveFilePicker({
+suggestedName:FILE_NAME||'database.json',
+types:[{description:'JSON',accept:{'application/json':['.json']}}]
+});
+}
+var w=await fileHandle.createWritable();
+await w.write(text); await w.close();
+setDirty(false);
+toast('Database salvato su file.');
+setStatus('Salvato su file.','ok');
+if(backupEnabled) downloadBackup();
+return;
+}
+}catch(e){ console.error(e); }
+var base=FILE_NAME?FILE_NAME.replace(/.json$/i,''):'database';
+downloadBlob(text,base+'.json');
+setDirty(false);
+setStatus('File scaricato. Sostituisci il file originale.','warn');
+toast('File scaricato.');
+if(backupEnabled) downloadBackup();
+}
+
+function downloadBackup(){
+var text=jsonText();
+function pad(n){ return(n<10?'0':'')+n; }
+var d=new Date();
+var stamp=d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+'*'+pad(d.getHours())+pad(d.getMinutes());
+downloadBlob(text,'backup*'+stamp+'.json');
+}
+
+function copyJsonToClipboard(){
+var text=jsonText();
+function fallback(t){
+var ta=document.createElement('textarea');
+ta.value=t; ta.style.cssText='position:fixed;left:-9999px';
+document.body.appendChild(ta); ta.focus(); ta.select();
+try{ document.execCommand('copy'); toast('JSON copiato negli appunti.'); }
+catch(e){ setStatus('Copia non riuscita.','bad'); }
+document.body.removeChild(ta);
+}
+if(navigator.clipboard&&navigator.clipboard.writeText){
+navigator.clipboard.writeText(text).then(function(){ toast('JSON copiato negli appunti. Incolla in Textastic.'); }).catch(function(){ fallback(text); });
+} else { fallback(text); }
+}
+
+/* ===========================
+WIRING
+=========================== */
+if($('btnViewer')) $('btnViewer').onclick=function(){ window.location.href='./Claude_DB_fixed.html'+(SELECTED_ID?'#'+encodeURIComponent(SELECTED_ID):''); };
+
+if($('btnOpen')){
+$('btnOpen').onclick=function(){
+if(canFS){
+openWithFS().catch(function(err){ console.error(err); setStatus('Errore: '+(err.message||err),'bad'); });
+return;
+}
+if($('jsonPicker')){ $('jsonPicker').value=''; $('jsonPicker').click(); }
+};
+}
+if($('jsonPicker')){
+$('jsonPicker').addEventListener('change',function(e){
+var f=e.target.files&&e.target.files[0];
+if(!f) return;
+loadFromFileInput(f).catch(function(err){ setStatus('Errore: '+(err.message||err),'bad'); }).finally(function(){ e.target.value=''; });
+});
+}
+
+if($('btnSave')) $('btnSave').onclick=function(){ saveDatabase(); };
+if($('btnCopyJson')) $('btnCopyJson').onclick=copyJsonToClipboard;
+if($('btnIntegrity')) $('btnIntegrity').onclick=runIntegrityCheck;
+
+if($('btnBackupToggle')){
+$('btnBackupToggle').onclick=function(){
+backupEnabled=!backupEnabled;
+$('btnBackupToggle').textContent=(backupEnabled?'🛠 Backup: ON':'🛠 Backup: OFF');
+toast(backupEnabled?'Backup automatico attivo.':'Backup disattivato.');
+};
+}
+
+if($('btnNew')) $('btnNew').onclick=newRecord;
+if($('btnTemplate')) $('btnTemplate').onclick=openBreederTemplate;
+if($('btnImportText')) $('btnImportText').onclick=openImportText;
+if($('btnApply')) $('btnApply').onclick=applyChanges;
+if($('btnClear')) $('btnClear').onclick=function(){ clearForm(); setStatus('Campi puliti.','ok'); };
+if($('btnDuplicate')) $('btnDuplicate').onclick=duplicateRecord;
+if($('btnDelete')) $('btnDelete').onclick=deleteSelected;
+if($('btnCopyParents')) $('btnCopyParents').onclick=copyParentsFromSelected;
+if($('btnDupParentsOnly')) $('btnDupParentsOnly').onclick=duplicateParentsOnly;
+
+if($('btnForceSire')){
+$('btnForceSire').onclick=function(){
+var raw=clean($('f_sire').value);
+if(!raw){ setStatus('Scrivi il nome del padre prima.','warn'); return; }
+var id=createPlaceholderParent(raw,'M');
+$('f_sire').dataset.id=id; $('f_sire').value=parentLabel(INDEX[id]);
+toast('Padre creato come nuovo record.');
+};
+}
+if($('btnForceDam')){
+$('btnForceDam').onclick=function(){
+var raw=clean($('f_dam').value);
+if(!raw){ setStatus('Scrivi il nome della madre prima.','warn'); return; }
+var id=createPlaceholderParent(raw,'F');
+$('f_dam').dataset.id=id; $('f_dam').value=parentLabel(INDEX[id]);
+toast('Madre creata come nuovo record.');
+};
+}
+if($('btnClearSire')){ $('btnClearSire').onclick=function(){ $('f_sire').value=''; $('f_sire').dataset.id=''; }; }
+if($('btnClearDam')) { $('btnClearDam').onclick=function(){ $('f_dam').value='';  $('f_dam').dataset.id=''; }; }
+
+if($('btnPhotoPick')){ $('btnPhotoPick').onclick=function(){ if($('photoPicker')){ $('photoPicker').value=''; $('photoPicker').click(); } }; }
+if($('photoPicker')){
+$('photoPicker').addEventListener('change',function(e){
+var files=e.target.files;
+if(!files||!files.length) return;
+addPhotos(files).catch(function(err){ setStatus('Errore foto.','bad'); }).finally(function(){ e.target.value=''; });
+});
+}
+if($('btnPhotoRemove')){
+$('btnPhotoRemove').onclick=function(){
+if(!CURRENT_PHOTOS.length){ return; }
+CURRENT_PHOTOS.splice(CURRENT_PHOTO_IDX,1);
+if(CURRENT_PHOTO_PATHS.length>CURRENT_PHOTO_IDX) CURRENT_PHOTO_PATHS.splice(CURRENT_PHOTO_IDX,1);
+if(CURRENT_PHOTO_FILES.length>CURRENT_PHOTO_IDX) CURRENT_PHOTO_FILES.splice(CURRENT_PHOTO_IDX,1);
+CURRENT_PHOTO_IDX=Math.max(0,Math.min(CURRENT_PHOTO_IDX,CURRENT_PHOTOS.length-1));
+renderPhotoPreview(CURRENT_PHOTOS);
+updateDownloadBtn();
+setDirty(true);
+};
+}
+
+if($('q')) $('q').addEventListener('input',refreshList);
+if($('tipoFilter')) $('tipoFilter').addEventListener('change',refreshList);
+
+// Hash: open specific record on load (from viewer link)
+
+/* ===========================
+   TEMPLATE ALLEVATORE
+=========================== */
+function openBreederTemplate(){
+  /* collect unique breeders with their most common paese+tipo */
+  var bMap = {};
+  for(var i=0;i<DATA.length;i++){
+    var r=DATA[i];
+    if(!r||!r.allevatore) continue;
+    var k=r.allevatore;
+    if(!bMap[k]) bMap[k]={allevatore:k,paese:'',tipo:'',count:0,paeseMap:{},tipoMap:{}};
+    bMap[k].count++;
+    if(r.paese){ bMap[k].paeseMap[r.paese]=(bMap[k].paeseMap[r.paese]||0)+1; }
+    if(r.tipo){  bMap[k].tipoMap[r.tipo] =(bMap[k].tipoMap[r.tipo] ||0)+1; }
+  }
+  /* pick most common paese+tipo per breeder */
+  var bList=[];
+  for(var k in bMap){
+    var b=bMap[k];
+    var bestP='',bestT='',maxP=0,maxT=0;
+    for(var p in b.paeseMap){ if(b.paeseMap[p]>maxP){ maxP=b.paeseMap[p]; bestP=p; } }
+    for(var t in b.tipoMap){  if(b.tipoMap[t]>maxT){ maxT=b.tipoMap[t]; bestT=t; } }
+    bList.push({allevatore:k,paese:bestP,tipo:bestT,count:b.count});
+  }
+  bList.sort(function(a,b){ return a.allevatore.localeCompare(b.allevatore,'it'); });
+
+  /* build modal */
+  var overlay=document.createElement('div');
+  overlay.id='tmplOverlay';
+  overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px';
+
+  var box=document.createElement('div');
+  box.style.cssText='background:#0d1729;border:1px solid rgba(148,163,184,.15);border-radius:16px;width:100%;max-width:520px;max-height:80vh;display:flex;flex-direction:column;overflow:hidden';
+
+  var head=document.createElement('div');
+  head.style.cssText='padding:14px 16px;border-bottom:1px solid rgba(148,163,184,.1);display:flex;align-items:center;gap:10px';
+  head.innerHTML='<span style="font-weight:700;color:#edf2ff;flex:1">🏷️ Nuovo cane da allevatore</span>'
+    +'<input id="tmplQ" placeholder="Cerca allevatore..." style="flex:1;background:rgba(255,255,255,.05);border:1px solid rgba(148,163,184,.2);border-radius:8px;padding:6px 10px;color:#edf2ff;font-size:13px">'
+    +'<button onclick="document.body.removeChild(document.getElementById(\'tmplOverlay\'))" style="background:none;border:none;color:#94a3b8;font-size:20px;cursor:pointer;padding:0 4px">×</button>';
+
+  var list=document.createElement('div');
+  list.id='tmplList';
+  list.style.cssText='overflow-y:auto;flex:1;padding:8px';
+
+  function renderTmplList(q){
+    list.innerHTML='';
+    var filtered=q ? bList.filter(function(b){ return b.allevatore.toLowerCase().indexOf(q.toLowerCase())>=0; }) : bList;
+    filtered.forEach(function(b){
+      var row=document.createElement('div');
+      row.style.cssText='padding:10px 12px;border-radius:10px;cursor:pointer;margin-bottom:4px;border:1px solid rgba(148,163,184,.08)';
+      row.innerHTML='<div style="font-weight:600;color:#edf2ff">'+b.allevatore+'</div>'
+        +'<div style="font-size:12px;color:#94a3b8;margin-top:2px">'
+        +(b.paese?b.paese:'?')+' · '+(b.tipo?b.tipo.slice(0,30):'?')+' · '+b.count+' cani</div>';
+      row.onmouseover=function(){ this.style.background='rgba(96,165,250,.1)'; };
+      row.onmouseout=function(){ this.style.background=''; };
+      row.onclick=function(){
+        document.body.removeChild(overlay);
+        newRecord();
+        setTimeout(function(){
+          if($('f_all'))     $('f_all').value=b.allevatore;
+          if($('f_country')) $('f_country').value=b.paese;
+          if($('f_tipo'))    $('f_tipo').value=b.tipo;
+          updateSummary(null);
+        },50);
+      };
+      list.appendChild(row);
+    });
+    if(!filtered.length){
+      list.innerHTML='<div style="padding:20px;text-align:center;color:#94a3b8">Nessun allevatore trovato</div>';
+    }
+  }
+
+  box.appendChild(head); box.appendChild(list);
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
+  renderTmplList('');
+
+  var tmplQ=document.getElementById('tmplQ');
+  if(tmplQ){
+    tmplQ.addEventListener('input',function(){ renderTmplList(this.value); });
+    setTimeout(function(){ tmplQ.focus(); },100);
+  }
+  overlay.addEventListener('click',function(ev){
+    if(ev.target===overlay) document.body.removeChild(overlay);
+  });
+}
+
+
+/* ===========================
+   IMPORTA DA TESTO (AI)
+=========================== */
+function openImportText(){
+  var overlay=document.createElement('div');
+  overlay.id='importOverlay';
+  overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px';
+
+  var box=document.createElement('div');
+  box.style.cssText='background:#0d1729;border:1px solid rgba(148,163,184,.15);border-radius:16px;width:100%;max-width:600px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden';
+
+  box.innerHTML='<div style="padding:14px 16px;border-bottom:1px solid rgba(148,163,184,.1);display:flex;align-items:center">'
+    +'<span style="font-weight:700;color:#edf2ff;flex:1">📋 Importa da testo</span>'
+    +'<button onclick="document.body.removeChild(document.getElementById(\'importOverlay\'))" style="background:none;border:none;color:#94a3b8;font-size:20px;cursor:pointer">×</button>'
+    +'</div>'
+    +'<div style="padding:14px 16px;flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:12px">'
+    +'<div style="font-size:12px;color:#94a3b8">Incolla il testo da un sito, documento o pedigree. L\'AI estrarrà automaticamente i dati del cane.</div>'
+    +'<textarea id="importText" placeholder="Incolla qui il testo..." style="background:rgba(255,255,255,.05);border:1px solid rgba(148,163,184,.2);border-radius:10px;padding:10px;color:#edf2ff;font-size:13px;min-height:160px;resize:vertical;font-family:inherit"></textarea>'
+    +'<button id="btnImportRun" class="btn" style="justify-content:center">🔍 Estrai dati</button>'
+    +'<div id="importResult" style="display:none">'
+    +'<div style="font-size:12px;color:#94a3b8;margin-bottom:8px">Dati estratti — verifica e conferma:</div>'
+    +'<div id="importPreview" style="background:rgba(255,255,255,.03);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:12px;font-size:13px;color:#edf2ff"></div>'
+    +'<div style="display:flex;gap:8px;margin-top:10px">'
+    +'<button id="btnImportConfirm" class="btn" style="flex:1;justify-content:center">✓ Usa questi dati</button>'
+    +'<button id="btnImportRetry" class="btn ghost" style="flex:1;justify-content:center">↺ Riprova</button>'
+    +'</div></div>'
+    +'<div id="importError" style="display:none;color:#f87171;font-size:12px;padding:8px"></div>'
+    +'<div id="importSpinner" style="display:none;text-align:center;color:#94a3b8;padding:16px">⏳ Analisi in corso...</div>'
+    +'</div>';
+
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
+
+  var extracted=null;
+
+  function runExtract(){
+    var text=document.getElementById('importText').value.trim();
+    if(!text){ document.getElementById('importError').textContent='Inserisci del testo prima.'; document.getElementById('importError').style.display='block'; return; }
+    document.getElementById('importError').style.display='none';
+    document.getElementById('importResult').style.display='none';
+    document.getElementById('importSpinner').style.display='block';
+    document.getElementById('btnImportRun').disabled=true;
+
+    var TIPO_LIST=['PUREBRED TURKMEN ALABAY','TURKMEN ALABAY','CENTRAL ASIAN VOLKODAV',
+      'PUREBRED CENTRAL ASIAN SHEPHERD DOG','CENTRAL ASIAN SHEPHERD DOG',
+      'PUREBRED UZBEK SARKANJIK','PUREBRED TAJIK DAHMARDA','PUREBRED GEORGIAN NAGAZI',
+      'PUREBRED KAZAKH TOBET','PUREBRED KYRGYZ DOBOT','CAUCASIAN VOLKODAV'];
+
+    var prompt='Estrai i dati anagrafici di un cane dal seguente testo e rispondi SOLO con un oggetto JSON valido (nessun testo prima o dopo).\n\n'
+      +'Campi da estrarre (lascia stringa vuota se non trovato):\n'
+      +'- name: nome completo del cane (maiuscolo)\n'
+      +'- sesso: "M" o "F"\n'
+      +'- birth: data nascita formato YYYY-MM-DD o YYYY\n'
+      +'- pedigree: numero pedigree\n'
+      +'- padre: nome del padre\n'
+      +'- madre: nome della madre\n'
+      +'- allevatore: nome allevatore\n'
+      +'- proprietario: nome proprietario\n'
+      +'- paese: paese di origine in inglese maiuscolo\n'
+      +'- colore: colore del manto in inglese maiuscolo\n'
+      +'- tipo: uno dei seguenti valori esatti se riconoscibile: '+TIPO_LIST.join(', ')+'\n\n'
+      +'Testo:\n'+text.slice(0,3000);
+
+    fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        model:'claude-sonnet-4-20250514',
+        max_tokens:1000,
+        messages:[{role:'user',content:prompt}]
+      })
+    })
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      document.getElementById('importSpinner').style.display='none';
+      document.getElementById('btnImportRun').disabled=false;
+      var text='';
+      if(data.content&&data.content[0]) text=data.content[0].text||'';
+      /* strip markdown fences */
+      text=text.replace(/```json|```/g,'').trim();
+      try{
+        extracted=JSON.parse(text);
+        var preview='';
+        var fields={name:'Nome',sesso:'Sesso',birth:'Nascita',pedigree:'Pedigree',
+          padre:'Padre',madre:'Madre',allevatore:'Allevatore',proprietario:'Proprietario',
+          paese:'Paese',colore:'Colore',tipo:'Tipo'};
+        for(var k in fields){
+          if(extracted[k]) preview+='<div style="display:flex;gap:8px;padding:4px 0;border-bottom:1px solid rgba(148,163,184,.06)">'
+            +'<span style="color:#94a3b8;width:100px;flex-shrink:0">'+fields[k]+'</span>'
+            +'<span>'+extracted[k]+'</span></div>';
+        }
+        document.getElementById('importPreview').innerHTML=preview||'<span style="color:#94a3b8">Nessun dato estratto</span>';
+        document.getElementById('importResult').style.display='block';
+      } catch(err){
+        document.getElementById('importError').textContent='Errore nel parsing dei dati estratti. Riprova.';
+        document.getElementById('importError').style.display='block';
+      }
+    })
+    .catch(function(err){
+      document.getElementById('importSpinner').style.display='none';
+      document.getElementById('btnImportRun').disabled=false;
+      document.getElementById('importError').textContent='Errore di connessione: '+(err.message||err);
+      document.getElementById('importError').style.display='block';
+    });
+  }
+
+  function confirmImport(){
+    if(!extracted) return;
+    document.body.removeChild(overlay);
+    newRecord();
+    setTimeout(function(){
+      if(extracted.name&&$('f_name'))       $('f_name').value=extracted.name;
+      if(extracted.sesso&&$('f_sex'))        $('f_sex').value=sexNorm(extracted.sesso)||'';
+      if(extracted.birth&&$('f_birth'))      $('f_birth').value=extracted.birth;
+      if(extracted.pedigree&&$('f_ped'))     $('f_ped').value=extracted.pedigree;
+      if(extracted.allevatore&&$('f_all'))   $('f_all').value=extracted.allevatore;
+      if(extracted.proprietario&&$('f_prop'))$('f_prop').value=extracted.proprietario;
+      if(extracted.paese&&$('f_country'))    $('f_country').value=extracted.paese.toUpperCase();
+      if(extracted.colore&&$('f_colore'))    $('f_colore').value=extracted.colore.toUpperCase();
+      if(extracted.tipo&&$('f_tipo'))        $('f_tipo').value=extracted.tipo;
+      /* resolve padre/madre by name */
+      if(extracted.padre&&$('f_sire')){
+        $('f_sire').value=extracted.padre;
+        var pm=resolveParentByName(extracted.padre,'M');
+        if(pm){ $('f_sire').value=parentLabel(pm); $('f_sire').dataset.id=pm.id; }
+      }
+      if(extracted.madre&&$('f_dam')){
+        $('f_dam').value=extracted.madre;
+        var dm=resolveParentByName(extracted.madre,'F');
+        if(dm){ $('f_dam').value=parentLabel(dm); $('f_dam').dataset.id=dm.id; }
+      }
+      updateSummary(null);
+      toast('Dati importati. Verifica i campi prima di salvare.');
+    },80);
+  }
+
+  setTimeout(function(){
+    var btn=document.getElementById('btnImportRun');
+    if(btn) btn.onclick=runExtract;
+    var conf=document.getElementById('btnImportConfirm');
+    if(conf) conf.onclick=confirmImport;
+    var retry=document.getElementById('btnImportRetry');
+    if(retry) retry.onclick=function(){ document.getElementById('importResult').style.display='none'; };
+    document.getElementById('importText').focus();
+  },50);
+
+  overlay.addEventListener('click',function(ev){
+    if(ev.target===overlay) document.body.removeChild(overlay);
+  });
+}
+
+function resolveParentByName(name,sex){
+  if(!name) return null;
+  var q=norm(name);
+  var best=null, bestScore=0;
+  for(var i=0;i<DATA.length;i++){
+    var r=DATA[i];
+    if(!r) continue;
+    if(sex&&sexNorm(r.sesso)&&sexNorm(r.sesso)!==sex) continue;
+    var rn=norm(r.name||'');
+    if(rn===q) return r;
+    if(rn.indexOf(q)===0&&q.length>bestScore){ best=r; bestScore=q.length; }
+  }
+  return best;
+}
+
+window.addEventListener('load',function(){
+var hash=decodeURIComponent(location.hash.slice(1));
+if(hash&&INDEX[hash]) selectRecord(hash);
+});
+
+// Warn on close if dirty
+window.addEventListener('beforeunload',function(e){
+if(DIRTY){ e.preventDefault(); e.returnValue=''; }
+});
+
+// init
+enableUI(false); setSelectedLabel(); refreshList();
+</script>
+
+
+
+<!-- DATALISTS -->
+<datalist id="tipoList">
+        <option value="PUREBRED TURKMEN ALABAY">
+        <option value="TURKMEN ALABAY">
+        <option value="CENTRAL ASIAN VOLKODAV">
+        <option value="PUREBRED CENTRAL ASIAN SHEPHERD DOG">
+        <option value="CENTRAL ASIAN SHEPHERD DOG">
+        <option value="PUREBRED UZBEK SARKANJIK">
+        <option value="PUREBRED TAJIK DAHMARDA">
+        <option value="PUREBRED GEORGIAN NAGAZI">
+        <option value="PUREBRED KAZAKH TOBET">
+        <option value="PUREBRED KYRGYZ DOBOT">
+        <option value="CAUCASIAN VOLKODAV">
+        <option value="CROSSBRED">
+        <option value="UNDEFINED">
+      </datalist>
+<datalist id="countriesList">
+        <option value="RUSSIA">
+        <option value="TURKMENISTAN">
+        <option value="ITALY">
+        <option value="UKRAINE">
+        <option value="LITHUANIA">
+        <option value="BELARUS">
+        <option value="UZBEKISTAN">
+        <option value="TAJIKISTAN">
+        <option value="KAZAKHSTAN">
+        <option value="KYRGYZSTAN">
+        <option value="GEORGIA">
+        <option value="BULGARIA">
+        <option value="HUNGARY">
+        <option value="SLOVAKIA">
+        <option value="FINLAND">
+        <option value="AZERBAIJAN">
+        <option value="ARMENIA">
+        <option value="MOLDOVA">
+        <option value="ROMANIA">
+        <option value="GERMANY">
+        <option value="FRANCE">
+        <option value="SPAIN">
+        <option value="POLAND">
+        <option value="CZECH REPUBLIC">
+        <option value="SERBIA">
+      </datalist>
+
+</body>
+</html>
