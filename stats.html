@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Statistiche · Alabay Club Italia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a1120; --panel:#0d1729; --panel2:#101e30;
+  --ink:#dde4f0; --mut:#8899b8; --border:#1a2540;
+  --ok:#6ee7b7; --warn:#fcd34d; --bad:#f87171; --accent:#60a5fa;
+  --f-display:"Playfair Display",Georgia,serif;
+  --f-body:"Inter",system-ui,sans-serif;
+}
+*{ box-sizing:border-box; margin:0; padding:0; }
+html,body{ height:100%; background:var(--bg); color:var(--ink); font-family:var(--f-body); }
+
+/* ── HEADER ── */
+header{
+  background:rgba(13,23,41,.92);
+  border-bottom:1px solid var(--border);
+  backdrop-filter:blur(12px);
+  position:sticky; top:0; z-index:100;
+}
+.bar{
+  display:flex; align-items:center; gap:8px;
+  padding:0 16px; height:52px; flex-wrap:wrap;
+}
+.brand{
+  font-family:var(--f-display); font-weight:700;
+  font-size:15px; color:#c7d9f5; letter-spacing:.1px;
+}
+.bar-sep{ width:1px; height:20px; background:rgba(148,163,184,.14); margin:0 4px; }
+.btn{
+  display:inline-flex; align-items:center; gap:5px;
+  padding:5px 12px; border-radius:9px; border:1px solid rgba(148,163,184,.18);
+  background:rgba(15,23,42,.5); color:var(--ink); font-size:12.5px;
+  font-weight:600; cursor:pointer; font-family:var(--f-body);
+  text-decoration:none; transition:background .15s, border-color .15s;
+}
+.btn:hover{ background:rgba(96,165,250,.12); border-color:rgba(96,165,250,.35); }
+.sp{ flex:1; }
+#loadStatus{ font-size:12px; color:var(--mut); }
+
+/* ── LAYOUT ── */
+main{
+  max-width:1400px; margin:0 auto;
+  padding:24px 20px 60px;
+  display:flex; flex-direction:column; gap:24px;
+}
+
+/* ── STAT CARDS (top row) ── */
+.statCards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:12px;
+}
+.statCard{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:16px 18px 14px;
+}
+.statCard .val{
+  font-family:var(--f-display);
+  font-size:28px; font-weight:700;
+  color:#edf2ff; letter-spacing:-.5px;
+}
+.statCard .lbl{
+  font-size:11.5px; color:var(--mut);
+  margin-top:4px; font-weight:600;
+  text-transform:uppercase; letter-spacing:.4px;
+}
+.statCard .sub{
+  font-size:11px; color:rgba(148,163,184,.6);
+  margin-top:2px;
+}
+
+/* ── SECTION CARDS ── */
+.section{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:16px;
+  overflow:hidden;
+}
+.sHead{
+  padding:14px 20px 12px;
+  border-bottom:1px solid rgba(148,163,184,.08);
+  display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;
+}
+.sHead h2{
+  font-family:var(--f-display); font-size:17px;
+  font-weight:700; color:#c7d9f5;
+}
+.sHead .sSub{ font-size:12px; color:var(--mut); }
+.sBody{ padding:20px; }
+
+/* ── TWO COLUMNS ── */
+.cols2{
+  display:grid; grid-template-columns:1fr 1fr; gap:16px;
+}
+@media(max-width:780px){ .cols2{ grid-template-columns:1fr; } }
+
+/* ── BAR CHART (horizontal) ── */
+.barChart{ display:flex; flex-direction:column; gap:8px; }
+.barRow{ display:grid; grid-template-columns:200px 1fr 52px; gap:10px; align-items:center; }
+@media(max-width:500px){ .barRow{ grid-template-columns:130px 1fr 40px; } }
+.barLabel{ font-size:12.5px; font-weight:600; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.barTrack{ height:14px; background:rgba(148,163,184,.1); border-radius:7px; overflow:hidden; }
+.barFill{ height:100%; border-radius:7px; transition:width .5s cubic-bezier(.22,1,.36,1); }
+.barCount{ font-size:12px; color:var(--mut); text-align:right; font-weight:600; }
+
+/* ── COI HISTOGRAM ── */
+.coiGrid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+}
+@media(max-width:600px){ .coiGrid{ grid-template-columns:1fr 1fr; } }
+.coiBand{
+  border-radius:12px;
+  padding:16px 14px 12px;
+  border:1px solid;
+  text-align:center;
+}
+.coiBand .pct{
+  font-family:var(--f-display); font-size:28px; font-weight:700;
+  letter-spacing:-.5px;
+}
+.coiBand .cnt{ font-size:12px; margin-top:2px; }
+.coiBand .lbl{ font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.5px; margin-top:8px; }
+.coiBand .range{ font-size:10.5px; opacity:.65; margin-top:2px; }
+
+.coiBand.low   { background:rgba(110,231,183,.06); border-color:rgba(110,231,183,.25); color:#6ee7b7; }
+.coiBand.mod   { background:rgba(252,211,77,.06);  border-color:rgba(252,211,77,.25);  color:#fcd34d; }
+.coiBand.high  { background:rgba(251,146,60,.07);  border-color:rgba(251,146,60,.28);  color:#fb923c; }
+.coiBand.veryhigh{ background:rgba(248,113,113,.07); border-color:rgba(248,113,113,.3); color:#f87171; }
+
+/* ── COI BAR HISTOGRAM ── */
+.histWrap{ position:relative; height:180px; margin-top:4px; }
+.histCanvas{ width:100%; height:100%; }
+
+/* ── PIE / DONUT (SVG) ── */
+.donutWrap{ display:flex; gap:20px; align-items:center; flex-wrap:wrap; }
+.donutLegend{ flex:1; min-width:160px; display:flex; flex-direction:column; gap:6px; }
+.legendRow{ display:flex; align-items:center; gap:8px; font-size:12.5px; }
+.legendDot{ width:10px; height:10px; border-radius:99px; flex-shrink:0; }
+.legendLabel{ flex:1; color:var(--ink); font-weight:600; }
+.legendPct{ color:var(--mut); font-weight:700; font-size:12px; }
+
+/* ── no-data ── */
+.noData{ text-align:center; padding:40px; color:var(--mut); font-size:13px; }
+
+/* ── loading overlay ── */
+#loader{
+  position:fixed; inset:0; z-index:9999;
+  background:var(--bg);
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center; gap:16px;
+}
+#loader.hidden{ display:none; }
+.spinner{
+  width:36px; height:36px;
+  border:3px solid rgba(96,165,250,.2);
+  border-top-color:var(--accent);
+  border-radius:50%;
+  animation:spin .8s linear infinite;
+}
+@keyframes spin{ to{ transform:rotate(360deg); } }
+#loader p{ color:var(--mut); font-size:13px; }
+</style>
+</head>
+<body>
+
+<div id="loader">
+  <div class="spinner"></div>
+  <p>Caricamento database…</p>
+</div>
+
+<header>
+  <div class="bar">
+    <div class="brand">📊 Statistiche · Alabay Club Italia</div>
+    <div class="bar-sep"></div>
+    <a href="index.html" class="btn">🌿 Viewer</a>
+    <a href="editor.html" class="btn">✏️ Editor</a>
+    <div class="sp"></div>
+    <span id="loadStatus">—</span>
+  </div>
+</header>
+
+<main id="mainContent" style="display:none">
+
+  <!-- TOP STAT CARDS -->
+  <div class="statCards" id="statCards"></div>
+
+  <!-- ROW 1: Tipo distribution + COI bands -->
+  <div class="cols2">
+
+    <div class="section">
+      <div class="sHead">
+        <h2>Distribuzione per tipo</h2>
+        <span class="sSub" id="tipoSub"></span>
+      </div>
+      <div class="sBody">
+        <div class="barChart" id="tipoChart"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="sHead">
+        <h2>Livelli di consanguineità (COI)</h2>
+        <span class="sSub" id="coiSub"></span>
+      </div>
+      <div class="sBody">
+        <div class="coiGrid" id="coiBands"></div>
+        <div class="histWrap" style="margin-top:20px">
+          <canvas class="histCanvas" id="coiHist"></canvas>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ROW 2: COI per tipo -->
+  <div class="section">
+    <div class="sHead">
+      <h2>COI medio per tipo</h2>
+      <span class="sSub">Media aritmetica del coefficiente di consanguineità per ogni tipo</span>
+    </div>
+    <div class="sBody">
+      <div class="barChart" id="coiPerTipo"></div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+/* ═══════════════════════════════════════════════
+   ALABAY STATS — standalone page
+   Carica database_cani.json, calcola tutto in JS
+═══════════════════════════════════════════════ */
+
+/* ── TIPO metadata ── */
+var TIPO_META = {
+  'PUREBRED TURKMEN ALABAY':              {color:'#60a5fa', label:'Purebred Turkmen Alabay'},
+  'TURKMEN ALABAY':                       {color:'#93c5fd', label:'Turkmen Alabay'},
+  'CENTRAL ASIAN VOLKODAV':               {color:'#a78bfa', label:'Central Asian Volkodav'},
+  'PUREBRED CENTRAL ASIAN SHEPHERD DOG': {color:'#34d399', label:'Purebred C.A. Shepherd Dog'},
+  'PUREBRED UZBEK SARKANJIK':             {color:'#fbbf24', label:'Purebred Uzbek Sarkanjik'},
+  'PUREBRED TAJIK DAHMARDA':              {color:'#f87171', label:'Purebred Tajik Dahmarda'},
+  'PUREBRED GEORGIAN NAGAZI':             {color:'#fb923c', label:'Purebred Georgian Nagazi'},
+  'PUREBRED KAZAKH TOBET':                {color:'#e879f9', label:'Purebred Kazakh Tobet'},
+  'PUREBRED KYRGYZ DOBOT':                {color:'#a3e635', label:'Purebred Kyrgyz Dobot'},
+  'CAUCASIAN VOLKODAV':                   {color:'#94a3b8', label:'Caucasian Volkodav'},
+  'CROSSBRED':                            {color:'#64748b', label:'Crossbred'},
+  '':                                     {color:'#475569', label:'Non specificato'},
+};
+
+var TIPO_NORM = {
+  'PUREBRED TURKMAN ALABAY': 'PUREBRED TURKMEN ALABAY',
+  'PUREDBRED TAJIK DAHMARDA': 'PUREBRED TAJIK DAHMARDA',
+};
+
+function normTipo(t){
+  var u = (t||'').trim().toUpperCase();
+  return TIPO_NORM[u] || u || '';
+}
+function tipoColor(t){ return (TIPO_META[t]||{color:'#64748b'}).color; }
+function tipoLabel(t){ return (TIPO_META[t]||{label:t||'Non specificato'}).label; }
+
+/* ── INDEX & COI ── */
+var INDEX = new Map();
+var COI_CACHE = new Map();
+
+function buildIndex(data){
+  INDEX.clear(); COI_CACHE.clear();
+  data.forEach(function(r){ if(r&&r.id) INDEX.set(String(r.id), r); });
+}
+
+function collectAndSort(rootId){
+  var seen = new Set(), queue = [rootId];
+  while(queue.length){
+    var cur = String(queue.shift()||'');
+    if(!cur||seen.has(cur)) continue;
+    seen.add(cur);
+    var r = INDEX.get(cur);
+    if(r){ if(r.padre) queue.push(String(r.padre)); if(r.madre) queue.push(String(r.madre)); }
+  }
+  var order=[], visited=new Set();
+  function visit(id){
+    id=String(id||''); if(!id||visited.has(id)) return; visited.add(id);
+    var r=INDEX.get(id);
+    if(r){ if(r.padre&&seen.has(String(r.padre))) visit(String(r.padre));
+           if(r.madre&&seen.has(String(r.madre))) visit(String(r.madre)); }
+    order.push(id);
+  }
+  seen.forEach(function(id){ visit(id); });
+  return {seen:seen, order:order};
+}
+
+function F_of(id){
+  id=String(id||''); if(!id) return 0;
+  if(COI_CACHE.has(id)) return COI_CACHE.get(id);
+  var col=collectAndSort(id), seen=col.seen, order=col.order;
+  var F=new Map(), phi=new Map();
+  function pk(a,b){ return a<b?(a+'|'+b):(b+'|'+a); }
+  function gp(a,b){ if(!a||!b) return 0; if(!seen.has(a)||!seen.has(b)) return 0; return phi.get(pk(a,b))||0; }
+  for(var i=0;i<order.length;i++){
+    var id2=order[i], rec=INDEX.get(id2);
+    var si=(rec&&rec.padre)?String(rec.padre):null;
+    var di=(rec&&rec.madre)?String(rec.madre):null;
+    if(si&&!seen.has(si)) si=null;
+    if(di&&!seen.has(di)) di=null;
+    var Fi=(si&&di)?gp(si,di):0;
+    F.set(id2,Fi); phi.set(pk(id2,id2),0.5*(1+Fi));
+    for(var j=0;j<i;j++){
+      var jd=order[j];
+      var vsi=si?gp(si,jd):0, vdi=di?gp(di,jd):0, v;
+      if(si&&di) v=0.5*(vsi+vdi); else if(si) v=0.5*vsi; else if(di) v=0.5*vdi; else v=0;
+      if(v!==0) phi.set(pk(id2,jd),v);
+    }
+  }
+  F.forEach(function(v,k){ COI_CACHE.set(k,v); });
+  return COI_CACHE.get(id)||0;
+}
+
+/* ── RENDER HELPERS ── */
+function fmtN(n){ return n>=1000?(n/1000).toFixed(1)+'k':String(n); }
+function pctStr(n,tot){ return tot>0?((n/tot)*100).toFixed(1)+'%':'0%'; }
+
+function renderStatCards(data){
+  var total=data.length;
+  var withPed=data.filter(function(r){return !!(r.pedigree||'').trim();}).length;
+  var withFoto=data.filter(function(r){return (r.foto_list&&r.foto_list.length>0)||(r.foto&&r.foto.trim());}).length;
+  var males=data.filter(function(r){return (r.sesso||'').toUpperCase()==='M';}).length;
+  var females=data.filter(function(r){return (r.sesso||'').toUpperCase()==='F';}).length;
+  var withBirth=data.filter(function(r){return !!(r.birth||'').trim();}).length;
+
+  var cards=[
+    {val:fmtN(total),         lbl:'Soggetti totali',       sub:'nel database'},
+    {val:males+'M / '+females+'F', lbl:'Sesso',            sub:data.length-males-females+' non specificato'},
+    {val:pctStr(withPed,total),  lbl:'Con numero pedigree', sub:withPed+' soggetti'},
+    {val:pctStr(withFoto,total), lbl:'Con foto',            sub:withFoto+' soggetti'},
+    {val:pctStr(withBirth,total),lbl:'Con data di nascita', sub:withBirth+' soggetti'},
+  ];
+  var html='';
+  cards.forEach(function(c){
+    html+='<div class="statCard"><div class="val">'+c.val+'</div><div class="lbl">'+c.lbl+'</div><div class="sub">'+c.sub+'</div></div>';
+  });
+  document.getElementById('statCards').innerHTML=html;
+}
+
+function renderTipoChart(data){
+  var counts={};
+  data.forEach(function(r){ var t=normTipo(r.tipo); counts[t]=(counts[t]||0)+1; });
+  var sorted=Object.keys(counts).sort(function(a,b){return counts[b]-counts[a];});
+  var maxV=counts[sorted[0]]||1;
+  document.getElementById('tipoSub').textContent=sorted.length+' tipi diversi';
+  var html='';
+  sorted.forEach(function(t){
+    var n=counts[t], pct=(n/maxV*100).toFixed(1);
+    var col=tipoColor(t), lbl=tipoLabel(t);
+    html+='<div class="barRow">'+
+      '<div class="barLabel" title="'+lbl+'">'+lbl+'</div>'+
+      '<div class="barTrack"><div class="barFill" style="width:'+pct+'%;background:'+col+'"></div></div>'+
+      '<div class="barCount">'+n+'</div>'+
+      '</div>';
+  });
+  document.getElementById('tipoChart').innerHTML=html;
+}
+
+function renderCOI(data){
+  // Sample COI for up to 600 records (computationally expensive)
+  var sample=data.filter(function(r){return r.padre||r.madre;});
+  if(sample.length>600) sample=sample.slice(0,600);
+  document.getElementById('coiSub').textContent='Campione di '+sample.length+' soggetti con almeno un genitore';
+
+  var low=0,mod=0,high=0,vh=0,sum=0,cnt=0;
+  var hist=new Array(20).fill(0); // 0-100% in 5% steps
+
+  sample.forEach(function(r){
+    var F=F_of(r.id);
+    if(F==null||isNaN(F)) return;
+    var pct=F*100;
+    sum+=pct; cnt++;
+    var bin=Math.min(19,Math.floor(pct/5));
+    hist[bin]++;
+    if(pct<5) low++; else if(pct<10) mod++; else if(pct<20) high++; else vh++;
+  });
+
+  // Bands
+  var total=low+mod+high+vh||1;
+  var bands=[
+    {cls:'low',     lbl:'Basso',      range:'< 5%',   n:low},
+    {cls:'mod',     lbl:'Moderato',   range:'5–10%',  n:mod},
+    {cls:'high',    lbl:'Alto',       range:'10–20%', n:high},
+    {cls:'veryhigh',lbl:'Molto alto', range:'> 20%',  n:vh},
+  ];
+  var bHtml='';
+  bands.forEach(function(b){
+    bHtml+='<div class="coiBand '+b.cls+'">'+
+      '<div class="pct">'+((b.n/total)*100).toFixed(0)+'%</div>'+
+      '<div class="cnt">'+b.n+' soggetti</div>'+
+      '<div class="lbl">'+b.lbl+'</div>'+
+      '<div class="range">'+b.range+'</div>'+
+      '</div>';
+  });
+  document.getElementById('coiBands').innerHTML=bHtml;
+
+  // Histogram canvas
+  drawHistogram(hist, cnt);
+}
+
+function drawHistogram(hist, total){
+  var canvas=document.getElementById('coiHist');
+  if(!canvas) return;
+  var W=canvas.offsetWidth||600, H=160;
+  canvas.width=W; canvas.height=H;
+  var ctx=canvas.getContext('2d');
+  ctx.clearRect(0,0,W,H);
+
+  var maxV=Math.max.apply(null,hist)||1;
+  var barW=Math.floor((W-40)/20)-2;
+  var padL=34, padB=28, chartH=H-padB-8;
+
+  // grid lines
+  ctx.strokeStyle='rgba(148,163,184,.1)';
+  ctx.lineWidth=1;
+  [0.25,0.5,0.75,1].forEach(function(f){
+    var y=H-padB-chartH*f;
+    ctx.beginPath(); ctx.moveTo(padL,y); ctx.lineTo(W,y); ctx.stroke();
+    ctx.fillStyle='rgba(148,163,184,.4)';
+    ctx.font='9px Inter,sans-serif';
+    ctx.textAlign='right';
+    ctx.fillText(Math.round(maxV*f),padL-4,y+3);
+  });
+
+  // bars
+  for(var i=0;i<20;i++){
+    var x=padL+i*(barW+2);
+    var bh=chartH*(hist[i]/maxV);
+    // color by range
+    var pctMid=(i*5)+2.5;
+    var col=pctMid<5?'#6ee7b7':pctMid<10?'#fcd34d':pctMid<20?'#fb923c':'#f87171';
+    ctx.fillStyle=col+'bb';
+    ctx.beginPath();
+    ctx.roundRect ? ctx.roundRect(x,H-padB-bh,barW,bh,3) : ctx.rect(x,H-padB-bh,barW,bh);
+    ctx.fill();
+
+    // x-axis labels every 4 bins
+    if(i%4===0){
+      ctx.fillStyle='rgba(148,163,184,.5)';
+      ctx.font='9px Inter,sans-serif';
+      ctx.textAlign='center';
+      ctx.fillText(i*5+'%', x+barW/2, H-padB+12);
+    }
+  }
+  // x-axis line
+  ctx.strokeStyle='rgba(148,163,184,.2)'; ctx.lineWidth=1;
+  ctx.beginPath(); ctx.moveTo(padL,H-padB); ctx.lineTo(W,H-padB); ctx.stroke();
+}
+
+function renderCOIPerTipo(data){
+  var tipoSums={}, tipoCnts={};
+  data.forEach(function(r){
+    var t=normTipo(r.tipo);
+    var F=F_of(r.id);
+    if(F==null||isNaN(F)) return;
+    tipoSums[t]=(tipoSums[t]||0)+F*100;
+    tipoCnts[t]=(tipoCnts[t]||0)+1;
+  });
+  var tipoAvg=[];
+  Object.keys(tipoCnts).forEach(function(t){
+    if(tipoCnts[t]>=5) tipoAvg.push({tipo:t, avg:tipoSums[t]/tipoCnts[t], cnt:tipoCnts[t]});
+  });
+  tipoAvg.sort(function(a,b){return b.avg-a.avg;});
+  var maxV=tipoAvg[0]?tipoAvg[0].avg:1;
+  var html='';
+  tipoAvg.forEach(function(it){
+    var pct=(it.avg/maxV*100).toFixed(1);
+    var col=it.avg<5?'#6ee7b7':it.avg<10?'#fcd34d':it.avg<20?'#fb923c':'#f87171';
+    html+='<div class="barRow">'+
+      '<div class="barLabel" title="'+tipoLabel(it.tipo)+'">'+tipoLabel(it.tipo)+'</div>'+
+      '<div class="barTrack"><div class="barFill" style="width:'+pct+'%;background:'+col+'"></div></div>'+
+      '<div class="barCount">'+it.avg.toFixed(2)+'%</div>'+
+      '</div>';
+  });
+  document.getElementById('coiPerTipo').innerHTML=html||'<div class="noData">Dati insufficienti</div>';
+}
+
+/* ── LOAD & INIT ── */
+function init(data){
+  buildIndex(data);
+  renderStatCards(data);
+  renderTipoChart(data);
+  renderCOI(data);
+  renderCOIPerTipo(data);
+  document.getElementById('loadStatus').textContent=data.length+' soggetti';
+  document.getElementById('loader').classList.add('hidden');
+  document.getElementById('mainContent').style.display='';
+}
+
+fetch('database_cani.json')
+  .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+  .then(function(data){ init(data); })
+  .catch(function(e){
+    document.getElementById('loader').innerHTML=
+      '<p style="color:var(--bad);font-size:14px">Errore caricamento: '+e.message+'</p>'+
+      '<p style="color:var(--mut);font-size:12px;margin-top:8px">Assicurati che database_cani.json sia nella stessa cartella.</p>';
+  });
+</script>
+</body>
+</html>
