@@ -9856,50 +9856,53 @@
   {
     "id": "auto_0530",
     "sesso": "F",
-    "name": "KUNCHI (Collective Farm \"Udarnik\")",
+    "name": "KUNCHI (ow. Collective Farm \"Udarnik\")",
     "allevatore": "COLLECTIVE FARM \"LENINA\"",
     "proprietario": "COLLECTIVE FARM \"UDARNIK\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 22-69",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "",
     "padre": "auto_0535",
     "madre": "auto_0536",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0531",
     "sesso": "M",
-    "name": "ALADZHA 1 (Collective Farm \"Lenina\")",
-    "allevatore": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "name": "ALADZHA I (ow. Collective Farm \"Lenina\")",
+    "allevatore": "COLLECTIVE FARM \"SAMSONOVO\"",
     "proprietario": "COLLECTIVE FARM \"LENINA\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 21-67",
     "birth": "",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "",
     "padre": "auto_0537",
     "madre": "auto_0538",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0532",
     "sesso": "F",
-    "name": "DOSTLUG (Collective Farm \"Lenina\")",
+    "name": "DOSTLUG (ow. Collective Farm \"Lenina\")",
     "allevatore": "COLLECTIVE FARM \"BOLSHEVIK\"",
     "proprietario": "COLLECTIVE FARM \"LENINA\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 16-69",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "",
     "padre": "auto_0539",
     "madre": "auto_0540",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0533",
@@ -9936,23 +9939,24 @@
   {
     "id": "auto_0535",
     "sesso": "M",
-    "name": "DASTARHAN (Collective Farm \"Lenina\")",
+    "name": "DASTARHAN (ow. Collective Farm \"Lenina\")",
     "allevatore": "",
     "proprietario": "COLLECTIVE FARM \"LENINA\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0536",
     "sesso": "F",
-    "name": "KENEK I (Collective Farm \"Lenina\")",
+    "name": "KENEK I (ow. Collective Farm \"Lenina\")",
     "allevatore": "",
     "proprietario": "COLLECTIVE FARM \"LENINA\"",
     "paese": "TURKMENISTAN",
@@ -9963,30 +9967,15 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0537",
     "sesso": "M",
-    "name": "ERKIN (Collective Farm \"Samsonovo\")",
+    "name": "ERKIN (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
-    "paese": "TURKMENISTAN",
-    "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_0538",
-    "sesso": "F",
-    "name": "AYNA V (ow. Collective Farm \"Samsonova\")",
-    "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -9995,39 +9984,59 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
+  },
+  {
+    "id": "auto_0538",
+    "sesso": "F",
+    "name": "AYNA V (ow. Collective Farm \"Samsonovo\")",
+    "allevatore": "",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
+    "paese": "TURKMENISTAN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "colore": "",
+    "padre": "",
+    "madre": "",
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0539",
     "sesso": "M",
-    "name": "GARA-GUNAK (Collective Farm \"Bolshevik\")",
+    "name": "GARA-GUNAK (ow. Collective Farm \"Bolshevik\")",
     "allevatore": "",
     "proprietario": "COLLECTIVE FARM \"BOLSHEVIK\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0540",
     "sesso": "F",
-    "name": "GARA-BAY (Collective Farm \"Bolshevik\")",
+    "name": "GARA-BAY (ow. Collective Farm \"Bolshevik\")",
     "allevatore": "",
     "proprietario": "COLLECTIVE FARM \"BOLSHEVIK\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0541",
@@ -18903,17 +18912,18 @@
     "id": "auto_0935",
     "sesso": "M",
     "name": "BAYNAK (ow. Tabunova-Rabyshko)",
-    "allevatore": "TALLIMERDZHAN (FORMER COLLECTIVE FARM \"SAMSONOVA\")",
+    "allevatore": "TALLIMERDZHAN (FORMER COLLECTIVE FARM \"SAMSONOVO\")",
     "proprietario": "MOSHI - T. TABUNOVA-RABYSHKO",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "BKO 335-990006",
     "birth": "1986-01-01",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "BLACK WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "dog1249",
@@ -20120,7 +20130,7 @@
     "id": "auto_0991",
     "sesso": "M",
     "name": "BOSSAR-BEK (ow. Kennel \"Baltiyskiy Zavod\")",
-    "allevatore": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "allevatore": "COLLECTIVE FARM \"SAMSONOVO\"",
     "proprietario": "KENNEL \"BALTIYSKIY ZAVOD\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -20130,30 +20140,32 @@
     "colore": "",
     "padre": "auto_1003",
     "madre": "auto_1004",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0992",
     "sesso": "F",
     "name": "AYNA (ow. Kennel \"Baltiyskiy Zavod\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "KENNEL \"BALTIYSKIY ZAVOD\"",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1960-01-29",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "LIGHT REDDISH",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0993",
     "sesso": "M",
-    "name": "AKBOY (ow. Physiology Institute \"Pavlova\")",
+    "name": "AKBOY (ow. Physiology Institute \"Pavlov\")",
     "allevatore": "COLLECTIVE FARM \"KARFINGEL\"",
-    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "paese": "TAJIKISTAN",
     "tipo": "TAJIK DAHMARDA",
     "pedigree": "",
@@ -20162,14 +20174,15 @@
     "colore": "LIGHT STRAW",
     "padre": "auto_1001",
     "madre": "auto_1002",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0994",
     "sesso": "F",
-    "name": "BAGIRA (ow. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
-    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "BAGIRA (ow. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
+    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -20178,30 +20191,32 @@
     "colore": "REDDISH",
     "padre": "auto_0995",
     "madre": "auto_0996",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0995",
     "sesso": "M",
-    "name": "GOKCHA (ow. Physiology Institute \"Pavlova\")",
-    "allevatore": "COLLECTIVE FARM \"SAMSONOVA\"",
-    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "GOKCHA (ow. Physiology Institute \"Pavlov\")",
+    "allevatore": "COLLECTIVE FARM \"SAMSONOVO\"",
+    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1955-01-01",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "",
     "padre": "auto_0997",
     "madre": "auto_0998",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0996",
     "sesso": "F",
-    "name": "SARY-BEK (ow. Physiology Institute \"Pavlova\")",
-    "allevatore": "COLLECTIVE FARM \"SAMSONOVA\"",
-    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "SARY-BEK (ow. Physiology Institute \"Pavlov\")",
+    "allevatore": "COLLECTIVE FARM \"SAMSONOVO\"",
+    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -20210,30 +20225,32 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0999",
     "madre": "auto_1000",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0997",
     "sesso": "M",
-    "name": "ALASH (ow. Collective Farm \"Samsonova\")",
+    "name": "ALASH (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0998",
     "sesso": "F",
-    "name": "SARMA (ow. Collective Farm \"Samsonova\")",
+    "name": "SARMA (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -20242,14 +20259,15 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_0999",
     "sesso": "M",
-    "name": "KOSHKA (ow. Collective Farm \"Samsonova\")",
+    "name": "KOSHKA (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -20258,23 +20276,25 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1000",
     "sesso": "F",
-    "name": "SARY (ow. Collective Farm \"Samsonova\")",
+    "name": "SARY (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1001",
@@ -20311,25 +20331,9 @@
   {
     "id": "auto_1003",
     "sesso": "M",
-    "name": "BOYNAK (ow. Collective Farm \"Samsonova\")",
+    "name": "BOYNAK (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
-    "paese": "TURKMENISTAN",
-    "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_1004",
-    "sesso": "F",
-    "name": "SARY-KAPCHIK (ow. Collective Farm \"Samsonova\")",
-    "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -20338,7 +20342,25 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
+  },
+  {
+    "id": "auto_1004",
+    "sesso": "F",
+    "name": "SARY-KAPCHIK (ow. Collective Farm \"Samsonovo\")",
+    "allevatore": "",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
+    "paese": "TURKMENISTAN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "colore": "",
+    "padre": "",
+    "madre": "",
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1005",
@@ -20407,25 +20429,26 @@
   {
     "id": "auto_1010",
     "sesso": "M",
-    "name": "AK-BELEK (ow. Physiology Institute \"Pavlova\")",
-    "allevatore": "COLLECTIVE FARM \"SAMSONOVA\"",
-    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "AK-BELEK (ow. Physiology Institute \"Pavlov\")",
+    "allevatore": "COLLECTIVE FARM \"SAMSONOVO\"",
+    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1954-01-01",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "",
     "padre": "auto_1324",
     "madre": "auto_1013",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1013",
     "sesso": "F",
-    "name": "ALAK-BEK (ow. Collective Farm \"Samsonova\")",
+    "name": "ALAK-BEK (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -20434,14 +20457,15 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1016",
     "sesso": "F",
-    "name": "SARY-AK-BEK (ow. Collective Farm \"Samsonova\")",
+    "name": "SARY-AK-BEK (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -20450,23 +20474,25 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1014",
     "sesso": "F",
-    "name": "SARY-GUL (ow. Physiology Institute \"Pavlova\")",
-    "allevatore": "COLLECTIVE FARM \"SAMSONOVA\"",
-    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "SARY-GUL (ow. Physiology Institute \"Pavlov\")",
+    "allevatore": "COLLECTIVE FARM \"SAMSONOVO\"",
+    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1955-01-01",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "",
     "padre": "auto_0997",
     "madre": "auto_1016",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1011",
@@ -20616,7 +20642,7 @@
     "id": "dog1365",
     "sesso": "F",
     "name": "GALZHAN (ow. Semenushkina)",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "K. SEMENUSHKINA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -20626,7 +20652,8 @@
     "colore": "WHITE WITH REDDISH AND BLACK",
     "padre": "auto_0995",
     "madre": "auto_1014",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1023",
@@ -29426,9 +29453,9 @@
   {
     "id": "dog1937",
     "sesso": "M",
-    "name": "AYDAR (ow. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
-    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "AYDAR (ow. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
+    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -29437,13 +29464,14 @@
     "colore": "",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1353",
     "sesso": "M",
     "name": "ARGON-ALLAN (ow. Central Public Security Service \"LSNH\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "CENTRAL PUBLIC SECURITY SERVICE \"LSNH\"",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -29453,13 +29481,14 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1354",
     "sesso": "M",
     "name": "ARGON (ow. Barabolya)",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "A. BARABOLYA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -29469,13 +29498,14 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1356",
     "sesso": "F",
     "name": "ANGA (ow. Tihomirov)",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "P. TIHOMIROV",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -29485,13 +29515,14 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "dog1942",
     "sesso": "F",
     "name": "AK-BASH (ow. Parshina)",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "I. PARSHINA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -29501,14 +29532,15 @@
     "colore": "",
     "padre": "auto_1010",
     "madre": "auto_1014",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1357",
     "sesso": "F",
-    "name": "BIRMA (ow. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
-    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "BIRMA (ow. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
+    "proprietario": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -29517,23 +29549,25 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_0995",
     "madre": "auto_0996",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1358",
     "sesso": "M",
     "name": "BABAY (ow. Central Public Security Service \"LSNH\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "CENTRAL PUBLIC SECURITY SERVICE \"LSNH\"",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1958-01-01",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "",
     "padre": "auto_0995",
     "madre": "auto_0996",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_1359",
@@ -32278,23 +32312,24 @@
     "id": "auto_2127",
     "sesso": "M",
     "name": "BOYNAK (ow. Collective Farm \"Amu-Darya\")",
-    "allevatore": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "allevatore": "COLLECTIVE FARM \"SAMSONOVO\"",
     "proprietario": "COLLECTIVE FARM \"AMU-DARYA\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente]",
+    "note": "",
     "colore": "",
     "padre": "auto_2129",
     "madre": "auto_2130",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_2128",
     "sesso": "F",
     "name": "AK-KYSH (ow. Collective Farm \"Amu-Darya\")",
-    "allevatore": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "allevatore": "COLLECTIVE FARM \"SAMSONOVO\"",
     "proprietario": "COLLECTIVE FARM \"AMU-DARYA\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -32304,14 +32339,15 @@
     "colore": "",
     "padre": "auto_2131",
     "madre": "auto_2132",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_2129",
     "sesso": "M",
-    "name": "PAVLON (ow. Collective Farm \"Samsonova\")",
+    "name": "PAVLON (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -32320,14 +32356,15 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_2130",
     "sesso": "F",
-    "name": "ZOGGA (ow. Collective Farm \"Samsonova\")",
+    "name": "ZOGGA (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -32336,14 +32373,15 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_2131",
     "sesso": "M",
-    "name": "BOSAR (ow. Collective Farm \"Samsonova\")",
+    "name": "BOSAR (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -32352,23 +32390,25 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_2132",
     "sesso": "F",
-    "name": "KARA-KUSH (ow. Collective Farm \"Samsonova\")",
+    "name": "KARA-KUSH (ow. Collective Farm \"Samsonovo\")",
     "allevatore": "",
-    "proprietario": "COLLECTIVE FARM \"SAMSONOVA\"",
+    "proprietario": "COLLECTIVE FARM \"SAMSONOVO\"",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente]",
+    "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_2133",
@@ -64365,7 +64405,7 @@
   {
     "id": "auto_4196",
     "sesso": "F",
-    "name": "AKCHA 2 MATO",
+    "name": "AKCHA II MATO",
     "allevatore": "V. VOSKOBOYNIK",
     "proprietario": "E. BEGUN",
     "paese": "UKRAINE",
@@ -64376,7 +64416,8 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_3350",
     "madre": "auto_2237",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_4197",
@@ -140184,8 +140225,8 @@
   {
     "id": "auto_9002",
     "sesso": "M",
-    "name": "VARS (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "VARS (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -140195,13 +140236,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9003",
     "sesso": "M",
-    "name": "VAH (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "VAH (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -140211,13 +140253,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9004",
     "sesso": "M",
-    "name": "VIKING (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "VIKING (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -140227,13 +140270,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9005",
     "sesso": "F",
-    "name": "VESTA (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "VESTA (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -140243,13 +140287,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9006",
     "sesso": "F",
-    "name": "VOLGA (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "VOLGA (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -140259,7 +140304,8 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9007",
@@ -144314,8 +144360,8 @@
   {
     "id": "auto_9267",
     "sesso": "M",
-    "name": "AMUR-ANCHAR (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "AMUR-ANCHAR (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -144325,13 +144371,14 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_9132",
     "madre": "auto_1357",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9268",
     "sesso": "M",
-    "name": "AKBAR (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "AKBAR (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -144341,13 +144388,14 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_9132",
     "madre": "auto_1357",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9269",
     "sesso": "M",
-    "name": "ALASH (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "ALASH (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -144357,13 +144405,14 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_9132",
     "madre": "auto_1357",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9270",
     "sesso": "M",
-    "name": "ANZOR (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "ANZOR (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -144373,13 +144422,14 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9132",
     "madre": "auto_1357",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9271",
     "sesso": "F",
-    "name": "AKI (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "AKI (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -144389,13 +144439,14 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9132",
     "madre": "auto_1357",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9272",
     "sesso": "F",
-    "name": "ALFA (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "ALFA (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -144405,13 +144456,14 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_9132",
     "madre": "auto_1357",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9273",
     "sesso": "F",
-    "name": "ALANA (br. Physiology Institute \"Pavlova\")",
-    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOVA\"",
+    "name": "ALANA (br. Physiology Institute \"Pavlov\")",
+    "allevatore": "PHYSIOLOGY INSTITUTE \"PAVLOV\"",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -144421,7 +144473,8 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9132",
     "madre": "auto_1357",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_9275",
