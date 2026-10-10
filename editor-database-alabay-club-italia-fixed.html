@@ -1,0 +1,3135 @@
+<!doctype html>
+
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Archivio Alabay — Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a1120; --panel:#0d1729; --panel2:#101e30;
+  --ink:#dde4f0; --mut:#8899b8; --border:#1a2540;
+  --ok:#6ee7b7; --warn:#fcd34d; --bad:#f87171; --accent:#60a5fa;
+  --sire:rgba(71,120,210,.7); --dam:rgba(168,65,130,.7);
+  --coi-low-fg:#5eead4;  --coi-low-bg:rgba(20,184,166,.09);  --coi-low-border:rgba(20,184,166,.25);
+  --coi-mid-fg:#fbbf24;  --coi-mid-bg:rgba(245,158,11,.09);  --coi-mid-border:rgba(245,158,11,.28);
+  --coi-high-fg:#fb923c; --coi-high-bg:rgba(234,88,12,.09);  --coi-high-border:rgba(234,88,12,.28);
+  --coi-vhigh-fg:#f87171;--coi-vhigh-bg:rgba(220,38,38,.09); --coi-vhigh-border:rgba(220,38,38,.28);
+  --f-display:"Playfair Display",Georgia,serif;
+  --f-body:"Inter",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%}
+body{
+  background:radial-gradient(ellipse 120% 80% at 50% 0%,#0f1e3a,#070d1c 60%);
+  color:var(--ink);
+  font-family:var(--f-body);
+  overflow:auto;
+  font-size:14px;
+}
+@keyframes fadeSlideUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+.brandSub{font-family:var(--f-body);font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;opacity:.7;margin-left:4px}
+.impOv{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px}
+.impBox{background:#0d1729;border:1px solid rgba(148,163,184,.2);border-radius:16px;width:100%;max-width:980px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden}
+.impHead{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid rgba(148,163,184,.15)}
+.impBody{padding:14px 16px;overflow:auto}
+.impBody textarea,.impBody select,.impBody input[type=text]{background:rgba(17,24,39,.85);color:var(--ink);border:1px solid rgba(148,163,184,.25);border-radius:8px;padding:6px 8px;font:inherit;font-size:13px}
+.impTableWrap{overflow:auto;border:1px solid rgba(148,163,184,.15);border-radius:10px}
+.impT{width:100%;border-collapse:collapse;font-size:12.5px}
+.impT th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;padding:7px 8px;background:#101e30;white-space:nowrap}
+.impT td{padding:6px 8px;border-top:1px solid rgba(148,163,184,.1);vertical-align:top}
+.impT .impTipo{min-width:220px}
+.impErr{margin-top:10px;padding:8px 10px;border-radius:8px;background:rgba(220,38,38,.12);border:1px solid rgba(220,38,38,.35);font-size:13px}
+@media (max-width:760px){ .bar,.bar-group{flex-wrap:wrap;max-width:100%} header{position:static} #stat{display:none} }
+
+/* HEADER */
+header{
+position:sticky; top:0; z-index:50;
+background:rgba(6,13,26,.94);
+backdrop-filter:blur(12px);
+-webkit-backdrop-filter:blur(12px);
+border-bottom:1px solid rgba(148,163,184,.12);
+}
+.bar{
+display:flex;gap:4px;align-items:center;flex-wrap:wrap;
+padding:8px 14px;
+}
+.bar-sep{width:1px;height:20px;background:rgba(148,163,184,.14);margin:0 5px;flex-shrink:0;}
+.bar-group{display:flex;align-items:center;gap:4px;}
+.brand{
+font-weight:700;font-family:var(--f-display);font-size:16px;letter-spacing:.2px;color:#c7d9f5;
+white-space:nowrap;
+}
+.sp{flex:1; min-width:8px;}
+
+/* BUTTONS */
+.btn{
+border:1px solid rgba(148,163,184,.16);
+background:rgba(13,21,42,.65);
+color:var(--ink);
+padding:7px 11px;
+border-radius:10px;
+font-weight:600;
+font-size:13px;
+font-family:var(--f-body);
+cursor:pointer;
+user-select:none;
+white-space:nowrap;
+transition:background .15s,border-color .15s,box-shadow .15s;
+display:inline-flex;align-items:center;gap:5px;
+letter-spacing:.01em;
+}
+.btn:not(:disabled):hover{background:rgba(96,165,250,.10);border-color:rgba(96,165,250,.30);box-shadow:0 2px 10px rgba(0,0,0,.25);}
+.btn:not(:disabled):active{transform:translateY(1px);}
+.btn:disabled{opacity:.32;cursor:not-allowed;}
+.btn.ghost{background:transparent;border-color:transparent;}
+.btn.ghost:not(:disabled):hover{background:rgba(96,165,250,.08);border-color:rgba(96,165,250,.2);}
+.btn.danger{border-color:rgba(252,165,165,.25);}
+.btn.danger:not(:disabled):hover{background:rgba(239,68,68,.12);border-color:rgba(252,165,165,.5);}
+.btn.primary{background:rgba(96,165,250,.15);border-color:rgba(96,165,250,.45);}
+.btn.primary:not(:disabled):hover{background:rgba(96,165,250,.25);}
+
+/* PILLS */
+.pill{
+border:1px solid rgba(148,163,184,.2);
+background:rgba(15,23,42,.55);
+color:var(--mut);
+padding:5px 10px;
+border-radius:999px;
+font-size:12px;
+white-space:nowrap;
+}
+.pillSmall{
+border:1px solid rgba(148,163,184,.15);
+background:rgba(15,23,42,.45);
+color:rgba(148,163,184,.9);
+padding:3px 8px;
+border-radius:999px;
+font-size:11px;
+}
+
+/* STATUS */
+.status{
+padding:6px 10px; border-radius:12px;
+border:1px solid rgba(148,163,184,.20);
+background:rgba(15,23,42,.35);
+color:var(--mut); font-size:12px;
+white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+max-width:340px;
+}
+.status.ok  { color:var(--ok);  border-color:rgba(134,239,172,.35); background:rgba(134,239,172,.06); }
+.status.warn{ color:var(--warn);border-color:rgba(253,230,138,.35); background:rgba(253,230,138,.06); }
+.status.bad { color:var(--bad); border-color:rgba(252,165,165,.35); background:rgba(252,165,165,.06); }
+
+/* DIRTY FLAG */
+#dirtyPill{
+display:none;
+padding:4px 10px; border-radius:999px;
+background:rgba(253,230,138,.12);
+border:1px solid rgba(253,230,138,.35);
+color:var(--warn);
+font-size:11px; font-weight:700;
+animation:pulse 2s infinite;
+}
+@keyframes pulse{ 0%,100%{opacity:1} 50%{opacity:.6} }
+
+/* LAYOUT */
+main{
+display:grid;
+grid-template-columns:1fr 340px;
+gap:12px;
+padding:12px;
+min-height:0;
+}
+@media(max-width:900px){ main{grid-template-columns:1fr;} }
+
+/* CARD */
+.card{
+border:1px solid rgba(148,163,184,.18);
+background:rgba(15,23,42,.55);
+border-radius:16px;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+overflow:hidden;
+}
+.cardHead{
+display:flex; align-items:center; gap:8px; flex-wrap:wrap;
+padding:10px 14px;
+border-bottom:1px solid rgba(148,163,184,.10);
+background:rgba(15,23,42,.4);
+}
+.cardHead strong{font-weight:700;font-family:var(--f-display);font-size:13.5px;color:#c7d9f5;}
+.cardBody{ padding:14px; }
+
+/* SECTION DIVIDERS */
+.sectionTitle{
+font-size:11px;font-weight:700;letter-spacing:.6px;
+text-transform:uppercase;color:rgba(148,163,184,.5);
+margin:16px 0 10px;font-family:var(--f-body);
+}
+.sectionTitle:first-child{margin-top:0;}
+.hr{ border:none; border-top:1px solid rgba(148,163,184,.10); margin:14px 0; }
+
+/* PHOTO AREA */
+.photoRow{
+display:grid;
+grid-template-columns:280px 1fr;
+gap:14px;
+align-items:start;
+margin-bottom:14px;
+}
+@media(max-width:900px){ .photoRow{grid-template-columns:1fr;} }
+
+.photoBox{
+border:1px solid rgba(148,163,184,.14);
+border-radius:14px;
+background:rgba(15,23,42,.4);
+padding:10px;
+}
+.previewWrap{
+width:100%; height:190px;
+border-radius:12px;
+border:1px solid rgba(148,163,184,.14);
+background:rgba(6,13,26,.7);
+display:flex; align-items:center; justify-content:center;
+overflow:hidden; position:relative;
+}
+.previewEmpty{
+color:rgba(148,163,184,.3); font-size:36px; pointer-events:none;
+}
+#photoPreview{
+display:none; width:100%; height:190px; object-fit:cover;
+}
+.photoNav{
+position:absolute; bottom:8px; left:50%; transform:translateX(-50%);
+display:none; gap:6px; align-items:center;
+}
+.photoNavBtn{
+background:rgba(0,0,0,.6); border:1px solid rgba(255,255,255,.15);
+color:#e2e8f0; border-radius:8px; width:32px; height:32px;
+cursor:pointer; font-size:18px; display:flex; align-items:center; justify-content:center;
+}
+.photoNavBtn:disabled{ opacity:.25; }
+#photoCounter{
+background:rgba(0,0,0,.55); color:#e2e8f0; font-size:11px;
+padding:2px 8px; border-radius:10px;
+}
+.thumbs{ margin-top:8px; display:flex; gap:6px; flex-wrap:wrap; }
+.thumb{
+width:48px; height:48px; border-radius:10px;
+border:1px solid rgba(148,163,184,.15);
+object-fit:cover; cursor:pointer; opacity:.8;
+transition:opacity .12s, border-color .12s;
+}
+.thumb:hover{ opacity:1; }
+.thumb.sel{ border-color:rgba(96,165,250,.85); opacity:1; box-shadow:0 0 0 2px rgba(96,165,250,.2); }
+.photoControls{
+display:flex; gap:8px; margin-top:8px; flex-wrap:wrap; justify-content:center;
+}
+#photoStat{
+margin-top:8px; text-align:center;
+font-size:11px; color:rgba(148,163,184,.7);
+}
+
+/* SUMMARY BOX */
+.summaryBox{
+border:1px solid rgba(148,163,184,.14);
+border-radius:14px;
+padding:12px 14px;
+background:rgba(15,23,42,.4);
+margin-bottom:12px;
+position:relative;
+}
+.sumName{font-weight:700;font-family:var(--f-display);font-size:18px;line-height:1.2;color:#edf2ff;}
+.sumMeta{ margin-top:4px; color:rgba(148,163,184,.85); font-size:12px; }
+.sumGrid{
+margin-top:10px;
+display:grid; grid-template-columns:1fr 1fr;
+gap:8px;
+}
+.sumLbl{ color:rgba(148,163,184,.65); font-size:10px; text-transform:uppercase; letter-spacing:.4px; margin-bottom:2px; }
+.sumVal{ font-weight:700; font-size:13px; }
+.sumFoot{ margin-top:10px; color:rgba(148,163,184,.5); font-size:11px; }
+.sumSexBadge{
+position:absolute; top:12px; right:12px;
+padding:3px 10px; border-radius:999px;
+font-size:11px; font-weight:800;
+}
+.sumSexM{ background:rgba(71,120,210,.2); border:1px solid rgba(71,120,210,.5); color:rgba(147,197,253,1); }
+.sumSexF{ background:rgba(168,65,130,.2); border:1px solid rgba(168,65,130,.5); color:rgba(249,168,212,1); }
+
+/* FORM FIELDS */
+.grid2{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.grid2 > div{ min-width:0; }
+.field{ margin-bottom:0; }
+label{
+display:block; font-weight:700; font-size:11px;
+color:rgba(148,163,184,.75); margin-bottom:5px;
+text-transform:uppercase; letter-spacing:.3px;
+}
+input, select, textarea{
+width:100%; padding:9px 11px;
+border-radius:10px;
+border:1px solid rgba(148,163,184,.18);
+background:rgba(11,18,32,.85);
+color:var(--ink); outline:none; font-size:13px;
+transition:border-color .15s,box-shadow .15s;
+font-family:var(--f-body);
+}
+input:focus, select:focus, textarea:focus{
+border-color:rgba(96,165,250,.60);
+background:rgba(11,18,32,.95);
+box-shadow:0 0 0 3px rgba(96,165,250,.12);
+}
+input.error{ border-color:rgba(252,165,165,.6) !important; }
+input[readonly]{ opacity:.55; cursor:default; }
+textarea{ min-height:72px; resize:vertical; }
+select option{ background:#0f172a; }
+
+/* AUTOCOMPLETE */
+.acWrap{ position:relative; }
+.acBox{
+position:absolute;
+top:calc(100% + 4px); left:0; right:0;
+background:rgba(10,18,32,.98);
+border:1px solid rgba(148,163,184,.22);
+border-radius:12px;
+max-height:220px; overflow:auto;
+display:none; z-index:999;
+box-shadow:0 8px 32px rgba(0,0,0,.5);
+}
+.acItem{
+padding:9px 12px;
+border-bottom:1px solid rgba(148,163,184,.08);
+cursor:pointer;
+transition:background .1s;
+}
+.acItem:last-child{ border-bottom:none; }
+.acItem:hover{ background:rgba(96,165,250,.1); }
+.acTitle{font-weight:700;font-family:var(--f-display);font-size:13px;}
+.acMeta{ color:rgba(148,163,184,.85); font-size:11px; margin-top:2px; }
+
+/* LIST */
+.qRow{ display:flex; gap:8px; margin-bottom:10px; }
+.exactBtn{ flex:0 0 auto; white-space:nowrap; font-size:12px; }
+.btn.exactBtn.active, html[data-theme="light"] .btn.exactBtn.active, html[data-theme="light"] .btn.exactBtn.active:hover{ background:#8B1E1E; border-color:#8B1E1E; color:#FFF7E6; }
+#sortBtns{ display:flex; gap:4px; margin-bottom:8px; }
+.sortBtn{
+font-size:11px; padding:3px 8px; border-radius:8px;
+border:1px solid rgba(148,163,184,.15);
+background:rgba(15,23,42,.4); color:rgba(148,163,184,.8);
+cursor:pointer; font-weight:600;
+}
+.sortBtn.active{ background:rgba(96,165,250,.15); border-color:rgba(96,165,250,.4); color:var(--accent); }
+#list{ overflow:auto; max-height:calc(100vh - 240px); }
+.item{
+padding:9px 12px;
+border:1px solid rgba(148,163,184,.12);
+border-radius:12px;
+background:rgba(15,23,42,.3);
+cursor:pointer;
+margin-bottom:6px;
+transition:border-color .12s, background .12s;
+}
+.item:hover{ border-color:rgba(96,165,250,.35); background:rgba(96,165,250,.04); }
+.item.sel{
+border-color:rgba(96,165,250,.8);
+background:rgba(96,165,250,.08);
+box-shadow:0 0 0 1px rgba(96,165,250,.2) inset;
+}
+.iTitle{font-weight:700;font-family:var(--f-display);font-size:13px;}
+.iMeta{ color:rgba(148,163,184,.8); font-size:11px; margin-top:3px; }
+.iSex{
+display:inline-block; font-size:10px; font-weight:800;
+padding:1px 6px; border-radius:6px; margin-right:4px;
+}
+.iSexM{ background:rgba(71,120,210,.25); color:rgba(147,197,253,.9); }
+.iSexF{ background:rgba(168,65,130,.25); color:rgba(249,168,212,.9); }
+
+/* INTEGRITY BADGE */
+.intBadge{
+display:inline-block; font-size:10px; font-weight:700;
+padding:1px 6px; border-radius:6px; margin-left:4px;
+background:rgba(252,165,165,.15); color:rgba(252,165,165,.9);
+border:1px solid rgba(252,165,165,.25);
+}
+
+/* ROW BUTTONS */
+.rowBtn{ display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; }
+
+/* HINT */
+.hint{
+margin-top:10px; color:rgba(148,163,184,.7); font-size:11px;
+border:1px solid rgba(148,163,184,.1); border-radius:10px;
+padding:8px 10px; background:rgba(15,23,42,.3);
+line-height:1.5;
+}
+
+/* CONFIRM OVERLAY */
+.tipoRule{margin-top:4px;font-size:12px;line-height:1.35;padding:5px 8px;border-radius:8px;border:1px solid rgba(148,163,184,.3)}
+.tipoRule.ok{border-color:rgba(52,211,153,.5)}
+.tipoRule.bad{border-color:rgba(248,113,113,.7);background:rgba(248,113,113,.08)}
+.tipoRule.forced{border-color:rgba(251,191,36,.7);background:rgba(251,191,36,.08)}
+.tipoForce{display:flex;align-items:center;gap:6px;margin-top:4px;font-size:12px;cursor:pointer}
+#confirmOverlay{
+display:none; position:fixed; inset:0; z-index:200;
+background:rgba(0,0,0,.65); backdrop-filter:blur(4px);
+align-items:center; justify-content:center;
+}
+#confirmOverlay.show{ display:flex; }
+.confirmBox{
+background:#0d1729; border:1px solid rgba(148,163,184,.2);
+border-radius:18px; padding:24px; max-width:360px; width:90%;
+box-shadow:0 20px 60px rgba(0,0,0,.6);
+animation:fadeSlideUp .18s cubic-bezier(.22,1,.36,1) both;
+}
+.confirmTitle{font-weight:700;font-family:var(--f-display);font-size:16px;margin-bottom:8px;color:#edf2ff;}
+.confirmMsg{ color:rgba(148,163,184,.85); font-size:13px; margin-bottom:18px; line-height:1.5; }
+.confirmBtns{ display:flex; gap:8px; justify-content:flex-end; }
+
+/* COMPLETENESS BAR */
+.compBar{margin-top:10px;}
+.compBarLabel{font-size:10px;color:rgba(148,163,184,.5);font-weight:700;letter-spacing:.4px;text-transform:uppercase;display:flex;justify-content:space-between;margin-bottom:4px;}
+.compBarTrack{height:4px;border-radius:99px;background:rgba(148,163,184,.1);overflow:hidden;}
+.compBarFill{height:100%;border-radius:99px;transition:width .3s ease,background .3s ease;}
+
+/* INTEGRITY PANEL */
+#intPanel{
+display:none; margin-top:12px;
+border:1px solid rgba(252,165,165,.25);
+border-radius:12px; padding:12px;
+background:rgba(252,165,165,.05);
+}
+.intTitle{ font-weight:700; color:rgba(252,165,165,.9); font-size:12px; margin-bottom:8px; }
+.intItem{ font-size:12px; color:rgba(148,163,184,.85); padding:3px 0; }
+.cmpPct{float:right;font-size:9px;font-weight:700}
+.cmpHi{color:#5eead4} .cmpMid{color:#fbbf24} .cmpLo{color:#fb923c}
+.intBadge.modBadge{background:#6366f1;font-size:8px;padding:1px 4px}
+.iTipo{display:inline-block;font-size:9px;font-weight:700;padding:1px 5px;border-radius:5px;background:rgba(148,163,184,.1);color:rgba(148,163,184,.65);border:1px solid rgba(148,163,184,.15);margin-left:4px;vertical-align:middle;}
+.compBar{height:3px;border-radius:99px;background:rgba(255,255,255,.07);overflow:hidden;margin-top:6px;}
+.compFill{height:100%;border-radius:99px;transition:width .3s;}
+.compLbl{font-size:9.5px;font-weight:700;letter-spacing:.3px;color:rgba(148,163,184,.45);margin-top:3px;}
+
+/* TOAST */
+#toast{
+position:fixed; bottom:20px; left:50%; transform:translateX(-50%);
+background:rgba(15,23,42,.96); border:1px solid rgba(148,163,184,.2);
+border-radius:12px; padding:10px 18px; font-size:13px; font-weight:600;
+box-shadow:0 8px 32px rgba(0,0,0,.4); z-index:300;
+opacity:0; transition:opacity .2s; pointer-events:none;
+white-space:nowrap;
+}
+#toast.show{ opacity:1; }
+</style>
+
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="brand">&#9998; Archivio Alabay <span class="brandSub">Editor</span></div>
+    <button id="btnTheme" class="btn" type="button" title="Tema chiaro/scuro">☾</button>
+    <div class="bar-sep"></div>
+    <div class="bar-group">
+      <button id="btnViewer" type="button" class="btn" title="Apri il Viewer">&#127795; Viewer</button>
+    </div>
+    <div class="bar-sep"></div>
+    <div class="bar-group">
+      <button id="btnOpen" type="button" class="btn" title="Apri file JSON">&#128194; Apri JSON</button>
+      <button id="btnFromSite" type="button" class="btn" title="Apri il database pubblicato sul sito (GitHub), nella versione più recente">☁️ Dal sito</button>
+      <button id="btnFromViewer" type="button" class="btn" style="display:none" title="Apri il database già caricato nel Viewer su questo computer">⤵ Dal Viewer</button>
+      <input id="jsonPicker" type="file" accept=".json,application/json" hidden>
+      <button id="btnSave" type="button" class="btn primary" disabled title="Salva su disco">&#128190; Salva</button>
+      <button id="btnPublish" type="button" class="btn" disabled style="display:none" title="Carica il database direttamente sul sito (GitHub)">☁️ Pubblica</button>
+      <button id="btnGitHub" type="button" class="btn" title="Collega questo computer a GitHub">🔑 GitHub</button>
+      <button id="btnCopyJson" type="button" class="btn" disabled title="Copia JSON negli appunti">&#128203; Copia</button>
+      <button id="btnBackupToggle" type="button" class="btn" disabled title="Attiva/disattiva backup automatico">&#128736; Backup</button>
+    </div>
+    <div class="bar-sep"></div>
+    <div class="bar-group">
+      <button id="btnIntegrity" type="button" class="btn" disabled title="Controlla integrità database">&#128270; Integrità</button>
+      <button id="btnTipoCheck" type="button" class="btn" disabled title="Confronta i Tipi con le regole del Club">🧬 Tipi</button>
+    </div>
+    <div class="sp"></div>
+    <span id="dirtyPill">&#9679; Non salvato</span>
+    <span class="pill" id="filePill">Nessun DB</span>
+    <span id="stat" class="status">Apri un JSON per iniziare.</span>
+  </div>
+</header>
+
+<main>
+  <!-- EDITOR PANEL -->
+  <section class="card">
+    <div class="cardHead">
+      <strong>Editor</strong>
+      <span class="pillSmall" id="selPill">Nessuna selezione</span>
+      <div class="sp"></div>
+      <div id="intPanel" style="display:none;margin:0;padding:6px 10px;border-radius:8px;font-size:11px;border:1px solid rgba(252,165,165,.3);background:rgba(252,165,165,.07);color:rgba(252,165,165,.9)"></div>
+    </div>
+
+<div class="cardBody">
+
+  <!-- FOTO + SUMMARY -->
+  <div class="photoRow">
+
+    <!-- FOTO -->
+    <div class="photoBox">
+      <div class="previewWrap">
+        <div class="previewEmpty" id="previewEmpty">&#128444;</div>
+        <img id="photoPreview" alt="Anteprima foto">
+        <div class="photoNav" id="photoNav">
+          <button class="photoNavBtn" id="photoNavPrev">&#8249;</button>
+          <span id="photoCounter">1/1</span>
+          <button class="photoNavBtn" id="photoNavNext">&#8250;</button>
+        </div>
+      </div>
+      <div id="photoThumbs" class="thumbs"></div>
+      <div id="photoStat">Nessuna foto</div>
+      <div class="photoControls">
+        <button id="btnPhotoPick" type="button" class="btn" disabled>&#128247; Aggiungi</button>
+        <button id="btnPhotoRemove" type="button" class="btn danger" disabled>&#128465; Rimuovi</button>
+        <button id="btnPhotoDownload" type="button" class="btn" disabled style="display:none">&#11015; Scarica foto</button>
+        <button id="btnPhotoUpload" type="button" class="btn primary" disabled style="display:none" title="Carica le foto direttamente nella cartella images/ del sito">☁️ Carica online</button>
+        <input id="photoPicker" type="file" accept="image/*" multiple hidden>
+      </div>
+      <div class="hint" style="margin-top:8px;font-size:10px">Max 10 foto · rinominate automaticamente come {id}.jpg · scarica per caricare su GitHub</div>
+    </div>
+
+    <!-- SUMMARY + CAMPI TOP -->
+    <div>
+      <div class="summaryBox">
+        <div id="sum_sex" class="sumSexBadge" style="display:none"></div>
+        <div id="sum_name" class="sumName">--</div>
+        <div id="sum_meta" class="sumMeta">--</div>
+        <div class="sumGrid">
+          <div><div class="sumLbl">Pedigree</div><div id="sum_ped" class="sumVal">--</div></div>
+          <div><div class="sumLbl">Nascita</div><div id="sum_birth" class="sumVal">--</div></div>
+          <div><div class="sumLbl">Allevatore</div><div id="sum_all" class="sumVal">--</div></div>
+          <div><div class="sumLbl">Proprietario</div><div id="sum_prop" class="sumVal">--</div></div>
+        </div>
+        <div class="sumFoot">ID: <span id="sum_id">--</span></div>
+        <div class="compBar"><div id="compFill" class="compFill" style="width:0%;background:#60a5fa"></div></div>
+        <div class="compLbl" id="compLbl">Completezza: --</div>
+        <div class="compBar">
+          <div class="compBarLabel"><span>Completezza record</span><span id="compPct">—</span></div>
+          <div class="compBarTrack"><div class="compBarFill" id="compFill" style="width:0%"></div></div>
+        </div>
+      </div>
+
+      <div class="grid2">
+        <div>
+          <label>ID</label>
+          <input id="f_id" placeholder="Auto-generato" readonly>
+        </div>
+        <div>
+          <label>Sesso</label>
+          <select id="f_sex">
+            <option value="">--</option>
+            <option value="M">M -- Maschio</option>
+            <option value="F">F -- Femmina</option>
+          </select>
+        </div>
+        <div style="grid-column:1/-1">
+          <label>Nome completo</label>
+          <input id="f_name" placeholder="es: KARA KELLE AYBAR">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr">
+  <div class="sectionTitle">Dati anagrafici</div>
+
+  <div class="grid2">
+    <div>
+      <label>Allevatore</label>
+      <input id="f_all" placeholder="es: Gorokhov">
+    </div>
+    <div>
+      <label>Proprietario</label>
+      <input id="f_prop" placeholder="es: Kyarizov">
+    </div>
+    <div>
+      <label>Paese</label>
+      <input id="f_country" list="countriesList" placeholder="es: TURKMENISTAN" autocomplete="off">
+      
+      
+    </div>
+    <div>
+      <label>Tipo</label>
+      <input id="f_tipo" list="tipoList" placeholder="Scegli o scrivi tipo..." autocomplete="off">
+      <div id="tipoRule" class="tipoRule" style="display:none"></div>
+      <label id="tipoForceWrap" class="tipoForce" style="display:none"><input type="checkbox" id="f_tipoForce" style="width:auto"> 🔒 Forza questo Tipo (decisione del Club)</label>
+      <input id="f_tipoForceWhy" placeholder="Motivo della forzatura (obbligatorio)" style="display:none;margin-top:4px">
+    </div>
+    <div>
+      <label>Colore</label>
+      <input id="f_colore" placeholder="es: WHITE WITH ORANGE" list="coloriList">
+      <datalist id="coloriList">
+        <option value="WHITE"><option value="WHITE WITH ORANGE"><option value="WHITE WITH BLACK">
+        <option value="WHITE WITH BROWN"><option value="BLACK WITH WHITE"><option value="REDDISH WITH WHITE">
+        <option value="WHITE WITH GREY"><option value="REDDISH"><option value="LIGHT FAWN">
+        <option value="FAWN"><option value="GREY WITH WHITE"><option value="BLACK">
+        <option value="BRINDLE"><option value="PIEBALD">
+      </datalist>
+    </div>
+    <div>
+      <label>Pedigree</label>
+      <input id="f_ped" placeholder="es: UKU.R.000989/00">
+    </div>
+    <div>
+      <label>Nascita (YYYY-MM-DD)</label>
+      <input id="f_birth" placeholder="2020-05-15" maxlength="10">
+    </div>
+  </div>
+
+  <hr class="hr">
+  <div class="sectionTitle">Genealogia</div>
+
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <div>
+      <label>Padre</label>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div class="acWrap" style="flex:1">
+          <input id="f_sire" placeholder="Digita nome padre e scegli dalla lista…">
+          <div id="ac_sire" class="acBox"></div>
+        </div>
+        <button id="btnForceSire" type="button" class="btn" disabled>&#43; Crea</button>
+        <button id="btnClearSire" type="button" class="btn ghost" title="Rimuovi padre">&#10005;</button>
+      </div>
+    </div>
+    <div>
+      <label>Madre</label>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div class="acWrap" style="flex:1">
+          <input id="f_dam" placeholder="Digita nome madre e scegli dalla lista…">
+          <div id="ac_dam" class="acBox"></div>
+        </div>
+        <button id="btnForceDam" type="button" class="btn" disabled>&#43; Crea</button>
+        <button id="btnClearDam" type="button" class="btn ghost" title="Rimuovi madre">&#10005;</button>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr">
+  <div class="sectionTitle">Documentazione</div>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div>
+      <label>Fonte dei dati (visibile a tutti)</label>
+      <input id="f_fonte" list="fontiList" placeholder="es: Libro genealogico RKF, pedigree n. …">
+      <datalist id="fontiList"><option value="Pedigree originale"><option value="Libro genealogico RKF"><option value="Libro genealogico UKU"><option value="Libro genealogico ENCI (LOI)"><option value="Libro genealogico del Turkmenistan"><option value="Denuncia di cucciolata"><option value="Catalogo di esposizione"><option value="Dichiarazione dell’allevatore"><option value="Pubblicazione / libro sulla razza"><option value="Archivio storico del Club"></datalist>
+    </div>
+    <label style="display:flex;align-items:center;gap:8px;cursor:pointer"><input type="checkbox" id="f_verif" style="width:auto"> <b>✔ Dati verificati dal Club</b></label>
+    <div id="f_verifBox" style="display:none;gap:8px;flex-wrap:wrap">
+      <div><label>Data verifica</label><input id="f_verifData" type="date"></div>
+      <div style="flex:1;min-width:200px"><label>Nota verifica</label><input id="f_verifNote" placeholder="es: confrontato con il pedigree originale"></div>
+    </div>
+  </div>
+
+  <hr class="hr">
+  <div class="sectionTitle">Note</div>
+  <textarea id="f_note" placeholder="Note libere…"></textarea>
+
+  <div class="rowBtn" style="flex-wrap:wrap;gap:6px;align-items:center">
+    <div style="display:flex;gap:6px;align-items:center">
+      <button id="btnNew"    type="button" class="btn" disabled title="Crea nuovo record">＋ Nuovo</button>
+        <button id="btnTemplate"   type="button" class="btn" disabled title="Nuovo cane da allevatore">🏷️ Da allevatore</button>
+        <button id="btnImportText" type="button" class="btn" disabled title="Importa una proposta ricevuta dal sito (soggetto o cucciolata)">📥 Importa proposta</button>
+      <button id="btnApply"  type="button" class="btn primary" disabled title="Salva modifiche nel record corrente">✓ Applica</button>
+      <button id="btnRecentOnly" type="button" class="btn" title="Mostra solo record modificati negli ultimi 30 giorni" onclick="window._showRecentOnly=!window._showRecentOnly;this.classList.toggle('active',window._showRecentOnly);refreshList();">🕐 Recenti</button>
+      <button id="btnClear"  type="button" class="btn" disabled title="Pulisci tutti i campi">↺ Pulisci</button>
+    </div>
+    <div style="width:1px;height:18px;background:rgba(148,163,184,.15);flex-shrink:0"></div>
+    <div style="display:flex;gap:6px;align-items:center">
+      <button id="btnDuplicate"      type="button" class="btn" disabled title="Duplica record corrente">⧉ Duplica</button>
+      <button id="btnCopyParents"    type="button" class="btn" disabled title="Copia genitori sul record in editing">↓ Genitori</button>
+      <button id="btnDupParentsOnly" type="button" class="btn" disabled title="Nuovo record con stessi genitori">⊕ Stessi genitori</button>
+    </div>
+    <div style="flex:1"></div>
+    <button id="btnDelete" type="button" class="btn danger" disabled title="Elimina record">🗑 Elimina</button>
+  </div>
+
+  <div class="hint">
+    <b>iPad:</b> usa <b>Copia JSON</b> e incollalo in Textastic nel file .json.<br>
+    <b>Windows/Mac:</b> <b>Salva</b> scrive direttamente (Chrome/Edge) o scarica il file.
+  </div>
+
+</div>
+
+  </section>
+
+  <!-- LISTA -->
+
+  <aside class="card">
+    <div class="cardHead">
+      <strong>Lista cani</strong>
+      <span class="pillSmall" id="count">0</span>
+      <div class="sp"></div>
+    </div>
+    <div class="cardBody" style="padding-bottom:0">
+      <div class="qRow" style="flex-wrap:wrap;gap:6px;">
+      <select id="tipoFilter" class="tipoFilter" title="Filtra per tipo">
+        <option value="">Tutti i tipi</option>
+        <option value="PUREBRED TURKMEN ALABAY">Purebred Turkmen Alabay</option>
+        <option value="TURKMEN ALABAY">Turkmen Alabay</option>
+        <option value="KAZAKH TOBET">Kazakh Tobet</option>
+        <option value="UZBEK SARKANJIK">Uzbek Sarkanjik</option>
+        <option value="TAJIK DAHMARDA">Tajik Dahmarda</option>
+        <option value="KYRGYZ DOBOT">Kyrgyz Dobot</option>
+        <option value="AFGHAN KOOCHEE">Afghan Koochee</option>
+        <option value="PUREBRED CENTRAL ASIAN SHEPHERD DOG">Purebred Central Asian Shepherd Dog</option>
+        <option value="CENTRAL ASIAN SHEPHERD DOG">Central Asian Shepherd Dog</option>
+        <option value="ASIAN + CAUCASIAN">Asian + Caucasian</option>
+        <option value="GEORGIAN NAGAZI">Georgian Nagazi</option>
+        <option value="PUREBRED GEORGIAN NAGAZI">Purebred Georgian Nagazi</option>
+        <option value="ARMENIAN GAMPR">Armenian Gampr</option>
+        <option value="PUREBRED ARMENIAN GAMPR">Purebred Armenian Gampr</option>
+        <option value="CAUCASIAN SHEPHERD DOG">Caucasian Shepherd Dog</option>
+        <option value="PUREBRED CAUCASIAN SHEPHERD DOG">Purebred Caucasian Shepherd Dog</option>
+        <option value="CAUCASIAN VOLKODAV">Caucasian Volkodav</option>
+        <option value="KARACHEVSKIY VOLKODAV">Karachevskiy Volkodav</option>
+        <option value="DAGESTANSKIY VOLKODAV">Dagestanskiy Volkodav</option>
+        <option value="DAGESTAN SHEPHERD DOG">Dagestan Shepherd Dog</option>
+        <option value="CROSSBRED">Crossbred</option>
+        <option value="MOSKOW WATCHDOG">Moskow Watchdog</option>
+        <option value="UNKNOWN BREED">Unknown Breed</option>
+        <option value="">-- Nessun tipo --</option>
+      </select>
+    </div>
+    <div class="qRow">
+        <input id="q" placeholder="Filtra nome / allevatore / paese / ID…" style="flex:1">
+        <button id="btnExact" type="button" class="btn exactBtn" title="Ricerca esatta: trova solo la grafia scritta, lettera per lettera (per correggere i refusi). Anche scrivendo tra virgolette: &quot;RENGOHEGY-ORMAN&quot;">= Esatta</button>
+      </div>
+      <div id="sortBtns">
+        <button class="sortBtn active" data-sort="name">Nome</button>
+        <button class="sortBtn" data-sort="birth">Anno</button>
+        <button class="sortBtn" data-sort="allevatore">Allevatore</button>
+      </div>
+      <div id="list"></div>
+    </div>
+  </aside>
+</main>
+
+<!-- CONFIRM DIALOG -->
+
+<div id="confirmOverlay">
+  <div class="confirmBox">
+    <div class="confirmTitle" id="confirmTitle">Conferma</div>
+    <div class="confirmMsg" id="confirmMsg">Sicuro?</div>
+    <div class="confirmBtns">
+      <button class="btn" id="confirmCancel">Annulla</button>
+      <button class="btn danger" id="confirmOk">Conferma</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+
+<div id="toast"></div>
+<script>
+
+function addPhotos(files){
+  var list = Array.prototype.slice.call(files||[]);
+  if(!list.length) return Promise.resolve();
+  var maxFotos = 5;   /* l'archivio mostra al massimo 5 foto */
+  var remaining = Math.max(0, maxFotos - CURRENT_PHOTOS.length);
+  list = list.slice(0, remaining);
+  if(!list.length){ toast('Massimo '+maxFotos+' foto per soggetto.'); return Promise.resolve(); }
+
+  /* determine record id for naming */
+  var recId = ($('f_id')&&$('f_id').value) ? clean($('f_id').value) : 'unknown';
+
+  var chain = Promise.resolve();
+  list.forEach(function(f, fi){
+    chain = chain.then(function(){
+      return compressImage(f).then(function(res){
+        /* auto-name: id.jpg, id_2.jpg, id_3.jpg ... */
+        var ext = '.jpg', photoIdx = 1, autoName;
+        do { autoName = photoIdx === 1 ? recId + ext : recId + '_' + photoIdx + ext; photoIdx++; }
+        while (CURRENT_PHOTO_PATHS.indexOf('images/' + autoName) >= 0);
+        var path = 'images/' + autoName;
+
+        CURRENT_PHOTOS.push(res.dataUrl);
+        CURRENT_PHOTO_PATHS.push(path);
+        CURRENT_PHOTO_FILES.push({ name: autoName, dataUrl: res.dataUrl });
+        toast('Foto aggiunta: ' + autoName + ' (' + res.origKB + 'KB → ' + res.compKB + 'KB)');
+      }).catch(function(err){
+        /* fallback: store as-is */
+        return new Promise(function(res2){
+          var rd = new FileReader();
+          rd.onload = function(){
+            var photoIdx = CURRENT_PHOTOS.length + 1;
+            var autoName = (photoIdx===1 ? recId : recId+'_'+photoIdx)+'.jpg';
+            CURRENT_PHOTOS.push(rd.result);
+            CURRENT_PHOTO_PATHS.push('images/'+autoName);
+            CURRENT_PHOTO_FILES.push({ name: autoName, dataUrl: rd.result });
+            res2();
+          };
+          rd.onerror = res2;
+          rd.readAsDataURL(f);
+        });
+      });
+    });
+  });
+  return chain.then(function(){
+    renderPhotoPreview(CURRENT_PHOTOS);
+    updateDownloadBtn();
+    setDirty(true);
+    setStatus(ghToken()?'Foto pronte: premi ☁️ Carica online, poi ✓ Applica e ☁️ Pubblica.':'Foto pronte: premi ⬇ Scarica foto, poi ✓ Applica; carica i file nella cartella images/ su GitHub.','warn');
+  });
+}
+
+function updateDownloadBtn(){
+  var btn = $('btnPhotoDownload');
+  if(!btn) return;
+  var hasNewFiles = CURRENT_PHOTO_FILES.some(function(f){ return f&&f.dataUrl; });
+  btn.style.display = hasNewFiles ? 'inline-flex' : 'none';
+  btn.disabled = !hasNewFiles;
+  btn.onclick = downloadPhotos;
+  var up=$('btnPhotoUpload');
+  if(up){ var toUp=CURRENT_PHOTO_FILES.some(function(f){ return f&&f.dataUrl&&!f.uploaded; }); var tk=(typeof ghToken==='function')&&!!ghToken();
+    up.style.display=(tk&&toUp)?'inline-flex':'none'; up.disabled=!(tk&&toUp); up.onclick=uploadPhotos;
+    if(tk) btn.style.display=hasNewFiles&&!toUp?'none':btn.style.display; }
+  btn.disabled = !hasNewFiles;
+}
+
+function downloadPhotos(){
+  if(!CURRENT_PHOTO_FILES.length){ toast('Nessuna foto da scaricare.'); return; }
+  CURRENT_PHOTO_FILES.forEach(function(pf){
+    if(!pf||!pf.dataUrl) return;
+    var a = document.createElement('a');
+    a.href = pf.dataUrl;
+    a.download = pf.name;
+    pf.saved = true;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function(){ document.body.removeChild(a); }, 200);
+  });
+  toast('Foto scaricate: caricale nella cartella images/ su GitHub.');
+  setStatus('Foto scaricate (cartella Download). Ora premi ✓ Applica e poi 💾 Salva.','warn');
+}
+
+
+/* ===========================
+   HELPERS & STATE
+=========================== */
+function $(id){ return document.getElementById(id); }
+function clean(s){ return (s||'').toString().trim().replace(/\s+/g,' '); }
+function norm(s){ return clean(s).toLowerCase(); }
+function sexNorm(v){
+  v=clean(v).toUpperCase();
+  if(v==='M'||v==='F') return v;
+  return '';
+}
+
+var DATA=[], INDEX={}, SELECTED_ID=null, NEW_MODE=false;
+var backupEnabled=false, FILE_NAME='', fileHandle=null;
+var CURRENT_PHOTOS=[], CURRENT_PHOTO_IDX=0;
+var CURRENT_PHOTO_FILES=[];  /* {name, dataUrl} for download */
+var CURRENT_PHOTO_PATHS=[];  /* "images/id.jpg" paths to save in JSON */
+var SORT_BY='name';
+var DIRTY=false;
+
+// File System Access: only Chrome/Edge on desktop - NOT iOS Safari
+var canFS=!!(window.showOpenFilePicker&&window.showSaveFilePicker&&!/iPhone|iPad|iPod/i.test(navigator.userAgent));
+
+function setDirty(v){
+DIRTY=v;
+var p=$('dirtyPill');
+if(p) p.style.display=v?'inline-block':'none';
+}
+
+function rebuildIndex(){
+INDEX={};
+for(var i=0;i<DATA.length;i++){
+var r=DATA[i];
+if(r&&r.id) INDEX[String(r.id)]=r;
+}
+}
+
+/* ===========================
+TOAST
+=========================== */
+var toastTimer=null;
+function toast(msg,dur){
+var t=$('toast');
+if(!t) return;
+t.textContent=msg;
+t.classList.add('show');
+if(toastTimer) clearTimeout(toastTimer);
+toastTimer=setTimeout(function(){ t.classList.remove('show'); },dur||2200);
+}
+
+/* ===========================
+STATUS
+=========================== */
+function setStatus(msg,cls){
+var el=$('stat');
+if(!el) return;
+el.textContent=msg;
+el.className='status '+(cls||'');
+}
+
+/* ===========================
+CONFIRM DIALOG
+=========================== */
+function confirmBox(title,msg,onOk){
+var _cb=document.querySelector('#confirmOverlay .confirmBtns'); if(_cb&&!$('confirmOk')) _cb.innerHTML='<button class="btn" id="confirmCancel">Annulla</button><button class="btn danger" id="confirmOk">Conferma</button>';
+var _cm=$('confirmMsg'); if(_cm){ _cm.style.maxHeight=''; _cm.style.overflow=''; _cm.style.whiteSpace=''; }
+$('confirmTitle').textContent=title;
+$('confirmMsg').textContent=msg;
+$('confirmOverlay').classList.add('show');
+$('confirmOk').onclick=function(){
+$('confirmOverlay').classList.remove('show');
+onOk();
+};
+$('confirmCancel').onclick=function(){
+$('confirmOverlay').classList.remove('show');
+};
+}
+$('confirmOverlay').onclick=function(e){
+if(e.target===$('confirmOverlay')) $('confirmOverlay').classList.remove('show');
+};
+
+/* ===========================
+ENABLE UI
+=========================== */
+function enableUI(on){
+var hasData=on&&DATA.length>0;
+var hasSel=on&&!!SELECTED_ID;
+var hasSelOrNew=on&&(!!SELECTED_ID||NEW_MODE);
+
+function set(id,v){ var e=$(id); if(e) e.disabled=!v; }
+set('btnSave',hasData);
+set('btnCopyJson',hasData);
+set('btnBackupToggle',hasData);
+set('btnIntegrity',hasData);
+if(typeof ghRefresh==='function') ghRefresh();
+set('btnTipoCheck',hasData);
+set('btnNew',on);
+set('btnTemplate',hasData);
+set('btnImportText',on);
+set('btnApply',hasSelOrNew);
+set('btnClear',hasSelOrNew);
+set('btnDuplicate',hasSel);
+set('btnCopyParents',hasSel);
+set('btnDupParentsOnly',hasSel);
+set('btnDelete',hasSel);
+set('btnPhotoPick',hasSelOrNew);
+set('btnPhotoRemove',hasSelOrNew&&CURRENT_PHOTOS.length>0);
+set('btnForceSire',on);
+set('btnForceDam',on);
+}
+
+function setSelectedLabel(){
+var pill=$('selPill');
+if(!pill) return;
+if(SELECTED_ID&&INDEX[SELECTED_ID]) pill.textContent='Sel: '+(INDEX[SELECTED_ID].name||SELECTED_ID);
+else if(NEW_MODE) pill.textContent='Nuovo record';
+else pill.textContent='Nessuna selezione';
+}
+
+/* ===========================
+AUTO ID
+=========================== */
+function nextAutoId(){
+var max=0;
+for(var k in INDEX){
+var m=String(k).match(/(\d+)/g);
+if(!m) continue;
+var n=parseInt(m[m.length-1],10);
+if(!isNaN(n)&&n>max) max=n;
+}
+return 'auto_'+String(max+1).padStart(4,'0');
+}
+
+/* ===========================
+PHOTOS
+=========================== */
+function photosOf(r){
+if(!r) return [];
+if(Array.isArray(r.foto_list)) return r.foto_list.filter(Boolean).slice(0,5);
+if(Array.isArray(r.foto)) return r.foto.filter(Boolean).slice(0,5);
+if(r.foto) return [r.foto];
+return [];
+}
+
+var SITE_URL='https://archivio.alabayclubitalia.com/';
+function photoSrc(p){ p=String(p||''); return /^(data:|https?:|blob:)/.test(p)?p:SITE_URL+p.replace(/^\.?\//,''); }
+function renderPhotoPreview(photos){
+CURRENT_PHOTOS=Array.isArray(photos)?photos.filter(Boolean).slice(0,5):[];
+if(CURRENT_PHOTOS.length===0) CURRENT_PHOTO_IDX=0;
+else CURRENT_PHOTO_IDX=Math.max(0,Math.min(CURRENT_PHOTO_IDX,CURRENT_PHOTOS.length-1));
+
+var img=$('photoPreview'), empty=$('previewEmpty');
+var nav=$('photoNav'), counter=$('photoCounter');
+var thumbs=$('photoThumbs'), stat=$('photoStat');
+
+if(CURRENT_PHOTOS.length){
+if(img){ img.src=photoSrc(CURRENT_PHOTOS[CURRENT_PHOTO_IDX]); img.style.display='block';
+  img.onerror=function(){ img.src=''; img.alt='📷 '+CURRENT_PHOTO_PATHS[CURRENT_PHOTO_IDX]; }; }
+if(empty) empty.style.display='none';
+if(nav) nav.style.display=CURRENT_PHOTOS.length>1?'flex':'none';
+if(counter) counter.textContent=(CURRENT_PHOTO_IDX+1)+'/'+CURRENT_PHOTOS.length;
+if($('photoNavPrev')) $('photoNavPrev').disabled=(CURRENT_PHOTO_IDX===0);
+if($('photoNavNext')) $('photoNavNext').disabled=(CURRENT_PHOTO_IDX===CURRENT_PHOTOS.length-1);
+} else {
+if(img){ img.removeAttribute('src'); img.style.display='none'; }
+if(empty) empty.style.display='block';
+if(nav) nav.style.display='none';
+}
+
+if(thumbs){
+thumbs.innerHTML='';
+for(var i=0;i<CURRENT_PHOTOS.length;i++){
+(function(i){
+var t=document.createElement('img');
+t.className='thumb'+(i===CURRENT_PHOTO_IDX?' sel':'');
+t.src=photoSrc(CURRENT_PHOTOS[i]); t.alt='';
+t.onclick=function(){ CURRENT_PHOTO_IDX=i; renderPhotoPreview(CURRENT_PHOTOS); };
+thumbs.appendChild(t);
+})(i);
+}
+}
+
+if(stat) stat.textContent=CURRENT_PHOTOS.length?('Foto: '+CURRENT_PHOTOS.length+'/5'):'Nessuna foto';
+enableUI(true);
+}
+
+$('photoNavPrev').onclick=function(){
+if(CURRENT_PHOTO_IDX>0){ CURRENT_PHOTO_IDX--; renderPhotoPreview(CURRENT_PHOTOS); }
+};
+$('photoNavNext').onclick=function(){
+if(CURRENT_PHOTO_IDX<CURRENT_PHOTOS.length-1){ CURRENT_PHOTO_IDX++; renderPhotoPreview(CURRENT_PHOTOS); }
+};
+
+/* ── Photo compression settings ── */
+var PHOTO_MAX_PX = 1200;   /* max width or height in pixels */
+var PHOTO_QUALITY = 0.78;  /* JPEG quality 0-1 */
+var PHOTO_MAX_KB = 300;    /* target max size per photo in KB */
+
+function compressImage(file){
+  return new Promise(function(resolve, reject){
+    var reader = new FileReader();
+    reader.onerror = function(){ reject(new Error('Errore lettura file')); };
+    reader.onload = function(e){
+      var img = new Image();
+      img.onerror = function(){ reject(new Error('Immagine non valida')); };
+      img.onload = function(){
+        var w = img.naturalWidth, h = img.naturalHeight;
+
+        /* Scale down if larger than PHOTO_MAX_PX */
+        if(w > PHOTO_MAX_PX || h > PHOTO_MAX_PX){
+          if(w >= h){ h = Math.round(h * PHOTO_MAX_PX / w); w = PHOTO_MAX_PX; }
+          else      { w = Math.round(w * PHOTO_MAX_PX / h); h = PHOTO_MAX_PX; }
+        }
+
+        var canvas = document.createElement('canvas');
+        canvas.width = w; canvas.height = h;
+        var ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, w, h);
+
+        /* Try decreasing quality until under PHOTO_MAX_KB */
+        var quality = PHOTO_QUALITY;
+        var dataUrl = canvas.toDataURL('image/jpeg', quality);
+        var kb = Math.round((dataUrl.length * 3) / 4 / 1024);
+        while(kb > PHOTO_MAX_KB && quality > 0.35){
+          quality = Math.max(0.35, quality - 0.08);
+          dataUrl = canvas.toDataURL('image/jpeg', quality);
+          kb = Math.round((dataUrl.length * 3) / 4 / 1024);
+        }
+        resolve({ dataUrl: dataUrl, origKB: Math.round(file.size/1024), compKB: kb, w: w, h: h });
+      };
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+/* (la vecchia addPhotos che inseriva le foto dentro il database è stata tolta il 09/10/2026) */
+
+/* ===========================
+SUMMARY
+=========================== */
+function updateSummary(r){
+if(!r){
+['sum_name','sum_meta','sum_ped','sum_birth','sum_all','sum_prop','sum_id'].forEach(function(id){
+var e=$(id); if(e) e.textContent='--';
+});
+var sb=$('sum_sex'); if(sb){ sb.style.display='none'; }
+return;
+}
+if($('sum_name')) $('sum_name').textContent=r.name||'--';
+if($('sum_meta')) $('sum_meta').textContent=[r.paese,r.tipo].filter(Boolean).join(' · ')||'--';
+/* completeness */
+var fields=[r.name,r.sesso,r.birth,r.padre,r.madre,r.paese,r.tipo,r.colore];
+var filled=fields.filter(Boolean).length;
+var pct=Math.round(filled/fields.length*100);
+var fillEl=$('compFill'),pctEl=$('compPct');
+if(fillEl){ fillEl.style.width=pct+'%'; fillEl.style.background=pct>=80?'var(--coi-low-fg)':pct>=50?'var(--coi-mid-fg)':'var(--coi-high-fg)'; }
+if(pctEl) pctEl.textContent=pct+'%';
+if($('sum_ped'))  $('sum_ped').textContent=r.pedigree||'--';
+if($('sum_birth'))$('sum_birth').textContent=r.birth||'--';
+if($('sum_all'))  $('sum_all').textContent=r.allevatore||'--';
+if($('sum_prop')) $('sum_prop').textContent=r.proprietario||'--';
+if($('sum_id'))   $('sum_id').textContent=r.id||'--';
+/* completeness score */
+(function(){
+  var fields=[r.name,r.sesso,r.birth,r.padre,r.madre,r.paese,r.tipo,r.colore];
+  var filled=fields.filter(function(v){ return v&&String(v).trim(); }).length;
+  var pct=Math.round(filled/fields.length*100);
+  var cf=$('compFill'),cl=$('compLbl');
+  if(cf){ cf.style.width=pct+'%'; cf.style.background=pct>=80?'#5eead4':pct>=50?'#fbbf24':'#fb923c'; }
+  if(cl) cl.textContent='Completezza: '+pct+'% ('+filled+'/'+fields.length+' campi)';
+})();
+var sb=$('sum_sex');
+if(sb){
+var sx=sexNorm(r.sesso);
+if(sx){
+sb.style.display='block';
+sb.textContent=sx==='M'?'M - Maschio':'F - Femmina';
+sb.className='sumSexBadge '+(sx==='M'?'sumSexM':'sumSexF');
+} else { sb.style.display='none'; }
+}
+}
+
+/* ===========================
+VALIDATION
+=========================== */
+function validateBirthDate(v){
+if(!v) return true; // optional
+return /^\d{4}(-\d{2}(-\d{2})?)?$/.test(v);
+}
+
+/* ===========================
+PARENTS AUTOCOMPLETE
+=========================== */
+function parentLabel(r){
+if(!r) return '';
+var p=[r.name||'(Senza nome)'];
+if(r.allevatore) p.push('all. '+r.allevatore);
+if(r.paese) p.push(r.paese);
+return p.join(' \u00b7 ')+'  ['+r.id+']';
+}
+
+function parseParentInput(v){
+v=clean(v); if(!v) return '';
+var m=v.match(/\[([^\]]+)\]\s*$/);
+if(m&&m[1]) return clean(m[1]);
+if(INDEX[v]) return v;
+var hits=DATA.filter(function(r){ return r&&r.id&&norm(r.name)===norm(v); });
+if(hits.length===1) return hits[0].id;
+return '';
+}
+
+function startsWordMatch(rec,q){
+q=norm(q); if(!q) return true;
+var hay=norm([rec.name,rec.allevatore,rec.proprietario,rec.paese,rec.id].filter(Boolean).join(' '));
+/* multi-word query (es. "a balto"): cerca come sottostringa nel testo completo */
+if(q.indexOf(' ')>=0) return hay.indexOf(q)>=0;
+/* query singola parola: cerca all'inizio di qualsiasi parola */
+if(hay.split(/\s+/).some(function(p){ return p.indexOf(q)===0; })) return true;
+var kq=searchKey(q); if(kq.length<3) return false;
+return (' '+searchKey(hay)).indexOf(' '+kq)>=0;   /* grafie diverse */
+}
+
+function createPlaceholderParent(name,sexWanted){
+var id=nextAutoId();
+DATA.push({id:id,sesso:sexWanted||'',name:clean(name)||'--',
+allevatore:'',proprietario:'',paese:'',tipo:'',pedigree:'',birth:'',
+colore:'',note:'[Creato automaticamente]',padre:'',madre:'',foto_list:[]});
+rebuildIndex(); refreshList(); setDirty(true);
+return id;
+}
+
+function resolveParentIdFromField(inputEl,sexWanted){
+if(!inputEl) return '';
+var chosen=clean(inputEl.dataset.id||'');
+if(chosen) return chosen;
+var raw=clean(inputEl.value||'');
+if(!raw) return '';
+var fromLabel=parseParentInput(raw);
+if(fromLabel) return fromLabel;
+if(INDEX[raw]) return raw;
+var hits=DATA.filter(function(r){
+if(!r||!r.id) return false;
+if(sexWanted&&sexNorm(r.sesso)&&sexNorm(r.sesso)!==sexWanted) return false;
+return norm(r.name)===norm(raw);
+});
+if(hits.length===1) return hits[0].id;
+if(hits.length>1){ setStatus('Omonimia: scegli dalla tendina o premi Crea.','bad'); return '**AMBIGUO**'; }
+var newId=createPlaceholderParent(raw,sexWanted);
+inputEl.dataset.id=newId;
+inputEl.value=parentLabel(INDEX[newId]);
+toast('Genitore creato automaticamente.');
+return newId;
+}
+
+function makeAC(inputId,boxId,sexWanted){
+var inp=$(inputId), box=$(boxId);
+if(!inp||!box) return;
+function closeBox(){ box.style.display='none'; box.innerHTML=''; }
+function renderAC(q){
+var qTrim=clean(q||'');
+box.innerHTML=''; var n=0;
+for(var i=0;i<DATA.length;i++){
+var r=DATA[i];
+if(!r||!r.id) continue;
+if(sexWanted&&sexNorm(r.sesso)&&sexNorm(r.sesso)!==sexWanted) continue;
+if(!startsWordMatch(r,qTrim)) continue;
+(function(r){
+var it=document.createElement('div');
+it.className='acItem';
+var _sxIcon=r.sesso==='M'?'♂':r.sesso==='F'?'♀':'';
+it.innerHTML='<div class="acTitle">'+(r.name||'(Senza nome)')+(_sxIcon?' <span style="opacity:.55;font-size:11px;">'+_sxIcon+'</span>':'')+'</div>'+
+'<div class="acMeta">'+(r.allevatore?'all. '+r.allevatore:'')+
+(r.paese?' / '+r.paese:'')+' ['+r.id+']</div>';
+it.onmousedown=function(ev){ ev.preventDefault(); };
+it.onclick=function(){ inp.value=parentLabel(r); inp.dataset.id=r.id; closeBox(); updateTipoRule(); };
+it.addEventListener('touchstart',function(ev){ ev.preventDefault(); },{ passive:false });
+it.addEventListener('touchend',function(ev){ ev.preventDefault(); inp.value=parentLabel(r); inp.dataset.id=r.id; closeBox(); updateTipoRule(); });
+box.appendChild(it);
+})(r);
+if(++n>=30) break;
+}
+if(n===0){
+var empty=document.createElement('div');
+empty.className='acItem';
+empty.innerHTML='<div class="acTitle" style="opacity:.5">Nessun risultato</div>';
+box.appendChild(empty);
+}
+box.style.display='block';
+}
+inp.addEventListener('input',function(){ inp.dataset.id=''; renderAC(inp.value); });
+inp.addEventListener('focus',function(){ renderAC(inp.value); });
+inp.addEventListener('blur',function(){ setTimeout(closeBox,300); });
+}
+
+function setupAC(){
+makeAC('f_sire','ac_sire','M');
+makeAC('f_dam','ac_dam','F');
+}
+
+/* ===========================
+FORM
+=========================== */
+function clearForm(){
+['f_id','f_name','f_all','f_prop','f_country','f_colore','f_ped','f_birth','f_note','f_fonte','f_verifData','f_verifNote'].forEach(function(id){
+if(id==='f_id'&&$('f_verif')){ $('f_verif').checked=false; $('f_verifBox').style.display='none'; }
+var e=$(id); if(e) e.value=''; if(e) e.classList.remove('error');
+});
+if($('f_sex')) $('f_sex').value='';
+if($('f_tipo')) $('f_tipo').value='';
+if($('f_tipoForce')) $('f_tipoForce').checked=false; if($('f_tipoForceWhy')) $('f_tipoForceWhy').value='';
+if($('f_sire')){ $('f_sire').value=''; $('f_sire').dataset.id=''; }
+if($('f_dam')) { $('f_dam').value='';  $('f_dam').dataset.id=''; }
+CURRENT_PHOTO_FILES=[]; CURRENT_PHOTO_PATHS=[]; renderPhotoPreview([]); updateDownloadBtn();
+updateSummary(null); updateTipoRule();
+var ip=$('intPanel'); if(ip) ip.style.display='none';
+}
+
+function fillForm(r){
+if(!r) return;
+if($('f_id')) $('f_id').value=r.id||'';
+if($('f_sex')) $('f_sex').value=sexNorm(r.sesso)||'';
+if($('f_name')) $('f_name').value=r.name||'';
+if($('f_all')) $('f_all').value=r.allevatore||'';
+if($('f_prop')) $('f_prop').value=r.proprietario||'';
+if($('f_country')) $('f_country').value=r.paese||'';
+if($('f_tipo')) $('f_tipo').value=r.tipo||'';
+if($('f_tipoForce')) $('f_tipoForce').checked=!!r.tipo_forzato; if($('f_tipoForceWhy')) $('f_tipoForceWhy').value=(r.tipo_forzato&&r.tipo_forzato.motivo)||'';
+if($('f_colore')) $('f_colore').value=r.colore||'';
+if($('f_ped')) $('f_ped').value=r.pedigree||'';
+if($('f_birth')) $('f_birth').value=r.birth||'';
+if($('f_note')) $('f_note').value=r.note||'';
+if($('f_fonte')) $('f_fonte').value=r.fonte||'';
+var _vf=(r.verifica&&r.verifica.data)?r.verifica:null;
+if($('f_verif')){ $('f_verif').checked=!!_vf; $('f_verifBox').style.display=_vf?'flex':'none'; $('f_verifData').value=_vf?_vf.data:''; $('f_verifNote').value=_vf?(_vf.note||''):''; }
+if($('f_colore')) $('f_colore').value=r.colore||'';
+if($('f_sire')){
+if(r.padre&&INDEX[r.padre]){ $('f_sire').value=parentLabel(INDEX[r.padre]); $('f_sire').dataset.id=r.padre; }
+else { $('f_sire').value=r.padre||''; $('f_sire').dataset.id=r.padre||''; }
+}
+if($('f_dam')){
+if(r.madre&&INDEX[r.madre]){ $('f_dam').value=parentLabel(INDEX[r.madre]); $('f_dam').dataset.id=r.madre; }
+else { $('f_dam').value=r.madre||''; $('f_dam').dataset.id=r.madre||''; }
+}
+updateSummary(r);
+CURRENT_PHOTO_FILES=[]; CURRENT_PHOTO_PATHS=photosOf(r).filter(function(p){ return p&&p.indexOf('data:')<0; }); renderPhotoPreview(photosOf(r)); updateDownloadBtn();
+checkRecordIntegrity(r);
+updateTipoRule();
+}
+
+function checkRecordIntegrity(r){
+var ip=$('intPanel'); if(!ip) return;
+var issues=[];
+if(r.padre&&!INDEX[r.padre]) issues.push('Padre "'+r.padre+'" non trovato nel DB');
+if(r.madre&&!INDEX[r.madre]) issues.push('Madre "'+r.madre+'" non trovata nel DB');
+if(r.birth&&!validateBirthDate(r.birth)) issues.push('Data nascita non valida (usa YYYY-MM-DD)');
+/* date coherence */
+if(r.birth){
+  var yr=parseInt(String(r.birth).slice(0,4),10);
+  if(!isNaN(yr)){
+    if(r.padre&&INDEX[r.padre]&&INDEX[r.padre].birth){
+      var sireYr=parseInt(String(INDEX[r.padre].birth).slice(0,4),10);
+      if(!isNaN(sireYr)&&sireYr>=yr) issues.push('Nascita ('+yr+') non successiva al padre ('+sireYr+')');
+    }
+    if(r.madre&&INDEX[r.madre]&&INDEX[r.madre].birth){
+      var damYr=parseInt(String(INDEX[r.madre].birth).slice(0,4),10);
+      if(!isNaN(damYr)&&damYr>=yr) issues.push('Nascita ('+yr+') non successiva alla madre ('+damYr+')');
+    }
+  }
+
+if(r.sesso==='F'&&DATA.some(function(x){ return x&&x.padre===r.id; }))
+  issues.push('Femmina compare come padre in altri record');
+if(r.sesso==='M'&&DATA.some(function(x){ return x&&x.madre===r.id; }))
+  issues.push('Maschio compare come madre in altri record');
+if(issues.length){
+  ip.style.display='block';
+  ip.innerHTML='<div class="intTitle">&#9888; Problemi rilevati ('+issues.length+')</div>'+
+    issues.map(function(s){ return '<div class="intItem">• '+s+'</div>'; }).join('');
+} else {
+  ip.style.display='none';
+}
+}
+/* sex used as wrong parent */
+var sx=String(r.sesso||'').toUpperCase();
+if(sx==='F'&&DATA.some(function(x){ return x&&x.padre===r.id; })) issues.push('Soggetto F appare come padre in altri record');
+if(sx==='M'&&DATA.some(function(x){ return x&&x.madre===r.id; })) issues.push('Soggetto M appare come madre in altri record');
+/* loop: self-ancestor */
+function isAncestor(targetId,startId,depth){
+  if(depth>10||!startId) return false;
+  var rec=INDEX[startId]; if(!rec) return false;
+  if(rec.padre===targetId||rec.madre===targetId) return true;
+  return isAncestor(targetId,rec.padre,depth+1)||isAncestor(targetId,rec.madre,depth+1);
+}
+if(r.id&&(isAncestor(r.id,r.padre,0)||isAncestor(r.id,r.madre,0))) issues.push('Loop genealogico: soggetto è proprio antenato');
+if(issues.length){
+  ip.style.display='block';
+  ip.innerHTML='<div class="intTitle">&#9888; Problemi rilevati ('+issues.length+')</div>'+
+    issues.map(function(s){ return '<div class="intItem">• '+s+'</div>'; }).join('');
+} else {
+  ip.style.display='none';
+}
+}
+
+function selectRecord(id){
+if(!id||!INDEX[id]) return;
+SELECTED_ID=id; NEW_MODE=false;
+fillForm(INDEX[id]);
+setSelectedLabel(); enableUI(true); refreshList();
+setStatus('Sel: '+(INDEX[id].name||id),'ok');
+}
+
+function newRecord(){
+NEW_MODE=true; SELECTED_ID=null; clearForm();
+var id=nextAutoId();
+if($('f_id')) $('f_id').value=id;
+setSelectedLabel(); enableUI(true); refreshList();
+setStatus('Nuovo cane: ID generato.','warn');
+if($('f_name')) $('f_name').focus();
+}
+
+function applyChanges(){
+var id=clean($('f_id')?$('f_id').value:'');
+if(!id){ setStatus('ID obbligatorio.','bad'); return; }
+
+// validation
+var birth=clean($('f_birth')?$('f_birth').value:'');
+if(birth&&!validateBirthDate(birth)){
+if($('f_birth')) $('f_birth').classList.add('error');
+setStatus('Data nascita non valida (usa YYYY-MM-DD o YYYY).','bad'); return;
+}
+if($('f_birth')) $('f_birth').classList.remove('error');
+
+var sireId=resolveParentIdFromField($('f_sire'),'M');
+var damId=resolveParentIdFromField($('f_dam'),'F');
+if(sireId==='**AMBIGUO**'||damId==='**AMBIGUO**') return;
+
+// self-parent check
+if(sireId===id||damId===id){ setStatus('Un soggetto non puo essere genitore di se stesso.','bad'); return; }
+
+// foto pending download check
+var pendingPhotos = CURRENT_PHOTO_FILES.filter(function(f){ return f&&f.dataUrl&&!f.saved&&!f.uploaded; });
+if(pendingPhotos.length){
+  var go=window.confirm('Attenzione: hai '+pendingPhotos.length+' foto non ancora scaricate/caricate su GitHub.\nSe premi OK i percorsi verranno salvati ma le immagini non saranno online.\nPremi Annulla per scaricare prima le foto.');
+  if(!go) return;
+}
+
+// cycle detection: ensure sireId/damId don't create a loop back to id
+function hasCycle(startId, targetId, depth){
+  if(!startId||depth>12) return false;
+  var r=INDEX[startId]; if(!r) return false;
+  if(r.padre===targetId||r.madre===targetId) return true;
+  return hasCycle(r.padre,targetId,depth+1)||hasCycle(r.madre,targetId,depth+1);
+}
+if(sireId&&hasCycle(sireId,id,0)){ setStatus('Errore: il padre crea un ciclo genealogico (padre discende dal soggetto).','bad'); return; }
+if(damId&&hasCycle(damId,id,0)){ setStatus('Errore: la madre crea un ciclo genealogico (madre discende dal soggetto).','bad'); return; }
+
+/* TIPO: regole del Club (forzatura solo con motivo) */
+var _tipoVal=tipoNorm($('f_tipo')?$('f_tipo').value:'');
+var _att=tipoAtteso(sireId,damId);
+var _force=!!($('f_tipoForce')&&$('f_tipoForce').checked), _why=clean($('f_tipoForceWhy')?$('f_tipoForceWhy').value:'');
+var _forzato=null;
+if(_att&&_att.tipo&&_tipoVal!==_att.tipo){
+  if(!_force){ if($('f_tipo')) $('f_tipo').classList.add('error'); updateTipoRule();
+    setStatus('Tipo non ammesso: dalle regole risulta '+_att.tipo+' ('+_att.why+'). Usa quel Tipo oppure spunta "Forza" e scrivi il motivo.','bad'); return; }
+  if(!_why){ if($('f_tipoForceWhy')){ $('f_tipoForceWhy').style.display=''; $('f_tipoForceWhy').classList.add('error'); $('f_tipoForceWhy').focus(); }
+    setStatus('Per forzare il Tipo scrivi il motivo.','bad'); return; }
+  _forzato={motivo:_why,data:new Date().toISOString().slice(0,10),atteso:_att.tipo};
+}
+if($('f_tipo')) $('f_tipo').classList.remove('error'); if($('f_tipoForceWhy')) $('f_tipoForceWhy').classList.remove('error');
+if(_tipoVal&&TIPI_CANON.indexOf(_tipoVal)<0){
+  if(!window.confirm('Il tipo "'+_tipoVal+'" non è tra i valori del Club.\nValori: '+TIPI_CANON.join(', ')+'.\nOK = salva comunque, Annulla = torna a correggere.'))
+    return;
+}
+var _prevTipo=INDEX[id]?tipoNorm(INDEX[id].tipo):null, _prevPar=INDEX[id]?(INDEX[id].padre+'|'+INDEX[id].madre):null;
+var rec={
+id:id, sesso:sexNorm($('f_sex')?$('f_sex').value:''),
+name:clean($('f_name')?$('f_name').value:''),
+allevatore:clean($('f_all')?$('f_all').value:''),
+proprietario:clean($('f_prop')?$('f_prop').value:''),
+paese:(clean($('f_country')?$('f_country').value:'')||'').toUpperCase(),
+colore:(clean($('f_colore')?$('f_colore').value:'')||'').toUpperCase(),
+tipo:_tipoVal,
+pedigree:clean($('f_ped')?$('f_ped').value:''),
+birth:birth,
+note:clean($('f_note')?$('f_note').value:''),
+colore:(clean($('f_colore')?$('f_colore').value:'')||'').toUpperCase(),
+padre:sireId, madre:damId,
+foto_list:CURRENT_PHOTO_PATHS.length ? CURRENT_PHOTO_PATHS.slice(0,10) : CURRENT_PHOTOS.slice(0,10),
+lastModified:new Date().toISOString().slice(0,10),
+fonte:clean($('f_fonte')?$('f_fonte').value:''),
+verifica:($('f_verif')&&$('f_verif').checked)?{data:clean($('f_verifData').value)||new Date().toISOString().slice(0,10),note:clean($('f_verifNote').value)}:null,
+tipo_forzato:_forzato
+};
+if(!rec.fonte) rec.fonte=null;
+
+if(INDEX[id]){ for(var k in rec){ if(rec[k]===null&&(k==='fonte'||k==='verifica'||k==='tipo_forzato')) delete INDEX[id][k]; else INDEX[id][k]=rec[k]; } }
+else { if(!rec.fonte) delete rec.fonte; if(!rec.verifica) delete rec.verifica; if(!rec.tipo_forzato) delete rec.tipo_forzato; }
+if(!INDEX[id]) DATA.push(rec);
+rebuildIndex();
+
+SELECTED_ID=id; NEW_MODE=false;
+fillForm(INDEX[id]); setSelectedLabel(); enableUI(true);
+setDirty(true);
+if($('q')) $('q').value='';
+refreshList();
+toast('Modifiche applicate.');
+setStatus('Modifiche applicate (non ancora salvato).','warn');
+/* se è cambiato il Tipo o i genitori, controlla i discendenti */
+if(_prevTipo!==null&&(_prevTipo!==_tipoVal||_prevPar!==(sireId+'|'+damId))){
+  var _res=tipoCambi(id);
+  if(_res.changes.length) tipoPanel('🧬 Discendenti da aggiornare',
+    'Il Tipo di <b>'+escH(rec.name||id)+'</b> è ora <b>'+escH(_tipoVal||'—')+'</b>: secondo le regole cambia anche il Tipo di questi discendenti.',_res,'✅ Aggiorna i {n} discendenti');
+}
+}
+
+/* ===========================
+DELETE / DUPLICATE / COPY
+=========================== */
+function deleteSelected(){
+if(!SELECTED_ID||!INDEX[SELECTED_ID]){ setStatus('Seleziona un cane.','warn'); return; }
+var id=SELECTED_ID, name=INDEX[id].name||id;
+confirmBox('Elimina record',
+'Eliminare "'+name+'" ('+id+')? Questa azione non e\' reversibile.',
+function(){
+DATA=DATA.filter(function(r){ return r.id!==id; });
+SELECTED_ID=null; NEW_MODE=false;
+rebuildIndex(); refreshList(); clearForm(); setSelectedLabel(); enableUI(true);
+setDirty(true);
+toast('Eliminato: '+name);
+setStatus('Eliminato: '+id,'warn');
+}
+);
+}
+
+function duplicateRecord(){
+if(!SELECTED_ID||!INDEX[SELECTED_ID]){ return; }
+var orig=INDEX[SELECTED_ID];
+var id=nextAutoId();
+var rec=JSON.parse(JSON.stringify(orig));
+rec.id=id;
+rec.name=(orig.name?orig.name+' (copia)':'Copia');
+rec.pedigree='';
+DATA.push(rec);
+rebuildIndex();
+SELECTED_ID=id; NEW_MODE=false;
+fillForm(INDEX[id]); setSelectedLabel(); setDirty(true);
+if($('q')) $('q').value='';
+refreshList();
+setStatus('Duplicato come '+id,'ok');
+toast('Record duplicato.');
+}
+
+function copyParentsFromSelected(){
+if(!SELECTED_ID||!INDEX[SELECTED_ID]){ return; }
+var r=INDEX[SELECTED_ID];
+if($('f_sire')){ $('f_sire').dataset.id=r.padre||''; $('f_sire').value=(r.padre&&INDEX[r.padre])?parentLabel(INDEX[r.padre]):(r.padre||''); }
+if($('f_dam')) { $('f_dam').dataset.id=r.madre||''; $('f_dam').value=(r.madre&&INDEX[r.madre])?parentLabel(INDEX[r.madre]):(r.madre||''); }
+toast('Genitori copiati.'); updateTipoRule();
+}
+
+function duplicateParentsOnly(){
+if(!SELECTED_ID||!INDEX[SELECTED_ID]){ return; }
+var r=INDEX[SELECTED_ID];
+newRecord();
+if($('f_sire')){ $('f_sire').dataset.id=r.padre||''; $('f_sire').value=(r.padre&&INDEX[r.padre])?parentLabel(INDEX[r.padre]):(r.padre||''); }
+if($('f_dam')) { $('f_dam').dataset.id=r.madre||''; $('f_dam').value=(r.madre&&INDEX[r.madre])?parentLabel(INDEX[r.madre]):(r.madre||''); }
+setStatus('Nuovo record con genitori copiati. Inserisci nome e dati: il Tipo viene dalle regole.','warn'); updateTipoRule();
+}
+
+/* ===========================
+LIST
+=========================== */
+var EXACT_SEARCH=false, LIST_STEP=200;
+function refreshList(){
+var list=$('list'); if(!list) return;
+var q=norm($('q')?$('q').value:'');
+/* ricerca esatta (10/10/2026): pulsante "= Esatta" oppure testo tra virgolette.
+   Trova solo la grafia scritta, senza le equivalenze tra grafie diverse (Y/I, KH/H, doppie…) */
+var exact=EXACT_SEARCH;
+var mq=q.match(/^["“”«](.*?)["“”»]?$/); if(mq){ exact=true; q=norm(mq[1]); }
+var tipoQ=($('tipoFilter')?$('tipoFilter').value:'');
+var showRecentOnly=window._showRecentOnly||false;
+var rows=DATA.slice();
+if(q){
+var kq=searchKey(q);
+rows=rows.filter(function(r){
+if(!r) return false;
+var hay=norm([r.name,r.allevatore,r.proprietario,r.paese,r.tipo,r.pedigree,r.id].filter(Boolean).join(' '));
+if(hay.indexOf(q)!==-1) return true;
+if(exact) return false;
+return kq.replace(/ /g,'').length>=3&&searchKey(hay).indexOf(kq)!==-1;   /* grafie diverse: EZGER/ESGER, KH/H… */
+});
+}
+if(tipoQ!==''){
+rows=rows.filter(function(r){ return r&&(r.tipo||'')===(tipoQ); });
+}
+if(showRecentOnly){
+var cutoff=new Date(); cutoff.setDate(cutoff.getDate()-30);
+rows=rows.filter(function(r){ return r&&r.lastModified&&new Date(r.lastModified)>=cutoff; });
+}
+rows.sort(function(a,b){
+if(SORT_BY==='birth') return (b.birth||'').localeCompare(a.birth||'');
+if(SORT_BY==='allevatore') return (a.allevatore||'').localeCompare(b.allevatore||'','it');
+return (a.name||'').localeCompare(b.name||'','it');
+});
+
+list.innerHTML='';
+/* 10/10/2026: la lista si disegna a blocchi (LIST_STEP alla volta, gli altri scorrendo).
+   Prima c'erano sempre tutte le 13.000+ voci nella pagina (80.000 elementi): cambio tema e ricerca lenti. */
+var _shown=0, _sel=-1;
+if(SELECTED_ID){ for(var _k=0;_k<rows.length;_k++){ if(rows[_k].id===SELECTED_ID){ _sel=_k; break; } } }
+function _more(upto){
+var end=Math.min(rows.length,Math.max(_shown+LIST_STEP,upto||0)), frag=document.createDocumentFragment();
+for(var i=_shown;i<end;i++){
+(function(r){
+var sx=sexNorm(r.sesso);
+var hasIssue=(r.padre&&!INDEX[r.padre])||(r.madre&&!INDEX[r.madre]);
+var div=document.createElement('div');
+div.className='item'+(SELECTED_ID===r.id?' sel':'');
+var cmpF=[r.name,r.sesso,r.birth,r.padre,r.madre,r.paese,r.tipo,r.colore];
+var cmpN=cmpF.filter(function(v){ return v&&String(v).trim(); }).length;
+var cmpPct=Math.round(cmpN/cmpF.length*100);
+var cmpC=cmpPct>=80?'cmpHi':cmpPct>=50?'cmpMid':'cmpLo';   /* classi, non stili inline: il cambio tema resta veloce */
+var stT=r.tipo?(r.tipo.slice(0,28)):'';
+div.innerHTML=
+'<div class="iTitle">'+
+(sx?'<span class="iSex '+(sx==='M'?'iSexM':'iSexF')+'">'+sx+'</span>':'')+
+(r.name||'(senza nome)')+
+(hasIssue?'<span class="intBadge">!</span>':'')+
+(r.lastModified&&(new Date()-new Date(r.lastModified))<30*86400000?'<span class="intBadge modBadge">mod</span>':'')+
+(stT?'<span class="iTipo">'+stT+'</span>':'')+
+'<span class="cmpPct '+cmpC+'">'+cmpPct+'%</span>'+
+'</div>'+
+'<div class="iMeta">'+
+(r.allevatore?'all. '+r.allevatore:'')+
+(r.paese?' · '+r.paese:'')+
+(r.birth?' · '+r.birth.slice(0,4):'')+
+' ['+r.id+']'+
+'</div>';
+div.onclick=function(){
+  selectRecord(r.id);
+  var q=$('q'); if(q) q.value=r.name||'';
+};
+frag.appendChild(div);
+})(rows[i]);
+}
+_shown=end; list.appendChild(frag);
+}
+_more(_sel>=0?_sel+1:0);
+list.onscroll=function(){ if(_shown<rows.length&&list.scrollTop+list.clientHeight>list.scrollHeight-600) _more(); };
+if($('count')) $('count').textContent=String(rows.length);
+}
+
+/* ===========================
+INTEGRITY CHECK
+=========================== */
+/* ═════════════════════════════════════════════════════════════════
+   REGOLE DEL TIPO (Alabay Club Italia, 08/10/2026)
+   Il Tipo di un cane con padre e madre registrati è quello dato dalle
+   regole. Un Tipo diverso si può salvare solo come FORZATURA, con il
+   motivo (campo tipo_forzato: {motivo, data, atteso}).
+═════════════════════════════════════════════════════════════════ */
+var T_PTA='PUREBRED TURKMEN ALABAY', T_TA='TURKMEN ALABAY', T_PCASD='PUREBRED CENTRAL ASIAN SHEPHERD DOG', T_CASD='CENTRAL ASIAN SHEPHERD DOG',
+    T_AC='ASIAN + CAUCASIAN', T_X='CROSSBRED';
+var T_NAT=['KAZAKH TOBET','UZBEK SARKANJIK','TAJIK DAHMARDA','KYRGYZ DOBOT','AFGHAN KOOCHEE'];
+var T_CAU=['GEORGIAN NAGAZI','PUREBRED GEORGIAN NAGAZI','ARMENIAN GAMPR','PUREBRED ARMENIAN GAMPR','CAUCASIAN SHEPHERD DOG','PUREBRED CAUCASIAN SHEPHERD DOG',
+           'CAUCASIAN VOLKODAV','KARACHEVSKIY VOLKODAV','DAGESTANSKIY VOLKODAV','DAGESTAN SHEPHERD DOG'];
+var T_OTH=['MOSKOW WATCHDOG'];
+var T_PURE=[T_PTA,T_TA,T_PCASD].concat(T_NAT);
+var T_KNOWN=T_PURE.concat([T_CASD,T_AC,T_X],T_CAU,T_OTH);
+var TIPI_CANON=[T_PTA,T_TA].concat(T_NAT,[T_PCASD,T_CASD,T_AC],T_CAU,[T_X,'MOSKOW WATCHDOG','UNKNOWN BREED','UNDEFINED']);
+var TIPO_REN={'CENTRAL ASIAN VOLKODAV':T_CASD,'KARACHEVSKIY VOKODAV':'KARACHEVSKIY VOLKODAV','PUREBRED KAZAKH TOBET':'KAZAKH TOBET',
+  'PUREBRED UZBEK SARKANJIK':'UZBEK SARKANJIK','PUREBRED TAJIK DAHMARDA':'TAJIK DAHMARDA','PUREBRED KYRGYZ DOBOT':'KYRGYZ DOBOT','PUREBRED AFGHAN KOOCHEE':'AFGHAN KOOCHEE'};
+/* eccezioni turkmene: × un PUREBRED TURKMEN ALABAY danno TURKMEN ALABAY */
+var TIPO_EXC={'auto_2883':'KAYTMAZ','auto_6220':'ZEYNAB'};
+function tIn(a,t){ return a.indexOf(t)>=0; }
+function tipoNorm(t){ t=(clean(t)||'').toUpperCase(); return TIPO_REN[t]||t; }
+var T_ALT='ALTRA RAZZA';   /* solo per il calcolo: UNKNOWN annotato con Tipo UNKNOWN BREED */
+function tOth(x){ return x===T_ALT||tIn(T_OTH,x); }
+function tipoCross(a,b){
+  if(a===T_ALT&&b===T_ALT) return T_X;
+  if(a===b) return a;
+  var s=[a,b];
+  if(tIn(s,T_CASD)) return T_CASD;
+  var nonAs=s.filter(function(x){ return x===T_X||tOth(x); }), rest=s.filter(function(x){ return !(x===T_X||tOth(x)); });
+  if(nonAs.length&&rest.length&&rest.every(function(x){ return tIn(T_PURE,x); })) return T_CASD;   /* asiatico × CROSSBRED/altra razza */
+  if(nonAs.length) return T_X;
+  if(tIn(s,T_AC)) return T_AC;
+  var cz=s.filter(function(x){ return tIn(T_CAU,x); });
+  if(cz.length) return cz.length===1?T_AC:null;                                                     /* due caucasici diversi: nessuna regola */
+  if((a===T_PTA&&b===T_TA)||(a===T_TA&&b===T_PTA)) return T_TA;
+  return T_PCASD;
+}
+/* Regola UNKNOWN (09/10/2026): UNKNOWN senza appunti = Tipo sconosciuto (figli non calcolati);
+   UNKNOWN con un qualsiasi appunto = soggetto a tutti gli effetti; se il suo Tipo è UNKNOWN BREED vale "altra razza". */
+var PH_RE=/^\s*(UNKNOWN?|UNKNOW|SCONOSCIUT[OA])\b/i;
+function phAnnotated(r){
+  if(String(r.name||'').replace(PH_RE,'').trim()) return true;
+  if(['paese','tipo','allevatore','proprietario','pedigree','birth','colore'].some(function(k){ return String(r[k]||'').trim(); })) return true;
+  var nt=String(r.note||'').trim(); return !!nt&&nt.indexOf('[Creato automaticamente')!==0;
+}
+function tipoEff(r,over){
+  var t=(over&&over[r.id])||tipoNorm(r.tipo);
+  if(PH_RE.test(String(r.name||''))){ if(!phAnnotated(r)) return ''; if(t==='UNKNOWN BREED') return T_ALT; }
+  return t;
+}
+/* Tipo atteso dai genitori (con i Tipi che hanno ADESSO, o con quelli passati in "over") */
+function tipoAtteso(sireId,damId,over){
+  var p=INDEX[sireId], m=INDEX[damId]; if(!p||!m) return null;
+  var a=tipoEff(p,over), b=tipoEff(m,over);
+  if(!(tIn(T_KNOWN,a)||a===T_ALT)||!(tIn(T_KNOWN,b)||b===T_ALT)) return {tipo:null,why:'genitori senza Tipo valido ('+(a||'—')+' × '+(b||'—')+')'};
+  if((TIPO_EXC[p.id]&&b===T_PTA)||(TIPO_EXC[m.id]&&a===T_PTA)) return {tipo:T_TA,why:'eccezione '+(TIPO_EXC[p.id]||TIPO_EXC[m.id])+' × PUREBRED TURKMEN ALABAY'};
+  var t=tipoCross(a,b);
+  return t?{tipo:t,why:a+' × '+b}:{tipo:null,why:'nessuna regola per '+a+' × '+b};
+}
+function parentIdFromField(el){
+  if(!el) return '';
+  var id=clean(el.dataset.id||''); if(id&&INDEX[id]) return id;
+  var raw=clean(el.value||''); if(!raw) return '';
+  var fl=parseParentInput(raw); if(fl&&INDEX[fl]) return fl;
+  return INDEX[raw]?raw:'';
+}
+/* riquadro sotto il campo Tipo */
+function updateTipoRule(){
+  var box=$('tipoRule'), fw=$('tipoForceWrap'); if(!box||!fw) return;
+  var att=tipoAtteso(parentIdFromField($('f_sire')),parentIdFromField($('f_dam')));
+  var cur=tipoNorm($('f_tipo')?$('f_tipo').value:'');
+  if(!att||!att.tipo){
+    box.style.display=att?'block':'none'; box.className='tipoRule';
+    box.innerHTML=att?'ℹ️ Tipo non calcolabile: '+escH(att.why)+'. Il Tipo si sceglie a mano.':'';
+    fw.style.display='none'; if($('f_tipoForce')) $('f_tipoForce').checked=false; return;
+  }
+  if(!cur&&$('f_tipo')){ $('f_tipo').value=att.tipo; cur=att.tipo; }
+  var ok=(cur===att.tipo);
+  box.style.display='block'; box.className='tipoRule '+(ok?'ok':(($('f_tipoForce')&&$('f_tipoForce').checked)?'forced':'bad'));
+  box.innerHTML=(ok?'✅ ':'⚠️ ')+'Dalle regole: <b>'+escH(att.tipo)+'</b> <span class="small">('+escH(att.why)+')</span>'+
+    (ok?'':' <button type="button" class="btn ghost" id="btnTipoUse" style="padding:2px 8px;font-size:11px">Usa questo</button>');
+  fw.style.display=ok?'none':'flex';
+  if(ok&&$('f_tipoForce')){ $('f_tipoForce').checked=false; }
+  if($('f_tipoForceWhy')) $('f_tipoForceWhy').style.display=($('f_tipoForce')&&$('f_tipoForce').checked)?'':'none';
+  var u=$('btnTipoUse'); if(u) u.onclick=function(){ $('f_tipo').value=att.tipo; if($('f_tipoForce')) $('f_tipoForce').checked=false; updateTipoRule(); };
+}
+/* ordine dai più vecchi ai più giovani */
+function tipoOrder(ids){
+  var seen={}, out=[], onStack={};
+  function visit(i){
+    if(seen[i]||!INDEX[i]||onStack[i]) return; onStack[i]=1;
+    var r=INDEX[i]; if(r.padre) visit(r.padre); if(r.madre) visit(r.madre);
+    onStack[i]=0; seen[i]=1; out.push(i);
+  }
+  (ids||DATA.map(function(r){ return r.id; })).forEach(visit);
+  return out;
+}
+/* calcola i cambi necessari (tutti, o solo i discendenti di rootId); rispetta le forzature */
+function tipoCambi(rootId){
+  var ids=null;
+  if(rootId){
+    var kids={}; DATA.forEach(function(r){ ['padre','madre'].forEach(function(k){ if(r[k]) (kids[r[k]]=kids[r[k]]||[]).push(r.id); }); });
+    var set={}, st=[rootId]; while(st.length){ var x=st.pop(); (kids[x]||[]).forEach(function(k){ if(!set[k]){ set[k]=1; st.push(k); } }); }
+    ids=Object.keys(set);
+  }
+  var order=tipoOrder(null), over={}, changes=[], forced=[];
+  var inScope=ids?{}:null; if(ids) ids.forEach(function(i){ inScope[i]=1; });
+  order.forEach(function(i){
+    var r=INDEX[i], cur=tipoNorm(r.tipo);
+    if(inScope&&!inScope[i]){ over[i]=cur; return; }
+    var att=(r.padre&&r.madre)?tipoAtteso(r.padre,r.madre,over):null;
+    if(r.tipo_forzato){ over[i]=cur; if(att&&att.tipo&&att.tipo!==cur) forced.push({r:r,att:att.tipo}); return; }
+    if(att&&att.tipo&&att.tipo!==cur){ changes.push({r:r,da:r.tipo||'',a:att.tipo,why:att.why}); over[i]=att.tipo; }
+    else over[i]=cur;
+  });
+  return {changes:changes,forced:forced};
+}
+function tipoApplica(changes){
+  changes.forEach(function(c){ c.r.tipo=c.a; c.r.lastModified=new Date().toISOString().slice(0,10); });
+  rebuildIndex(); setDirty(true); refreshList();
+  if(SELECTED_ID&&INDEX[SELECTED_ID]) fillForm(INDEX[SELECTED_ID]);
+}
+function tipoPanel(title,intro,res,applyLabel){
+  var ov=document.createElement('div'); ov.className='impOv';
+  var rows=res.changes.map(function(c){ return '<tr><td>'+escH(c.r.name||'')+' <span class="iMeta">['+escH(c.r.id)+']</span></td><td>'+escH(c.da||'—')+'</td><td><b>'+escH(c.a)+'</b></td><td class="iMeta">'+escH(c.why)+'</td></tr>'; }).join('');
+  var fr=res.forced.length?'<div class="hint" style="margin-top:10px">🔒 '+res.forced.length+' cani con Tipo forzato (non vengono toccati): '+res.forced.slice(0,30).map(function(f){ return escH(f.r.name)+' ['+escH(f.r.id)+'] '+escH(tipoNorm(f.r.tipo))+' — regole: '+escH(f.att)+(f.r.tipo_forzato&&f.r.tipo_forzato.motivo?' — motivo: '+escH(f.r.tipo_forzato.motivo):''); }).join('; ')+(res.forced.length>30?'…':'')+'</div>':'';
+  ov.innerHTML='<div class="impBox"><div class="impHead"><b>'+escH(title)+'</b><button type="button" class="btn ghost" data-x>✕</button></div><div class="impBody">'+
+    '<div class="hint" style="margin:0 0 8px">'+intro+'</div>'+
+    (res.changes.length?'<div class="impTableWrap"><table class="impT"><thead><tr><th>Cane</th><th>Tipo attuale</th><th>Tipo dalle regole</th><th>Perché</th></tr></thead><tbody>'+rows+'</tbody></table></div>'
+      :'<div class="hint">✅ Nessun cambio necessario.</div>')+fr+
+    '<div class="rowBtn">'+(res.changes.length?'<button type="button" class="btn primary" data-ok>'+escH(applyLabel.replace('{n}',res.changes.length))+'</button>':'')+'<button type="button" class="btn" data-x>Chiudi</button></div></div></div>';
+  document.body.appendChild(ov);
+  function close(){ if(ov.parentNode) ov.parentNode.removeChild(ov); }
+  ov.querySelectorAll('[data-x]').forEach(function(b){ b.onclick=close; });
+  ov.addEventListener('click',function(e){ if(e.target===ov) close(); });
+  var ok=ov.querySelector('[data-ok]');
+  if(ok) ok.onclick=function(){ tipoApplica(res.changes); close(); toast('Aggiornati '+res.changes.length+' Tipi.'); setStatus('Tipi aggiornati secondo le regole (non ancora salvato).','warn'); };
+}
+function openTipoCheck(){
+  var res=tipoCambi(null);
+  tipoPanel('🧬 Controllo Tipi — regole del Club',
+    'Confronto di tutto il database con le regole (dai cani più vecchi ai più giovani). I cani con Tipo <b>forzato</b> non vengono toccati e i loro figli partono dal Tipo forzato.',
+    res,'✅ Correggi i {n} Tipi');
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   GITHUB — caricamento diretto di foto e database dal computer.
+   Serve una "chiave" personale di GitHub (fine-grained token) con
+   accesso al solo repository Alabay-preview, permesso Contents:
+   Read and write. La chiave resta SOLO nel browser del computer su
+   cui la incolli: gli altri computer non possono caricare nulla.
+═════════════════════════════════════════════════════════════════ */
+var GH={owner:'parcodiguerra-code',repo:'Alabay-preview',branch:'main',dbPath:'database_cani_fixed.json',imgDir:'images/'};
+var GH_KEY='alabay_gh_token';
+function ghToken(){ try{ return localStorage.getItem(GH_KEY)||''; }catch(e){ return ''; } }
+function ghSetToken(t){ try{ if(t) localStorage.setItem(GH_KEY,t); else localStorage.removeItem(GH_KEY); }catch(e){} ghRefresh(); }
+function ghApi(path,opt){
+  opt=opt||{};
+  return fetch('https://api.github.com'+path,{method:opt.method||'GET',cache:'no-store',
+    headers:{'Accept':opt.accept||'application/vnd.github+json','Authorization':'Bearer '+ghToken(),'X-GitHub-Api-Version':'2022-11-28'},
+    body:opt.body?JSON.stringify(opt.body):undefined})
+  .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return {ok:r.ok,status:r.status,j:j}; }); });
+}
+function ghPathEnc(p){ return p.split('/').map(encodeURIComponent).join('/'); }
+function ghErr(x){
+  if(x.status===401) return 'chiave non valida o scaduta';
+  if(x.status===403) return 'la chiave non ha il permesso di scrivere (serve Contents: Read and write)';
+  if(x.status===404) return 'la chiave non vede il repository '+GH.repo;
+  if(x.status===409||x.status===422) return 'il file è cambiato nel frattempo, riprova';
+  return 'errore '+x.status+(x.j&&x.j.message?' ('+x.j.message+')':'');
+}
+function ghSha(path){
+  /* media type "object": dà lo sha anche per file oltre 1 MB (il database), senza scaricarne il contenuto */
+  return ghApi('/repos/'+GH.owner+'/'+GH.repo+'/contents/'+ghPathEnc(path)+'?ref='+GH.branch,{accept:'application/vnd.github.object+json'}).then(function(x){
+    if(x.ok) return x.j.sha; if(x.status===404) return null; throw new Error(ghErr(x)); });
+}
+function ghPut(path,b64,msg,expectedSha){
+  /* expectedSha (facoltativo): la versione che deve esserci online. Se nel frattempo è cambiata,
+     GitHub rifiuta la scrittura (409) invece di sovrascrivere. null = il file non deve esistere. */
+  var shaP=(expectedSha!==undefined)?Promise.resolve(expectedSha):ghSha(path);
+  return shaP.then(function(sha){
+    var body={message:msg,content:b64,branch:GH.branch}; if(sha) body.sha=sha;
+    return ghApi('/repos/'+GH.owner+'/'+GH.repo+'/contents/'+ghPathEnc(path),{method:'PUT',body:body});
+  }).then(function(x){ if(!x.ok) throw new Error(ghErr(x)); return x.j; });
+}
+function b64utf8(text){
+  var bytes=new TextEncoder().encode(text), bin='', CH=0x8000;
+  for(var i=0;i<bytes.length;i+=CH) bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+CH));
+  return btoa(bin);
+}
+function ghRefresh(){
+  var on=!!ghToken();
+  var b=$('btnGitHub'); if(b){ b.textContent=on?'🔑 GitHub ✓':'🔑 GitHub'; b.title=on?'Questo computer può caricare su GitHub':'Collega questo computer a GitHub'; }
+  var p=$('btnPublish'); if(p){ p.style.display=on?'':'none'; p.disabled=!(on&&DATA&&DATA.length); }
+  updateDownloadBtn();
+}
+function openGitHub(){
+  var ov=document.createElement('div'); ov.className='impOv';
+  var on=!!ghToken();
+  ov.innerHTML='<div class="impBox" style="max-width:640px"><div class="impHead"><b>🔑 Collegamento a GitHub</b><button type="button" class="btn ghost" data-x>✕</button></div><div class="impBody">'+
+    '<div class="hint" style="margin:0 0 10px">Con la chiave, l\'Editor carica <b>foto</b> e <b>database</b> direttamente sul sito, senza passare dalla pagina di GitHub. La chiave resta <b>solo in questo browser, su questo computer</b>: per abilitare un altro computer incollala anche lì.</div>'+
+    '<div id="ghState" class="hint" style="margin:0 0 10px">'+(on?'✅ Questo computer è collegato (repository '+GH.owner+'/'+GH.repo+').':'⚪ Questo computer non è collegato.')+'</div>'+
+    '<label>Chiave GitHub (inizia con github_pat_)</label><input id="ghTok" type="password" autocomplete="off" placeholder="'+(on?'chiave già salvata — incollane una nuova per sostituirla':'incolla qui la chiave')+'" style="width:100%">'+
+    '<div class="rowBtn"><button type="button" class="btn primary" id="ghSave">Salva su questo computer</button><button type="button" class="btn" id="ghTest">Prova il collegamento</button>'+
+    (on?'<button type="button" class="btn danger" id="ghDel">Scollega questo computer</button>':'')+'</div><div id="ghOut" class="hint" style="margin-top:8px;display:none"></div></div></div>';
+  document.body.appendChild(ov);
+  function close(){ if(ov.parentNode) ov.parentNode.removeChild(ov); }
+  ov.querySelectorAll('[data-x]').forEach(function(b){ b.onclick=close; });
+  var out=ov.querySelector('#ghOut'); function say(t){ out.style.display='block'; out.innerHTML=t; }
+  ov.querySelector('#ghSave').onclick=function(){
+    var t=clean(ov.querySelector('#ghTok').value); if(!t){ say('Incolla prima la chiave.'); return; }
+    if(!/^(github_pat_|ghp_)/.test(t)){ say('⚠️ Non sembra una chiave GitHub (deve iniziare con github_pat_).'); return; }
+    ghSetToken(t); ov.querySelector('#ghTok').value=''; ov.querySelector('#ghState').innerHTML='✅ Chiave salvata su questo computer. Premi "Prova il collegamento".';
+  };
+  ov.querySelector('#ghTest').onclick=function(){
+    if(!ghToken()){ say('Nessuna chiave salvata su questo computer.'); return; }
+    say('Controllo in corso…');
+    ghApi('/repos/'+GH.owner+'/'+GH.repo).then(function(x){
+      if(!x.ok){ say('❌ '+ghErr(x)+'.'); return; }
+      var w=x.j.permissions&&x.j.permissions.push;
+      say(w?'✅ Collegamento riuscito: questo computer può caricare foto e database su '+GH.repo+'.':'⚠️ La chiave vede il repository ma non può scrivere: nelle impostazioni della chiave serve Contents: Read and write.');
+    }).catch(function(e){ say('❌ Nessuna risposta da GitHub ('+escH(e.message||e)+'). Controlla la connessione.'); });
+  };
+  var d=ov.querySelector('#ghDel'); if(d) d.onclick=function(){ ghSetToken(''); close(); toast('Chiave tolta da questo computer.'); };
+}
+/* scrive i percorsi delle foto nella scheda del cane selezionato (senza dover premere Applica) */
+function ghRegisterPhotos(){
+  var id=SELECTED_ID||clean($('f_id')?$('f_id').value:''); var r=INDEX[id]; if(!r) return false;
+  var paths=CURRENT_PHOTO_PATHS.filter(function(p){ return p&&p.indexOf('data:')<0; }).slice(0,5);
+  var old=JSON.stringify(r.foto_list||[]); if(old===JSON.stringify(paths)) return false;
+  r.foto_list=paths; r.lastModified=new Date().toISOString().slice(0,10); setDirty(true); refreshList(); return true;
+}
+/* foto: carica online quelle aggiunte e non ancora caricate */
+function uploadPhotos(){
+  var todo=CURRENT_PHOTO_FILES.filter(function(f){ return f&&f.dataUrl&&!f.uploaded; });
+  if(!todo.length){ toast('Nessuna foto da caricare.'); return Promise.resolve(); }
+  var b=$('btnPhotoUpload'); if(b) b.disabled=true;
+  setStatus('Caricamento di '+todo.length+' foto su GitHub…','warn');
+  var chain=Promise.resolve(), done=0;
+  todo.forEach(function(pf){
+    chain=chain.then(function(){
+      return ghPut(GH.imgDir+pf.name,pf.dataUrl.split(',')[1],'Foto '+pf.name+' (Editor)').then(function(){ pf.uploaded=true; pf.saved=true; done++; });
+    });
+  });
+  return chain.then(function(){
+    ghRegisterPhotos();
+    toast('Caricate '+done+' foto.'); setStatus('Foto caricate online ('+done+') e registrate nella scheda. Ora premi ☁️ Pubblica.','ok');
+  }).catch(function(e){
+    setStatus('Caricamento foto interrotto: '+(e.message||e)+'. Caricate '+done+' di '+todo.length+'.','bad');
+  }).then(function(){ if(b) b.disabled=false; updateDownloadBtn(); });
+}
+/* ═════════════════════════════════════════════════════════════════
+   CONTROLLO DI VERSIONE (09/10/2026)
+   L'Editor ricorda da quale versione online deriva il database aperto.
+   La "versione" è lo sha che GitHub assegna al file: si calcola anche
+   in locale dal testo, quindi funziona pure aprendo un file dal disco.
+   Dopo un 💾 Salva, questo computer ricorda che il file salvato deriva
+   da quella versione online (così riaprendolo domani non dà falsi avvisi).
+   Prima di ☁️ Pubblica: se online c'è una versione diversa (pubblicata
+   nel frattempo da un altro computer, o file aperto troppo vecchio)
+   l'Editor si ferma e avvisa invece di sovrascrivere.
+═════════════════════════════════════════════════════════════════ */
+var DB_BASE={sha:null,pending:null,content:null};  /* content = sha del testo aperto */
+var DB_BASE_KEY='alabay_db_base';
+function sha1Js(m){
+  var l=m.length, nb=((l+8)>>6)+1, w=new Int32Array(nb*16), i;
+  for(i=0;i<l;i++) w[i>>2]|=m[i]<<(24-(i&3)*8);
+  w[l>>2]|=0x80<<(24-(l&3)*8);
+  w[nb*16-1]=l*8; w[nb*16-2]=Math.floor(l/0x20000000);
+  var h0=0x67452301,h1=0xEFCDAB89,h2=0x98BADCFE,h3=0x10325476,h4=0xC3D2E1F0, W=new Int32Array(80);
+  for(var b=0;b<w.length;b+=16){
+    for(i=0;i<16;i++) W[i]=w[b+i];
+    for(i=16;i<80;i++){ var x=W[i-3]^W[i-8]^W[i-14]^W[i-16]; W[i]=(x<<1)|(x>>>31); }
+    var a=h0,bb=h1,c=h2,d=h3,e=h4;
+    for(i=0;i<80;i++){
+      var f,k;
+      if(i<20){ f=(bb&c)|(~bb&d); k=0x5A827999; } else if(i<40){ f=bb^c^d; k=0x6ED9EBA1; }
+      else if(i<60){ f=(bb&c)|(bb&d)|(c&d); k=0x8F1BBCDC; } else { f=bb^c^d; k=0xCA62C1D6; }
+      var t=(((a<<5)|(a>>>27))+f+e+k+W[i])|0;
+      e=d; d=c; c=(bb<<30)|(bb>>>2); bb=a; a=t;
+    }
+    h0=(h0+a)|0; h1=(h1+bb)|0; h2=(h2+c)|0; h3=(h3+d)|0; h4=(h4+e)|0;
+  }
+  return [h0,h1,h2,h3,h4].map(function(v){ return ('00000000'+(v>>>0).toString(16)).slice(-8); }).join('');
+}
+/* sha "blob" di Git: identico a quello che GitHub dà al file con lo stesso contenuto */
+function gitBlobSha(text){
+  var body=new TextEncoder().encode(text), head=new TextEncoder().encode('blob '+body.length+'\0');
+  var all=new Uint8Array(head.length+body.length); all.set(head,0); all.set(body,head.length);
+  function hex(buf){ return Array.prototype.map.call(new Uint8Array(buf),function(v){ return ('0'+v.toString(16)).slice(-2); }).join(''); }
+  try{ if(window.crypto&&crypto.subtle&&crypto.subtle.digest) return crypto.subtle.digest('SHA-1',all).then(hex).catch(function(){ return sha1Js(all); }); }catch(e){}
+  return Promise.resolve(sha1Js(all));
+}
+function dbBaseMap(){ try{ return JSON.parse(localStorage.getItem(DB_BASE_KEY)||'{}')||{}; }catch(e){ return {}; } }
+/* database aperto: da quale versione online deriva? */
+function dbBaseFromText(text){
+  DB_BASE.sha=null; DB_BASE.content=null;
+  var p=gitBlobSha(text).then(function(s){
+    var m=dbBaseMap(); var base=(m[s]&&m[s].base)?m[s].base:s;
+    if(DB_BASE.pending===p){ DB_BASE.sha=base; DB_BASE.content=s; }
+    return base;
+  }).catch(function(){ return null; });
+  DB_BASE.pending=p; return p;
+}
+/* dopo un salvataggio su disco: il file salvato deriva dalla stessa versione online */
+function dbBaseRemember(text){
+  var basePromise=DB_BASE.pending||Promise.resolve(DB_BASE.sha);
+  return Promise.all([gitBlobSha(text),basePromise]).then(function(v){
+    var s=v[0], base=v[1]; if(!s||!base||s===base) return;
+    var m=dbBaseMap(); m[s]={base:base,d:new Date().toISOString()};
+    var ks=Object.keys(m).sort(function(a,b){ return String(m[b].d||'').localeCompare(String(m[a].d||'')); });
+    ks.slice(40).forEach(function(k){ delete m[k]; });
+    try{ localStorage.setItem(DB_BASE_KEY,JSON.stringify(m)); }catch(e){}
+  }).catch(function(){});
+}
+/* sha che è una versione online: è la base di sé stesso (si toglie un'eventuale vecchia associazione) */
+function dbBaseSet(sha){
+  DB_BASE.sha=sha; DB_BASE.content=sha; DB_BASE.pending=Promise.resolve(sha);
+  var m=dbBaseMap(); if(m[sha]){ delete m[sha]; try{ localStorage.setItem(DB_BASE_KEY,JSON.stringify(m)); }catch(e){} }
+}
+/* scarica il testo del database online (anche oltre 1 MB) */
+function ghRawText(path){
+  return fetch('https://api.github.com/repos/'+GH.owner+'/'+GH.repo+'/contents/'+ghPathEnc(path)+'?ref='+GH.branch,{cache:'no-store',
+    headers:{'Accept':'application/vnd.github.raw+json','Authorization':'Bearer '+ghToken(),'X-GitHub-Api-Version':'2022-11-28'}})
+  .then(function(r){ if(!r.ok) throw new Error(ghErr({status:r.status,j:{}})); return r.text(); });
+}
+/* confronta la versione online con quella aperta nell'Editor, scheda per scheda */
+function dbDiff(onlineArr){
+  var on={}, out={soloOnline:[],soloQui:[],diverse:[]};
+  onlineArr.forEach(function(r){ var n=normalizeRec(r); if(n.id) on[n.id]=n; });
+  DATA.forEach(function(r){
+    var o=on[r.id]; if(!o){ out.soloQui.push(r); return; }
+    var keys={}, campi=[]; Object.keys(o).concat(Object.keys(r)).forEach(function(k){ keys[k]=1; });
+    Object.keys(keys).forEach(function(k){ if(JSON.stringify(o[k]==null?'':o[k])!==JSON.stringify(r[k]==null?'':r[k])) campi.push({k:k,on:o[k],qui:r[k]}); });
+    if(campi.length) out.diverse.push({r:r,campi:campi});
+    delete on[r.id];
+  });
+  Object.keys(on).forEach(function(id){ out.soloOnline.push(on[id]); });
+  return out;
+}
+function versionConflict(remoteSha,onForce){
+  var ov=document.createElement('div'); ov.className='impOv';
+  ov.innerHTML='<div class="impBox" style="max-width:760px"><div class="impHead"><b>⚠️ Il database online è cambiato</b><button type="button" class="btn ghost" data-x>✕</button></div><div class="impBody">'+
+    '<div class="hint" style="margin:0 0 10px">La versione sul sito <b>non è quella da cui è partito questo database</b>. Di solito vuol dire che qualcuno (un altro editore, o tu da un altro computer) ha pubblicato nel frattempo, oppure che hai aperto un file vecchio.<br><b>Se pubblichi ora, le modifiche fatte online andrebbero perse.</b></div>'+
+    '<div class="hint" style="margin:0 0 10px">Cosa fare: guarda le differenze; se online ci sono modifiche da tenere, salva la tua versione (💾), apri quella online e riporta lì le tue modifiche, poi pubblica.</div>'+
+    '<div class="rowBtn"><button type="button" class="btn primary" id="vcDiff">🔍 Vedi le differenze</button><button type="button" class="btn" id="vcDown">⬇ Scarica la versione online</button><button type="button" class="btn" id="vcOpen">⤵ Apri la versione online</button><button type="button" class="btn" data-x>Annulla</button></div>'+
+    '<div id="vcOut" class="hint" style="margin-top:10px;display:none"></div>'+
+    '<div style="margin-top:14px;padding-top:10px;border-top:1px solid rgba(148,163,184,.2)"><div style="display:flex;gap:10px;align-items:center"><input type="checkbox" id="vcSure" style="width:18px;height:18px;flex:0 0 auto;margin:0;padding:0;cursor:pointer"><span id="vcSureTxt" style="cursor:pointer;font-size:13px">Ho controllato: voglio <b>sostituire</b> la versione online con questa</span></div>'+
+    '<div class="rowBtn"><button type="button" class="btn danger" id="vcForce" disabled>☁️ Pubblica comunque (sovrascrive)</button></div></div>'+
+    '</div></div>';
+  document.body.appendChild(ov);
+  function close(){ if(ov.parentNode) ov.parentNode.removeChild(ov); }
+  ov.querySelectorAll('[data-x]').forEach(function(b){ b.onclick=function(){ close(); setStatus('Pubblicazione annullata: il database online è cambiato.','warn'); }; });
+  var out=ov.querySelector('#vcOut'); function say(h){ out.style.display='block'; out.innerHTML=h; }
+  var cache=null;
+  function online(){ if(cache) return Promise.resolve(cache); say('Scarico la versione online…'); return ghRawText(GH.dbPath).then(function(t){ cache=t; return t; }); }
+  function fail(e){ say('❌ Non riesco a scaricare la versione online ('+escH(e.message||e)+').'); }
+  function val(v){ v=(v==null||v==='')?'—':(Array.isArray(v)?v.join(', '):String(v)); if(v.length>60) v=v.slice(0,57)+'…'; return escH(v); }
+  function nome(r){ return '<b>'+escH(r.name||'(senza nome)')+'</b> <span style="opacity:.7">'+escH(r.id)+'</span>'; }
+  ov.querySelector('#vcDiff').onclick=function(){
+    online().then(function(t){
+      var arr; try{ arr=JSON.parse(t); }catch(e){ say('❌ La versione online non è un JSON valido.'); return; }
+      if(!Array.isArray(arr)){ say('❌ La versione online non è un elenco di cani.'); return; }
+      var d=dbDiff(arr), MAX=150, h='';
+      h+='<div style="margin-bottom:8px">Online: <b>'+arr.length+'</b> cani · In questo Editor: <b>'+DATA.length+'</b> cani</div>';
+      if(!d.soloOnline.length&&!d.soloQui.length&&!d.diverse.length){ say(h+'✅ Nessuna differenza nelle schede: il contenuto è lo stesso (cambia solo la forma del file). Puoi pubblicare comunque senza perdere nulla.'); return; }
+      function sez(tit,list,fn){ if(!list.length) return ''; var s='<div style="margin:10px 0 4px"><b>'+tit+' ('+list.length+')</b></div><ul style="margin:0;padding-left:18px">';
+        list.slice(0,MAX).forEach(function(x){ s+='<li>'+fn(x)+'</li>'; }); if(list.length>MAX) s+='<li>… e altri '+(list.length-MAX)+'</li>'; return s+'</ul>'; }
+      h+=sez('Solo online — andrebbero persi',d.soloOnline,nome);
+      h+=sez('Solo in questo Editor',d.soloQui,nome);
+      h+=sez('Schede diverse (online → qui)',d.diverse,function(x){ return nome(x.r)+': '+x.campi.map(function(c){ return escH(c.k)+' '+val(c.on)+' → '+val(c.qui); }).join('; '); });
+      say(h);
+    }).catch(fail);
+  };
+  ov.querySelector('#vcDown').onclick=function(){
+    online().then(function(t){ downloadBlob(t,'database_online_'+new Date().toISOString().slice(0,10)+'.json'); say('File scaricato: <b>database_online_'+new Date().toISOString().slice(0,10)+'.json</b>.'); }).catch(fail);
+  };
+  ov.querySelector('#vcOpen').onclick=function(){
+    if(DIRTY&&!window.confirm('Aprire la versione online?\n\nLe modifiche non salvate in questo Editor verranno sostituite. Se vuoi conservarle, annulla e premi prima 💾 Salva.')) return;
+    online().then(function(t){
+      fileHandle=null; FILE_NAME=GH.dbPath;
+      if($('filePill')) $('filePill').textContent=FILE_NAME+' (online)';
+      loadFromText(t); dbBaseSet(remoteSha); close();
+      setStatus('Aperta la versione online ('+DATA.length+' cani). Riporta qui le tue modifiche, poi ☁️ Pubblica.','ok');
+    }).catch(fail);
+  };
+  var sure=ov.querySelector('#vcSure'), force=ov.querySelector('#vcForce');
+  sure.onchange=function(){ force.disabled=!sure.checked; };
+  ov.querySelector('#vcSureTxt').onclick=function(){ sure.checked=!sure.checked; sure.onchange(); };
+  force.onclick=function(){ if(!sure.checked) return; close(); onForce(remoteSha); };
+}
+
+/* database: pubblica sul sito */
+/* ═════════════════════════════════════════════════════════════════
+   PUBBLICA SOLO LE MODIFICHE (10/10/2026)
+   Pubblica non sostituisce più il database online con quello del
+   computer. L'Editor:
+   1. riprende da GitHub la versione da cui è partito (DB_BASE.sha);
+   2. la confronta con il database aperto: cani nuovi, schede
+      modificate, schede eliminate = SOLO le modifiche fatte qui;
+   3. scarica la versione online di adesso e ci applica solo quelle.
+   Il resto (anche le modifiche di altri editori) resta com'è online.
+   Se lo stesso cane è stato cambiato anche online, chiede cosa tenere.
+   Se l'ID di un cane nuovo è già usato online, gli dà il primo libero
+   e aggiorna padre/madre delle schede che lo indicano.
+═════════════════════════════════════════════════════════════════ */
+function recKey(r){
+  var o={}; Object.keys(r||{}).sort().forEach(function(k){ var v=r[k];
+    if(v==null||v===''||(Array.isArray(v)&&!v.length)) return; o[k]=v; });
+  return JSON.stringify(o);
+}
+/* una versione del database da GitHub, dal suo sha (null se GitHub non la conosce) */
+function ghBlobText(sha){
+  return fetch('https://api.github.com/repos/'+GH.owner+'/'+GH.repo+'/git/blobs/'+sha,{cache:'no-store',
+    headers:{'Accept':'application/vnd.github.raw+json','Authorization':'Bearer '+ghToken(),'X-GitHub-Api-Version':'2022-11-28'}})
+  .then(function(r){
+    if(r.status===404||r.status===422) return null;
+    if(!r.ok) throw new Error(ghErr({status:r.status,j:{}}));
+    return r.text().then(function(t){
+      if(t.charAt(0)==='{'){ try{ var j=JSON.parse(t); if(j&&j.encoding==='base64'&&typeof j.content==='string'){
+        var bin=atob(j.content.replace(/\s/g,'')), u=new Uint8Array(bin.length); for(var i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i);
+        return new TextDecoder('utf-8').decode(u); } }catch(e){} }
+      return t;
+    });
+  });
+}
+/* confronto a tre: base (da dove sono partito), online (adesso), mine (Editor) */
+function planPublish(baseArr,onArr,mine){
+  var B={}, BR={}, O={}, M={}, i;
+  baseArr.forEach(function(r){ var n=normalizeRec(r); if(n.id){ B[n.id]=recKey(n); BR[n.id]=n; } });
+  onArr.forEach(function(r,ix){ if(r&&r.id!=null&&clean(r.id)){ var n=normalizeRec(r); O[n.id]={raw:r,n:n,key:recKey(n),i:ix}; } });
+  var plan={add:[],mod:[],del:[],conflicts:[],same:0,renamed:{},onLen:onArr.length,othersChanged:false};
+  mine.forEach(function(r){
+    M[r.id]=r; var k=recKey(r), o=O[r.id];
+    if(!(r.id in B)){                                   /* cane nuovo */
+      if(!o) plan.add.push(r);
+      else if(o.key===k) plan.same++;
+      else plan.add.push(r), plan.renamed[r.id]=true;   /* ID già usato online da un altro cane */
+    } else if(B[r.id]!==k){                             /* scheda modificata qui */
+      var campi=Object.keys(Object.assign({},BR[r.id],r)).filter(function(f){ return recKey({x:BR[r.id][f]})!==recKey({x:r[f]}); });
+      if(o&&o.key===B[r.id]) plan.mod.push({r:r,campi:campi});
+      else if(o&&o.key===k) plan.same++;
+      else plan.conflicts.push({id:r.id,r:r,o:o?o.n:null,base:BR[r.id],campi:campi,why:o?'modificata anche online':'eliminata online'});
+    }
+  });
+  Object.keys(B).forEach(function(id){
+    if(M[id]) return; var o=O[id];                      /* scheda eliminata qui */
+    if(!o) plan.same++;
+    else if(o.key===B[id]) plan.del.push(BR[id]);
+    else plan.conflicts.push({id:id,r:null,o:o.n,base:BR[id],campi:[],why:'eliminata qui ma modificata online'});
+  });
+  Object.keys(O).forEach(function(id){ if(!(id in B)||O[id].key!==B[id]) plan.othersChanged=true; });
+  Object.keys(B).forEach(function(id){ if(!O[id]) plan.othersChanged=true; });
+  plan.O=O; plan.M=M;
+  plan.count=plan.add.length+plan.mod.length+plan.del.length+plan.conflicts.length;
+  return plan;
+}
+/* costruisce il database da pubblicare: online + solo le modifiche scelte */
+function buildPublish(plan,onArr,choice){
+  var used={}, max=0;
+  function num(id){ var m=String(id).match(/(\d+)/g); return m?parseInt(m[m.length-1],10)||0:0; }
+  Object.keys(plan.O).concat(Object.keys(plan.M)).forEach(function(id){ used[id]=1; max=Math.max(max,num(id)); });
+  var ren={};
+  Object.keys(plan.renamed).forEach(function(id){ var n; do{ max++; n='auto_'+String(max).padStart(4,'0'); }while(used[n]); used[n]=1; ren[id]=n; });
+  function fix(r){ var c=JSON.parse(JSON.stringify(r)); if(ren[c.id]) c.id=ren[c.id];
+    if(c.padre&&ren[c.padre]) c.padre=ren[c.padre]; if(c.madre&&ren[c.madre]) c.madre=ren[c.madre]; return c; }
+  var out=onArr.slice(), drop={}, put={};
+  plan.mod.forEach(function(m){ put[m.r.id]=fix(m.r); });
+  plan.del.forEach(function(r){ drop[r.id]=1; });
+  var addTail=[];
+  plan.conflicts.forEach(function(c){
+    if(choice[c.id]!=='mine') return;
+    if(!c.r) drop[c.id]=1; else if(c.o) put[c.id]=fix(c.r); else addTail.push(fix(c.r));
+  });
+  out=out.map(function(r){ var id=r&&r.id!=null?clean(r.id):''; return put[id]?put[id]:r; })
+         .filter(function(r){ var id=r&&r.id!=null?clean(r.id):''; return !drop[id]; });
+  plan.add.forEach(function(r){ out.push(fix(r)); });
+  addTail.forEach(function(r){ out.push(r); });
+  return {arr:out,ren:ren};
+}
+function pubSummary(plan,R,B,warn,onDo){
+  var ov=document.createElement('div'); ov.className='impOv';
+  function nome(r){ return '<b>'+escH((r&&r.name)||'(senza nome)')+'</b> <span style="opacity:.7">'+escH(r&&r.id)+'</span>'; }
+  function val(v){ v=(v==null||v==='')?'—':(Array.isArray(v)?v.join(', '):(typeof v==='object'?JSON.stringify(v):String(v))); if(v.length>50) v=v.slice(0,47)+'…'; return escH(v); }
+  function lista(tit,arr,fn){ if(!arr.length) return ''; var MAX=100, h='<div style="margin:10px 0 4px"><b>'+tit+' ('+arr.length+')</b></div><ul style="margin:0;padding-left:18px">';
+    arr.slice(0,MAX).forEach(function(x){ h+='<li>'+fn(x)+'</li>'; }); if(arr.length>MAX) h+='<li>… e altri '+(arr.length-MAX)+'</li>'; return h+'</ul>'; }
+  var h='<div class="hint" style="margin:0 0 8px">Vengono pubblicate <b>solo le modifiche fatte in questo Editor</b>. Le altre schede online restano come sono'+
+    (plan.othersChanged?', comprese le <b>modifiche fatte da altri</b> dopo la tua versione':'')+'.</div>';
+  h+=lista('🆕 Cani nuovi',plan.add,function(r){ return nome(r)+(plan.renamed[r.id]?' — <span style="color:var(--warn)">ID già usato online: riceverà un nuovo ID</span>':''); });
+  h+=lista('✏️ Schede modificate',plan.mod,function(m){ return nome(m.r)+': '+m.campi.filter(function(c){ return c!=='lastModified'; }).map(escH).join(', '); });
+  h+=lista('🗑 Schede eliminate',plan.del,nome);
+  if(plan.conflicts.length){
+    h+='<div style="margin:12px 0 4px;color:var(--bad)"><b>⚠️ Da decidere ('+plan.conflicts.length+')</b>: queste schede sono cambiate anche online. Scegli quale versione tenere.</div>';
+    plan.conflicts.forEach(function(c,ix){
+      var det='';
+      if(c.r&&c.o){ var f=Object.keys(Object.assign({},c.o,c.r)).filter(function(k){ return k!=='lastModified'&&recKey({x:c.o[k]})!==recKey({x:c.r[k]}); });
+        det=f.map(function(k){ return escH(k)+': online '+val(c.o[k])+' · tua '+val(c.r[k]); }).join('<br>'); }
+      h+='<div style="border:1px solid rgba(148,163,184,.25);border-radius:8px;padding:8px;margin:6px 0">'+nome(c.r||c.o||c.base)+' — <i>'+escH(c.why)+'</i>'+
+        (det?'<div class="hint" style="margin:4px 0">'+det+'</div>':'')+
+        '<div style="display:flex;gap:16px;margin-top:4px"><span style="cursor:pointer"><input type="radio" name="pc'+ix+'" value="mine" data-c="'+escH(c.id)+'" style="width:auto;margin-right:4px">la mia ('+(c.r?'modificata':'eliminata')+')</span>'+
+        '<span style="cursor:pointer"><input type="radio" name="pc'+ix+'" value="online" data-c="'+escH(c.id)+'" style="width:auto;margin-right:4px">quella online ('+(c.o?'com\'è ora':'eliminata')+')</span></div></div>';
+    });
+  }
+  if(warn) h+='<div class="hint" style="margin-top:10px;color:var(--warn)">'+warn+'</div>';
+  ov.innerHTML='<div class="impBox" style="max-width:760px"><div class="impHead"><b>☁️ Pubblica le tue modifiche</b><button type="button" class="btn ghost" data-x>✕</button></div><div class="impBody">'+h+
+    '<div class="rowBtn"><button type="button" class="btn primary" id="pubGo">☁️ Pubblica '+(plan.count===1?'1 modifica':plan.count+' modifiche')+'</button><button type="button" class="btn" data-x>Annulla</button></div></div></div>';
+  document.body.appendChild(ov);
+  function close(){ if(ov.parentNode) ov.parentNode.removeChild(ov); }
+  ov.querySelectorAll('[data-x]').forEach(function(x){ x.onclick=function(){ close(); setStatus('Pubblicazione annullata.',''); }; });
+  ov.querySelectorAll('input[type=radio]').forEach(function(x){ x.parentNode.onclick=function(e){ if(e.target!==x){ x.checked=true; } check(); }; });
+  var go=ov.querySelector('#pubGo');
+  function choices(){ var c={}; ov.querySelectorAll('input[type=radio]:checked').forEach(function(x){ c[x.getAttribute('data-c')]=x.value; }); return c; }
+  function check(){ go.disabled=Object.keys(choices()).length<plan.conflicts.length; }
+  check();
+  go.onclick=function(){ if(go.disabled) return; var c=choices(); close(); onDo(c); };
+}
+function publishDatabase(){
+  if(!ghToken()){ openGitHub(); return; }
+  if(!DATA||!DATA.length){ setStatus('Niente da pubblicare.','warn'); return; }
+  if(CURRENT_PHOTO_FILES.some(function(f){ return f&&f.uploaded; })) ghRegisterPhotos();
+  var pend=CURRENT_PHOTO_FILES.filter(function(f){ return f&&f.dataUrl&&!f.uploaded; }).length;
+  var nFoto=DATA.filter(function(r){ return r.foto_list&&r.foto_list.length; }).length;
+  var tc=(typeof tipoCambi==='function')?tipoCambi(null).changes.length:0;
+  var warn=[];
+  if(pend) warn.push('⚠️ Ci sono '+pend+' foto non ancora caricate: premi prima "☁️ Carica online".');
+  if(tc) warn.push('⚠️ '+tc+' cani hanno un Tipo diverso dalle regole (pulsante 🧬 Tipi).');
+  var msgFull='Pubblicare il database online?\n\nSostituisce '+GH.dbPath+' sul sito con questa versione ('+DATA.length+' cani, '+nFoto+' con foto).'+(warn.length?'\n\n'+warn.join('\n'):'');
+  var b=$('btnPublish'); if(b) b.disabled=true;
+  setStatus('Preparo la pubblicazione: confronto con la versione online…','warn');
+  Promise.all([ghSha(GH.dbPath),DB_BASE.pending||Promise.resolve(DB_BASE.sha)]).then(function(v){
+    var R=v[0], B=v[1];
+    if(R&&DB_BASE.content===R) B=R;
+    if(!R){ ghRefresh(); if(window.confirm(msgFull)) doPublishDatabase(null); else setStatus('Pubblicazione annullata.',''); return; }
+    return Promise.all([ghBlobText(R),(B&&B!==R)?ghBlobText(B):Promise.resolve(null)]).then(function(t){
+      ghRefresh();
+      var onT=t[0], baseT=(B===R)?onT:t[1];
+      if(onT==null) throw new Error('non riesco a scaricare la versione online');
+      if(baseT==null){
+        /* GitHub non conosce la versione di partenza (file mai pubblicato): non so quali sono le tue modifiche */
+        setStatus('Non trovo online la versione da cui è partito questo database: controlla prima di pubblicare.','bad');
+        versionConflict(R,function(sha){ if(window.confirm(msgFull+'\n\n⚠️ ATTENZIONE: sostituisci TUTTO il database online.')) doPublishDatabase(sha); else setStatus('Pubblicazione annullata.',''); });
+        return;
+      }
+      var onArr=JSON.parse(onT), baseArr=JSON.parse(baseT);
+      if(!Array.isArray(onArr)||!Array.isArray(baseArr)) throw new Error('il database online non è un elenco di cani');
+      var plan=planPublish(baseArr,onArr,DATA);
+      if(!plan.count){
+        setStatus('Nessuna modifica da pubblicare: online c\'è già tutto'+(plan.othersChanged?' (online ci sono anche modifiche di altri: per vederle apri la versione online)':'')+'.','ok');
+        return;
+      }
+      setStatus('Controlla le modifiche da pubblicare.','warn');
+      pubSummary(plan,R,B,warn.join('<br>'),function(choice){ doPublishChanges(plan,onArr,choice,R); });
+    });
+  }).catch(function(e){ setStatus('Pubblicazione non riuscita: '+(e.message||e)+'. Niente è stato pubblicato.','bad'); ghRefresh(); });
+}
+function doPublishChanges(plan,onArr,choice,R){
+  var b=$('btnPublish'); if(b) b.disabled=true;
+  setStatus('Pubblicazione delle modifiche in corso…','warn');
+  var res=buildPublish(plan,onArr,choice), text=JSON.stringify(res.arr,null,2);
+  var n=plan.add.length+plan.mod.length+plan.del.length+Object.keys(choice).filter(function(k){ return choice[k]==='mine'; }).length;
+  var prevSel=SELECTED_ID;
+  ghPut(GH.dbPath,b64utf8(text),'Editor: '+n+' modifiche ('+new Date().toISOString().slice(0,10)+': '+plan.add.length+' nuovi, '+plan.mod.length+' modificati, '+plan.del.length+' eliminati)',R).then(function(j){
+    var ns=j&&j.content&&j.content.sha;
+    loadFromText._fromCache=true; try{ loadFromText(text); } finally { loadFromText._fromCache=false; }
+    if(ns) dbBaseSet(ns);
+    try{ DBCache.save(text,GH.dbPath); }catch(e){}
+    if(prevSel&&INDEX[prevSel]) selectRecord(prevSel); else if(prevSel&&res.ren[prevSel]&&INDEX[res.ren[prevSel]]) selectRecord(res.ren[prevSel]);
+    setDirty(true);  /* l'Editor ora ha anche le modifiche degli altri: salvalo per aggiornare il file sul computer */
+    var rn=Object.keys(res.ren).map(function(k){ return k+' → '+res.ren[k]; });
+    toast('Pubblicate '+n+' modifiche.');
+    setStatus('Pubblicate '+n+' modifiche: il sito si aggiorna in 1–2 minuti. L\'Editor ora contiene la versione online aggiornata: premi 💾 Salva per aggiornare anche il file sul computer.'+(rn.length?' Nuovi ID: '+rn.join(', ')+'.':''),'ok');
+  }).catch(function(e){
+    var m=e.message||String(e);
+    if(/cambiato nel frattempo/.test(m)) m='qualcuno ha pubblicato proprio in questo momento. Premi di nuovo ☁️ Pubblica: le tue modifiche verranno riapplicate sulla nuova versione';
+    setStatus('Pubblicazione non riuscita: '+m+'. Niente è stato sovrascritto.','bad');
+  }).then(function(){ ghRefresh(); });
+}
+/* apre il database pubblicato sul sito (10/10/2026).
+   Con la chiave GitHub: versione esatta e aggiornata al secondo (via API).
+   Senza chiave: copia pubblica di GitHub (può avere qualche minuto di ritardo). */
+function openFromSite(){
+  if(typeof DIRTY!=='undefined'&&DIRTY&&!window.confirm('Ci sono modifiche non salvate in questo Editor: aprire comunque il database del sito?\n\nSe vuoi conservarle, annulla e premi prima 💾 Salva.')) return;
+  var b=$('btnFromSite'); if(b) b.disabled=true;
+  setStatus('Scarico il database dal sito…','warn');
+  var p;
+  if(ghToken()){
+    p=ghSha(GH.dbPath).then(function(sha){
+      if(!sha) throw new Error('il database non c\'è su GitHub');
+      return ghBlobText(sha).then(function(t){ if(t==null) throw new Error('il database non c\'è su GitHub'); return {t:t,sha:sha}; });
+    });
+  } else {
+    p=fetch('https://raw.githubusercontent.com/'+GH.owner+'/'+GH.repo+'/'+GH.branch+'/'+GH.dbPath,{cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error('errore '+r.status); return r.text(); })
+      .then(function(t){ return {t:t,sha:null}; });
+  }
+  p.then(function(x){
+    fileHandle=null; FILE_NAME=GH.dbPath;
+    if($('filePill')) $('filePill').textContent=FILE_NAME+' (dal sito)';
+    loadFromText(x.t);
+    if(x.sha) dbBaseSet(x.sha);
+    setStatus('Aperto il database del sito: '+DATA.length+' cani'+(x.sha?' (versione più recente).':' (copia pubblica: può avere qualche minuto di ritardo).')+' Con 💾 Salva ne tieni una copia sul computer.','ok');
+  }).catch(function(e){
+    setStatus('Non riesco ad aprire il database dal sito: '+(e.message||e)+'. Controlla la connessione.','bad');
+  }).then(function(){ if(b) b.disabled=false; });
+}
+/* pubblicazione completa: solo se la versione di partenza è sconosciuta o il file online non esiste */
+function doPublishDatabase(expectedSha){
+  var b=$('btnPublish'); if(b) b.disabled=true;
+  setStatus('Pubblicazione del database in corso…','warn');
+  var text=jsonText();
+  ghPut(GH.dbPath,b64utf8(text),'Aggiornamento database dall\'Editor ('+new Date().toISOString().slice(0,10)+', '+DATA.length+' cani)',expectedSha||null).then(function(j){
+    var ns=j&&j.content&&j.content.sha;
+    if(ns) dbBaseSet(ns); else dbBaseFromText(text);
+    try{ DBCache.save(text,GH.dbPath); }catch(e){}
+    setDirty(false);
+    toast('Database pubblicato.'); setStatus('Database pubblicato su GitHub: il sito si aggiorna in 1–2 minuti.','ok');
+  }).catch(function(e){
+    var m=e.message||String(e);
+    if(/cambiato nel frattempo/.test(m)) m='qualcuno ha pubblicato proprio in questo momento. Premi di nuovo ☁️ Pubblica per vedere le differenze';
+    setStatus('Pubblicazione non riuscita: '+m+'. Niente è stato sovrascritto.','bad');
+  })
+  .then(function(){ ghRefresh(); });
+}
+
+function runIntegrityCheck(){
+var issues=[];
+var idSeen={};
+var TIPO_VALID={'':1}; TIPI_CANON.forEach(function(t){ TIPO_VALID[t]=1; });
+DATA.forEach(function(r){
+  if(!r||!r.id) return;
+  var nm=r.name||r.id;
+  if(idSeen[r.id]) issues.push('ID duplicato: '+r.id);
+  idSeen[r.id]=true;
+  if(r.padre&&!INDEX[r.padre]) issues.push(nm+': padre "'+r.padre+'" non trovato');
+  if(r.madre&&!INDEX[r.madre]) issues.push(nm+': madre "'+r.madre+'" non trovata');
+  if(r.birth&&!validateBirthDate(r.birth)) issues.push(nm+': data "'+r.birth+'" non valida');
+  if(r.padre&&r.padre===r.id) issues.push(nm+': è padre di se stesso');
+  if(r.madre&&r.madre===r.id) issues.push(nm+': è madre di se stessa');
+  if(r.tipo&&!TIPO_VALID[r.tipo]) issues.push(nm+': tipo non canonico "'+r.tipo+'"');
+  if(r.birth&&r.padre&&INDEX[r.padre]&&INDEX[r.padre].birth){
+    var ry=parseInt(r.birth.slice(0,4),10),sy=parseInt(INDEX[r.padre].birth.slice(0,4),10);
+    if(!isNaN(ry)&&!isNaN(sy)&&ry<sy) issues.push(nm+': nato prima del padre');
+  }
+  if(r.birth&&r.madre&&INDEX[r.madre]&&INDEX[r.madre].birth){
+    var ry2=parseInt(r.birth.slice(0,4),10),dy=parseInt(INDEX[r.madre].birth.slice(0,4),10);
+    if(!isNaN(ry2)&&!isNaN(dy)&&ry2<dy) issues.push(nm+': nato prima della madre');
+  }
+  if(r.sesso==='F'&&DATA.some(function(x){ return x&&x.padre===r.id; }))
+    issues.push(nm+': femmina compare come padre');
+  if(r.sesso==='M'&&DATA.some(function(x){ return x&&x.madre===r.id; }))
+    issues.push(nm+': maschio compare come madre');
+});
+var _tc=tipoCambi(null).changes.length; if(_tc) issues.push('🧬 '+_tc+' cani hanno un Tipo diverso dalle regole del Club: usa il pulsante 🧬 Tipi.');
+if(!issues.length){
+  toast('Nessun problema trovato — '+DATA.length+' record OK.');
+  setStatus('Integrità OK — '+DATA.length+' record.','ok');
+} else {
+  setStatus('Trovati '+issues.length+' probl.','bad');
+  /* show in modal overlay */
+  var overlay=$('confirmOverlay');
+  var box=overlay?overlay.querySelector('.confirmBox'):null;
+  if(box){
+    box.querySelector('.confirmTitle').textContent='Integrità database — '+issues.length+' problemi';
+    var msg=box.querySelector('.confirmMsg');
+    msg.style.maxHeight='50vh'; msg.style.overflow='auto'; msg.style.whiteSpace='pre-wrap';
+    msg.textContent=issues.join('\n');
+    var btns=box.querySelector('.confirmBtns');
+    btns.innerHTML='<button class="btn primary" id="confOk">OK</button>';
+    overlay.classList.add('show');
+    document.getElementById('confOk').onclick=function(){ overlay.classList.remove('show'); };
+  } else {
+    alert('Problemi ('+issues.length+'):\n'+issues.slice(0,15).join('\n')+(issues.length>15?'\n…':''));
+  }
+}
+}
+
+/* ===========================
+SORT BUTTONS
+=========================== */
+var sortBtns=document.querySelectorAll('.sortBtn');
+sortBtns.forEach(function(btn){
+btn.onclick=function(){
+SORT_BY=btn.dataset.sort;
+sortBtns.forEach(function(b){ b.classList.toggle('active',b===btn); });
+refreshList();
+};
+});
+
+/* ===========================
+LOAD / SAVE
+=========================== */
+function normalizeRec(r){
+r=r||{};
+/* TIPO: solo spazi, maiuscole e le rinomine decise dal Club (es. CENTRAL ASIAN VOLKODAV → CENTRAL ASIAN SHEPHERD DOG).
+   La coerenza con i genitori la controlla "🧬 Tipi". */
+var out={
+id:clean(r.id), sesso:sexNorm(r.sesso),
+name:clean(r.name), allevatore:clean(r.allevatore),
+proprietario:clean(r.proprietario),
+paese:(clean(r.paese)||'').toUpperCase(),
+tipo:tipoNorm(r.tipo), pedigree:clean(r.pedigree),
+birth:clean(r.birth), note:clean(r.note),
+colore:(clean(r.colore)||'').toUpperCase(),
+padre:clean(r.padre), madre:clean(r.madre), foto_list:[]
+};
+if(Array.isArray(r.foto_list)) out.foto_list=r.foto_list.filter(Boolean).slice(0,10);
+else if(Array.isArray(r.foto)) out.foto_list=r.foto.filter(Boolean).slice(0,10);
+else if(r.foto) out.foto_list=[r.foto];
+/* conserva gli altri campi (es. lastModified): prima andavano persi a ogni apertura */
+for(var k in r){ if(Object.prototype.hasOwnProperty.call(r,k)&&!(k in out)&&k!=='foto') out[k]=r[k]; }
+return out;
+}
+
+function loadFromText(text){
+var arr=text.trim()?JSON.parse(text):[];
+if(!Array.isArray(arr)) throw new Error('JSON non valido (atteso array)');
+DATA=arr.map(normalizeRec).filter(function(r){ return r.id; });
+dbBaseFromText(text);  /* controllo di versione: da quale versione online deriva */
+rebuildIndex(); setupAC();
+SELECTED_ID=null; NEW_MODE=false;
+clearForm(); refreshList(); setSelectedLabel(); enableUI(true);
+setDirty(false);
+setStatus('Caricati '+DATA.length+' cani.','ok');
+toast('Database caricato: '+DATA.length+' record.');
+if(!loadFromText._fromCache){ try{ DBCache.save(text,FILE_NAME||'database_cani_fixed.json'); }catch(e){} }
+/* select from URL hash if present */
+if($('f_verif')) $('f_verif').addEventListener('change',function(){ $('f_verifBox').style.display=this.checked?'flex':'none'; if(this.checked&&!$('f_verifData').value) $('f_verifData').value=new Date().toISOString().slice(0,10); });
+var _hash=decodeURIComponent(location.hash.slice(1));
+if(_hash&&INDEX[_hash]){ selectRecord(_hash); }
+}
+
+function loadFromFileInput(file){
+return file.text().then(function(text){
+fileHandle=null;
+FILE_NAME=file.name||'';
+if($('filePill')) $('filePill').textContent=FILE_NAME||'DB aperto';
+loadFromText(text);
+});
+}
+
+async function openWithFS(){
+var picks=await window.showOpenFilePicker({
+multiple:false,
+types:[{description:'JSON',accept:{'application/json':['.json']}}]
+});
+if(!picks||!picks[0]) return;
+fileHandle=picks[0];
+var file=await fileHandle.getFile();
+FILE_NAME=file.name||'';
+if($('filePill')) $('filePill').textContent=FILE_NAME||'DB aperto';
+loadFromText(await file.text());
+}
+
+function jsonText(){ return JSON.stringify(DATA,null,2); }
+
+function downloadBlob(text,filename){
+var blob=new Blob([text],{type:'application/json'});
+var a=document.createElement('a');
+a.href=URL.createObjectURL(blob); a.download=filename;
+document.body.appendChild(a); a.click();
+setTimeout(function(){ URL.revokeObjectURL(a.href); document.body.removeChild(a); },250);
+}
+
+async function saveDatabase(){
+if(!DATA||!DATA.length){ setStatus('Niente da salvare.','warn'); return; }
+var text=jsonText();
+try{
+if(canFS){
+if(!fileHandle){
+fileHandle=await window.showSaveFilePicker({
+suggestedName:FILE_NAME||'database.json',
+types:[{description:'JSON',accept:{'application/json':['.json']}}]
+});
+}
+var w=await fileHandle.createWritable();
+await w.write(text); await w.close();
+setDirty(false);
+dbBaseRemember(text);
+try{ DBCache.save(text,FILE_NAME||'database_cani_fixed.json'); }catch(e){}
+toast('Database salvato su file.');
+setStatus('Salvato su file.','ok');
+if(backupEnabled) downloadBackup();
+return;
+}
+}catch(e){ console.error(e); }
+var base=FILE_NAME?FILE_NAME.replace(/.json$/i,''):'database_cani_fixed';
+downloadBlob(text,base+'.json');
+setDirty(false);
+dbBaseRemember(text);
+try{ DBCache.save(text,FILE_NAME||'database_cani_fixed.json'); }catch(e){}
+setStatus('File scaricato. Sostituisci il file originale.','warn');
+toast('File scaricato.');
+if(backupEnabled) downloadBackup();
+}
+
+function downloadBackup(){
+var text=jsonText();
+function pad(n){ return(n<10?'0':'')+n; }
+var d=new Date();
+var stamp=d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+'_'+pad(d.getHours())+pad(d.getMinutes());
+downloadBlob(text,'backup_'+stamp+'.json');
+}
+
+function copyJsonToClipboard(){
+var text=jsonText();
+function fallback(t){
+var ta=document.createElement('textarea');
+ta.value=t; ta.style.cssText='position:fixed;left:-9999px';
+document.body.appendChild(ta); ta.focus(); ta.select();
+try{ document.execCommand('copy'); toast('JSON copiato negli appunti.'); }
+catch(e){ setStatus('Copia non riuscita.','bad'); }
+document.body.removeChild(ta);
+}
+if(navigator.clipboard&&navigator.clipboard.writeText){
+navigator.clipboard.writeText(text).then(function(){ toast('JSON copiato negli appunti. Incolla in Textastic.'); }).catch(function(){ fallback(text); });
+} else { fallback(text); }
+}
+
+/* ===========================
+WIRING
+=========================== */
+if($('btnViewer')) $('btnViewer').onclick=function(){ window.location.href='./Claude_DB_fixed.html'+(SELECTED_ID?'#'+encodeURIComponent(SELECTED_ID):''); };
+
+if($('btnOpen')){
+$('btnOpen').onclick=function(){
+if(canFS){
+openWithFS().catch(function(err){ console.error(err); setStatus('Errore: '+(err.message||err),'bad'); });
+return;
+}
+if($('jsonPicker')){ $('jsonPicker').value=''; $('jsonPicker').click(); }
+};
+}
+if($('jsonPicker')){
+$('jsonPicker').addEventListener('change',function(e){
+var f=e.target.files&&e.target.files[0];
+if(!f) return;
+loadFromFileInput(f).catch(function(err){ setStatus('Errore: '+(err.message||err),'bad'); }).finally(function(){ e.target.value=''; });
+});
+}
+
+if($('btnSave')) $('btnSave').onclick=function(){ saveDatabase(); };
+if($('btnCopyJson')) $('btnCopyJson').onclick=copyJsonToClipboard;
+if($('btnIntegrity')) $('btnIntegrity').onclick=runIntegrityCheck;
+if($('btnTipoCheck')) $('btnTipoCheck').onclick=openTipoCheck;
+if($('btnGitHub')) $('btnGitHub').onclick=openGitHub;
+if($('btnPublish')) $('btnPublish').onclick=publishDatabase;
+if($('btnFromSite')) $('btnFromSite').onclick=openFromSite;
+ghRefresh();
+['f_tipo','f_sire','f_dam'].forEach(function(id){ var e=$(id); if(e){ e.addEventListener('input',updateTipoRule); e.addEventListener('change',updateTipoRule); e.addEventListener('blur',function(){ setTimeout(updateTipoRule,350); }); } });
+if($('f_tipoForce')) $('f_tipoForce').addEventListener('change',updateTipoRule);
+
+if($('btnBackupToggle')){
+$('btnBackupToggle').onclick=function(){
+backupEnabled=!backupEnabled;
+$('btnBackupToggle').textContent=(backupEnabled?'🛠 Backup: ON':'🛠 Backup: OFF');
+toast(backupEnabled?'Backup automatico attivo.':'Backup disattivato.');
+};
+}
+
+if($('btnNew')) $('btnNew').onclick=newRecord;
+if($('btnTemplate')) $('btnTemplate').onclick=openBreederTemplate;
+if($('btnImportText')) $('btnImportText').onclick=openImportText;
+if($('btnApply')) $('btnApply').onclick=applyChanges;
+if($('btnClear')) $('btnClear').onclick=function(){ clearForm(); setStatus('Campi puliti.','ok'); };
+if($('btnDuplicate')) $('btnDuplicate').onclick=duplicateRecord;
+if($('btnDelete')) $('btnDelete').onclick=deleteSelected;
+if($('btnCopyParents')) $('btnCopyParents').onclick=copyParentsFromSelected;
+if($('btnDupParentsOnly')) $('btnDupParentsOnly').onclick=duplicateParentsOnly;
+
+if($('btnForceSire')){
+$('btnForceSire').onclick=function(){
+var raw=clean($('f_sire').value);
+if(!raw){ setStatus('Scrivi il nome del padre prima.','warn'); return; }
+var id=createPlaceholderParent(raw,'M');
+$('f_sire').dataset.id=id; $('f_sire').value=parentLabel(INDEX[id]);
+toast('Padre creato come nuovo record.');
+};
+}
+if($('btnForceDam')){
+$('btnForceDam').onclick=function(){
+var raw=clean($('f_dam').value);
+if(!raw){ setStatus('Scrivi il nome della madre prima.','warn'); return; }
+var id=createPlaceholderParent(raw,'F');
+$('f_dam').dataset.id=id; $('f_dam').value=parentLabel(INDEX[id]);
+toast('Madre creata come nuovo record.');
+};
+}
+if($('btnClearSire')){ $('btnClearSire').onclick=function(){ $('f_sire').value=''; $('f_sire').dataset.id=''; updateTipoRule(); }; }
+if($('btnClearDam')) { $('btnClearDam').onclick=function(){ $('f_dam').value='';  $('f_dam').dataset.id=''; updateTipoRule(); }; }
+
+if($('btnPhotoPick')){ $('btnPhotoPick').onclick=function(){ if($('photoPicker')){ $('photoPicker').value=''; $('photoPicker').click(); } }; }
+if($('photoPicker')){
+$('photoPicker').addEventListener('change',function(e){
+var files=e.target.files;
+if(!files||!files.length) return;
+addPhotos(files).catch(function(err){ setStatus('Errore foto.','bad'); }).finally(function(){ e.target.value=''; });
+});
+}
+if($('btnPhotoRemove')){
+$('btnPhotoRemove').onclick=function(){
+if(!CURRENT_PHOTOS.length){ return; }
+CURRENT_PHOTOS.splice(CURRENT_PHOTO_IDX,1);
+if(CURRENT_PHOTO_PATHS.length>CURRENT_PHOTO_IDX) CURRENT_PHOTO_PATHS.splice(CURRENT_PHOTO_IDX,1);
+if(CURRENT_PHOTO_FILES.length>CURRENT_PHOTO_IDX) CURRENT_PHOTO_FILES.splice(CURRENT_PHOTO_IDX,1);
+CURRENT_PHOTO_IDX=Math.max(0,Math.min(CURRENT_PHOTO_IDX,CURRENT_PHOTOS.length-1));
+renderPhotoPreview(CURRENT_PHOTOS);
+updateDownloadBtn();
+setDirty(true);
+};
+}
+
+if($('q')) $('q').addEventListener('input',refreshList);
+if($('btnExact')){
+  try{ EXACT_SEARCH=sessionStorage.getItem('alabay_exact')==='1'; }catch(e){}
+  var paintExact=function(){ $('btnExact').classList.toggle('active',EXACT_SEARCH); };
+  paintExact();
+  $('btnExact').onclick=function(){
+    EXACT_SEARCH=!EXACT_SEARCH; paintExact();
+    try{ sessionStorage.setItem('alabay_exact',EXACT_SEARCH?'1':'0'); }catch(e){}
+    refreshList();
+  };
+}
+if($('tipoFilter')) $('tipoFilter').addEventListener('change',refreshList);
+
+// Hash: open specific record on load (from viewer link)
+
+/* ===========================
+   TEMPLATE ALLEVATORE
+=========================== */
+function openBreederTemplate(){
+  /* collect unique breeders with their most common paese+tipo */
+  var bMap = {};
+  for(var i=0;i<DATA.length;i++){
+    var r=DATA[i];
+    if(!r||!r.allevatore) continue;
+    var k=r.allevatore;
+    if(!bMap[k]) bMap[k]={allevatore:k,paese:'',tipo:'',count:0,paeseMap:{},tipoMap:{}};
+    bMap[k].count++;
+    if(r.paese){ bMap[k].paeseMap[r.paese]=(bMap[k].paeseMap[r.paese]||0)+1; }
+    if(r.tipo){  bMap[k].tipoMap[r.tipo] =(bMap[k].tipoMap[r.tipo] ||0)+1; }
+  }
+  /* pick most common paese+tipo per breeder */
+  var bList=[];
+  for(var k in bMap){
+    var b=bMap[k];
+    var bestP='',bestT='',maxP=0,maxT=0;
+    for(var p in b.paeseMap){ if(b.paeseMap[p]>maxP){ maxP=b.paeseMap[p]; bestP=p; } }
+    for(var t in b.tipoMap){  if(b.tipoMap[t]>maxT){ maxT=b.tipoMap[t]; bestT=t; } }
+    bList.push({allevatore:k,paese:bestP,tipo:bestT,count:b.count});
+  }
+  bList.sort(function(a,b){ return a.allevatore.localeCompare(b.allevatore,'it'); });
+
+  /* build modal */
+  var overlay=document.createElement('div');
+  overlay.id='tmplOverlay';
+  overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px';
+
+  var box=document.createElement('div');
+  box.style.cssText='background:#0d1729;border:1px solid rgba(148,163,184,.15);border-radius:16px;width:100%;max-width:520px;max-height:80vh;display:flex;flex-direction:column;overflow:hidden';
+
+  var head=document.createElement('div');
+  head.style.cssText='padding:14px 16px;border-bottom:1px solid rgba(148,163,184,.1);display:flex;align-items:center;gap:10px';
+  head.innerHTML='<span style="font-weight:700;color:#edf2ff;flex:1">🏷️ Nuovo cane da allevatore</span>'
+    +'<input id="tmplQ" placeholder="Cerca allevatore..." style="flex:1;background:rgba(255,255,255,.05);border:1px solid rgba(148,163,184,.2);border-radius:8px;padding:6px 10px;color:#edf2ff;font-size:13px">'
+    +'<button onclick="document.body.removeChild(document.getElementById(\'tmplOverlay\'))" style="background:none;border:none;color:#94a3b8;font-size:20px;cursor:pointer;padding:0 4px">×</button>';
+
+  var list=document.createElement('div');
+  list.id='tmplList';
+  list.style.cssText='overflow-y:auto;flex:1;padding:8px';
+
+  function renderTmplList(q){
+    list.innerHTML='';
+    var filtered=q ? bList.filter(function(b){ return b.allevatore.toLowerCase().indexOf(q.toLowerCase())>=0; }) : bList;
+    filtered.forEach(function(b){
+      var row=document.createElement('div');
+      row.style.cssText='padding:10px 12px;border-radius:10px;cursor:pointer;margin-bottom:4px;border:1px solid rgba(148,163,184,.08)';
+      row.innerHTML='<div style="font-weight:600;color:#edf2ff">'+b.allevatore+'</div>'
+        +'<div style="font-size:12px;color:#94a3b8;margin-top:2px">'
+        +(b.paese?b.paese:'?')+' · '+(b.tipo?b.tipo.slice(0,30):'?')+' · '+b.count+' cani</div>';
+      row.onmouseover=function(){ this.style.background='rgba(96,165,250,.1)'; };
+      row.onmouseout=function(){ this.style.background=''; };
+      row.onclick=function(){
+        document.body.removeChild(overlay);
+        newRecord();
+        setTimeout(function(){
+          if($('f_all'))     $('f_all').value=b.allevatore;
+          if($('f_country')) $('f_country').value=b.paese;
+          if($('f_tipo'))    $('f_tipo').value=b.tipo;
+          updateSummary(null);
+        },50);
+      };
+      list.appendChild(row);
+    });
+    if(!filtered.length){
+      list.innerHTML='<div style="padding:20px;text-align:center;color:#94a3b8">Nessun allevatore trovato</div>';
+    }
+  }
+
+  box.appendChild(head); box.appendChild(list);
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
+  renderTmplList('');
+
+  var tmplQ=document.getElementById('tmplQ');
+  if(tmplQ){
+    tmplQ.addEventListener('input',function(){ renderTmplList(this.value); });
+    setTimeout(function(){ tmplQ.focus(); },100);
+  }
+  overlay.addEventListener('click',function(ev){
+    if(ev.target===overlay) document.body.removeChild(overlay);
+  });
+}
+
+
+/* ═════════════════════════════════════════════════════════════════
+   IMPORTA PROPOSTA (dal sito: "Proponi un soggetto / una cucciolata")
+   Sostituisce la vecchia importazione "AI" (chiamava un servizio esterno
+   senza chiave: non poteva funzionare). Nessun dato esce dal computer.
+═════════════════════════════════════════════════════════════════ */
+var CLUB_TIPI=TIPI_CANON.filter(function(t){ return t!=='UNDEFINED'&&t!=='UNKNOWN BREED'; });
+function escH(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function edDupes(name,sex){
+  name=clean(name||''); if(name.length<3) return [];
+  var k=searchKey(name), nn=norm(name), out=[];
+  for(var i=0;i<DATA.length&&out.length<6;i++){ var r=DATA[i]; if(!r||!r.id) continue; if(sex&&r.sesso&&r.sesso!==sex) continue;
+    if(norm(r.name)===nn||searchKey(r.name)===k) out.push(r); }
+  return out;
+}
+function openImportText(){
+  var ov=document.createElement('div'); ov.id='importOverlay'; ov.className='impOv';
+  ov.innerHTML='<div class="impBox"><div class="impHead"><b>📥 Importa proposta dal sito</b><button type="button" class="btn ghost" id="impX">✕</button></div>'+
+    '<div class="impBody"><div class="hint" style="margin:0 0 8px">Incolla il messaggio ricevuto (email o WhatsApp) con il blocco “PROPOSTA ALABAY”. Controlla i doppioni, collega i genitori, assegna il Tipo (solo il Club) e aggiungi. Poi premi <b>Salva</b>.</div>'+
+    '<textarea id="impIn" rows="6" placeholder="Incolla qui il messaggio completo…" style="width:100%"></textarea>'+
+    '<div class="rowBtn"><button type="button" class="btn primary" id="impRead">Leggi proposta</button></div><div id="impOut"></div></div></div>';
+  document.body.appendChild(ov);
+  function close(){ if(ov.parentNode) ov.parentNode.removeChild(ov); }
+  $('impX').onclick=close; ov.addEventListener('click',function(e){ if(e.target===ov) close(); });
+  $('impRead').onclick=function(){
+    var t=$('impIn').value||'', m=/---PROPOSTA ALABAY---\s*([\s\S]*?)\s*---FINE PROPOSTA---/.exec(t), out=$('impOut');
+    if(!m){ out.innerHTML='<div class="impErr">Blocco “PROPOSTA ALABAY” non trovato: incolla il messaggio completo.</div>'; return; }
+    var p; try{ p=JSON.parse(m[1].replace(/\s*\n\s*/g,' ')); }catch(e){ out.innerHTML='<div class="impErr">Blocco dati danneggiato (forse spezzato dall’app di posta).</div>'; return; }
+    var recs=(p.records||[]).map(function(r){ return Object.assign({},r); });
+    function parentCell(r,k){
+      var id=r[k], nm=r[k+'_name'];
+      if(id&&INDEX[id]) return '✅ '+escH(INDEX[id].name)+' <span class="iMeta">['+escH(id)+']</span>';
+      if(nm){ var c=edDupes(nm,k==='padre'?'M':'F'); return '⚠️ '+escH(nm)+' <span class="iMeta">non nel DB</span>'+(c.length?'<br><select class="impLink" data-k="'+k+'"><option value="">collega a…</option>'+c.map(function(x){ return '<option value="'+escH(x.id)+'">'+escH(x.name)+' ('+escH(x.birth||'?')+') ['+escH(x.id)+']</option>'; }).join('')+'</select>':''); }
+      return '—';
+    }
+    var h='<div class="hint" style="margin:10px 0">Da <b>'+escH((p.sender||{}).name||'')+'</b> '+escH((p.sender||{}).role?'('+p.sender.role+')':'')+' — '+escH((p.sender||{}).contact||'')+' · '+escH(p.date||'')+'<br>Documentazione: <b>'+escH(p.source||'')+'</b></div>'+
+      '<div class="impTableWrap"><table class="impT"><thead><tr><th>Ok</th><th>Nome</th><th>Sesso</th><th>Nascita</th><th>Tipo (Club)</th><th>Padre</th><th>Madre</th><th>Doppioni?</th></tr></thead><tbody>';
+    recs.forEach(function(r,i){
+      var d=edDupes(r.name,r.sesso);
+      h+='<tr data-i="'+i+'"><td><input type="checkbox" class="impOk" '+(d.length?'':'checked')+'></td><td><input type="text" class="impName" value="'+escH(r.name)+'"></td><td>'+escH(r.sesso)+'</td><td>'+escH(r.birth_full||r.birth)+'</td>'+
+        '<td><select class="impTipo"><option value="">da assegnare</option>'+CLUB_TIPI.map(function(t){ return '<option>'+t+'</option>'; }).join('')+'</select><div class="iMeta impAtt"></div></td>'+
+        '<td>'+parentCell(r,'padre')+'</td><td>'+parentCell(r,'madre')+'</td><td>'+(d.length?'⚠️ '+d.map(function(x){ return escH(x.name)+' ('+escH(x.birth||'?')+') ['+escH(x.id)+']'; }).join('<br>'):'—')+'</td></tr>';
+    });
+    h+='</tbody></table></div><div class="rowBtn"><button type="button" class="btn primary" id="impAdd">✅ Aggiungi le righe spuntate</button></div><div id="impRes"></div>';
+    out.innerHTML=h;
+    function impAtt(tr){
+      var r=recs[+tr.getAttribute('data-i')], pp=r.padre, mm=r.madre;
+      tr.querySelectorAll('.impLink').forEach(function(s){ if(s.value){ if(s.getAttribute('data-k')==='padre') pp=s.value; else mm=s.value; } });
+      var a=(pp&&mm&&INDEX[pp]&&INDEX[mm])?tipoAtteso(pp,mm):null, sel=tr.querySelector('.impTipo'), lab=tr.querySelector('.impAtt');
+      tr._att=a&&a.tipo?a.tipo:null;
+      if(tr._att){ if(!sel.value||sel._auto){ sel.value=tr._att; sel._auto=true; } lab.textContent='regole: '+tr._att; }
+      else lab.textContent=a?a.why:'genitori non collegati';
+    }
+    out.querySelectorAll('tbody tr').forEach(function(tr){ impAtt(tr); tr.querySelectorAll('.impLink').forEach(function(s){ s.onchange=function(){ impAtt(tr); }; }); tr.querySelector('.impTipo').onchange=function(){ this._auto=false; }; });
+    $('impAdd').onclick=function(){
+      var added=[];
+      out.querySelectorAll('tbody tr').forEach(function(tr){
+        var r=recs[+tr.getAttribute('data-i')]; if(!tr.querySelector('.impOk').checked) return;
+        tr.querySelectorAll('.impLink').forEach(function(s){ if(s.value) r[s.getAttribute('data-k')]=s.value; });
+        var _tp=tipoNorm(tr.querySelector('.impTipo').value), _fz=null;
+        if(tr._att&&_tp!==tr._att){
+          var _w=window.prompt(r.name+': dalle regole il Tipo è '+tr._att+'. Hai scelto '+(_tp||'nessun Tipo')+'.\nPer forzarlo scrivi il motivo (Annulla = salta questo cane):','');
+          if(!_w||!clean(_w)) return;
+          _fz={motivo:clean(_w),data:new Date().toISOString().slice(0,10),atteso:tr._att};
+        }
+        var id=nextAutoId();
+        var note='[Proposta approvata '+new Date().toISOString().slice(0,10)+' — da '+((p.sender||{}).name||'?')+' — doc: '+(p.source||'')+(r.birth_full?' — nato il '+r.birth_full:'')+']';
+        if(!r.padre&&r.padre_name) note+=' [Padre non nel DB: '+r.padre_name+']';
+        if(!r.madre&&r.madre_name) note+=' [Madre non nel DB: '+r.madre_name+']';
+        var rec={id:id,fonte:clean('Segnalazione al Club'+(p.source?' — '+p.source:'')),sesso:sexNorm(r.sesso),name:clean(tr.querySelector('.impName').value).toUpperCase(),allevatore:clean(r.allevatore),proprietario:clean(r.proprietario),
+          paese:(clean(r.paese)||'').toUpperCase(),tipo:_tp,pedigree:clean(r.pedigree),birth:clean(r.birth),note:note,
+          colore:(clean(r.colore)||'').toUpperCase(),padre:(r.padre&&INDEX[r.padre])?r.padre:'',madre:(r.madre&&INDEX[r.madre])?r.madre:'',foto_list:[],lastModified:new Date().toISOString().slice(0,10)};
+        if(_fz) rec.tipo_forzato=_fz;
+        DATA.push(rec); rebuildIndex(); added.push(rec);
+      });
+      if(!added.length){ $('impRes').innerHTML='<div class="impErr">Nessuna riga spuntata.</div>'; return; }
+      setDirty(true); refreshList();
+      $('impRes').innerHTML='<div class="hint" style="margin-top:8px">✅ Aggiunti '+added.length+': '+added.map(function(r){ return escH(r.name)+' ['+r.id+']'; }).join(', ')+'. Ricorda di premere <b>Salva</b>.</div>';
+      $('impAdd').disabled=true;
+      toast('Aggiunti '+added.length+' soggetti dalla proposta.');
+    };
+  };
+}
+
+function resolveParentByName(name,sex){
+  if(!name) return null;
+  var q=norm(name);
+  var best=null, bestScore=0;
+  for(var i=0;i<DATA.length;i++){
+    var r=DATA[i];
+    if(!r) continue;
+    if(sex&&sexNorm(r.sesso)&&sexNorm(r.sesso)!==sex) continue;
+    var rn=norm(r.name||'');
+    if(rn===q) return r;
+    if(rn.indexOf(q)===0&&q.length>bestScore){ best=r; bestScore=q.length; }
+  }
+  return best;
+}
+
+window.addEventListener('load',function(){
+var hash=decodeURIComponent(location.hash.slice(1));
+if(hash&&INDEX[hash]) selectRecord(hash);
+});
+
+// Warn on close if dirty
+window.addEventListener('beforeunload',function(e){
+if(DIRTY){ e.preventDefault(); e.returnValue=''; }
+});
+
+// init
+enableUI(false); setSelectedLabel(); refreshList();
+
+/* ═══════════ Archivio Alabay: funzioni condivise con il Viewer ═══════════ */
+function prParseColor(s){
+  s=String(s||'').trim().toLowerCase();
+  if(s==='white') return {r:255,g:255,b:255,a:1};
+  if(s==='black') return {r:0,g:0,b:0,a:1};
+  if(s.charAt(0)==='#'){
+    var h=s.slice(1);
+    if(h.length===3||h.length===4) h=h.split('').map(function(c){return c+c;}).join('');
+    if(h.length!==6&&h.length!==8) return null;
+    return {r:parseInt(h.slice(0,2),16),g:parseInt(h.slice(2,4),16),b:parseInt(h.slice(4,6),16),
+            a:h.length===8?parseInt(h.slice(6,8),16)/255:1};
+  }
+  var m=s.match(/^rgba?\(([^)]*)\)$/);
+  if(m){
+    var p=m[1].split(/[\s,\/]+/).filter(Boolean);
+    if(p.length<3) return null;
+    var a=p[3]!=null?(/%$/.test(p[3])?parseFloat(p[3])/100:parseFloat(p[3])):1;
+    return {r:parseFloat(p[0]),g:parseFloat(p[1]),b:parseFloat(p[2]),a:isNaN(a)?1:a};
+  }
+  return null;
+}
+
+function prToHsl(c){
+  var r=c.r/255,g=c.g/255,b=c.b/255,mx=Math.max(r,g,b),mn=Math.min(r,g,b),h=0,s=0,l=(mx+mn)/2;
+  if(mx!==mn){
+    var d=mx-mn; s=l>.5?d/(2-mx-mn):d/(mx+mn);
+    h=mx===r?(g-b)/d+(g<b?6:0):mx===g?(b-r)/d+2:(r-g)/d+4; h*=60;
+  }
+  return {h:h,s:s,l:l};
+}
+
+function prHsl(h,s,l,a){
+  s=Math.max(0,Math.min(1,s)); l=Math.max(0,Math.min(1,l));
+  var c=(1-Math.abs(2*l-1))*s,x=c*(1-Math.abs((h/60)%2-1)),m=l-c/2,r=0,g=0,b=0;
+  if(h<60){r=c;g=x;}else if(h<120){r=x;g=c;}else if(h<180){g=c;b=x;}
+  else if(h<240){g=x;b=c;}else if(h<300){r=x;b=c;}else{r=c;b=x;}
+  r=Math.round((r+m)*255);g=Math.round((g+m)*255);b=Math.round((b+m)*255);
+  return (a==null||a>=1)?'rgb('+r+','+g+','+b+')':'rgba('+r+','+g+','+b+','+(+a).toFixed(3)+')';
+}
+
+function prSplitDecls(txt){
+  var out=[],cur='',depth=0,q=null;
+  for(var i=0;i<txt.length;i++){
+    var ch=txt.charAt(i);
+    if(q){ cur+=ch; if(ch===q) q=null; continue; }
+    if(ch==='"'||ch==="'"){ q=ch; cur+=ch; continue; }
+    if(ch==='(') depth++; else if(ch===')') depth=Math.max(0,depth-1);
+    if(ch===';'&&depth===0){ if(cur.trim()) out.push(cur); cur=''; continue; }
+    cur+=ch;
+  }
+  if(cur.trim()) out.push(cur);
+  return out;
+}
+
+var CYR_MAP={'а':'a','б':'b','в':'v','г':'g','д':'d','е':'e','ё':'e','ж':'zh','з':'z','и':'i','й':'i','к':'k','л':'l','м':'m','н':'n','о':'o','п':'p','р':'r','с':'s','т':'t','у':'u','ф':'f','х':'kh','ц':'ts','ч':'ch','ш':'sh','щ':'shch','ъ':'','ы':'y','ь':'','э':'e','ю':'yu','я':'ya','ә':'a','ғ':'g','қ':'k','ң':'n','ө':'o','ұ':'u','ү':'u','һ':'h','і':'i','ў':'u','җ':'zh','ҙ':'z'};
+
+var KEY_RULES=[[/SHCH/g,'S'],[/TSCH/g,'C'],[/DZH/g,'I'],[/DJ/g,'I'],[/ZH/g,'I'],[/KH/g,'H'],[/X/g,'KS'],
+  [/CH/g,'C'],[/SH/g,'S'],[/PH/g,'F'],[/GH/g,'G'],[/TS/g,'S'],[/W/g,'V'],[/Q/g,'K'],[/[JY]/g,'I'],[/Z/g,'S'],
+  [/EE/g,'I'],[/OO|OU/g,'U'],[/([A-Z])\1+/g,'$1']];
+
+function searchKey(s){
+  s=String(s||'').toLowerCase();
+  if(/[Ѐ-ӿ]/.test(s)) s=s.replace(/[Ѐ-ӿ]/g,function(c){ return CYR_MAP[c]!=null?CYR_MAP[c]:c; });
+  try{ s=s.normalize('NFD').replace(/[̀-ͯ]/g,''); }catch(e){}
+  s=s.toUpperCase().replace(/[^A-Z0-9]+/g,' ');
+  for(var i=0;i<KEY_RULES.length;i++) s=s.replace(KEY_RULES[i][0],KEY_RULES[i][1]);
+  return s.replace(/\s+/g,' ').trim();
+}
+
+var DBCache=(function(){
+  var NAME='alabay-db',STORE='kv';
+  function open(){
+    return new Promise(function(res,rej){
+      if(!window.indexedDB) return rej(new Error('no idb'));
+      var rq=indexedDB.open(NAME,1);
+      rq.onupgradeneeded=function(){ rq.result.createObjectStore(STORE); };
+      rq.onsuccess=function(){ res(rq.result); };
+      rq.onerror=function(){ rej(rq.error); };
+    });
+  }
+  function tx(mode,fn){
+    return open().then(function(db){ return new Promise(function(res,rej){
+      var t=db.transaction(STORE,mode), st=t.objectStore(STORE), out=fn(st);
+      t.oncomplete=function(){ res(out&&out.result); db.close(); };
+      t.onerror=function(){ rej(t.error); db.close(); };
+    }); });
+  }
+  return {
+    save:function(text,label){ return tx('readwrite',function(st){ st.put({text:text,label:label||'',date:new Date().toISOString()},'db'); }).catch(function(){}); },
+    load:function(){ return tx('readonly',function(st){ return st.get('db'); }); }
+  };
+})();
+
+var THEME=(function(){
+  var ATTR='data-theme', PFX='html[data-theme="light"]';
+  var LIGHT_VARS={
+    '--bg':'#F1EADD','--panel':'#FFFCF6','--panel2':'#FAF5EA',
+    '--ink':'#2B1D14','--mut':'#6E5E50','--border':'#E3D6BD',
+    '--ok':'#1F6B45','--warn':'#9A6400','--bad':'#A12020','--accent':'#8B1E1E',
+    '--coi-low-fg':'#0f766e','--coi-low-bg':'rgba(20,184,166,.10)','--coi-low-border':'rgba(15,118,110,.40)',
+    '--coi-mid-fg':'#a15c07','--coi-mid-bg':'rgba(245,158,11,.12)','--coi-mid-border':'rgba(161,92,7,.40)',
+    '--coi-high-fg':'#c2410c','--coi-high-bg':'rgba(234,88,12,.10)','--coi-high-border':'rgba(194,65,12,.40)',
+    '--coi-vhigh-fg':'#b91c1c','--coi-vhigh-bg':'rgba(220,38,38,.10)','--coi-vhigh-border':'rgba(185,28,28,.40)'
+  };
+  /* ── mappa colori scuro → chiaro (tinte calde) ── */
+  function map(tok,mode){
+    var c=prParseColor(tok); if(!c||c.a===0) return tok;
+    var H=prToHsl(c), grey=H.s<0.18||H.l>0.94, a=c.a;
+    if(mode==='fg'){
+      if(H.l<=0.45) return tok;
+      if(grey){ var e=Math.max(0,Math.min(1,a*(H.l-0.25)/0.7)); return prHsl(25,0.28,Math.min(0.46,0.13+(1-e)*0.36),1); }
+      return prHsl(H.h,Math.min(1,H.s),0.30+(1-Math.min(1,a))*0.14,1);
+    }
+    if(mode==='shadow') return 'rgba(70,45,20,'+Math.min(0.14,a*0.35).toFixed(3)+')';
+    if(mode==='bg'){
+      if(grey){
+        if(H.l>0.9) return a>=0.5?tok:'rgba(90,60,30,'+Math.max(0.03,a*0.9).toFixed(3)+')';
+        if(H.l<0.04&&a<0.95) return 'rgba(60,40,20,'+Math.min(0.45,a*0.6).toFixed(3)+')';   /* velature nere (sfondi dei popup) */
+        if(H.l<0.4) return a>=0.5?'#FFFCF6':'rgba(90,60,30,'+Math.min(0.06,a*0.14).toFixed(3)+')';
+        return 'rgba(120,95,70,'+Math.max(0.12,Math.min(0.45,a)).toFixed(3)+')';
+      }
+      if(H.l<0.3) return a>=0.5?prHsl(H.h,Math.min(H.s,0.5),0.95,1):'rgba(90,60,30,.04)';
+      if(a<0.35) return prHsl(H.h,H.s,Math.min(H.l,0.55),Math.max(a,0.08));
+      return prHsl(H.h,H.s,Math.min(H.l,0.52),a);
+    }
+    /* border */
+    if(grey){
+      if(H.l<0.4) return '#E3D6BD';
+      return 'rgba(150,115,70,'+Math.max(0.2,Math.min(0.5,a*1.6)).toFixed(3)+')';
+    }
+    return prHsl(H.h,H.s,Math.min(H.l,0.5),Math.max(a,0.35));
+  }
+  function recolor(val,mode){ return String(val).replace(/#[0-9a-fA-F]{3,8}\b|rgba?\([^)]*\)|\b(white|black)\b/g,function(t){ return map(t,mode); }); }
+  function decl(prop,val,isTxt){
+    var p=prop.toLowerCase();
+    if(p.indexOf('--')===0) return null;
+    if(p==='box-shadow'||p==='text-shadow'||p==='filter') return recolor(val,'shadow');
+    if(p==='color'||p==='-webkit-text-fill-color'||p==='caret-color') return recolor(val,'fg');
+    if(p==='fill') return recolor(val,isTxt?'fg':'bg');
+    if(p==='stroke') return recolor(val,'border');
+    if(p.indexOf('background')===0) return recolor(val,'bg');
+    if(p.indexOf('border')===0||p.indexOf('outline')===0||p.indexOf('text-decoration')===0) return recolor(val,'border');
+    return null;
+  }
+  /* solo le dichiarazioni di colore, riscritte (per i fogli di stile) */
+  function colorDecls(txt,isTxt){
+    return prSplitDecls(txt).map(function(d){
+      var i=d.indexOf(':'); if(i<0) return '';
+      var prop=d.slice(0,i).trim(), val=d.slice(i+1).trim();
+      var imp=/!important\s*$/i.test(val); if(imp) val=val.replace(/!important\s*$/i,'').trim();
+      var nv=decl(prop,val,isTxt); if(nv==null||nv===val) return '';
+      return prop+':'+nv+(imp?' !important':'');
+    }).filter(Boolean).join(';');
+  }
+  /* stile inline completo, con i colori convertiti */
+  function inlineConv(txt,isTxt){
+    return prSplitDecls(txt).map(function(d){
+      var i=d.indexOf(':'); if(i<0) return d;
+      var prop=d.slice(0,i).trim(), val=d.slice(i+1).trim();
+      var nv=decl(prop,val,isTxt); return nv==null?d:(prop+':'+nv);
+    }).join(';');
+  }
+  function splitSel(sel){ var out=[],cur='',dep=0; for(var i=0;i<sel.length;i++){ var ch=sel[i]; if(ch==='('||ch==='[') dep++; else if(ch===')'||ch===']') dep--; if(ch===','&&dep===0){ out.push(cur); cur=''; } else cur+=ch; } out.push(cur); return out.map(function(x){return x.trim();}).filter(Boolean); }
+  function prefix(sel){
+    return splitSel(sel).map(function(s){
+      if(/^:root\b/.test(s)) return PFX+s.slice(5);
+      if(/^html\b/.test(s)) return PFX+s.slice(4);
+      return PFX+' '+s;
+    }).join(',');
+  }
+  function convRules(rules,out){
+    for(var i=0;i<rules.length;i++){
+      var r=rules[i];
+      if(r.type===1){
+        if(/data-theme/.test(r.selectorText)) continue;
+        var isRoot=/^(:root|html)$/.test(r.selectorText.trim());
+        if(isRoot) continue;                        /* variabili: gestite a parte */
+        var body=colorDecls(r.style.cssText,/\b(text|tspan)\b|\.t[A-Z]/.test(r.selectorText));
+        if(body) out.push(prefix(r.selectorText)+'{'+body+'}');
+      } else if(r.type===4){
+        var mt=r.media.mediaText||'';
+        if(/print/.test(mt)&&!/screen/.test(mt)) continue;
+        var inner=[]; convRules(r.cssRules,inner);
+        if(inner.length) out.push('@media '+mt+'{'+inner.join('\n')+'}');
+      }
+    }
+  }
+  function sheetText(sheet){ var out=[]; try{ convRules(sheet.cssRules,out); }catch(e){} return out.join('\n'); }
+
+  var CLUB_CSS=[
+    PFX+'{'+Object.keys(LIGHT_VARS).map(function(k){ return k+':'+LIGHT_VARS[k]; }).join(';')+';color-scheme:light}',
+    PFX+' body{background:linear-gradient(180deg,#F6F0E4 0%,#EFE6D5 100%) fixed;color:var(--ink)}',
+    PFX+' header{background:rgba(255,252,246,.94);border-bottom:2px solid #C4A44A;box-shadow:0 1px 6px rgba(70,45,20,.08)}',
+    PFX+' .brand{color:#6B1A1A}',
+    PFX+' .brand::before{background:#C4A44A;box-shadow:0 0 6px rgba(196,164,74,.6)}',
+    PFX+' .btn,'+PFX+' .btnFilter{background:#FFFCF6;border-color:#E0D1B3;color:#3A2A1E;box-shadow:0 1px 2px rgba(70,45,20,.06)}',
+    PFX+' .btn:hover:not(:disabled),'+PFX+' .btnFilter:hover:not(:disabled){background:#F7EEDC;border-color:#C4A44A}',
+    PFX+' .btn.active,'+PFX+' .btnFilter.active,'+PFX+' .btn.on{background:#6B1A1A;border-color:#6B1A1A;color:#FFF7E6}',
+    PFX+' .btn:disabled,'+PFX+' .btnFilter:disabled{opacity:.45}',
+    PFX+' .bar-group{background:rgba(196,164,74,.07);border-color:rgba(196,164,74,.25)}',
+    PFX+' .card{background:#FFFCF6;border-color:#E3D6BD;box-shadow:0 2px 10px rgba(70,45,20,.07)}',
+    PFX+' .cardHead{background:#FBF6EC;border-bottom-color:#EADFC8}',
+    PFX+' input[type="text"],'+PFX+' input[type="number"],'+PFX+' select,'+PFX+' textarea{background:#FFFFFF;color:#2B1D14;border-color:#DCCBAA}',
+    PFX+' input[type="text"]:focus,'+PFX+' input[type="number"]:focus,'+PFX+' select:focus{border-color:#B08D2E;box-shadow:0 0 0 3px rgba(196,164,74,.22)}',
+    PFX+' input::placeholder{color:#9A8A7A}',
+    PFX+' .linkish,'+PFX+' .srchLink{color:#8B1E1E}',
+    PFX+' .ddList{background:#FFFCF6;border-color:#E0D1B3;box-shadow:0 10px 30px rgba(70,45,20,.15)}',
+    PFX+' .ddItem:hover{background:#F7EEDC}',
+    PFX+' .ddHead,'+PFX+' table.lst th{background:#F7F0E2;color:#6E5E50;border-color:#E3D6BD}',
+    PFX+' table.lst th.sorted{color:#8B1E1E}',
+    PFX+' table.lst tr.row:hover td{background:#F7EEDC}',
+    PFX+' .fuzzyTag{color:#9A6400;border-color:rgba(154,100,0,.4)}',
+    PFX+' #svg{background-color:#FBF7EF;background-image:radial-gradient(circle,rgba(150,115,70,.18) 1px,transparent 1px)}',
+    PFX+' .modal{background:rgba(60,40,20,.38)}',
+    PFX+' .modalInner{background:#FFFCF6;border-color:#E3D6BD;box-shadow:0 20px 60px rgba(60,40,20,.25)}',
+    PFX+' .status.ok{color:#1F6B45}',
+    PFX+' #btnTheme{min-width:38px;justify-content:center}',
+    PFX+' .btn.primary{background:#6B1A1A;border-color:#6B1A1A;color:#FFF7E6}',
+    PFX+' .item{background:#FFFCF6;border-color:#E6D9BF}',
+    PFX+' .item.sel{background:#F7EEDC;border-color:#C4A44A}',
+    PFX+' .item:hover{background:#FBF4E6}',
+    PFX+' .acBox,'+PFX+' .confirmBox,'+PFX+' .impBox{background:#FFFCF6;border-color:#E0D1B3;box-shadow:0 10px 30px rgba(70,45,20,.15)}',
+    PFX+' .acItem:hover{background:#F7EEDC}',
+    PFX+' .sortBtn.active{background:#6B1A1A;border-color:#6B1A1A;color:#FFF7E6}',
+    PFX+' .impT th{background:#F7F0E2;color:#6E5E50}',
+    PFX+' .ctTab.on,'+PFX+' .ctMain{background:#6B1A1A;border-color:#6B1A1A;color:#FFF7E6}',
+    PFX+' .ctInp{background:#fff;color:#2B1D14;border-color:#DCCBAA}',
+    PFX+' .ctErr{color:#A12020}',
+    PFX+' .ppList{background:#FFFCF6;border-color:#E0D1B3;box-shadow:0 10px 30px rgba(70,45,20,.15)}',
+    PFX+' .ppIt:hover{background:#F7EEDC}',
+    PFX+' .ctTipoNote{background:#F7F0E2;border-color:#E3D6BD}',
+    PFX+' .homeView{background:transparent}',
+    PFX+' .adminPop{background:#FFFCF6;border-color:#E0D1B3;box-shadow:0 10px 30px rgba(70,45,20,.15)}',
+    PFX+' .subjBar{border-bottom-color:#EADFC8}',
+    PFX+' .viewGrp{background:rgba(255,252,246,.92)}',
+    PFX+' .hmStat,'+PFX+' .hmCard{background:#FFFCF6;border-color:#E6D9BF;box-shadow:0 1px 4px rgba(70,45,20,.05)}',
+    PFX+' .hmContrib{border-color:#C4A44A;background:#FFF8E8}',
+    PFX+' .hmKicker{color:#8B1E1E}',
+    PFX+' .hmTile:hover,'+PFX+' .hmBar:hover,'+PFX+' .hmChip:hover,'+PFX+' .hmDog:hover{background:#F7EEDC}'
+  ].join('\n');
+
+  var styleMain=null, styleDyn=null, seenSheets=new Set(), observer=null;
+  function ensureStyles(){
+    if(styleMain) return;
+    styleMain=document.createElement('style'); styleMain.id='themeLightCss';
+    styleDyn=document.createElement('style'); styleDyn.id='themeLightDyn';
+    var txt=[];
+    for(var i=0;i<document.styleSheets.length;i++){
+      var sh=document.styleSheets[i], own=sh.ownerNode;
+      if(own&&(own.id==='themeLightCss'||own.id==='themeLightDyn')) continue;
+      seenSheets.add(own); txt.push(sheetText(sh));
+    }
+    styleMain.textContent=txt.join('\n')+'\n'+CLUB_CSS;
+    document.head.appendChild(styleMain);
+    document.head.appendChild(styleDyn);
+  }
+  function addDynStyle(node){
+    if(!node||seenSheets.has(node)||node.id==='themeLightCss'||node.id==='themeLightDyn') return;
+    seenSheets.add(node);
+    var t=node.sheet?sheetText(node.sheet):'';
+    if(!t) return;
+    /* le regole Club devono restare in fondo */
+    styleDyn.textContent=styleDyn.textContent.replace(/\n\/\*club\*\/[\s\S]*$/,'')+'\n'+t+'\n/*club*/\n'+CLUB_CSS;
+  }
+
+  /* ── stili inline: conversione reversibile ── */
+  var REC=new WeakMap();
+  function isTxtEl(el){ return /^(text|tspan)$/i.test(el.tagName); }
+  function convEl(el){
+    if(el.nodeType!==1||el.closest&&el.closest('#themeLightCss,#themeLightDyn')) return;
+    var rec=REC.get(el);
+    var st=el.getAttribute('style');
+    if(st!=null){
+      if(!rec||rec.last!==st){
+        rec=rec||{};
+        /* dichiarazioni cambiate da altro codice: diventano il nuovo "originale" */
+        var orig=rec.orig||'';
+        var curMap={},origMap={};
+        prSplitDecls(st).forEach(function(d){ var i=d.indexOf(':'); if(i>0) curMap[d.slice(0,i).trim().toLowerCase()]=d.slice(i+1).trim(); });
+        if(rec.last){ var lastMap={}; prSplitDecls(rec.last).forEach(function(d){ var i=d.indexOf(':'); if(i>0) lastMap[d.slice(0,i).trim().toLowerCase()]=d.slice(i+1).trim(); });
+          prSplitDecls(orig).forEach(function(d){ var i=d.indexOf(':'); if(i>0) origMap[d.slice(0,i).trim().toLowerCase()]=d.slice(i+1).trim(); });
+          Object.keys(curMap).forEach(function(k){ if(curMap[k]!==lastMap[k]) origMap[k]=curMap[k]; });
+          Object.keys(origMap).forEach(function(k){ if(!(k in curMap)) delete origMap[k]; });
+        } else origMap=curMap;
+        var origTxt=Object.keys(origMap).map(function(k){ return k+':'+origMap[k]; }).join(';');
+        var conv=inlineConv(origTxt,isTxtEl(el));
+        rec.orig=origTxt; rec.last=conv; REC.set(el,rec);
+        el.setAttribute('data-thm','1');
+        if(conv!==st) el.setAttribute('style',conv);
+      }
+    }
+    ['fill','stroke','stop-color'].forEach(function(a){
+      if(!el.hasAttribute(a)) return;
+      var v=el.getAttribute(a); rec=REC.get(el)||{}; rec.attrs=rec.attrs||{};
+      var ar=rec.attrs[a];
+      if(ar&&ar.last===v) return;
+      var nv=recolor(v,a==='stroke'?'border':(a==='fill'&&isTxtEl(el)?'fg':'bg'));
+      rec.attrs[a]={orig:v,last:nv}; REC.set(el,rec); el.setAttribute('data-thm','1');
+      if(nv!==v) el.setAttribute(a,nv);
+    });
+  }
+  function convTree(root){
+    if(!root||root.nodeType!==1) return;
+    if(root.tagName==='STYLE'){ addDynStyle(root); return; }
+    convEl(root);
+    var all=root.querySelectorAll('[style],[fill],[stroke],[stop-color],style');
+    for(var i=0;i<all.length;i++){ if(all[i].tagName==='STYLE') addDynStyle(all[i]); else convEl(all[i]); }
+  }
+  function declMap(t){ var m={}; prSplitDecls(t||'').forEach(function(d){ var i=d.indexOf(':'); if(i>0) m[d.slice(0,i).trim().toLowerCase()]=d.slice(i+1).trim(); }); return m; }
+  function restoreAll(){
+    if(observer){ var pend=observer.takeRecords(); pend.forEach(function(m){ if(m.type==='attributes') convEl(m.target); }); }
+    document.querySelectorAll('[data-thm]').forEach(function(el){
+      var rec=REC.get(el); if(!rec) return;
+      if(rec.orig!=null){
+        /* rimetti solo i colori originali: display, larghezze ecc. restano quelli attuali */
+        var cur=declMap(el.getAttribute('style')), org=declMap(rec.orig);
+        var out=Object.keys(cur).map(function(k){ return k+':'+((decl(k,cur[k],false)!=null&&(k in org))?org[k]:cur[k]); });
+        el.setAttribute('style',out.join(';'));
+      }
+      if(rec.attrs) Object.keys(rec.attrs).forEach(function(a){ el.setAttribute(a,rec.attrs[a].orig); });
+      REC.delete(el); el.removeAttribute('data-thm');
+    });
+  }
+  function startObs(){
+    if(observer) return;
+    observer=new MutationObserver(function(muts){
+      if(current()!=='light') return;
+      for(var i=0;i<muts.length;i++){
+        var m=muts[i];
+        if(m.type==='childList'){ for(var j=0;j<m.addedNodes.length;j++) convTree(m.addedNodes[j]); }
+        else if(m.type==='attributes') convEl(m.target);
+      }
+    });
+    observer.observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['style','fill','stroke','stop-color']});
+  }
+  function current(){ return document.documentElement.getAttribute(ATTR)==='light'?'light':'dark'; }
+  function set(mode,save){
+    if(mode==='light'){
+      ensureStyles();
+      document.documentElement.setAttribute(ATTR,'light');
+      document.querySelectorAll('style').forEach(addDynStyle);
+      convTree(document.body);
+      startObs();
+    } else {
+      document.documentElement.setAttribute(ATTR,'dark');
+      restoreAll();
+    }
+    var b=document.getElementById('btnTheme');
+    if(b){ b.textContent=mode==='light'?'☾':'☀️'; b.title=mode==='light'?'Passa al tema scuro':'Passa al tema chiaro'; }
+    if(save){ try{ localStorage.setItem('alabayTheme',mode); }catch(e){} }
+  }
+  function init(){
+    var m='light'; try{ m=localStorage.getItem('alabayTheme')||'light'; }catch(e){}
+    set(m,false);
+    var b=document.getElementById('btnTheme');
+    if(b) b.onclick=function(){ set(current()==='light'?'dark':'light',true); };
+  }
+  function orig(el){ return REC.get(el)||null; }
+  return {init:init,set:set,current:current,orig:orig};
+})();
+
+try{ THEME.init(); }catch(e){ console.warn('tema',e); }
+/* database già aperto nel Viewer su questo computer */
+(function(){
+  var b=$('btnFromViewer'); if(!b) return;
+  DBCache.load().then(function(c){
+    if(!c||!c.text) return;
+    b.style.display='';
+    b.title='Apri il database del Viewer ('+(c.label||'')+', '+new Date(c.date).toLocaleDateString('it-IT')+')';
+    b.onclick=function(){
+      if(typeof DIRTY!=='undefined'&&DIRTY&&!window.confirm('Ci sono modifiche non salvate: continuare?')) return;
+      fileHandle=null; FILE_NAME=(c.label&&/\.json$/i.test(c.label))?c.label:'database_cani_fixed.json';
+      if($('filePill')) $('filePill').textContent=FILE_NAME+' (dal Viewer)';
+      loadFromText._fromCache=true; try{ loadFromText(c.text); } finally { loadFromText._fromCache=false; }
+    };
+  }).catch(function(){});
+})();
+</script>
+
+
+
+<!-- DATALISTS -->
+<datalist id="tipoList">
+        <option value="PUREBRED TURKMEN ALABAY">
+        <option value="TURKMEN ALABAY">
+        <option value="KAZAKH TOBET">
+        <option value="UZBEK SARKANJIK">
+        <option value="TAJIK DAHMARDA">
+        <option value="KYRGYZ DOBOT">
+        <option value="AFGHAN KOOCHEE">
+        <option value="PUREBRED CENTRAL ASIAN SHEPHERD DOG">
+        <option value="CENTRAL ASIAN SHEPHERD DOG">
+        <option value="ASIAN + CAUCASIAN">
+        <option value="GEORGIAN NAGAZI">
+        <option value="PUREBRED GEORGIAN NAGAZI">
+        <option value="ARMENIAN GAMPR">
+        <option value="PUREBRED ARMENIAN GAMPR">
+        <option value="CAUCASIAN SHEPHERD DOG">
+        <option value="PUREBRED CAUCASIAN SHEPHERD DOG">
+        <option value="CAUCASIAN VOLKODAV">
+        <option value="KARACHEVSKIY VOLKODAV">
+        <option value="DAGESTANSKIY VOLKODAV">
+        <option value="DAGESTAN SHEPHERD DOG">
+        <option value="CROSSBRED">
+        <option value="MOSKOW WATCHDOG">
+        <option value="UNKNOWN BREED">
+        <option value="UNDEFINED">
+      </datalist>
+<datalist id="countriesList">
+        <option value="RUSSIA">
+        <option value="TURKMENISTAN">
+        <option value="ITALY">
+        <option value="UKRAINE">
+        <option value="LITHUANIA">
+        <option value="BELARUS">
+        <option value="UZBEKISTAN">
+        <option value="TAJIKISTAN">
+        <option value="KAZAKHSTAN">
+        <option value="KYRGYZSTAN">
+        <option value="GEORGIA">
+        <option value="BULGARIA">
+        <option value="HUNGARY">
+        <option value="SLOVAKIA">
+        <option value="FINLAND">
+        <option value="AZERBAIJAN">
+        <option value="ARMENIA">
+        <option value="MOLDOVA">
+        <option value="ROMANIA">
+        <option value="GERMANY">
+        <option value="FRANCE">
+        <option value="SPAIN">
+        <option value="POLAND">
+        <option value="CZECH REPUBLIC">
+        <option value="SERBIA">
+      </datalist>
+
+</body>
+</html>
