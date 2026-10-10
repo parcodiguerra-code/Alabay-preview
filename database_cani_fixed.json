@@ -113020,7 +113020,7 @@
   {
     "id": "auto_7279",
     "sesso": "F",
-    "name": "BLONDI",
+    "name": "BLONDI (Belarus)",
     "allevatore": "",
     "proprietario": "",
     "paese": "BELARUS",
@@ -113031,12 +113031,13 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_7278",
     "sesso": "M",
-    "name": "ARAK",
+    "name": "ARAK (Belarus)",
     "allevatore": "",
     "proprietario": "",
     "paese": "BELARUS",
@@ -113047,7 +113048,8 @@
     "colore": "",
     "padre": "dog0806",
     "madre": "auto_7279",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-10"
   },
   {
     "id": "auto_7280",
