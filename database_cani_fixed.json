@@ -223,7 +223,11 @@
     "colore": "WHITE",
     "padre": "auto_0015",
     "madre": "auto_0016",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0013.jpg",
+      "images/auto_0013_2.jpg"
+    ],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0014",
