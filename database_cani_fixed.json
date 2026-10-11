@@ -7262,7 +7262,7 @@
   {
     "id": "auto_0389",
     "sesso": "M",
-    "name": "BATACLAN",
+    "name": "BATACLAN (ow. Vizzuso)",
     "allevatore": "R. BENEDETTO",
     "proprietario": "P. VIZZUSO",
     "paese": "ITALY",
@@ -7273,7 +7273,8 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0388",
     "madre": "auto_0036",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0390",
@@ -13938,7 +13939,7 @@
   {
     "id": "auto_0726",
     "sesso": "M",
-    "name": "SARIK (Turkmenistan), b. 80's/90's",
+    "name": "SARIK (Turkmenistan), b. 1980's/1990's",
     "allevatore": "",
     "proprietario": "",
     "paese": "TURKMENISTAN",
@@ -13949,7 +13950,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0727",
@@ -21369,18 +21371,19 @@
   {
     "id": "auto_1044",
     "sesso": "M",
-    "name": "BAYNAK (ow. Horse Breeding \"Kalinina\")",
+    "name": "BAYNAK (ow. Horse Breeding \"Kalinin\")",
     "allevatore": "",
-    "proprietario": "HORSE BREEDING \"KALININA\"",
+    "proprietario": "HORSE BREEDING \"KALININ\"",
     "paese": "",
     "tipo": "",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "",
     "padre": "auto_1046",
     "madre": "auto_1047",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_1045",
@@ -22793,18 +22796,19 @@
   {
     "id": "auto_1109",
     "sesso": "M",
-    "name": "HAYDAR ERBET",
+    "name": "HAYDAR ERBET (ow. Polomoshin)",
     "allevatore": "L. KONONENKO",
     "proprietario": "A. ANTAKOV - POLOMOSHIN",
     "paese": "RUSSIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1992-08-04",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "WHITE WITH GREY",
     "padre": "dog1497",
     "madre": "auto_1035",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_1110",
@@ -23514,7 +23518,7 @@
   {
     "id": "auto_1135",
     "sesso": "F",
-    "name": "SHIRBENT",
+    "name": "SHIRBENT (ow. Ker)",
     "allevatore": "A. KER",
     "proprietario": "A. KER",
     "paese": "TURKMENISTAN",
@@ -23525,7 +23529,8 @@
     "colore": "",
     "padre": "auto_1136",
     "madre": "dog1544",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "dog1548",
@@ -25729,7 +25734,7 @@
   {
     "id": "dog1690",
     "sesso": "F",
-    "name": "ALADZHA (ow. VAGER)",
+    "name": "ALADZHA (ow. Vager)",
     "allevatore": "",
     "proprietario": "A. VAGER",
     "paese": "TURKMENISTAN",
@@ -25740,7 +25745,8 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "dog1691",
@@ -28259,7 +28265,7 @@
   {
     "id": "auto_1308",
     "sesso": "F",
-    "name": "DZHAMAL MILEN",
+    "name": "ZHAMAL MILEN",
     "allevatore": "KLYUSHINA",
     "proprietario": "KLYUSHINA",
     "paese": "RUSSIA",
@@ -28271,7 +28277,7 @@
     "padre": "dog1850",
     "madre": "auto_1309",
     "foto_list": [],
-    "lastModified": "2026-10-09"
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_1310",
@@ -30267,18 +30273,19 @@
   {
     "id": "auto_1382",
     "sesso": "F",
-    "name": "SANDRA",
+    "name": "SANDRA (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_1383",
     "madre": "auto_1384",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "dog1991",
@@ -31356,7 +31363,7 @@
   {
     "id": "auto_1421",
     "sesso": "F",
-    "name": "CHAUSH IZ SUTOK LADIR XXX",
+    "name": "CHAUSH IZ SUTOK LADIR",
     "allevatore": "",
     "proprietario": "T. PANFILOVA",
     "paese": "RUSSIA",
@@ -31365,10 +31372,10 @@
     "birth": "",
     "note": "",
     "colore": "",
-    "padre": "",
-    "madre": "",
+    "padre": "auto_14007",
+    "madre": "auto_13969",
     "foto_list": [],
-    "lastModified": "2026-10-10"
+    "lastModified": "2026-10-11"
   },
   {
     "id": "dog2063",
@@ -32693,7 +32700,7 @@
   {
     "id": "auto_2153",
     "sesso": "M",
-    "name": "TULLAR",
+    "name": "TULLAR (Ukraine)",
     "allevatore": "",
     "proprietario": "",
     "paese": "UKRAINE",
@@ -32704,7 +32711,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_2154",
@@ -33333,18 +33341,19 @@
   {
     "id": "auto_2196",
     "sesso": "F",
-    "name": "SHEYTANKA",
+    "name": "SHEYTANKA (ow. Novruzov)",
     "allevatore": "H. ALTYEV",
     "proprietario": "CH. NOVRUZOV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1990-06-14",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "BIANCO",
+    "note": "",
+    "colore": "WHITE",
     "padre": "auto_0003",
     "madre": "auto_0004",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_2197",
@@ -35367,18 +35376,19 @@
   {
     "id": "auto_2333",
     "sesso": "M",
-    "name": "ALTAY (ow. Ergeshev, b. 1998)",
+    "name": "ALTAY (ow. Ergeshev), b. 1998",
     "allevatore": "",
     "proprietario": "B. ERGESHEV",
     "paese": "KAZAKHSTAN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "KFU R 0009905",
     "birth": "1998-01-01",
-    "note": "[Creato automaticamente]",
+    "note": "",
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_2334",
@@ -35831,18 +35841,19 @@
   {
     "id": "auto_2363",
     "sesso": "M",
-    "name": "UCHDISHLI",
+    "name": "UCHDISHLI (ow. Hodzhanepesov)",
     "allevatore": "R. GYTYK",
     "proprietario": "G. HODZHANEPESOV (G. SAKAL)",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente]",
+    "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0468",
     "madre": "auto_2364",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_2364",
@@ -35897,7 +35908,7 @@
     "sesso": "F",
     "name": "EVA LINDA (ow. Fedyakin)",
     "allevatore": "",
-    "proprietario": "A. FEDYAKIN",
+    "proprietario": "S. FEDYAKIN",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU 0004393",
@@ -35906,7 +35917,8 @@
     "colore": "TIGER STRIPES",
     "padre": "auto_2369",
     "madre": "auto_2368",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_2368",
@@ -41999,7 +42011,7 @@
   {
     "id": "auto_2764",
     "sesso": "M",
-    "name": "TALGAR",
+    "name": "TALGAR (ow. Tsiganova)",
     "allevatore": "",
     "proprietario": "TSIGANOVA",
     "paese": "UKRAINE",
@@ -42010,7 +42022,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_2765",
@@ -58640,7 +58653,7 @@
   {
     "id": "auto_3827",
     "sesso": "M",
-    "name": "SIRLAN",
+    "name": "SIRLAN (BKO 335-990081)",
     "allevatore": "",
     "proprietario": "",
     "paese": "BELARUS",
@@ -58651,7 +58664,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_3828",
@@ -59826,7 +59840,7 @@
   {
     "id": "auto_3902",
     "sesso": "F",
-    "name": "GUNCHA",
+    "name": "GUNCHA (RKF 0015284)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -59837,7 +59851,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_3903",
@@ -60258,7 +60273,7 @@
   {
     "id": "auto_3933",
     "sesso": "F",
-    "name": "I-BABYR",
+    "name": "I-BABYR (ow. Pavlikova)",
     "allevatore": "Y. CHENTSOV",
     "proprietario": "E. PAVLIKOVA",
     "paese": "RUSSIA",
@@ -60269,7 +60284,8 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3932",
     "madre": "auto_3812",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_3934",
@@ -61444,7 +61460,7 @@
   {
     "id": "auto_4007",
     "sesso": "F",
-    "name": "TEKKE BABU (ow. Vasiliev)",
+    "name": "TEKKI-BABU (ow. Vasiliev)",
     "allevatore": "A. VASILIEV",
     "proprietario": "A. VASILIEV - E. VEDEHOVA",
     "paese": "RUSSIA",
@@ -61455,7 +61471,8 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_0069",
     "madre": "auto_0070",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_4008",
@@ -61556,8 +61573,8 @@
   {
     "id": "auto_4014",
     "sesso": "F",
-    "name": "BASARA",
-    "allevatore": "",
+    "name": "BASARA (br. Chigindin)",
+    "allevatore": "A. CHIGINDIN",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -61567,23 +61584,25 @@
     "colore": "",
     "padre": "auto_3390",
     "madre": "auto_4015",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_4015",
     "sesso": "F",
-    "name": "TURKMEN ABORIGEN (Turkmenistan)",
+    "name": "TURKMEN ABORIGEN (ow. Chigindin)",
     "allevatore": "",
-    "proprietario": "",
+    "proprietario": "A. CHIGINDIN",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "",
+    "note": "Taken from Turkmenistan.",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_4016",
@@ -71769,7 +71788,7 @@
   {
     "id": "auto_4661",
     "sesso": "F",
-    "name": "AYSHA",
+    "name": "AYSHA (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -71780,7 +71799,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_4662",
@@ -75452,7 +75472,7 @@
   {
     "id": "auto_4894",
     "sesso": "F",
-    "name": "BARRA",
+    "name": "BARRA (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -75463,7 +75483,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_4895",
@@ -75806,7 +75827,7 @@
     "sesso": "F",
     "name": "BALTEK GAYRAT ETNA",
     "allevatore": "E. BOZOVA",
-    "proprietario": "A. FEDYAKIN - V. SHPAKOVSKIY",
+    "proprietario": "A. FEDKIN - V. SHPAKOVSKIY",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -75815,7 +75836,8 @@
     "colore": "WHITE",
     "padre": "auto_0443",
     "madre": "auto_4814",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_4918",
@@ -76657,7 +76679,7 @@
     "id": "auto_4971",
     "sesso": "M",
     "name": "SAMUR FAN (ow. Shpakovskiy)",
-    "allevatore": "A. FEDYAKIN",
+    "allevatore": "A. FEDKIN",
     "proprietario": "V. SHPAKOVSKIY",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -76667,7 +76689,8 @@
     "colore": "WHITE",
     "padre": "auto_4409",
     "madre": "auto_4917",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_4973",
@@ -80540,7 +80563,7 @@
   {
     "id": "auto_5214",
     "sesso": "M",
-    "name": "BOYARD",
+    "name": "BOYARD (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -80551,7 +80574,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_5215",
@@ -81213,7 +81237,7 @@
   {
     "id": "auto_5256",
     "sesso": "F",
-    "name": "BERTA 2 KAZANSKAYA",
+    "name": "BERTA II KAZANSKAYA",
     "allevatore": "A. BABASKIN - T. HABIBULIN",
     "proprietario": "A. KALUGIN",
     "paese": "RUSSIA",
@@ -81224,7 +81248,8 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_5255",
     "madre": "auto_5254",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_5258",
@@ -82383,7 +82408,7 @@
   {
     "id": "auto_5330",
     "sesso": "F",
-    "name": "SIGA",
+    "name": "SIGA (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -82394,7 +82419,8 @@
     "colore": "",
     "padre": "auto_4202",
     "madre": "auto_5324",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_5331",
@@ -86180,7 +86206,7 @@
   {
     "id": "auto_5575",
     "sesso": "F",
-    "name": "SONYA",
+    "name": "SONYA (UCHM R 15956)",
     "allevatore": "",
     "proprietario": "",
     "paese": "MOLDOVA",
@@ -86191,7 +86217,8 @@
     "colore": "",
     "padre": "auto_3925",
     "madre": "auto_5574",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_5576",
@@ -87110,7 +87137,7 @@
   {
     "id": "auto_5634",
     "sesso": "F",
-    "name": "D- ZUHRA SAKSONIYA",
+    "name": "D-ZUHRA SAKSONIYA",
     "allevatore": "L. KRIVOCHENKO",
     "proprietario": "E. KOSTYUK",
     "paese": "UKRAINE",
@@ -87121,7 +87148,8 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_3938",
     "madre": "auto_5630",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_5635",
@@ -107923,7 +107951,7 @@
   {
     "id": "auto_6953",
     "sesso": "M",
-    "name": "ARGO",
+    "name": "ARGO (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -107934,7 +107962,8 @@
     "colore": "",
     "padre": "auto_0507",
     "madre": "auto_6954",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_6954",
@@ -107955,18 +107984,19 @@
   {
     "id": "auto_6956",
     "sesso": "F",
-    "name": "GYURZA",
+    "name": "GYURZA (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente]",
+    "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_6955",
@@ -107987,7 +108017,7 @@
   {
     "id": "auto_6957",
     "sesso": "F",
-    "name": "DINA",
+    "name": "DINA (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -107998,7 +108028,8 @@
     "colore": "BLACK WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_6958",
@@ -108051,7 +108082,7 @@
   {
     "id": "auto_6961",
     "sesso": "F",
-    "name": "YU-DZHINA",
+    "name": "YU-DZHINA (ow. Ulaev)",
     "allevatore": "A. BAHTIOZIN",
     "proprietario": "V. ULAEV",
     "paese": "RUSSIA",
@@ -108062,7 +108093,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0713",
     "madre": "auto_3952",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_6962",
@@ -108875,11 +108907,12 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "Imported from Turkmenistan.",
+    "note": "Taken from Turkmenistan by Damir Asylgareev.",
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_7013",
@@ -110793,7 +110826,7 @@
   {
     "id": "auto_7134",
     "sesso": "F",
-    "name": "GYURZA",
+    "name": "GYURZA (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -110804,7 +110837,8 @@
     "colore": "",
     "padre": "auto_1319",
     "madre": "auto_7142",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_7135",
@@ -112383,9 +112417,9 @@
   {
     "id": "auto_7234",
     "sesso": "M",
-    "name": "BAR-BOS",
+    "name": "BAR-BOS (ow. Remizov)",
     "allevatore": "",
-    "proprietario": "",
+    "proprietario": "N. REMIZOV",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -112394,7 +112428,8 @@
     "colore": "",
     "padre": "auto_4390",
     "madre": "auto_7209",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_7235",
@@ -133721,7 +133756,7 @@
   {
     "id": "auto_8588",
     "sesso": "M",
-    "name": "TALIB",
+    "name": "TALIB (RKF 2435228)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -133732,7 +133767,8 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_8585",
     "madre": "auto_7863",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_8589",
@@ -136461,7 +136497,7 @@
   {
     "id": "auto_8759",
     "sesso": "M",
-    "name": "BASSAR-BEK",
+    "name": "BASSAR-BEK (br. Melnichenko)",
     "allevatore": "O. MELNICHENKO",
     "proprietario": "",
     "paese": "UKRAINE",
@@ -136472,7 +136508,8 @@
     "colore": "WHITE WITH BLACK",
     "padre": "dog0336",
     "madre": "auto_0002",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_8760",
@@ -140387,7 +140424,7 @@
   {
     "id": "auto_9010",
     "sesso": "M",
-    "name": "T-ARLAN",
+    "name": "T-ARLAN (Kyrgyzistan)",
     "allevatore": "",
     "proprietario": "",
     "paese": "KYRGYZSTAN",
@@ -140398,7 +140435,8 @@
     "colore": "",
     "padre": "dog0979",
     "madre": "auto_9009",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_9011",
@@ -142372,9 +142410,9 @@
   {
     "id": "auto_9140",
     "sesso": "F",
-    "name": "CHAGRA (ow. Antonovic)",
+    "name": "CHAGRA (ow. Antonovich)",
     "allevatore": "V. VASILIEVA",
-    "proprietario": "L. ANTONOVIC",
+    "proprietario": "L. ANTONOVICH",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -142383,7 +142421,8 @@
     "colore": "WHITE WITH LIGHT REDDISH",
     "padre": "dog1905",
     "madre": "dog1898",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_9141",
@@ -144637,7 +144676,7 @@
     "id": "auto_9282",
     "sesso": "M",
     "name": "YARIK (ow. Nikandrov)",
-    "allevatore": "L. ANTONOVIC",
+    "allevatore": "L. ANTONOVICH",
     "proprietario": "A. NIKANDROV",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -144647,13 +144686,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0945",
     "madre": "auto_9140",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_9283",
     "sesso": "M",
     "name": "YAKIN-SHAH (ow. Cherkasov)",
-    "allevatore": "L. ANTONOVIC",
+    "allevatore": "L. ANTONOVICH",
     "proprietario": "A. CHERKASOV",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -144663,13 +144703,14 @@
     "colore": "WHITE WITH REDDISH AND LIGHT FAWN",
     "padre": "auto_0945",
     "madre": "auto_9140",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_9284",
     "sesso": "F",
     "name": "YAZMAG (ow. Britvin)",
-    "allevatore": "L. ANTONOVIC",
+    "allevatore": "L. ANTONOVICH",
     "proprietario": "V. BRITVIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -144679,13 +144720,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0945",
     "madre": "auto_9140",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_9285",
     "sesso": "F",
     "name": "YANASHMA (ow. Nahramov)",
-    "allevatore": "L. ANTONOVIC",
+    "allevatore": "L. ANTONOVICH",
     "proprietario": "M. NAHRAMOV",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -144695,7 +144737,8 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_0945",
     "madre": "auto_9140",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_9286",
@@ -148924,7 +148967,7 @@
   {
     "id": "auto_9551",
     "sesso": "M",
-    "name": "SARIK (Turkmenistan), b. 70's/80's",
+    "name": "SARIK (Turkmenistan), b. 1970's/1980's",
     "allevatore": "",
     "proprietario": "",
     "paese": "TURKMENISTAN",
@@ -148935,7 +148978,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_9552",
@@ -157103,7 +157147,7 @@
   {
     "id": "auto_10064",
     "sesso": "F",
-    "name": "GYULZAR",
+    "name": "GYULZAR (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -157114,7 +157158,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10065",
@@ -158770,7 +158815,7 @@
   {
     "id": "auto_10172",
     "sesso": "F",
-    "name": "GURBAT",
+    "name": "GURBAT (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -158781,7 +158826,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10171",
@@ -164278,7 +164324,7 @@
   {
     "id": "auto_10519",
     "sesso": "M",
-    "name": "ATHOS",
+    "name": "ATHOS (COR A 354-09/335)",
     "allevatore": "",
     "proprietario": "",
     "paese": "ROMANIA",
@@ -164289,7 +164335,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10520",
@@ -165030,7 +165077,7 @@
   {
     "id": "auto_10566",
     "sesso": "M",
-    "name": "HASAN-BEK",
+    "name": "HASAN-BEK (BKO 335-000026)",
     "allevatore": "",
     "proprietario": "",
     "paese": "BELARUS",
@@ -165041,7 +165088,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10567",
@@ -165062,7 +165110,7 @@
   {
     "id": "auto_10568",
     "sesso": "M",
-    "name": "SHON",
+    "name": "SHON (BKO 335-000696)",
     "allevatore": "",
     "proprietario": "",
     "paese": "BELARUS",
@@ -165073,7 +165121,8 @@
     "colore": "",
     "padre": "auto_10566",
     "madre": "auto_10567",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10569",
@@ -166230,8 +166279,8 @@
   {
     "id": "auto_10641",
     "sesso": "M",
-    "name": "SATUR",
-    "allevatore": "A. FEDYAKIN",
+    "name": "SATUR (ow. Fedkin)",
+    "allevatore": "A. FEDKIN",
     "proprietario": "A. FEDKIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -166241,7 +166290,8 @@
     "colore": "WHITE",
     "padre": "auto_4409",
     "madre": "auto_4917",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10642",
@@ -166390,7 +166440,7 @@
   {
     "id": "auto_10651",
     "sesso": "F",
-    "name": "BAINAK",
+    "name": "BAINAK (UKU R 00007902)",
     "allevatore": "",
     "proprietario": "",
     "paese": "UKRAINE",
@@ -166401,7 +166451,8 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10652",
@@ -169078,7 +169129,7 @@
   {
     "id": "auto_10822",
     "sesso": "M",
-    "name": "TANYSH",
+    "name": "TANYSH (RKF 1190606)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -169089,7 +169140,8 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_10820",
     "madre": "auto_10821",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10823",
@@ -169142,7 +169194,7 @@
   {
     "id": "auto_10826",
     "sesso": "M",
-    "name": "TAYSON",
+    "name": "TAYSON (RKF 2435229)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -169153,7 +169205,8 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_8585",
     "madre": "auto_7863",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_10827",
@@ -172684,7 +172737,7 @@
   {
     "id": "auto_11048",
     "sesso": "F",
-    "name": "ARIA",
+    "name": "ARIA (COR A 1607-14/335)",
     "allevatore": "",
     "proprietario": "",
     "paese": "ROMANIA",
@@ -172695,7 +172748,8 @@
     "colore": "",
     "padre": "auto_10519",
     "madre": "auto_11046",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_11049",
@@ -176109,7 +176163,7 @@
   {
     "id": "auto_11266",
     "sesso": "M",
-    "name": "ARSLAN",
+    "name": "ARSLAN (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -176120,7 +176174,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_11265",
@@ -176141,7 +176196,7 @@
   {
     "id": "auto_11267",
     "sesso": "M",
-    "name": "SHERR",
+    "name": "SHER (RKF R 1253658)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -176152,7 +176207,8 @@
     "colore": "WHITE WITH FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_11268",
@@ -189328,7 +189384,7 @@
   {
     "id": "auto_12099",
     "sesso": "M",
-    "name": "A-TERENTE",
+    "name": "A-TERENTE (Romania)",
     "allevatore": "",
     "proprietario": "",
     "paese": "ROMANIA",
@@ -189339,7 +189395,8 @@
     "colore": "LIGHT FAWN WITH WHITE AND BLACK",
     "padre": "auto_12098",
     "madre": "auto_11256",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12100",
@@ -189538,7 +189595,7 @@
   {
     "id": "auto_12112",
     "sesso": "F",
-    "name": "SARHANUM",
+    "name": "SARHANUM (RKF 1146236)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -189549,7 +189606,8 @@
     "colore": "",
     "padre": "auto_12110",
     "madre": "auto_12111",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12113",
@@ -191016,7 +191074,7 @@
   {
     "id": "auto_12207",
     "sesso": "M",
-    "name": "GELDAR",
+    "name": "GELDAR (RKF 1373058)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -191027,7 +191085,8 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3545",
     "madre": "auto_12206",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12208",
@@ -191992,7 +192051,7 @@
   {
     "id": "auto_12269",
     "sesso": "F",
-    "name": "RENATA",
+    "name": "RENATA (RKF 1397898)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -192003,7 +192062,8 @@
     "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "padre": "auto_12267",
     "madre": "auto_12268",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12270",
@@ -192442,7 +192502,7 @@
   {
     "id": "auto_12297",
     "sesso": "F",
-    "name": "CHANDA",
+    "name": "CHANDA (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -192453,7 +192513,8 @@
     "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "padre": "auto_12295",
     "madre": "auto_12293",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12298",
@@ -192733,7 +192794,7 @@
   {
     "id": "auto_12315",
     "sesso": "M",
-    "name": "KAREN",
+    "name": "KAREN (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -192744,7 +192805,8 @@
     "colore": "WHITE WITH LIGHT GREY",
     "padre": "auto_12313",
     "madre": "auto_12314",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12316",
@@ -192989,7 +193051,7 @@
   {
     "id": "auto_12331",
     "sesso": "M",
-    "name": "KAYZER",
+    "name": "KAYZER (RKF 1906380)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -193000,7 +193062,8 @@
     "colore": "WHITE",
     "padre": "auto_1190",
     "madre": "auto_12330",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12332",
@@ -194576,7 +194639,7 @@
   {
     "id": "auto_12430",
     "sesso": "M",
-    "name": "KARA-KESH",
+    "name": "KARA-KESH (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -194587,7 +194650,8 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3146",
     "madre": "auto_12432",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12431",
@@ -194608,7 +194672,7 @@
   {
     "id": "auto_12432",
     "sesso": "F",
-    "name": "KARA-KELLE",
+    "name": "KARA-KELLE (Russia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
@@ -194619,7 +194683,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12434",
@@ -197124,7 +197189,7 @@
   {
     "id": "auto_12592",
     "sesso": "M",
-    "name": "BOSYAK",
+    "name": "BOSYAK (Kazakhstan)",
     "allevatore": "",
     "proprietario": "",
     "paese": "KAZAKHSTAN",
@@ -197135,7 +197200,8 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_12184",
     "madre": "auto_12590",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_12593",
@@ -206799,7 +206865,7 @@
   {
     "id": "auto_13205",
     "sesso": "M",
-    "name": "BALÙ (ow. Sironi)",
+    "name": "BALU' (ow. Sironi)",
     "allevatore": "V. BARTOLOMEO",
     "proprietario": "G. SIRONI",
     "paese": "ITALY",
@@ -206810,7 +206876,8 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_13194",
     "madre": "auto_13196",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_13206",
@@ -219534,6 +219601,74 @@
     "colore": "DARK GREY WITH WHITE AND LIGHT FAWN",
     "padre": "auto_13998",
     "madre": "auto_14001",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
+  },
+  {
+    "id": "auto_14005",
+    "sesso": "F",
+    "name": "GOINCHI (ow. Asylgareev)",
+    "allevatore": "",
+    "proprietario": "D. ASYLGAREEV",
+    "paese": "TURKMENISTAN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "1988-01-01",
+    "note": "Taken from Turkmenistan by Damir Asylgareev.",
+    "colore": "WHITE WITH BLACK",
+    "padre": "",
+    "madre": "",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
+  },
+  {
+    "id": "auto_14006",
+    "sesso": "F",
+    "name": "AYSHAN SHAHRAZ KLOVI",
+    "allevatore": "E. CHUTKOVA",
+    "proprietario": "Y. OVSYANNIKOVA",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1992-12-30",
+    "note": "",
+    "colore": "BLACK WITH WHITE",
+    "padre": "dog1735",
+    "madre": "auto_6702",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
+  },
+  {
+    "id": "auto_14007",
+    "sesso": "M",
+    "name": "SHAIF IZ KLOVI",
+    "allevatore": "Y. OVSYANNIKOVA",
+    "proprietario": "",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_1369",
+    "madre": "auto_14006",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
+  },
+  {
+    "id": "auto_14008",
+    "sesso": "F",
+    "name": "ODOR MORTIS DZHAKUL",
+    "allevatore": "T. PANFILOVA",
+    "proprietario": "A. KORZH",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2001-01-01",
+    "note": "",
+    "colore": "WHITE",
+    "padre": "dog1840",
+    "madre": "auto_1421",
     "foto_list": [],
     "lastModified": "2026-10-11"
   }
