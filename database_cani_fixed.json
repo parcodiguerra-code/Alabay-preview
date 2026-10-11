@@ -115968,13 +115968,14 @@
     "proprietario": "N. MENCARINI",
     "paese": "ITALY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "LOI 0557184",
+    "pedigree": "LOI 0557180",
     "birth": "2004-10-11",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog0175",
     "madre": "auto_0126",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_7463",
