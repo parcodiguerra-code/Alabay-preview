@@ -56264,9 +56264,9 @@
   {
     "id": "auto_3678",
     "sesso": "F",
-    "name": "RONDA (ow. Pavlichuk)",
+    "name": "RONDA (ow. Kennel \"Aborigen\")",
     "allevatore": "",
-    "proprietario": "S. PAVLICHUK",
+    "proprietario": "S. PAVLICHUK - KENNEL \"ABORIGEN\"",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU R 00038001",
@@ -56275,7 +56275,8 @@
     "colore": "DARK FAWN WITH WHITE",
     "padre": "dog0337",
     "madre": "auto_3671",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_3679",
@@ -219274,5 +219275,39 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-10"
+  },
+  {
+    "id": "auto_13991",
+    "sesso": "M",
+    "name": "ABORIGEN ICHKER",
+    "allevatore": "KENNEL \"ABORIGEN\"",
+    "proprietario": "KENNEL \"ABORIGEN\"",
+    "paese": "UKRAINE",
+    "colore": "TIGER STRIPES WITH WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_0497",
+    "madre": "auto_3678",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
+  },
+  {
+    "id": "auto_13992",
+    "sesso": "M",
+    "name": "BASAR (ow. Amutov)",
+    "allevatore": "B. AMUTOV",
+    "proprietario": "B. AMUTOV",
+    "paese": "KAZAKHSTAN",
+    "colore": "REDDISH WITH WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_12867",
+    "madre": "auto_12866",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   }
 ]
