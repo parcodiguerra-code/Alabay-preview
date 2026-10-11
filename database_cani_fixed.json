@@ -7340,17 +7340,18 @@
     "id": "auto_0394",
     "sesso": "M",
     "name": "DUNAY FROM BIG SAO MI",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
+    "allevatore": "I. SHCHADEY",
+    "proprietario": "F. LUCIANO",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 2281341",
+    "birth": "2019-02-02",
+    "note": "",
+    "colore": "REDDISH WITH WHITE",
+    "padre": "auto_12157",
+    "madre": "auto_13993",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "dog0484",
@@ -15953,7 +15954,7 @@
     "sesso": "M",
     "name": "AKTASH (ow. Dyadichkina)",
     "allevatore": "",
-    "proprietario": "A. YANATHANOV - L. DYADICHKINA",
+    "proprietario": "KUKTUNBEKOV - A. YANATHANOV - L. DYADICHKINA",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF R 0892",
@@ -15962,7 +15963,8 @@
     "colore": "LIGHT REDDISH",
     "padre": "auto_0812",
     "madre": "auto_0813",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0812",
@@ -16208,17 +16210,18 @@
     "id": "auto_0823",
     "sesso": "F",
     "name": "BUYNASH FARIDA (ow. Gulin)",
-    "allevatore": "V. LUBYAGIN",
+    "allevatore": "L. DYADICHKINA",
     "proprietario": "A. GULIN",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
-    "birth": "",
+    "birth": "1992-01-11",
     "note": "",
     "colore": "REDDISH WITH BLACK AND WHITE",
     "padre": "dog1052",
-    "madre": "auto_0800",
-    "foto_list": []
+    "madre": "auto_0825",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0824",
@@ -16272,17 +16275,18 @@
     "id": "auto_0826",
     "sesso": "M",
     "name": "BUYNASH FIL (ow. Gulin)",
-    "allevatore": "V. LUBYAGIN",
+    "allevatore": "V. DYADICHKINA",
     "proprietario": "A. GULIN",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
-    "birth": "",
+    "birth": "1992-01-11",
     "note": "",
     "colore": "LIGHT REDDISH",
     "padre": "dog1052",
-    "madre": "auto_0800",
-    "foto_list": []
+    "madre": "auto_0825",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0827",
@@ -107219,12 +107223,13 @@
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
-    "birth": "2015-98-08",
+    "birth": "2015-08-08",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_6077",
     "madre": "auto_6354",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_6909",
@@ -107235,12 +107240,13 @@
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
-    "birth": "2015-98-08",
+    "birth": "2015-08-08",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_6077",
     "madre": "auto_6354",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_6911",
@@ -130293,12 +130299,13 @@
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
-    "birth": "2010-20-30",
+    "birth": "2010-10-30",
     "note": "",
     "colore": "GREY WITH LIGHT FAWN",
     "padre": "auto_8370",
     "madre": "auto_7094",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_8374",
@@ -130309,12 +130316,13 @@
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
-    "birth": "2010-20-30",
+    "birth": "2010-10-30",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_8370",
     "madre": "auto_7094",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_8375",
@@ -219307,6 +219315,40 @@
     "note": "",
     "padre": "auto_12867",
     "madre": "auto_12866",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
+  },
+  {
+    "id": "auto_13993",
+    "sesso": "F",
+    "name": "R-KHATSHEPSUT DLYA MIA CAOKO MIA",
+    "allevatore": "I. MATYUK",
+    "proprietario": "",
+    "paese": "UKRAINE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "UKU 0316921",
+    "birth": "",
+    "colore": "",
+    "note": "",
+    "padre": "auto_11027",
+    "madre": "auto_13994",
+    "foto_list": [],
+    "lastModified": "2026-10-11"
+  },
+  {
+    "id": "auto_13994",
+    "sesso": "F",
+    "name": "POLYARNAYA ZVEZDA S SEVERNOGO URALA",
+    "allevatore": "D. TOLKACHEV",
+    "proprietario": "I. MATYUK",
+    "paese": "UKRAINE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "UKU 0278683",
+    "birth": "",
+    "colore": "",
+    "note": "",
+    "padre": "auto_12258",
+    "madre": "auto_8874",
     "foto_list": [],
     "lastModified": "2026-10-11"
   }
