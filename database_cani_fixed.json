@@ -1018,13 +1018,14 @@
     "proprietario": "V. VOSKOBOYNIK",
     "paese": "UKRAINE",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "UKU R 00120803",
+    "pedigree": "КSZZ 002924/98",
     "birth": "1996-06-30",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0474",
     "madre": "auto_0475",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0064",
@@ -4798,14 +4799,14 @@
     "proprietario": "J. KOVACS",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "MET.KAJ. 205/92",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_7306",
     "madre": "auto_7307",
     "foto_list": [],
-    "lastModified": "2026-10-09"
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0258",
@@ -113566,14 +113567,14 @@
     "proprietario": "F. BUDAI",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET.KAJ. 204/92",
+    "pedigree": "MET.KAJ. 206/92",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_7306",
     "madre": "auto_7307",
     "foto_list": [],
-    "lastModified": "2026-10-09"
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_7309",
