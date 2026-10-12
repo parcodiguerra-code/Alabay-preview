@@ -7,13 +7,14 @@
     "proprietario": "G. TASITS",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "UKU.R.000989/00",
+    "pedigree": "UKU R 00098900",
     "birth": "",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "BIANCO",
     "padre": "auto_0003",
     "madre": "auto_0004",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0002",
