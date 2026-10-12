@@ -14342,15 +14342,16 @@
     "name": "KAPLYA (ow. Tatinova)",
     "allevatore": "N. TATINOVA",
     "proprietario": "N. TATINOVA",
-    "paese": "",
+    "paese": "DAGESTAN",
     "tipo": "CAUCASIAN VOLKODAV",
     "pedigree": "",
-    "birth": "",
+    "birth": "1987-01-01",
     "note": "",
-    "colore": "",
+    "colore": "FAWN",
     "padre": "auto_0739",
     "madre": "auto_0740",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0739",
