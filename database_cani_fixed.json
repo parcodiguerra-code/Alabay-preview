@@ -8195,7 +8195,7 @@
   {
     "id": "auto_0438",
     "sesso": "M",
-    "name": "AK EKEMEN II (br. Makhtumkuliev)",
+    "name": "AK EKEMEN II (ow. Altyev)",
     "allevatore": "MAKHTUMKULIEV",
     "proprietario": "A. PERNAZAR - H. ALTYEV",
     "paese": "TURKMENISTAN",
@@ -219881,20 +219881,19 @@
   {
     "id": "auto_13964",
     "sesso": "F",
-    "name": "AZHDA (ow. Kennel \"Aborigen)",
-    "allevatore": "",
+    "name": "AZHDA (ow. Kennel \"Aborigen\")",
+    "allevatore": "V. KATSNELSON",
     "proprietario": "KENNEL \"ABORIGEN\"",
     "paese": "TURKMENISTAN",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "note": "Presa in Turkmenistan.",
+    "note": "",
     "colore": "WHITE",
-    "padre": "",
-    "madre": "",
+    "padre": "auto_2580",
+    "madre": "auto_1198",
     "foto_list": [],
-    "lastModified": "2026-10-12",
-    "note_en": "Taken from Turkmenistan."
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_13965",
@@ -219903,7 +219902,7 @@
     "allevatore": "KENNEL \"ABORIGEN\"",
     "proprietario": "KENNEL \"ABORIGEN\"",
     "paese": "UKRAINE",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
@@ -219911,7 +219910,7 @@
     "padre": "auto_13861",
     "madre": "auto_13964",
     "foto_list": [],
-    "lastModified": "2026-10-09"
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_13966",
