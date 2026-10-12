@@ -49720,7 +49720,7 @@
     "id": "auto_3231",
     "sesso": "F",
     "name": "AYKA (ow. Bushtin)",
-    "allevatore": "MARYENKO",
+    "allevatore": "S. MARYENKO",
     "proprietario": "BUSHTIN",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -49730,7 +49730,8 @@
     "colore": "REDDISH",
     "padre": "auto_2411",
     "madre": "auto_2428",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_3232",
@@ -65693,7 +65694,7 @@
     "id": "auto_4247",
     "sesso": "M",
     "name": "BARHAN (ow. Sizonenko)",
-    "allevatore": "MARYENKO",
+    "allevatore": "S. MARYENKO",
     "proprietario": "SIZONENKO",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -65703,7 +65704,8 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2411",
     "madre": "auto_2428",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_4248",
