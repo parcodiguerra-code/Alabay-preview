@@ -5189,13 +5189,14 @@
     "proprietario": "M. LUPTAK",
     "paese": "SLOVAKIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET 1617/H/97",
+    "pedigree": "MET.KAJ. 1617/H/97",
     "birth": "1998-01-07",
     "note": "",
     "colore": "FAWN WITH WHITE",
     "padre": "auto_0241",
     "madre": "auto_7123",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0278",
@@ -7546,13 +7547,14 @@
     "proprietario": "R. CAMINITI",
     "paese": "ITALY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "WHITE AND BROWN",
+    "pedigree": "LIR 0916495",
     "birth": "2008-03-26",
     "note": "",
-    "colore": "WHITE",
+    "colore": "WHITE WITH FAWN",
     "padre": "auto_0188",
     "madre": "dog0487",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0404",
@@ -7930,13 +7932,14 @@
     "proprietario": "PATRAKOV",
     "paese": "BELARUS",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 120/91",
+    "pedigree": "MET.KAJ. 120/91",
     "birth": "1990-01-01",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog0806",
     "madre": "auto_4763",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0425",
@@ -8026,13 +8029,14 @@
     "proprietario": "F. LISYANSKIY",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "WHITE WITH BLACK",
+    "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0428",
     "madre": "auto_0440",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0430",
@@ -8170,13 +8174,14 @@
     "proprietario": "A. PERNAZAR - H. ALTYEV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF R0198",
+    "pedigree": "RKF R 0000198",
     "birth": "1979-12-05",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_0081",
     "madre": "auto_0082",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0439",
@@ -8442,13 +8447,14 @@
     "proprietario": "E. DORONIN",
     "paese": "UKRAINE",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF 1107544, UKU R 000219/99",
+    "pedigree": "UKU R 000219/99",
     "birth": "1997-01-15",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0449",
     "madre": "auto_0448",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0450",
@@ -9405,13 +9411,14 @@
     "proprietario": "KAZANOVSKIY",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "UKU 258/92",
+    "pedigree": "UKU 0025892",
     "birth": "",
     "note": "",
     "colore": "BEIGE",
     "padre": "auto_0497",
     "madre": "auto_0505",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "dog0623",
@@ -10055,13 +10062,14 @@
     "proprietario": "V. ZVERSHIKOV",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF R 4108",
+    "pedigree": "RKF R 0004108",
     "birth": "1988-01-11",
     "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0501",
     "madre": "auto_0541",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0542",
@@ -12411,13 +12419,14 @@
     "proprietario": "A. MUHAMEDALIEV - T. TABUNOVA-RABYSHKO",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF R 0165",
+    "pedigree": "RKF R 0000165",
     "birth": "1983-01-01",
     "note": "Taken from Turkmenistan.",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0663",
     "madre": "auto_0664",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0665",
@@ -15937,14 +15946,14 @@
     "proprietario": "KUKTUNBEKOV - A. YANATHANOV - L. DYADICHKINA",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF R 0892",
+    "pedigree": "RKF R 0000892",
     "birth": "1985-01-01",
     "note": "\"I will try to clarify the origin of the male named Aktash. I brought him from the mountain regions of Uzbekistan, from the city of Jizzakh, but he arrived there from the city of Kerkici, Turkmenistan. (...). Fate decreed that Aktash would be taken by Lidiya Dyadichkina from Novokuznetsk.\" Alik Yanathanov, Almaty",
     "colore": "LIGHT REDDISH",
     "padre": "auto_0812",
     "madre": "auto_0813",
     "foto_list": [],
-    "lastModified": "2026-10-11"
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0812",
@@ -16098,13 +16107,14 @@
     "proprietario": "A. KRISHTOPIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF R 001619",
+    "pedigree": "RKF R 0001619",
     "birth": "1992-09-14",
     "note": "",
     "colore": "LIGHT REDDISH",
     "padre": "dog1052",
     "madre": "auto_0800",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0819",
@@ -16114,13 +16124,14 @@
     "proprietario": "G. ORLOVA",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF R 1834",
+    "pedigree": "RKF R 0001834",
     "birth": "1992-09-14",
     "note": "",
     "colore": "BLACK WITH REDDISH",
     "padre": "dog1052",
     "madre": "auto_0800",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0820",
@@ -16130,13 +16141,14 @@
     "proprietario": "S. SMIRNOV",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF R 1624",
+    "pedigree": "RKF R 0001624",
     "birth": "1992-09-14",
     "note": "",
     "colore": "REDDISH",
     "padre": "dog1052",
     "madre": "auto_0800",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0821",
@@ -16244,7 +16256,7 @@
     "proprietario": "L. DYADICHKINA - A. GULIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF R 5613",
+    "pedigree": "RKF R 0005613",
     "birth": "1992-01-11",
     "note": "",
     "colore": "REDDISH WITH WHITE",
@@ -16844,13 +16856,14 @@
     "proprietario": "L. ROGINSKAYA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF R 6418",
+    "pedigree": "RKF R 0006418",
     "birth": "1992-01-15",
     "note": "",
     "colore": "WHITE WITH LIGHT ORANGE",
     "padre": "auto_0847",
     "madre": "auto_0851",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0852",
@@ -21311,13 +21324,14 @@
     "proprietario": "V. OBREZKOV",
     "paese": "TURKMENISTAN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF R 0151",
+    "pedigree": "RKF R 0000151",
     "birth": "1975-04-22",
     "note": "Long-time enthusiasts of the breed claim that this male has blood of German Shepherd Dog (VEO - Vostochno Evropejskaya Ovcharka).",
     "colore": "BLACK WITH WHITE AND BROWN",
     "padre": "auto_1040",
     "madre": "auto_1041",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_1042",
@@ -22208,13 +22222,14 @@
     "proprietario": "S. MARYENKO",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "UKU R 103000",
+    "pedigree": "UKU R 0103000",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH LIGHT REDDISH",
     "padre": "dog1460",
     "madre": "dog1448",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_1087",
@@ -22913,13 +22928,14 @@
     "proprietario": "S. IGNATOVIC - L. ROGINSKAYA",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF R 18937",
+    "pedigree": "RKF R 0018937",
     "birth": "1998-11-19",
     "note": "[Creato automaticamente come padre]",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0952",
     "madre": "dog0886",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_1113",
@@ -22929,13 +22945,14 @@
     "proprietario": "G. KATALKINA",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF R 3070",
+    "pedigree": "RKF R 0003070",
     "birth": "1994-12-26",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0978",
     "madre": "auto_1117",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_1114",
@@ -24889,13 +24906,14 @@
     "proprietario": "T. TABUNOVA-RABYSHKO",
     "paese": "BELARUS",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF R 1999",
+    "pedigree": "RKF R 0001999",
     "birth": "1990-10-29",
     "note": "",
     "colore": "BLACK",
     "padre": "auto_0935",
     "madre": "dog1637",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "dog1639",
@@ -31643,13 +31661,14 @@
     "proprietario": "S. POTAPESHKIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF 106579",
+    "pedigree": "RKF 0106579",
     "birth": "2000-02-02",
     "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "dog1386",
     "madre": "dog1609",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2082",
@@ -32219,13 +32238,14 @@
     "proprietario": "LOGACHEV",
     "paese": "BELARUS",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "UKU R 00180000",
+    "pedigree": "UKU R 0018000",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1636",
     "madre": "auto_0804",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2122",
@@ -32481,13 +32501,14 @@
     "proprietario": "M. VOLKOVA",
     "paese": "BELARUS",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "EST 00807/90",
+    "pedigree": "EST-00807/90",
     "birth": "",
     "note": "",
     "colore": "REDDISH WITH BLACK",
     "padre": "dog1636",
     "madre": "auto_0804",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2139",
@@ -34661,13 +34682,14 @@
     "proprietario": "O. NAGAEVA",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF R 003607",
+    "pedigree": "RKF R 0003607",
     "birth": "1991-10-01",
     "note": "",
     "colore": "WHITE WITH LIGHT ORANGE",
     "padre": "auto_2290",
     "madre": "auto_2289",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2289",
@@ -35395,18 +35417,19 @@
   {
     "id": "auto_2336",
     "sesso": "F",
-    "name": "AYKA (UKU 00059300)",
+    "name": "AYKA (UKU 0059300)",
     "allevatore": "",
     "proprietario": "",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "UKU 00059300",
+    "pedigree": "UKU 0059300",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2338",
@@ -35914,13 +35937,14 @@
     "proprietario": "V. KUKUSHKIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "UKU R 00409900",
+    "pedigree": "UKU R 0409900",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "dog0647",
     "madre": "auto_2370",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2370",
@@ -37568,13 +37592,14 @@
     "proprietario": "G. CHUDNOV",
     "paese": "UKRAINE",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "UKU R 00564200",
+    "pedigree": "UKU R 0564200",
     "birth": "",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_2479",
     "madre": "auto_2477",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2480",
@@ -44954,13 +44979,14 @@
     "proprietario": "N. NEDILSKAYA",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "UKU R 00083307",
+    "pedigree": "UKU R 0083307",
     "birth": "2006-06-26",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_2953",
     "madre": "auto_0090",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2953",
@@ -44986,13 +45012,14 @@
     "proprietario": "E. LIPOVSKAYA",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "UKU R 00070807",
+    "pedigree": "UKU R 0070807",
     "birth": "2006-06-26",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_2953",
     "madre": "auto_0090",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_2955",
@@ -56838,13 +56865,14 @@
     "proprietario": "O. GUIVAN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "EST 02263/E955",
+    "pedigree": "EST-02263/E955",
     "birth": "1995-02-20",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1267",
     "madre": "auto_3565",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_3715",
@@ -56966,13 +56994,14 @@
     "proprietario": "I. MARTEMYANOVA - K. PITKE",
     "paese": "ESTONIA",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "EST 02267/01",
+    "pedigree": "EST-02267/01",
     "birth": "2001-08-11",
     "note": "",
     "colore": "ORANGE WITH WHITE",
     "padre": "auto_3720",
     "madre": "auto_3721",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_3723",
@@ -58230,13 +58259,14 @@
     "proprietario": "A. PAVLENKO",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "EST 05309/901",
+    "pedigree": "EST-05309/901",
     "birth": "",
     "note": "",
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "dog0806",
     "madre": "auto_2138",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_3803",
@@ -73223,13 +73253,14 @@
     "proprietario": "O. BUNCHUK",
     "paese": "BELARUS",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "BKU 335-002443",
+    "pedigree": "BKO 335-002443",
     "birth": "2007-11-03",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_3032",
     "madre": "auto_4751",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_4753",
@@ -73399,13 +73430,14 @@
     "proprietario": "PATRAKOV",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 120/89",
+    "pedigree": "MET.KAJ. 120/89",
     "birth": "1988-09-17",
     "note": "",
     "colore": "WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_4765",
@@ -81967,14 +81999,14 @@
     "proprietario": "S. BELOV",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RKF1204272",
+    "pedigree": "RKF 1204272",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "lastModified": "2026-10-11"
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_5304",
@@ -83222,13 +83254,14 @@
     "proprietario": "G. INFANTINO",
     "paese": "ITALY",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "BKO/RG 335-000865",
+    "pedigree": "BKO RG 335-000865",
     "birth": "2016-05-17",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog0177",
     "madre": "auto_5346",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_5383",
@@ -94493,14 +94526,14 @@
     "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
     "paese": "ITALY",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "pedigree": "LOI 25156918",
     "birth": "2024-12-25",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0380",
     "madre": "auto_0008",
     "foto_list": [],
-    "lastModified": "2026-10-11"
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_6105",
@@ -107418,13 +107451,14 @@
     "proprietario": "P. SIMIC",
     "paese": "LITHUANIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "JR 70499SRO",
+    "pedigree": "JR 70499 SRO",
     "birth": "2004-10-13",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "dog2040",
     "madre": "dog2039",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_6920",
@@ -110164,13 +110198,14 @@
     "proprietario": "S. ZHITCHENKO",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "BEREG OTA GULYALEK",
+    "pedigree": "",
     "birth": "2011-07-20",
     "note": "",
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_5462",
     "madre": "auto_7091",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7093",
@@ -110420,13 +110455,14 @@
     "proprietario": "S. MAROZSY",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET AKJ 1350/H/96",
+    "pedigree": "MET.KAJ. 1350/H/96",
     "birth": "1995-01-01",
     "note": "[Creato automaticamente]",
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_7110",
     "madre": "auto_7111",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7108",
@@ -110436,13 +110472,14 @@
     "proprietario": "KENNEL \"DEI TITANI DI TAMERLANO\"",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 1643/97",
+    "pedigree": "MET.KAJ. 1643/97",
     "birth": "1997-09-23",
     "note": "",
     "colore": "FAWN WITH WHITE",
     "padre": "auto_0241",
     "madre": "auto_7109",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7110",
@@ -110517,13 +110554,14 @@
     "proprietario": "KENNEL \"RENGOHEGYI-ORMAN\"",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 684/94",
+    "pedigree": "MET.KAJ. 684/94",
     "birth": "1994-01-01",
     "note": "",
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_7113",
     "madre": "auto_7112",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7115",
@@ -110550,13 +110588,14 @@
     "proprietario": "S. SARINE MARFI",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 1656",
+    "pedigree": "MET.KAJ. 1656",
     "birth": "1997-01-01",
-    "note": "[Creato automaticamente]",
+    "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_7117",
     "madre": "auto_7118",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7117",
@@ -111275,13 +111314,14 @@
     "proprietario": "B. KOPELIOVIC",
     "paese": "SLOVAKIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 1692/H/97/98",
+    "pedigree": "MET.KAJ. 1692/H/97/98",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_3591",
     "madre": "auto_7165",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7165",
@@ -112912,13 +112952,14 @@
     "proprietario": "S. MAROZSY",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 1076/95",
+    "pedigree": "MET.KAJ. 1076/95",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_7151",
     "madre": "auto_7265",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7267",
@@ -112928,13 +112969,14 @@
     "proprietario": "L. COCUCCIONI",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 1667/97",
+    "pedigree": "MET.KAJ. 1667/97",
     "birth": "1997-10-05",
     "note": "",
     "colore": "BLACK WITH WHITE",
     "padre": "auto_7114",
     "madre": "auto_7266",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7268",
@@ -113346,13 +113388,14 @@
     "proprietario": "KENNEL \"RENGOHEGYI-ORMAN\"",
     "paese": "BELARUS",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 54/91",
+    "pedigree": "MET.KAJ. 54/91",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog0806",
     "madre": "auto_2122",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7294",
@@ -113459,13 +113502,14 @@
     "proprietario": "F. BUDAI",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET 678/94",
+    "pedigree": "MET.KAJ. 678/94",
     "birth": "1994-01-01",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog1161",
     "madre": "auto_7308",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7301",
@@ -114664,13 +114708,14 @@
     "proprietario": "G. BERTOGLIO",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 1897/98",
+    "pedigree": "MET.KAJ. 1897/98",
     "birth": "1998-04-27",
     "note": "",
     "colore": "DARK GREY WITH WHITE",
     "padre": "auto_7117",
     "madre": "auto_7302",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7377",
@@ -116457,13 +116502,14 @@
     "proprietario": "A. GHIDINI",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET 275/92",
+    "pedigree": "MET.KAJ. 275/92",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "auto_7110",
     "madre": "auto_7492",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7492",
@@ -116596,18 +116642,19 @@
   {
     "id": "auto_7500",
     "sesso": "F",
-    "name": "RENGOHEGY ORMAN DEHRA-DUN",
+    "name": "RENGOHEGYI-ORMAN DEHRA-DUN",
     "allevatore": "KENNEL \"RENGOHEGYI-ORMAN\"",
     "proprietario": "KENNEL \"RENGOHEGYI-ORMAN\"",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET 1635/97",
+    "pedigree": "MET.KAJ. 1635/97",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "auto_7117",
     "madre": "auto_7492",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7501",
@@ -116617,13 +116664,14 @@
     "proprietario": "KENNEL \"RENGOHEGYI-ORMAN\" - S. ERDAS - L. RUSTICI",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET 2099/99",
+    "pedigree": "MET.KAJ. 2099/99",
     "birth": "",
     "note": "",
     "colore": "BLACK WITH WHITE",
     "padre": "auto_7117",
     "madre": "auto_7149",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7502",
@@ -116633,13 +116681,14 @@
     "proprietario": "KENNEL \"RENGOHEGYI-ORMAN\" - A. CALANDRETTI",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET 3350/H/04",
+    "pedigree": "MET.KAJ. 3350/H/04",
     "birth": "",
     "note": "",
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_7501",
     "madre": "auto_7126",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7503",
@@ -116649,13 +116698,14 @@
     "proprietario": "E. CASCIANI",
     "paese": "HUNGARY",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET 3558/05",
+    "pedigree": "MET.KAJ. 3558/05",
     "birth": "2005-11-16",
     "note": "",
     "colore": "FAWN WITH WHITE",
     "padre": "auto_7502",
     "madre": "auto_7500",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_7504",
@@ -166986,13 +167036,14 @@
     "proprietario": "",
     "paese": "SERBIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "JR 71828",
+    "pedigree": "JR 71828 SRO",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_6919",
     "madre": "auto_8342",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_10687",
@@ -176555,13 +176606,14 @@
     "proprietario": "M. BOZICEVIC",
     "paese": "CROATIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "JR 71207",
+    "pedigree": "JR 71207 SRO",
     "birth": "",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_11292",
     "madre": "auto_11295",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_11291",
@@ -189054,13 +189106,14 @@
     "proprietario": "T. BUJDOSO",
     "paese": "SLOVAKIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "MET KAJ 2528/H/00",
+    "pedigree": "MET.KAJ. 2528/H/00",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_12078",
     "madre": "auto_12077",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_12080",
@@ -203488,13 +203541,14 @@
     "proprietario": "O. GUIVAN",
     "paese": "ESTONIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "EST 04504/13",
+    "pedigree": "EST-04504/13",
     "birth": "2013-11-03",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_3123",
     "madre": "auto_3728",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_12994",
@@ -203520,13 +203574,14 @@
     "proprietario": "O. GUIVAN",
     "paese": "ESTONIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "EST 00946/16",
+    "pedigree": "EST-00946/16",
     "birth": "2016-01-26",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_12994",
     "madre": "auto_12993",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_12996",
@@ -203536,13 +203591,14 @@
     "proprietario": "K. RAANTO",
     "paese": "ESTONIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "EST 00871/17",
+    "pedigree": "EST-00871/17",
     "birth": "2017-01-27",
     "note": "",
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_6154",
     "madre": "auto_12993",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_12997",
@@ -204583,13 +204639,14 @@
     "proprietario": "S. SCHERMA",
     "paese": "SERBIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "JR 70967",
+    "pedigree": "JR 70967 SRO",
     "birth": "2008-11-19",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_6738",
     "madre": "auto_13062",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_13064",
