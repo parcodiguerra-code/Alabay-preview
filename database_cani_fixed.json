@@ -13765,22 +13765,6 @@
     "foto_list": []
   },
   {
-    "id": "Georgian Aborigen",
-    "sesso": "M",
-    "name": "GEORGIAN ABORIGEN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "GEORGIA",
-    "tipo": "GEORGIAN NAGAZI",
-    "pedigree": "",
-    "birth": "",
-    "note": "",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "dog0912",
     "sesso": "M",
     "name": "GABO (ow. Akhpolov)",
@@ -13792,9 +13776,10 @@
     "birth": "",
     "note": "",
     "colore": "WHITE WITH ORANGE",
-    "padre": "Georgian Aborigen",
+    "padre": "auto_14073",
     "madre": "auto_0720",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0722",
@@ -13879,7 +13864,7 @@
   {
     "id": "auto_0724",
     "sesso": "F",
-    "name": "GEORGIAN ABORIGEN",
+    "name": "GEORGIAN ABORIGEN (Georgia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "GEORGIA",
@@ -13890,7 +13875,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_0725",
@@ -173948,7 +173934,7 @@
   {
     "id": "auto_11125",
     "sesso": "F",
-    "name": "GEORGIAN ABORIGEN",
+    "name": "GEORGIAN ABORIGEN (Aborigen)",
     "allevatore": "",
     "proprietario": "",
     "paese": "GEORGIA",
@@ -173959,12 +173945,13 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_11126",
     "sesso": "M",
-    "name": "GEORGIAN ABORIGEN",
+    "name": "GEORGIAN ABORIGEN (Georgia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "GEORGIA",
@@ -173975,7 +173962,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_11127",
@@ -174012,7 +174000,7 @@
   {
     "id": "auto_11129",
     "sesso": "M",
-    "name": "GEORGIAN ABORIGEN",
+    "name": "GEORGIAN ABORIGEN (Georgia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "GEORGIA",
@@ -174023,12 +174011,13 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_11130",
     "sesso": "F",
-    "name": "GEORGIAN ABORIGEN",
+    "name": "GEORGIAN ABORIGEN (Georgia)",
     "allevatore": "",
     "proprietario": "",
     "paese": "GEORGIA",
@@ -174039,7 +174028,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_11131",
@@ -220734,6 +220724,23 @@
     "colore": "WHITE",
     "padre": "auto_14017",
     "madre": "auto_14037",
+    "foto_list": [],
+    "lastModified": "2026-10-12"
+  },
+  {
+    "id": "auto_14073",
+    "sesso": "M",
+    "name": "GEORGIAN ABORIGEN (Georgia)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "GEORGIA",
+    "tipo": "GEORGIAN NAGAZI",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "",
+    "padre": "",
+    "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-12"
   }
