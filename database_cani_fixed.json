@@ -1981,7 +1981,7 @@
     "sesso": "F",
     "name": "PATYSHA DEL PARCO DI GUERRA",
     "allevatore": "KENNEL \"DEL PARCO DI GUERRA\"",
-    "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
+    "proprietario": "A. LOIZZO",
     "paese": "ITALY",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "LOI 15134048",
@@ -1990,7 +1990,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0013",
     "madre": "dog0116",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "dog0136",
