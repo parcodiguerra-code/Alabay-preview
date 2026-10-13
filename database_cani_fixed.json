@@ -98,9 +98,11 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0005.jpg"
+    ],
     "note_en": "87 cm tall at the withers.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-13"
   },
   {
     "id": "auto_0006",
@@ -232,11 +234,7 @@
     "colore": "WHITE",
     "padre": "auto_0015",
     "madre": "auto_0016",
-    "foto_list": [
-      "images/auto_0013_2.jpg",
-      "images/auto_0013.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "auto_0014",
@@ -302,10 +300,7 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0009",
     "madre": "auto_0018",
-    "foto_list": [
-      "images/auto_0017.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "auto_0018",
@@ -3359,10 +3354,7 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0014",
-    "foto_list": [
-      "images/auto_0175.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "dog0227",
@@ -5275,10 +5267,7 @@
     "colore": "WHITE",
     "padre": "dog0108",
     "madre": "dog0141",
-    "foto_list": [
-      "images/auto_0279.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "dog0348",
@@ -5326,10 +5315,7 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0279",
-    "foto_list": [
-      "images/auto_0281.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "auto_0282",
@@ -6225,12 +6211,8 @@
     "colore": "WHITE",
     "padre": "auto_3072",
     "madre": "auto_0281",
-    "foto_list": [
-      "images/auto_0332_3.jpg",
-      "images/auto_0332_2.jpg",
-      "images/auto_0332.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": [],
+    "lastModified": "2026-10-11"
   },
   {
     "id": "auto_0334",
@@ -6406,10 +6388,7 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog0459",
     "madre": "auto_0178",
-    "foto_list": [
-      "images/auto_0343.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "dog0421",
@@ -18026,14 +18005,7 @@
     "colore": "WHITE",
     "padre": "auto_1359",
     "madre": "auto_1360",
-    "foto_list": [
-      "images/auto_0900.jpg",
-      "images/auto_0900_2.jpg",
-      "images/auto_0900_3.jpg",
-      "images/auto_0900_4.jpg",
-      "images/auto_0900_5.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "dog1175",
@@ -20331,8 +20303,12 @@
     "colore": "LIGHT STRAW",
     "padre": "auto_1001",
     "madre": "auto_1002",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/auto_0993.jpg",
+      "images/auto_0993_2.jpg",
+      "images/auto_0993_3.jpg"
+    ],
+    "lastModified": "2026-10-13",
     "note_en": "Taken from Tajikistan."
   },
   {
@@ -76798,10 +76774,7 @@
     "colore": "WHITE",
     "padre": "dog0459",
     "madre": "auto_0178",
-    "foto_list": [
-      "images/auto_4944_2.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "auto_4945",
@@ -83834,10 +83807,8 @@
     "colore": "WHITE WITH BLACK",
     "padre": "dog0177",
     "madre": "auto_5346",
-    "foto_list": [
-      "images/auto_5382.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": [],
+    "lastModified": "2026-10-12"
   },
   {
     "id": "auto_5383",
@@ -117302,11 +117273,7 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_6694",
     "madre": "auto_7496",
-    "foto_list": [
-      "images/auto_7497.jpg",
-      "images/auto_7497_2.jpg"
-    ],
-    "lastModified": "2026-10-13"
+    "foto_list": []
   },
   {
     "id": "auto_7498",
@@ -221227,11 +221194,11 @@
     "allevatore": "E. KOSTYUK",
     "proprietario": "E. KOSTYUK",
     "paese": "UKRAINE",
-    "colore": "WHITE WITH FAWN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2018-11-19",
     "note": "",
+    "colore": "WHITE WITH FAWN",
     "padre": "auto_14026",
     "madre": "auto_14027",
     "foto_list": [],
@@ -221244,11 +221211,11 @@
     "allevatore": "E. KOSTYUK",
     "proprietario": "E. KOSTYUK",
     "paese": "UKRAINE",
-    "colore": "WHITE WITH BLACK AND LIGHT FAWN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2018-11-19",
     "note": "",
+    "colore": "WHITE WITH BLACK AND LIGHT FAWN",
     "padre": "auto_14026",
     "madre": "auto_14027",
     "foto_list": [],
@@ -221757,8 +221724,8 @@
     "tipo": "GEORGIAN NAGAZI",
     "pedigree": "",
     "birth": "",
-    "colore": "",
     "note": "",
+    "colore": "",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -221788,11 +221755,11 @@
     "allevatore": "",
     "proprietario": "S. MARYENKO",
     "paese": "UKRAINE",
-    "colore": "WHITE WITH REDDISH",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
+    "colore": "WHITE WITH REDDISH",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -221805,11 +221772,11 @@
     "allevatore": "DZHOYS (ow. Kononenko)",
     "proprietario": "L. KONONENKO",
     "paese": "TAJIKISTAN",
-    "colore": "WHITE WITH FAWN",
     "tipo": "TAJIK DAHMARDA",
     "pedigree": "",
     "birth": "1984-01-01",
     "note": "Preso dal Tajikistan.",
+    "colore": "WHITE WITH FAWN",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -221823,11 +221790,11 @@
     "allevatore": "",
     "proprietario": "KENNEL \"ABORIGEN\"",
     "paese": "TURKMENISTAN",
-    "colore": "REDDISH WITH WHITE AND BLACK",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1987-01-01",
     "note": "Presa dal Turkmenistan.",
+    "colore": "REDDISH WITH WHITE AND BLACK",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -221841,11 +221808,11 @@
     "allevatore": "",
     "proprietario": "D. ASYLGAREEV",
     "paese": "TURKMENISTAN",
-    "colore": "WHITE WITH FAWN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1985-01-01",
     "note": "Presa dal Turkmenistan da Damir Asylgareev.",
+    "colore": "WHITE WITH FAWN",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -221862,8 +221829,8 @@
     "tipo": "TAJIK DAHMARDA",
     "pedigree": "",
     "birth": "",
-    "colore": "",
     "note": "",
+    "colore": "",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -221884,7 +221851,11 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "lastModified": "2026-10-13"
+    "lastModified": "2026-10-12",
+    "verifica": {
+      "data": "2026-10-12",
+      "note": ""
+    }
   },
   {
     "id": "auto_14081",
@@ -221893,11 +221864,11 @@
     "allevatore": "KENNEL \"KRASNAYA ZVEZDA\"",
     "proprietario": "SOLODOVNIK",
     "paese": "RUSSIA",
-    "colore": "WHITE WITH FAWN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
+    "colore": "WHITE WITH FAWN",
     "padre": "auto_14087",
     "madre": "auto_1198",
     "foto_list": [],
@@ -221961,11 +221932,11 @@
     "allevatore": "",
     "proprietario": "I. BAHAREV",
     "paese": "TAJIKISTAN",
-    "colore": "WHITE WITH REDDISH",
     "tipo": "TAJIK DAHMARDA",
     "pedigree": "",
     "birth": "1983-01-01",
     "note": "Preso dal Tagikistan.",
+    "colore": "WHITE WITH REDDISH",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -221979,11 +221950,11 @@
     "allevatore": "",
     "proprietario": "D. ASYLGAREEV",
     "paese": "TURKMENISTAN",
-    "colore": "WHITE",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
     "note": "Presa dal Turkmenistan da Damir Asylgareev.",
+    "colore": "WHITE",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -222000,8 +221971,8 @@
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "colore": "FAWN WITH WHITE",
     "note": "",
+    "colore": "FAWN WITH WHITE",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -222014,11 +221985,11 @@
     "allevatore": "",
     "proprietario": "",
     "paese": "TURKMENISTAN",
-    "colore": "",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
     "note": "Preso dal Turkmenistan. Fu portato a Mosca.",
+    "colore": "",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -222032,11 +222003,11 @@
     "allevatore": "",
     "proprietario": "RAHMANINOV",
     "paese": "TAJIKISTAN",
-    "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "tipo": "TAJIK DAHMARDA",
     "pedigree": "",
     "birth": "",
     "note": "Preso dal Tajikistan.",
+    "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -222050,11 +222021,11 @@
     "allevatore": "S. MARYENKO",
     "proprietario": "KENNEL \"ABORIGEN\"",
     "paese": "UKRAINE",
-    "colore": "WHITE WITH ORANGE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
+    "colore": "WHITE WITH ORANGE",
     "padre": "auto_1273",
     "madre": "auto_14075",
     "foto_list": [],
@@ -222070,8 +222041,8 @@
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "colore": "",
     "note": "",
+    "colore": "",
     "padre": "",
     "madre": "",
     "foto_list": [],
@@ -222087,10 +222058,27 @@
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "colore": "",
     "note": "",
+    "colore": "",
     "padre": "",
     "madre": "",
+    "foto_list": [],
+    "lastModified": "2026-10-13"
+  },
+  {
+    "id": "auto_14093",
+    "sesso": "F",
+    "name": "AKSAY (ow. Pyatkina)",
+    "allevatore": "Y. ZHULEV",
+    "proprietario": "T. PYATKINA",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1996-10-10",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_2977",
+    "madre": "auto_2976",
     "foto_list": [],
     "lastModified": "2026-10-13"
   }
