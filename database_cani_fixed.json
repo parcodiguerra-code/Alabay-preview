@@ -18003,7 +18003,14 @@
     "colore": "WHITE",
     "padre": "auto_1359",
     "madre": "auto_1360",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0900.jpg",
+      "images/auto_0900_2.jpg",
+      "images/auto_0900_3.jpg",
+      "images/auto_0900_4.jpg",
+      "images/auto_0900_5.jpg"
+    ],
+    "lastModified": "2026-10-13"
   },
   {
     "id": "dog1175",
