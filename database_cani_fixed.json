@@ -20235,7 +20235,12 @@
     "colore": "LIGHT REDDISH",
     "padre": "auto_0991",
     "madre": "auto_0992",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0989.jpg",
+      "images/auto_0989_2.jpg",
+      "images/auto_0989_3.jpg"
+    ],
+    "lastModified": "2026-10-13"
   },
   {
     "id": "auto_0990",
@@ -20304,9 +20309,7 @@
     "padre": "auto_1001",
     "madre": "auto_1002",
     "foto_list": [
-      "images/auto_0993.jpg",
-      "images/auto_0993_2.jpg",
-      "images/auto_0993_3.jpg"
+      "images/auto_0993.jpg"
     ],
     "lastModified": "2026-10-13",
     "note_en": "Taken from Tajikistan."
