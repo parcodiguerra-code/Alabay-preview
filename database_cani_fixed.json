@@ -25031,11 +25031,11 @@
     "birth": "1983-12-16",
     "note": "Preso in Turkmenistan. Appassionati di lunga data della razza sostengono che questo maschio abbia sangue di Pastore Tedesco (VEO - Vostochno Evropejskaya Ovcharka). Alla Conferenza dell'Unione tenuta ad Ashgabat nel 1990, i rappresentanti turkmeni guidati da A. Nuryagdiyev osservarono che questo maschio ha antenati Pastore Tedesco.",
     "colore": "REDDISH",
-    "padre": "auto_1177",
-    "madre": "auto_1178",
+    "padre": "auto_14091",
+    "madre": "auto_14092",
     "foto_list": [],
     "note_en": "Taken from Turkmenistan. Long-time enthusiasts of the breed claim that this male dog has blood of German Shepherd Dog (VEO - Vostochno Evropejskaya Ovcharka). At the Union Conference held in Ashgabat in 1990, Turkmen representatives led by A. Nuryagdiyev noted that this male dog has German Shepherd Dog ancestry.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-13"
   },
   {
     "id": "dog1637",
@@ -221386,23 +221386,6 @@
     "lastModified": "2026-10-12"
   },
   {
-    "id": "auto_14053",
-    "sesso": "F",
-    "name": "JASMIN (br. Toimla)",
-    "allevatore": "V. TOIMLA",
-    "proprietario": "",
-    "paese": "ESTONIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
-    "birth": "2022-06-20",
-    "note": "",
-    "colore": "WHITE WITH LIGHT FAWN",
-    "padre": "auto_14017",
-    "madre": "auto_14014",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
-  },
-  {
     "id": "auto_14054",
     "sesso": "F",
     "name": "LAILA (br. Toimla)",
@@ -222041,5 +222024,39 @@
     "madre": "auto_14075",
     "foto_list": [],
     "lastModified": "2026-10-12"
+  },
+  {
+    "id": "auto_14091",
+    "sesso": "M",
+    "name": "ELBARS (ow. Muhamedaliev)",
+    "allevatore": "",
+    "proprietario": "M. MUHAMEDALIEV (ATA KURT)",
+    "paese": "TURKMENISTAN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "",
+    "padre": "",
+    "madre": "",
+    "foto_list": [],
+    "lastModified": "2026-10-13"
+  },
+  {
+    "id": "auto_14092",
+    "sesso": "F",
+    "name": "IRTASH (ow. Charyev)",
+    "allevatore": "",
+    "proprietario": "B. CHARYEV",
+    "paese": "TURKMENISTAN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "",
+    "padre": "",
+    "madre": "",
+    "foto_list": [],
+    "lastModified": "2026-10-13"
   }
 ]
