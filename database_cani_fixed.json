@@ -8209,8 +8209,10 @@
     "colore": "WHITE",
     "padre": "auto_0081",
     "madre": "auto_0082",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_0438.jpg"
+    ],
+    "lastModified": "2026-10-13"
   },
   {
     "id": "auto_0439",
