@@ -222221,5 +222221,22 @@
     "madre": "auto_2976",
     "foto_list": [],
     "lastModified": "2026-10-13"
+  },
+  {
+    "id": "auto_14094",
+    "sesso": "M",
+    "name": "TURKMEN KALA UGUR",
+    "allevatore": "L. ROGINSKAYA",
+    "proprietario": "J. MATEJCIKOVA",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "RKF 2228372",
+    "birth": "2007-11-19",
+    "note": "",
+    "colore": "WHITE",
+    "padre": "auto_2601",
+    "madre": "auto_2926",
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   }
 ]
