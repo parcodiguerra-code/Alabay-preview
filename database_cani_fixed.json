@@ -109666,7 +109666,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "dog1752",
     "madre": "auto_7012",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_7013.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_7014",
