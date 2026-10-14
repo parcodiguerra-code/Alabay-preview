@@ -222057,8 +222057,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0582",
     "madre": "auto_0541",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_14084.jpg",
+      "images/auto_14084_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_14085",
@@ -222220,7 +222223,11 @@
     "colore": "WHITE",
     "padre": "auto_2601",
     "madre": "auto_2926",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14094.jpg",
+      "images/auto_14094_2.jpg",
+      "images/auto_14094_3.jpg"
+    ],
     "lastModified": "2026-10-14"
   },
   {
