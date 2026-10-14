@@ -20619,8 +20619,11 @@
     "colore": "",
     "padre": "auto_1324",
     "madre": "auto_1013",
-    "foto_list": [],
-    "lastModified": "2026-10-10"
+    "foto_list": [
+      "images/auto_1010.jpg",
+      "images/auto_1010_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_1013",
