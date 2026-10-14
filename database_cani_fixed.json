@@ -220109,8 +220109,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1752",
     "madre": "auto_1198",
-    "foto_list": [],
-    "lastModified": "2026-10-10"
+    "foto_list": [
+      "images/auto_13970.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_13971",
