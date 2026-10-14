@@ -222540,5 +222540,22 @@
     "madre": "auto_14103",
     "foto_list": [],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14105",
+    "sesso": "M",
+    "name": "HAYBAT TOHUM (ow. Ivanova)",
+    "allevatore": "L. RYBAKOVA",
+    "proprietario": "L. IVANOVA",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 1246043",
+    "birth": "2001-10-31",
+    "note": "",
+    "colore": "WHITE WITH ORANGE",
+    "padre": "dog1489",
+    "madre": "auto_2677",
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   }
 ]
