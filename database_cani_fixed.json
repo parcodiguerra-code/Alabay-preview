@@ -28950,7 +28950,13 @@
     "colore": "REDDISH",
     "padre": "dog1679",
     "madre": "dog1890",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1319.jpg",
+      "images/auto_1319_2.jpg",
+      "images/auto_1319_3.jpg",
+      "images/auto_1319_4.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_1320",
