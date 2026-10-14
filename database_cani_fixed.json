@@ -10171,7 +10171,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0544",
     "madre": "auto_0545",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0542.jpg",
+      "images/auto_0542_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_0543",
