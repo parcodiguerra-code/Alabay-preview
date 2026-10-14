@@ -4081,7 +4081,7 @@
     "proprietario": "B. GORELIK",
     "paese": "UKRAINE",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "pedigree": "UKU 0151608",
     "birth": "2013-03-17",
     "note": "Appassionati di lunga data della razza hanno espresso dubbi sull'autenticità e sulla chiarezza delle origini di questo maschio.",
     "colore": "WHITE WITH TIGER STRIPES",
@@ -4089,7 +4089,7 @@
     "madre": "auto_5817",
     "foto_list": [],
     "note_en": "Long-time enthusiasts of the breed have expressed doubts about the authenticity and clarity of this male’s origins.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "dog0273",
@@ -91531,18 +91531,19 @@
   {
     "id": "auto_5867",
     "sesso": "M",
-    "name": "MANLAY 2 (ow. Proscia)",
+    "name": "MANLAY II (ow. Lopane)",
     "allevatore": "A. PROSCIA",
-    "proprietario": "A. PROSCIA",
+    "proprietario": "E. LOPANE",
     "paese": "ITALY",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "pedigree": "LOI 2072029",
     "birth": "2020-01-01",
     "note": "",
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_0214",
     "madre": "auto_5345",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_5868",
