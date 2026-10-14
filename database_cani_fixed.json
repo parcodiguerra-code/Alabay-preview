@@ -28426,7 +28426,7 @@
     "pedigree": "",
     "birth": "1984-12-17",
     "note": "",
-    "colore": "BLACK WITH WHITE",
+    "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "padre": "auto_1304",
     "madre": "auto_1157",
     "foto_list": [
@@ -222105,8 +222105,11 @@
     "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/auto_14089.jpg",
+      "images/auto_14089_2.jpg"
+    ],
+    "lastModified": "2026-10-14",
     "note_en": "Taken from Tajikistan."
   },
   {
