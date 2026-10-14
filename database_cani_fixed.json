@@ -22403,7 +22403,11 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "dog1460",
     "madre": "dog1448",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1462.jpg",
+      "images/dog1462_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_1085",
