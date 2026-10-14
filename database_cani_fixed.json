@@ -141199,9 +141199,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_8995",
     "madre": "auto_8996",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_8997.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_8998",
@@ -142624,7 +142626,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1329",
     "madre": "auto_2574",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9091.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_9092",
@@ -142688,7 +142693,10 @@
     "colore": "",
     "padre": "auto_1187",
     "madre": "auto_9094",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9095.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_9096",
@@ -142816,7 +142824,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_3592",
     "madre": "auto_9088",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9103.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_9104",
