@@ -32615,9 +32615,12 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_2127",
     "madre": "auto_2128",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_2124.jpg",
+      "images/auto_2124_2.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_2125",
@@ -36934,8 +36937,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "dog0647",
     "madre": "auto_2406",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_2410.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_2411",
