@@ -137770,7 +137770,11 @@
     "colore": "WHITE WITH LIGHT ORANGE",
     "padre": "auto_4905",
     "madre": "auto_1328",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8781.jpg",
+      "images/auto_8781_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_8782",
