@@ -29949,7 +29949,12 @@
     "colore": "LIGHT FAWN",
     "padre": "dog1679",
     "madre": "dog1890",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1362.jpg",
+      "images/auto_1362_2.jpg",
+      "images/auto_1362_3.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_1363",
@@ -48840,7 +48845,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_2124",
     "madre": "auto_1332",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3168.jpg",
+      "images/auto_3168_2.jpg",
+      "images/auto_3168_3.jpg",
+      "images/auto_3168_4.jpg",
+      "images/auto_3168_5.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_3169",
