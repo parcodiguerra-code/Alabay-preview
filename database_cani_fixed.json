@@ -28436,7 +28436,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_1304",
     "madre": "auto_1157",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1305.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_1306",
