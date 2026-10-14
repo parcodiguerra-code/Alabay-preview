@@ -136607,7 +136607,10 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_8685",
     "madre": "auto_8690",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8707.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_8708",
@@ -136639,7 +136642,10 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_8685",
     "madre": "auto_8690",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8709.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_8710",
@@ -137778,7 +137784,14 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_4905",
     "madre": "auto_1328",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8780.jpg",
+      "images/auto_8780_2.jpg",
+      "images/auto_8780_3.jpg",
+      "images/auto_8780_4.jpg",
+      "images/auto_8780_5.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_8781",
