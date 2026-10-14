@@ -28429,7 +28429,13 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_1304",
     "madre": "auto_1157",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1853.jpg",
+      "images/dog1853_2.jpg",
+      "images/dog1853_3.jpg",
+      "images/dog1853_4.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_1305",
