@@ -48797,7 +48797,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_2124",
     "madre": "auto_1332",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3167.jpg",
+      "images/auto_3167_2.jpg",
+      "images/auto_3167_3.jpg",
+      "images/auto_3167_4.jpg",
+      "images/auto_3167_5.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_3168",
