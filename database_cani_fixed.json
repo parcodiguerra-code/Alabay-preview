@@ -136328,9 +136328,13 @@
     "colore": "WHITE",
     "padre": "auto_8692",
     "madre": "auto_8693",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_8691.jpg",
+      "images/auto_8691_2.jpg",
+      "images/auto_8691_3.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_8694",
