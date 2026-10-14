@@ -22620,9 +22620,14 @@
     "colore": "WHITE WITH BLACK AND TAN",
     "padre": "auto_2995",
     "madre": "auto_2996",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_1094.jpg",
+      "images/auto_1094_2.jpg",
+      "images/auto_1094_3.jpg",
+      "images/auto_1094_4.jpg"
+    ],
     "note_en": "Taken from Tajikistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "dog1477",
