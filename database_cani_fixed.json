@@ -147738,7 +147738,12 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_9409",
     "madre": "auto_9415",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9416.jpg",
+      "images/auto_9416_2.jpg",
+      "images/auto_9416_3.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_9417",
@@ -174799,9 +174804,11 @@
     "colore": "WHITE",
     "padre": "auto_0716",
     "madre": "auto_11115",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_11117.jpg"
+    ],
     "note_en": "Ossetia.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_11118",
@@ -192537,9 +192544,13 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_12227",
     "madre": "auto_12228",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_12235.jpg",
+      "images/auto_12235_2.jpg",
+      "images/auto_12235_3.jpg"
+    ],
     "note_en": "Taken from Kazakhstan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_12236",
