@@ -76368,7 +76368,11 @@
     "colore": "WHITE",
     "padre": "auto_4905",
     "madre": "auto_1328",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4906.jpg",
+      "images/auto_4906_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_4907",
@@ -136289,7 +136293,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8688.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_8689",
