@@ -222273,5 +222273,22 @@
     "madre": "auto_5345",
     "foto_list": [],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14098",
+    "sesso": "F",
+    "name": "ENISH (ow. Prota)",
+    "allevatore": "A. PROSCIA",
+    "proprietario": "F. PROTA",
+    "paese": "ITALY",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "LOI 2072056",
+    "birth": "2020-01-01",
+    "note": "",
+    "colore": "WHITE WITH FAWN",
+    "padre": "auto_0214",
+    "madre": "auto_5345",
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   }
 ]
