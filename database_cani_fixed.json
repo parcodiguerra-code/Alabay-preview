@@ -1322,9 +1322,12 @@
     "colore": "WHITE",
     "padre": "auto_0083",
     "madre": "auto_0084",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0081.jpg",
+      "images/auto_0081_2.jpg"
+    ],
     "note_en": "Champion of Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_0082",
