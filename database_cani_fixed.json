@@ -222487,5 +222487,24 @@
     "madre": "auto_5345",
     "foto_list": [],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14102",
+    "sesso": "M",
+    "name": "IMPERIYA SKORPIONA NAZARET",
+    "allevatore": "E. HOHLOVA",
+    "proprietario": "",
+    "paese": "RUSSIA",
+    "colore": "BLACK WITH WHITE AND LIGHT FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 1475777",
+    "birth": "2003-10-19",
+    "note": "",
+    "padre": "auto_5720",
+    "madre": "dog2004",
+    "foto_list": [
+      "images/auto_14102.jpg"
+    ],
+    "lastModified": "2026-10-14"
   }
 ]
