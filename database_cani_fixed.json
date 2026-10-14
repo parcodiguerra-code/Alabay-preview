@@ -14392,8 +14392,11 @@
     "colore": "FAWN",
     "padre": "auto_0739",
     "madre": "auto_0740",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_0738.jpg",
+      "images/auto_0738_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_0739",
