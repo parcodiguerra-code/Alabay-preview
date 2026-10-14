@@ -222222,5 +222222,22 @@
     "madre": "auto_2926",
     "foto_list": [],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14095",
+    "sesso": "M",
+    "name": "ELBARS (ow. Auriemma)",
+    "allevatore": "A. PROSCIA",
+    "proprietario": "P. AURIEMMA",
+    "paese": "ITALY",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "LOI 2072031",
+    "birth": "2020-01-01",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0214",
+    "madre": "auto_5345",
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   }
 ]
