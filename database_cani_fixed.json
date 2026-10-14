@@ -222555,7 +222555,9 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1489",
     "madre": "auto_2677",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14105.jpg"
+    ],
     "lastModified": "2026-10-14"
   }
 ]
