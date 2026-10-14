@@ -222307,5 +222307,22 @@
     "madre": "auto_5345",
     "foto_list": [],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14100",
+    "sesso": "F",
+    "name": "BOSARA (ow. Baccalà)",
+    "allevatore": "A. PROSCIA",
+    "proprietario": "S. BACCALA'",
+    "paese": "ITALY",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "LOI 2072032",
+    "birth": "2020-01-01",
+    "note": "",
+    "colore": "WHITE WITH TIGER STRIPES",
+    "padre": "auto_0214",
+    "madre": "auto_5345",
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   }
 ]
