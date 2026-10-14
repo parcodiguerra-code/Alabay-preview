@@ -30822,13 +30822,14 @@
     "proprietario": "E. HOHLOVA",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "RKF 1146337",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_1242",
     "madre": "dog0768",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "dog2005",
