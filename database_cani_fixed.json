@@ -20369,8 +20369,11 @@
     "colore": "LIGHT REDDISH",
     "padre": "auto_0993",
     "madre": "auto_0994",
-    "foto_list": [],
-    "lastModified": "2026-10-10"
+    "foto_list": [
+      "images/auto_0992.jpg",
+      "images/auto_0992_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_0993",
@@ -29766,7 +29769,11 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0991",
     "madre": "auto_0992",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1351.jpg",
+      "images/auto_1351_2.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_1352",
