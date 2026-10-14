@@ -222239,5 +222239,22 @@
     "madre": "auto_5345",
     "foto_list": [],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14096",
+    "sesso": "M",
+    "name": "KARADAG (ow. Proscia)",
+    "allevatore": "A. PROSCIA",
+    "proprietario": "A. PROSCIA",
+    "paese": "ITALY",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "LOI 2072053",
+    "birth": "2020-01-01",
+    "note": "",
+    "colore": "WHITE WITH TIGER STRIPES",
+    "padre": "auto_0214",
+    "madre": "auto_5345",
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   }
 ]
