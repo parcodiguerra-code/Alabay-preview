@@ -14412,9 +14412,12 @@
     "colore": "GREY",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0739.jpg",
+      "images/auto_0739_2.jpg"
+    ],
     "note_en": "Ossetia.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_0740",
@@ -17745,9 +17748,12 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_0889",
     "madre": "auto_0890",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0888.jpg",
+      "images/auto_0888_2.jpg"
+    ],
     "note_en": "Taken from Uzbekistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_0889",
@@ -19340,7 +19346,12 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_9135",
     "madre": "auto_9136",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0944.jpg",
+      "images/auto_0944_2.jpg",
+      "images/auto_0944_3.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "dog1267",
