@@ -5118,8 +5118,13 @@
     "colore": "WHITE WITH FAWN AND BLACK",
     "padre": "auto_0270",
     "madre": "auto_0271",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/dog0336.jpg",
+      "images/dog0336_2.jpg",
+      "images/dog0336_3.jpg",
+      "images/dog0336_4.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "dog0337",
