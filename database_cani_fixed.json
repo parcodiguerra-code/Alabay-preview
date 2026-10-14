@@ -222523,5 +222523,22 @@
     "madre": "auto_8215",
     "foto_list": [],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14104",
+    "sesso": "M",
+    "name": "DARSTAN ISHOT",
+    "allevatore": "N. PAVLYUKOVA",
+    "proprietario": "O. VOYTENOK",
+    "paese": "RUSSIA",
+    "colore": "REDDISH WITH WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 2391522",
+    "birth": "",
+    "note": "",
+    "padre": "auto_7803",
+    "madre": "auto_14103",
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   }
 ]
