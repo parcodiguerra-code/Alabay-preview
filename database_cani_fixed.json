@@ -20137,9 +20137,12 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_8683",
     "madre": "auto_8684",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0980.jpg",
+      "images/auto_0980_2.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_0981",
