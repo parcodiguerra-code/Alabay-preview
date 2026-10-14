@@ -222506,5 +222506,22 @@
       "images/auto_14102.jpg"
     ],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14103",
+    "sesso": "F",
+    "name": "DARSTAN RIDA",
+    "allevatore": "V. PAVLYUKOVA",
+    "proprietario": "V. PAVLYUKOVA",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2003-11-21",
+    "note": "",
+    "colore": "WHITE",
+    "padre": "auto_3032",
+    "madre": "auto_8215",
+    "foto_list": [],
+    "lastModified": "2026-10-14"
   }
 ]
