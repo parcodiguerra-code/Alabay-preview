@@ -29933,7 +29933,13 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "dog1679",
     "madre": "dog1890",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1361.jpg",
+      "images/auto_1361_2.jpg",
+      "images/auto_1361_3.jpg",
+      "images/auto_1361_4.jpg"
+    ],
+    "lastModified": "2026-10-14"
   },
   {
     "id": "auto_1362",
