@@ -145649,7 +145649,12 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_2124",
     "madre": "auto_7075",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9277.jpg",
+      "images/auto_9277_2.jpg",
+      "images/auto_9277_3.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_9278",
@@ -145665,9 +145670,12 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_8995",
     "madre": "auto_8996",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9278.jpg",
+      "images/auto_9278_2.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_9280",
@@ -145715,7 +145723,12 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_9280",
     "madre": "auto_9281",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9279.jpg",
+      "images/auto_9279_2.jpg",
+      "images/auto_9279_3.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_9282",
@@ -147583,7 +147596,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9390",
     "madre": "auto_9394",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9397.jpg",
+      "images/auto_9397_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_9398",
