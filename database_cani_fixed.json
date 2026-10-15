@@ -142930,7 +142930,11 @@
     "colore": "GREY WITH LIGHT FAWN",
     "padre": "auto_9043",
     "madre": "auto_3566",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9109.jpg",
+      "images/auto_9109_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_9110",
@@ -142962,7 +142966,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9043",
     "madre": "auto_3566",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9111.jpg",
+      "images/auto_9111_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_9112",
