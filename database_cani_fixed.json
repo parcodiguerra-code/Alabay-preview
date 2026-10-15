@@ -32602,7 +32602,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "dog1636",
     "madre": "auto_0684",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2120.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_2121",
