@@ -28517,7 +28517,7 @@
     "sesso": "M",
     "name": "PALVON (ow. Yusupov)",
     "allevatore": "",
-    "proprietario": "YUSUPOV",
+    "proprietario": "YUSUPOV (Tajikistan)",
     "paese": "TAJIKISTAN",
     "tipo": "TAJIK DAHMARDA",
     "pedigree": "",
@@ -28526,7 +28526,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_1307",
