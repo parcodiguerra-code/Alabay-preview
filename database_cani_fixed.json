@@ -98425,9 +98425,13 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_6299",
     "madre": "auto_6296",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_6298.jpg",
+      "images/auto_6298_2.jpg",
+      "images/auto_6298_3.jpg"
+    ],
     "note_en": "Testimony of a Russian breed expert and breeder: <<Agat was an extraordinary fighter, never tasting defeat, but no Purebred Kazakh Tobet or Purebred Central Asian Shepherd Dog. In the Taraz area, in the early 1990s, there was a Moscow Watchdog which was an excellent fighter: that Moscow Watchdog is a third-generation ancestor of Agat.>>.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_6300",
