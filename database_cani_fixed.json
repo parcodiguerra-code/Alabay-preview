@@ -222805,5 +222805,24 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-15"
+  },
+  {
+    "id": "auto_14112",
+    "sesso": "M",
+    "name": "ERGYZ GLADIATOR AZII",
+    "allevatore": "D. ROMASHKO",
+    "proprietario": "D. OSTRYAKOV",
+    "paese": "UKRAINE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2012-11-03",
+    "note": "",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "padre": "auto_4701",
+    "madre": "auto_5074",
+    "foto_list": [
+      "images/auto_14112.jpg"
+    ],
+    "lastModified": "2026-10-15"
   }
 ]
