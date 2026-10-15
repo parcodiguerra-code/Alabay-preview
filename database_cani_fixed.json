@@ -58671,7 +58671,11 @@
     "colore": "FAWN WITH REDDISH AND WHITE",
     "padre": "auto_3785",
     "madre": "auto_2221",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3786.jpg",
+      "images/auto_3786_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_3787",
@@ -58687,7 +58691,10 @@
     "colore": "BLACK WITH REDDISH AND WHITE",
     "padre": "auto_3785",
     "madre": "auto_2221",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3787.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_3788",
