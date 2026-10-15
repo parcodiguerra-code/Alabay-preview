@@ -15979,7 +15979,11 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0807",
     "madre": "auto_0808",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0805.jpg",
+      "images/auto_0805_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_0806",
@@ -26965,7 +26969,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1752.jpg",
+      "images/dog1752_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "dog1753",
@@ -222260,8 +222268,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_14087",
     "madre": "auto_1198",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_14081.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_14082",
