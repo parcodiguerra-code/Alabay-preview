@@ -222759,15 +222759,16 @@
     "sesso": "F",
     "name": "SARMA (ow. Kerimov)",
     "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "colore": "",
-    "note": "[Creato automaticamente]",
+    "proprietario": "S. KERIMOV",
+    "paese": "TURKMENISTAN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "N. 79-81",
+    "birth": "1981-01-01",
+    "note": "",
+    "colore": "GREY",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   }
 ]
