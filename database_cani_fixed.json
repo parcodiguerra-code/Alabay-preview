@@ -222856,16 +222856,17 @@
     "id": "auto_14114",
     "sesso": "F",
     "name": "RITA SAKSONIYA",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
+    "allevatore": "L. KRIVOCHENKO",
+    "proprietario": "L. KRIVOCHENKO",
+    "paese": "UKRAINE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "colore": "",
-    "note": "[Creato automaticamente]",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
+    "note": "",
+    "colore": "WHITE WITH FAWN",
+    "padre": "dog0337",
+    "madre": "auto_2456",
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   }
 ]
