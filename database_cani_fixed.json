@@ -48,7 +48,12 @@
     "colore": "WHITE",
     "padre": "auto_0001",
     "madre": "auto_0002",
-    "foto_list": []
+    "foto_list": [
+      "images/dog0003.jpg",
+      "images/dog0003_2.jpg",
+      "images/dog0003_3.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_0003",
