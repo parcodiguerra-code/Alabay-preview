@@ -135930,8 +135930,8 @@
   {
     "id": "auto_8665",
     "sesso": "F",
-    "name": "ROZAL-GICH (ow. Gutin)",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
+    "name": "GICH ROZAL (ow. Gutin)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "V. GUTIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -135941,7 +135941,8 @@
     "colore": "",
     "padre": "auto_2843",
     "madre": "auto_4303",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_8666",
