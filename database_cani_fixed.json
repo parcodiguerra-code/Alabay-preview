@@ -222831,5 +222831,41 @@
       "images/auto_14112.jpg"
     ],
     "lastModified": "2026-10-15"
+  },
+  {
+    "id": "auto_14113",
+    "sesso": "M",
+    "name": "EZON II (ow. Krivochenko)",
+    "allevatore": "L. KRIVOCHENKO",
+    "proprietario": "L. KRIVOCHENKO",
+    "paese": "UKRAINE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "colore": "WHITE WITH BLACK AND REDDISH",
+    "note": "",
+    "padre": "dog0337",
+    "madre": "auto_14114",
+    "foto_list": [
+      "images/auto_14113.jpg",
+      "images/auto_14113_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
+  },
+  {
+    "id": "auto_14114",
+    "sesso": "F",
+    "name": "RITA SAKSONIYA",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
   }
 ]
