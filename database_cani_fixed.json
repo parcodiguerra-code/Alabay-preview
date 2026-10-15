@@ -66825,7 +66825,7 @@
     "id": "auto_4307",
     "sesso": "F",
     "name": "YULDUG (ow. Ovchinnikova)",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "M. OVCHINNIKOVA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -66835,7 +66835,8 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_4301",
     "madre": "auto_4303",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_4308",
