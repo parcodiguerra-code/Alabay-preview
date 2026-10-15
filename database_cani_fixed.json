@@ -43674,9 +43674,9 @@
   {
     "id": "auto_2842",
     "sesso": "F",
-    "name": "ELMASHA (ow. Sattarova)",
+    "name": "ELMASHA (ow. Salnikova)",
     "allevatore": "E. MASALKOVA",
-    "proprietario": "T. SATTAROVA (SALNIKOVA)",
+    "proprietario": "T. SALNIKOVA (SATTAROVA)",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -43685,7 +43685,8 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_0689",
     "madre": "auto_0636",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_2843",
