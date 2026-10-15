@@ -31338,7 +31338,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_1281",
     "madre": "auto_1411",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1412.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "dog2039",
