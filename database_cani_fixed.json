@@ -5093,7 +5093,10 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0516",
     "madre": "auto_0517",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0270.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_0271",
