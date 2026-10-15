@@ -40355,7 +40355,7 @@
     "id": "auto_2629",
     "sesso": "F",
     "name": "ARISHA VECLACHI",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "",
     "paese": "BELARUS",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -40365,7 +40365,8 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_2628",
     "madre": "auto_2630",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_2630",
