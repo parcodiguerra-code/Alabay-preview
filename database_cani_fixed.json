@@ -5112,7 +5112,10 @@
     "colore": "BROWN WITH WHITE",
     "padre": "auto_0518",
     "madre": "auto_0519",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0271.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "dog0336",
