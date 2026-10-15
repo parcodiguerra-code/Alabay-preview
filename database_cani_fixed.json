@@ -144193,9 +144193,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_8995",
     "madre": "auto_8996",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9187.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_9188",
@@ -144803,7 +144805,13 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_1329",
     "madre": "auto_2574",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9226.jpg",
+      "images/auto_9226_2.jpg",
+      "images/auto_9226_3.jpg",
+      "images/auto_9226_4.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_9227",
