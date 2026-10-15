@@ -3365,9 +3365,11 @@
     "padre": "auto_0013",
     "madre": "auto_0014",
     "foto_list": [
-      "images/auto_0175.jpg"
+      "images/auto_0175_2.jpg",
+      "images/auto_0175.jpg",
+      "images/auto_0175_3.jpg"
     ],
-    "lastModified": "2026-10-14"
+    "lastModified": "2026-10-15"
   },
   {
     "id": "dog0227",
