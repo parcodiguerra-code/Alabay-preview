@@ -17993,7 +17993,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_0458",
     "madre": "auto_0897",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0896.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "dog1171",
@@ -18004,12 +18007,16 @@
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 0001998",
-    "birth": "",
+    "birth": "1992-01-27",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog1166",
     "madre": "auto_0896",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1171.jpg",
+      "images/dog1171_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_0897",
