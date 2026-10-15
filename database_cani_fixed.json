@@ -222334,8 +222334,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "",
     "madre": "",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/auto_14085.jpg"
+    ],
+    "lastModified": "2026-10-15",
     "note_en": "Taken from Tajikistan."
   },
   {
