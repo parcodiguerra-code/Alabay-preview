@@ -66747,9 +66747,9 @@
   {
     "id": "auto_4303",
     "sesso": "F",
-    "name": "AK GICH (ow. Sattarova)",
+    "name": "AK GICH (ow. Salnikova)",
     "allevatore": "T. SATTAROVA (SALNIKOVA)",
-    "proprietario": "T. SATTAROVA (SALNIKOVA)",
+    "proprietario": "T. SALNIKOVA (SATTAROVA)",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -66758,7 +66758,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1467",
     "madre": "auto_4302",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_4304",
@@ -66827,8 +66828,8 @@
   {
     "id": "auto_4308",
     "sesso": "M",
-    "name": "AK HAYBAR (br. Sattarova)",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
+    "name": "AK HAYBAR (br. Salnikova)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -66838,7 +66839,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1467",
     "madre": "auto_4302",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_4309",
