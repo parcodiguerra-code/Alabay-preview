@@ -9765,7 +9765,10 @@
     "colore": "WHITE WITH BROWN",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0518.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_0519",
