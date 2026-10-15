@@ -66769,9 +66769,9 @@
   {
     "id": "auto_4304",
     "sesso": "F",
-    "name": "SHILA (ow. Sattarova)",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
-    "proprietario": "T. SATTAROVA (SALNIKOVA)",
+    "name": "SHILA (ow. Salnikova)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
+    "proprietario": "T. SALNIKOVA (SATTAROVA)",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -66780,7 +66780,8 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4301",
     "madre": "auto_4303",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_4305",
