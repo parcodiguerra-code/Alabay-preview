@@ -67120,7 +67120,7 @@
     "id": "auto_4326",
     "sesso": "F",
     "name": "ALACHI (ow. Zhironkin)",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "S. ZHIRONKIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -67130,7 +67130,8 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4325",
     "madre": "auto_4304",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_4327",
