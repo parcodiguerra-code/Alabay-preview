@@ -17921,15 +17921,15 @@
     "proprietario": "I. PELEVINA",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "pedigree": "N. 15-85",
     "birth": "",
     "note": "Preso in Turkmenistan.",
-    "colore": "WHITE WITH FAWN",
-    "padre": "",
-    "madre": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_14106",
+    "madre": "auto_14107",
     "foto_list": [],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-15"
   },
   {
     "id": "dog1167",
@@ -222671,5 +222671,37 @@
       "images/auto_14105.jpg"
     ],
     "lastModified": "2026-10-14"
+  },
+  {
+    "id": "auto_14106",
+    "sesso": "M",
+    "name": "HAN-GUR (ow. Collective Farm \"Amu-Darya\")",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
+  },
+  {
+    "id": "auto_14107",
+    "sesso": "F",
+    "name": "SARY (ow. Collective Farm \"Amu-Darya\")",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
   }
 ]
