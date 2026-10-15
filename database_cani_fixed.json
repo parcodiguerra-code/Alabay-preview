@@ -43725,7 +43725,7 @@
     "id": "auto_2845",
     "sesso": "F",
     "name": "KAMILA GICH (ow. Bobin)",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "BOBIN",
     "paese": "BELARUS",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
@@ -43735,7 +43735,8 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0935",
     "madre": "auto_2842",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_2846",
