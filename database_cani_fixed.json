@@ -12889,7 +12889,7 @@
     "id": "dog0845",
     "sesso": "M",
     "name": "SARY DIK (br. Sattarova)",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -12899,7 +12899,8 @@
     "colore": "WHITE WITH BLACK",
     "padre": "dog0821",
     "madre": "auto_0680",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_0681",
