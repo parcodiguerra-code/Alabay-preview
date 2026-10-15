@@ -12970,7 +12970,7 @@
     "id": "auto_0684",
     "sesso": "F",
     "name": "SARY ANURA (ow. Ushatskas)",
-    "allevatore": "T. SATTAROVA (SALNIKOVA)",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "A. USHATSKAS",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -12980,7 +12980,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog0821",
     "madre": "auto_0680",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "dog0852",
