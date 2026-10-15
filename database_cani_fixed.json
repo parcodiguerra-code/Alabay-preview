@@ -217562,7 +217562,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_12169",
     "madre": "auto_13797",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_13796.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_13799",
@@ -217726,9 +217729,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_13809",
     "madre": "auto_12166",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_13808.jpg",
+      "images/auto_13808_2.jpg",
+      "images/auto_13808_3.jpg",
+      "images/auto_13808_4.jpg"
+    ],
     "note_en": "Although this female is certainly charming, she shows clear signs of being influenced by the Pit Bull breed.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_13807",
@@ -218594,9 +218602,12 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_13862",
     "madre": "auto_13863",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_13861.jpg",
+      "images/auto_13861_2.jpg"
+    ],
     "note_en": "Taken from Turkmenistan. This male was brought from Turkmenistan (Kushka region) to Ukraine (city of Dnipro) by Damir Asylgareev in 1993; his date of birth is presumed.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_13862",
@@ -220221,8 +220232,11 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_2411",
     "madre": "auto_0625",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_13963.jpg",
+      "images/auto_13963_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_13964",
@@ -220238,8 +220252,10 @@
     "colore": "WHITE",
     "padre": "auto_2580",
     "madre": "auto_1198",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_13964.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_13965",
@@ -220290,8 +220306,10 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_0497",
     "madre": "auto_0505",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_13967.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_13968",
@@ -221177,8 +221195,10 @@
     "colore": "",
     "padre": "auto_14021",
     "madre": "auto_14022",
-    "foto_list": [],
-    "lastModified": "2026-10-11"
+    "foto_list": [
+      "images/auto_14020.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_14021",
@@ -222234,8 +222254,11 @@
     "colore": "WHITE",
     "padre": "auto_0497",
     "madre": "auto_0498",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_14083.jpg",
+      "images/auto_14083_2.jpg"
+    ],
+    "lastModified": "2026-10-15"
   },
   {
     "id": "auto_14084",
