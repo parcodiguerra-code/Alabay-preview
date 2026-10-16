@@ -75,9 +75,15 @@
     "colore": "WHITE",
     "padre": "auto_0037",
     "madre": "auto_0038",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0003.jpg",
+      "images/auto_0003_2.jpg",
+      "images/auto_0003_3.jpg",
+      "images/auto_0003_4.jpg",
+      "images/auto_0003_5.jpg"
+    ],
     "note_en": "Three times Champion of Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_0004",
