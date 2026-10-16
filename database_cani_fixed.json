@@ -93079,7 +93079,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1087",
     "madre": "auto_2967",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5949.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_5950",
