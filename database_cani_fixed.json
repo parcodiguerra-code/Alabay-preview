@@ -33121,7 +33121,12 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2124",
     "madre": "auto_2125",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2144.jpg",
+      "images/auto_2144_2.jpg",
+      "images/auto_2144_3.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2148",
