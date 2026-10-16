@@ -32934,8 +32934,10 @@
     "colore": "REDDISH WITH BLACK",
     "padre": "dog1636",
     "madre": "auto_0804",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_2138.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2139",
