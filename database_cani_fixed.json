@@ -149054,7 +149054,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2978",
     "madre": "auto_9472",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9474.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_9475",
