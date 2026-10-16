@@ -22019,7 +22019,10 @@
     "colore": "BLACK WITH WHITE AND REDDISH",
     "padre": "dog1408",
     "madre": "dog1403",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1063.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_1064",
