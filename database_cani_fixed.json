@@ -30,9 +30,15 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0005",
     "madre": "auto_0006",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0002.jpg",
+      "images/auto_0002_2.jpg",
+      "images/auto_0002_3.jpg",
+      "images/auto_0002_4.jpg",
+      "images/auto_0002_5.jpg"
+    ],
     "note_en": "Testimony of a Russian breed expert and breeder: <<Ivan Aplevich from Rostov-na-Donu allegedly bought Bassar and Akbelek in Turkmenistan from Ashir Lalakov. However, strangely enough, there are photos of Bassar taken at Lalakov's house, but none of Akbelek. I talked with Ivan Aplevich, who sold Akbelek to Igor Melnichenko of Kirovograd, and I asked him many times where he got Akbelek. At first he told me that he took her from Tajikistan, then that he took her from Mary region in Turkmenistan...he never gave me a precise answer. Besides, he never wanted to tell me who her alleged owner was, because he knows that I can verify it. Ashir Lalakov, who sold Bassar to Ivan Aplevich, told me that he has never known this female dog Akbelek.>>. Given the phenotype of her offspring, there had always been rumours that this female had Saint Bernard blood; however, in early 2026, a Russian vet revealed that her father was Moskow Watchdog Batyr.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-16"
   },
   {
     "id": "dog0003",
