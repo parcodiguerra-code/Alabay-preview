@@ -222882,5 +222882,24 @@
     "madre": "auto_2456",
     "foto_list": [],
     "lastModified": "2026-10-15"
+  },
+  {
+    "id": "auto_14115",
+    "sesso": "M",
+    "name": "SHERIF (ow. Semerikov)",
+    "allevatore": "A. KRISHTOPIN",
+    "proprietario": "S. SEMERIKOV",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "dog0665",
+    "madre": "dog1295",
+    "foto_list": [
+      "images/auto_14115.jpg"
+    ],
+    "lastModified": "2026-10-16"
   }
 ]
