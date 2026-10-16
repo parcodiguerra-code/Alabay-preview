@@ -218782,9 +218782,15 @@
     "colore": "LIGHT REDDISH WITH BLACK",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_13865.jpg",
+      "images/auto_13865_2.jpg",
+      "images/auto_13865_3.jpg",
+      "images/auto_13865_4.jpg",
+      "images/auto_13865_5.jpg"
+    ],
     "note_en": "Taken from Kalmukia Republic (Caucasus).",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_13866",
