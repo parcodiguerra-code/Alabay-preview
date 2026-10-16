@@ -218868,7 +218868,11 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_0497",
     "madre": "auto_13865",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_13867.jpg",
+      "images/auto_13867_2.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_13868",
