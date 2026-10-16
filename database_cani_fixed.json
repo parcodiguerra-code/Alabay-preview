@@ -148337,7 +148337,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_1199",
     "madre": "auto_9164",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9429.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_9430",
