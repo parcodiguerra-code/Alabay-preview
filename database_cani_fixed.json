@@ -10586,7 +10586,7 @@
     "id": "auto_0565",
     "sesso": "M",
     "name": "SHAMSHIR (ow. Ustkachkintsev)",
-    "allevatore": "T. VOLKOVIC",
+    "allevatore": "T. VOLKOVICH",
     "proprietario": "USTKACHKINTSEV",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -10596,7 +10596,8 @@
     "colore": "BROWN WITH WHITE",
     "padre": "auto_0542",
     "madre": "auto_0543",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_0566",
