@@ -66928,8 +66928,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1467",
     "madre": "auto_4302",
-    "foto_list": [],
-    "lastModified": "2026-10-15"
+    "foto_list": [
+      "images/auto_4308.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_4309",
