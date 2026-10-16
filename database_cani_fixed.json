@@ -41378,7 +41378,14 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "dog0746",
     "madre": "auto_0618",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2687.jpg",
+      "images/auto_2687_2.jpg",
+      "images/auto_2687_3.jpg",
+      "images/auto_2687_4.jpg",
+      "images/auto_2687_5.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2688",
