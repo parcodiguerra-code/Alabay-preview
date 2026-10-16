@@ -30481,9 +30481,13 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_11794",
     "madre": "auto_1378",
-    "foto_list": [],
+    "foto_list": [
+      "images/dog1975.jpg",
+      "images/dog1975_2.jpg",
+      "images/dog1975_3.jpg"
+    ],
     "note_en": "Testimony of a Russian breed expert and breeder: <<Syrlon had an Uzbek certificate and also another pedigree. It was said that he came from Tajikistan, but it turned out that he was the son of a Moscow Watchdog owned by Alik Ryvin. Savich arranged the mating. Syrlon was born in Gomel, Belarus, to Savich. It was Savich himself who told me these facts. I asked him why he was producing hybrids, and he replied that any means were justified to achieve his goals. Syrlon sired bony, coarse-boned puppies, but they were clearly of a different breed. These are established facts; there are many witnesses. I have also followed the story of the dogs who were born from Syrlon and Sinchuk's Amba: I don't remember their names, but three of them ended up in Kazakhstan, where their bloodline spread, seriously contaminating the breed.>>.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-16"
   },
   {
     "id": "dog1976",
