@@ -20322,7 +20322,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0566",
     "madre": "auto_0983",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1327.jpg",
+      "images/dog1327_2.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_0986",
