@@ -9592,7 +9592,10 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_0565",
     "madre": "auto_0873",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0508.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "dog0626",
