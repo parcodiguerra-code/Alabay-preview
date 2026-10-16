@@ -9360,7 +9360,14 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_0497",
     "madre": "auto_0498",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0496.jpg",
+      "images/auto_0496_2.jpg",
+      "images/auto_0496_3.jpg",
+      "images/auto_0496_4.jpg",
+      "images/auto_0496_5.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_0497",
