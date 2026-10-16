@@ -36987,7 +36987,11 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "dog0746",
     "madre": "auto_0618",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2405.jpg",
+      "images/auto_2405_2.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2406",
