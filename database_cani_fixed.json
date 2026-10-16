@@ -144012,7 +144012,10 @@
     "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "padre": "auto_0943",
     "madre": "dog1906",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9163.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_9165",
