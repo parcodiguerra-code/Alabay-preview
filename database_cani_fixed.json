@@ -20503,8 +20503,10 @@
     "colore": "REDDISH",
     "padre": "auto_0995",
     "madre": "auto_0996",
-    "foto_list": [],
-    "lastModified": "2026-10-10"
+    "foto_list": [
+      "images/auto_0994.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_0995",
