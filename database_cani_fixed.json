@@ -39508,9 +39508,11 @@
     "colore": "BLACK",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_2571.jpg"
+    ],
     "note_en": "Taken from Tajikistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2572",
