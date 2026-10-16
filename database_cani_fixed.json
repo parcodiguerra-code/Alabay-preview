@@ -220406,8 +220406,10 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_0497",
     "madre": "auto_13865",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_13962.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_13963",
