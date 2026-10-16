@@ -9475,9 +9475,11 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0499",
     "madre": "auto_0500",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0503.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-16"
   },
   {
     "id": "dog0619",
