@@ -148944,9 +148944,12 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_9466",
     "madre": "auto_9464",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9467.jpg",
+      "images/auto_9467_2.jpg"
+    ],
     "note_en": "Taken from Uzbekistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_9468",
