@@ -24442,7 +24442,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0984",
     "madre": "auto_1054",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1157.jpg",
+      "images/auto_1157_2.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_1158",
