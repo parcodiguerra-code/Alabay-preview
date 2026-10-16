@@ -10232,18 +10232,19 @@
   {
     "id": "auto_0543",
     "sesso": "F",
-    "name": "BOYNAK (ow. Volkovic)",
+    "name": "BOYNAK (ow. Volkovich)",
     "allevatore": "ALLALIEV",
-    "proprietario": "T. VOLKOVIC",
+    "proprietario": "T. VOLKOVICH",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "LKSS 184-80",
     "birth": "1980-04-10",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "BROWN WITH WHITE",
     "padre": "auto_0546",
     "madre": "auto_0547",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_0544",
