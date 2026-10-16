@@ -42473,7 +42473,11 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2758",
     "madre": "auto_2773",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2759.jpg",
+      "images/auto_2759_2.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2761",
