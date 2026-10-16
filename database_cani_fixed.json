@@ -221060,8 +221060,11 @@
     "colore": "WHITE WITH BLACK",
     "padre": "",
     "madre": "",
-    "foto_list": [],
-    "lastModified": "2026-10-11"
+    "foto_list": [
+      "images/auto_14005.jpg",
+      "images/auto_14005_2.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_14006",
