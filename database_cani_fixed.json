@@ -18986,13 +18986,14 @@
     "proprietario": "E. ERMOLIN",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "RKF R 0005612",
     "birth": "1992-03-08",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "LIGHT FAWN",
     "padre": "auto_1094",
     "madre": "auto_2997",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "dog1233",
