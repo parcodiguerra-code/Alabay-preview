@@ -10570,7 +10570,7 @@
     "id": "auto_0564",
     "sesso": "F",
     "name": "SHOHRAT (ow. Nosko)",
-    "allevatore": "T. VOLKOVIC",
+    "allevatore": "T. VOLKOVICH",
     "proprietario": "V. NOSKO",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -10580,7 +10580,8 @@
     "colore": "BROWN WITH WHITE",
     "padre": "auto_0542",
     "madre": "auto_0543",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_0565",
