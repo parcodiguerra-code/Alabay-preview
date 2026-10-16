@@ -37390,7 +37390,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0513",
     "madre": "auto_0498",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2431.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2432",
