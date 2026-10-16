@@ -37339,8 +37339,10 @@
     "colore": "BLACK AND TAN",
     "padre": "dog2052",
     "madre": "auto_2427",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_2428.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2429",
