@@ -45915,7 +45915,11 @@
     "colore": "FAWN WITH BLACK",
     "padre": "dog1470",
     "madre": "auto_2966",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2971.jpg",
+      "images/auto_2971_2.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2972",
