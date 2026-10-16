@@ -220457,8 +220457,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_13861",
     "madre": "auto_13964",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_13965.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_13966",
