@@ -11541,13 +11541,14 @@
     "proprietario": "AKMURATOV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF R0021517",
+    "pedigree": "RKF R 0021517",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "dog0752",
