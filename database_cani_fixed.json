@@ -10246,7 +10246,9 @@
     "colore": "BROWN WITH WHITE",
     "padre": "auto_0546",
     "madre": "auto_0547",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0543.jpg"
+    ],
     "lastModified": "2026-10-16"
   },
   {
