@@ -222524,8 +222524,10 @@
     "colore": "WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/auto_14086.jpg"
+    ],
+    "lastModified": "2026-10-16",
     "note_en": "Taken from Turkmenistan by Damir Asylgareev."
   },
   {
