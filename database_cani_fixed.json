@@ -21647,8 +21647,14 @@
     "colore": "BLACK WITH WHITE AND BROWN",
     "padre": "auto_1040",
     "madre": "auto_1041",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/dog1408.jpg",
+      "images/dog1408_2.jpg",
+      "images/dog1408_3.jpg",
+      "images/dog1408_4.jpg",
+      "images/dog1408_5.jpg"
+    ],
+    "lastModified": "2026-10-16",
     "note_en": "Long-time enthusiasts of the breed claim that this male has blood of German Shepherd Dog (VEO - Vostochno Evropejskaya Ovcharka)."
   },
   {
