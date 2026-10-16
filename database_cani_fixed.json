@@ -148165,7 +148165,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9418.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_9419",
