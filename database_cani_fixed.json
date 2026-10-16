@@ -220418,8 +220418,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_2758",
     "madre": "auto_13967",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_13968.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_13969",
