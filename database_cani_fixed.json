@@ -141925,7 +141925,10 @@
     "colore": "DARK GREY WITH WHITE",
     "padre": "auto_0989",
     "madre": "auto_0990",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9031.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_9032",
