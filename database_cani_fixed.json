@@ -218858,7 +218858,10 @@
     "colore": "WHITE WITH BLACK AND FAWN",
     "padre": "auto_0513",
     "madre": "auto_0498",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_13868.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_13869",
