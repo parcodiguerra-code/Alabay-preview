@@ -45800,7 +45800,12 @@
     "colore": "DARK FAWN WITH WHITE",
     "padre": "auto_2124",
     "madre": "auto_2125",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2964.jpg",
+      "images/auto_2964_2.jpg",
+      "images/auto_2964_3.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_2965",
