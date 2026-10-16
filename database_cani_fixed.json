@@ -147938,9 +147938,9 @@
   {
     "id": "auto_9406",
     "sesso": "F",
-    "name": "ZEYRENCH (ow. Demidovic)",
+    "name": "ZEYRENCH (ow. Demidovich)",
     "allevatore": "I. SOBOLEVSKIY",
-    "proprietario": "V. DEMIDOVIC",
+    "proprietario": "V. DEMIDOVICH",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -147949,7 +147949,8 @@
     "colore": "LIGHT FAWN AND WHITE",
     "padre": "auto_9065",
     "madre": "auto_9329",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "auto_9407",
