@@ -19002,7 +19002,9 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_1094",
     "madre": "auto_2997",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0925.jpg"
+    ],
     "lastModified": "2026-10-16"
   },
   {
