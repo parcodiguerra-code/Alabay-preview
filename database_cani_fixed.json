@@ -17863,8 +17863,10 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_0889",
     "madre": "auto_0891",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/dog1160.jpg"
+    ],
+    "lastModified": "2026-10-16"
   },
   {
     "id": "dog1161",
