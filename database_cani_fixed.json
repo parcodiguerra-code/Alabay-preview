@@ -117753,7 +117753,7 @@
     "sesso": "M",
     "name": "JANGAL AKMENU GELE",
     "allevatore": "A. DERUS",
-    "proprietario": "",
+    "proprietario": "M. KOLODZIEJCZYK",
     "paese": "LITHUANIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "LSVK SO 1056/06",
@@ -117763,10 +117763,9 @@
     "padre": "auto_6694",
     "madre": "auto_7496",
     "foto_list": [
-      "images/auto_7497.jpg",
-      "images/auto_7497_2.jpg"
+      "images/auto_7497.jpg"
     ],
-    "lastModified": "2026-10-14"
+    "lastModified": "2026-10-17"
   },
   {
     "id": "auto_7498",
