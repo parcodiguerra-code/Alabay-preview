@@ -9599,9 +9599,10 @@
     "padre": "auto_0565",
     "madre": "auto_0873",
     "foto_list": [
-      "images/auto_0508.jpg"
+      "images/auto_0508.jpg",
+      "images/auto_0508_2.jpg"
     ],
-    "lastModified": "2026-10-16"
+    "lastModified": "2026-10-17"
   },
   {
     "id": "dog0626",
