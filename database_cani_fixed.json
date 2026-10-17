@@ -55501,7 +55501,11 @@
     "colore": "WHITE WITH BLACK AND LIGHT FAWN",
     "padre": "auto_3576",
     "madre": "auto_3572",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3577.jpg",
+      "images/auto_3577_2.jpg"
+    ],
+    "lastModified": "2026-10-17"
   },
   {
     "id": "auto_3578",
