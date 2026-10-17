@@ -147384,7 +147384,10 @@
     "colore": "BLACK WITH REDDISH AND LIGHT FAWN",
     "padre": "auto_3592",
     "madre": "auto_9194",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9363.jpg"
+    ],
+    "lastModified": "2026-10-17"
   },
   {
     "id": "auto_9364",
