@@ -7214,13 +7214,14 @@
     "proprietario": "R. BENEDETTO",
     "paese": "LITHUANIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "LOI 14157633",
+    "pedigree": "LSVK SO 1688/13",
     "birth": "2012-11-08",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_5396",
     "madre": "auto_0324",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-17"
   },
   {
     "id": "dog0470",
