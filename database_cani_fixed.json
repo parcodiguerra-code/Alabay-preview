@@ -223261,5 +223261,24 @@
       "images/auto_14115.jpg"
     ],
     "lastModified": "2026-10-16"
+  },
+  {
+    "id": "auto_14116",
+    "sesso": "M",
+    "name": "UGOL (br. Serafin)",
+    "allevatore": "V. SERAFIN",
+    "proprietario": "",
+    "paese": "SLOVAKIA",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "colore": "BLACK WITH WHITE",
+    "padre": "auto_12594",
+    "madre": "auto_12175",
+    "foto_list": [
+      "images/auto_14116.jpg"
+    ],
+    "lastModified": "2026-10-17"
   }
 ]
