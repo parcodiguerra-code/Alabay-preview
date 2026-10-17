@@ -223289,5 +223289,28 @@
       "images/auto_14116.jpg"
     ],
     "lastModified": "2026-10-17"
+  },
+  {
+    "id": "auto_14117",
+    "sesso": "M",
+    "name": "KANAGAT AKMENU GELE (copia)",
+    "allevatore": "A. DERUS",
+    "proprietario": "R. BENEDETTO",
+    "paese": "LITHUANIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2012-11-08",
+    "note": "",
+    "colore": "WHITE WITH ORANGE",
+    "padre": "auto_5396",
+    "madre": "auto_0324",
+    "foto_list": [
+      "images/auto_14117.jpg",
+      "images/auto_14117_2.jpg",
+      "images/auto_14117_3.jpg",
+      "images/auto_14117_4.jpg",
+      "images/auto_14117_5.jpg"
+    ],
+    "lastModified": "2026-10-17"
   }
 ]
