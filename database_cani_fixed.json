@@ -97421,9 +97421,11 @@
     "colore": "LIGHT REDDISH",
     "padre": "auto_6216",
     "madre": "auto_6217",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_6218.jpg"
+    ],
     "note_en": "Taken from Tajikistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-17"
   },
   {
     "id": "auto_6219",
