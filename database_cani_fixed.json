@@ -62190,11 +62190,13 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "",
+    "note": "Questa femmina sarebbe la sorella piena di Basar (ow. Gayballiev): si rimanda alla scheda di quest'ultimo per le relative annotazioni.",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0052",
     "madre": "auto_3963",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-17",
+    "note_en": "This female is believed to be the full sister of Basar (ow. Gayballiev); please refer to Basar’s profile for related notes."
   },
   {
     "id": "auto_3999",
