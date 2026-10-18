@@ -100160,22 +100160,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_6449",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_6450",
     "sesso": "F",
     "name": "ZERDA HAN (ow. Nagaeva)",
@@ -103430,22 +103414,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_6654",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_6655",
     "sesso": "M",
     "name": "ILGIN ALASHIR",
@@ -104246,22 +104214,6 @@
     "colore": "BLACK WITH WHITE",
     "padre": "dog1735",
     "madre": "auto_6702",
-    "foto_list": []
-  },
-  {
-    "id": "auto_6705",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -108175,22 +108127,6 @@
     "madre": "auto_6954",
     "foto_list": [],
     "lastModified": "2026-10-11"
-  },
-  {
-    "id": "auto_6954",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
   },
   {
     "id": "auto_6956",
@@ -112238,22 +112174,6 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2499",
     "madre": "auto_6810",
-    "foto_list": []
-  },
-  {
-    "id": "auto_7208",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
