@@ -223547,5 +223547,22 @@
       "images/auto_14131_2.jpg"
     ],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14132",
+    "sesso": "F",
+    "name": "",
+    "allevatore": "KENNEL \"ABORIGEN\"",
+    "proprietario": "KENNEL \"ABORIGEN\"",
+    "paese": "UKRAINE",
+    "colore": "BLACK WITH WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_0633",
+    "madre": "auto_3678",
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   }
 ]
