@@ -223618,9 +223618,9 @@
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "colore": "WHITE WITH FAWN",
     "note": "",
-    "padre": "",
+    "colore": "WHITE WITH FAWN",
+    "padre": "dog0003",
     "madre": "",
     "foto_list": [
       "images/auto_14131.jpg",
