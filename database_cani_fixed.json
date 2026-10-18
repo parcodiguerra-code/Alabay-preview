@@ -223607,5 +223607,25 @@
       "images/auto_14130.jpg"
     ],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14131",
+    "sesso": "M",
+    "name": "KAZBICH (son of Melnichenko's Abas)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "UKRAINE",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "colore": "WHITE WITH FAWN",
+    "note": "",
+    "padre": "",
+    "madre": "",
+    "foto_list": [
+      "images/auto_14131.jpg",
+      "images/auto_14131_2.jpg"
+    ],
+    "lastModified": "2026-10-18"
   }
 ]
