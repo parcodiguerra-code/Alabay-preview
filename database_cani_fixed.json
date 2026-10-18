@@ -5206,7 +5206,11 @@
     "colore": "WHITE WITH BROWN",
     "padre": "dog0336",
     "madre": "auto_0002",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0272.jpg",
+      "images/auto_0272_2.jpg"
+    ],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_0273",
