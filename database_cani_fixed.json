@@ -58354,7 +58354,7 @@
   {
     "id": "auto_3752",
     "sesso": "F",
-    "name": "KELTE'S NIECE",
+    "name": "NIECE OF KELTE",
     "allevatore": "",
     "proprietario": "",
     "paese": "TURKMENISTAN",
@@ -58365,7 +58365,8 @@
     "colore": "",
     "padre": "auto_3750",
     "madre": "auto_3753",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_3753",
