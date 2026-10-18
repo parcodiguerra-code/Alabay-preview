@@ -163623,22 +163623,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_10388",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
-    "birth": "",
-    "note": "",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_10389",
     "sesso": "F",
     "name": "PERI (br. Yarosh)",
@@ -169601,22 +169585,6 @@
     "colore": "",
     "padre": "auto_3944",
     "madre": "auto_10763",
-    "foto_list": []
-  },
-  {
-    "id": "auto_10764",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
