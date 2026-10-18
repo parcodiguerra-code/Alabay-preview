@@ -22461,22 +22461,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_1083",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
-    "birth": "",
-    "note": "",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "dog1459",
     "sesso": "F",
     "name": "IRMA (ow. Kennel \"VOHR\")",
@@ -37691,22 +37675,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_2448",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
-    "birth": "",
-    "note": "",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_2449",
     "sesso": "F",
     "name": "GYULLE SAGH (ow. Stukalov)",
@@ -38174,22 +38142,6 @@
     "colore": "",
     "padre": "auto_2479",
     "madre": "auto_2482",
-    "foto_list": []
-  },
-  {
-    "id": "auto_2482",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
