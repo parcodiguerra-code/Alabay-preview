@@ -223503,14 +223503,17 @@
     "allevatore": "L. MARKOVA",
     "proprietario": "L. MARKOVA",
     "paese": "CZECH REPUBLIC",
-    "colore": "WHITE WITH FAWN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2003-11-11",
     "note": "",
+    "colore": "WHITE WITH FAWN",
     "padre": "auto_14124",
     "madre": "auto_14125",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14126.jpg",
+      "images/auto_14126_2.jpg"
+    ],
     "lastModified": "2026-10-18"
   }
 ]
