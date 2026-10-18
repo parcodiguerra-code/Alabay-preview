@@ -223564,14 +223564,18 @@
     "allevatore": "L. BOYARINTSEVA",
     "proprietario": "L. BOYARINTSEVA",
     "paese": "UKRAINE",
-    "colore": "WHITE WITH BLACK",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU 43903160",
     "birth": "2009-12-25",
     "note": "",
+    "colore": "WHITE WITH BLACK",
     "padre": "auto_8440",
     "madre": "auto_14128",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14129.jpg",
+      "images/auto_14129_2.jpg",
+      "images/auto_14129_3.jpg"
+    ],
     "lastModified": "2026-10-18"
   }
 ]
