@@ -223577,5 +223577,28 @@
       "images/auto_14129_3.jpg"
     ],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14130",
+    "sesso": "M",
+    "name": "TURGAY (ow. Melnichenko)",
+    "allevatore": "O. MELNICHENKO",
+    "proprietario": "O. MELNICHENKO",
+    "paese": "UKRAINE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1992-12-10",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "dog0336",
+    "madre": "auto_0002",
+    "foto_list": [
+      "images/dog0337.jpg",
+      "images/dog0337_2.jpg",
+      "images/dog0337_3.jpg",
+      "images/dog0337_4.jpg",
+      "images/dog0337_5.jpg"
+    ],
+    "lastModified": "2026-10-18"
   }
 ]
