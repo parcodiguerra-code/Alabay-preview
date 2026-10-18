@@ -142298,9 +142298,12 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9133",
     "madre": "auto_9134",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9132.jpg",
+      "images/auto_9132_2.jpg"
+    ],
     "note_en": "Taken from Uzbekistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_9135",
