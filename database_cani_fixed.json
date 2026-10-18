@@ -23964,10 +23964,11 @@
     "pedigree": "",
     "birth": "",
     "note": "",
-    "colore": "",
+    "colore": "REDDISH WITH WHITE",
     "padre": "dog1545",
     "madre": "dog1548",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "dog1551",
