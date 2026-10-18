@@ -216,8 +216,17 @@ for(const r of DB){
     '<main><h1>'+esc(name)+lineMark(r.id)+'</h1><div class="sub">'+[esc(tipo),esc(paese),y].filter(Boolean).join(' · ')+'</div>'+
     (altTxt.length?'<div class="alt">'+[].concat(regNames.map(x=>'<span lang="it">'+esc(x[0])+'</span> <span class="en">(grafia '+esc(x[1])+' · '+esc(x[1])+' spelling)</span>'),cyr?['<span lang="ru">'+esc(cyr)+'</span>']:[]).join(' · ')+'</div>':'')+
     (()=>{ const L=(LINE.get(String(r.id))||[]).filter(x=>x!==String(r.id)); if(!L.length) return '';
-      const nn=L.map(x=>'<a href="'+slug(x)+'.html">'+esc(clean((INDEX.get(x)||{}).name||x))+'</a>').join(', ');
-      return '<div class="alt" style="font-style:italic">* Nella genealogia '+(L.length>1?'sono presenti ':'è presente ')+nn+' — vedi nota <span class="en">· '+nn+(L.length>1?' appear':' appears')+' in the pedigree — see note</span></div>'; })()+
+      /* 18/10/2026: capostipite con fratello/sorella piena anch'esso segnalato → "…, sorella piena di …" */
+      const lk=x=>'<a href="'+slug(x)+'.html">'+esc(clean((INDEX.get(x)||{}).name||x))+'</a>';
+      const sibOf=x=>{ const a=INDEX.get(x); if(!a||!a.padre||!a.madre) return null; const nota=(String(a.note||'')+' '+String(a.note_en||'')).toLowerCase();
+        return (KIDS.get(String(a.padre))||[]).find(t=>{ if(String(t.id)===x||String(t.madre)!==String(a.madre)||!t.segnala_discendenza||L.includes(String(t.id))) return false;
+          const tn=String(t.name||'').toLowerCase(), tb=tn.replace(/\s*\(.*$/,'').trim();   /* solo se la nota cita il fratello/sorella */
+          return !!tn&&(nota.includes(tn)||(tb.length>2&&new RegExp('(^|[^a-z])'+tb.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'([^a-z]|$)').test(nota))); })||null; };
+      let sib=false;
+      const it=L.map(x=>{ const t=sibOf(x); if(!t) return lk(x); sib=true; const f=String((INDEX.get(x)||{}).sesso||'').toUpperCase()==='F'; return lk(x)+', '+(f?'sorella piena di ':'fratello pieno di ')+lk(String(t.id)); });
+      const en=L.map(x=>{ const t=sibOf(x); if(!t) return lk(x); const f=String((INDEX.get(x)||{}).sesso||'').toUpperCase()==='F'; return lk(x)+', '+(f?'full sister of ':'full brother of ')+lk(String(t.id))+','; });
+      const nn=it.join(sib?'; ':', '), ne=en.join(sib?'; ':', ');
+      return '<div class="alt" style="font-style:italic">* Nella genealogia '+(L.length>1?'sono presenti ':'è presente ')+nn+' — vedi nota <span class="en">· '+ne+(L.length>1?' appear':' appears')+' in the pedigree — see note</span></div>'; })()+
     '<a class="btn" href="'+esc(app)+'">🌳 Apri nell’archivio · Open in the archive</a><a class="btn g" href="'+esc(app)+'">✏️ Segnala una correzione · Report a correction</a>'+
     '<div class="card"><h2>Dati · Details</h2><table class="kv">'+rows.map(x=>'<tr><th>'+x[0]+' <span class="en">· '+x[1]+'</span></th><td>'+x[2]+'</td></tr>').join('')+'</table></div>'+
     '<div class="card"><h2>Genealogia · Pedigree</h2><div class="ped">'+
