@@ -116389,7 +116389,14 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_3900",
     "madre": "auto_2105",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_7408.jpg",
+      "images/auto_7408_2.jpg",
+      "images/auto_7408_3.jpg",
+      "images/auto_7408_4.jpg",
+      "images/auto_7408_5.jpg"
+    ],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_7409",
