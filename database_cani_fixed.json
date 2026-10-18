@@ -114692,22 +114692,6 @@
     "lastModified": "2026-10-11"
   },
   {
-    "id": "auto_7309",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_7310",
     "sesso": "F",
     "name": "AMARFI (ow. Grinko)",
@@ -127030,22 +127014,6 @@
     "colore": "REDDISH",
     "padre": "auto_2980",
     "madre": "auto_8096",
-    "foto_list": []
-  },
-  {
-    "id": "auto_8096",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
