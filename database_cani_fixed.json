@@ -223317,5 +223317,22 @@
       "images/auto_14117_5.jpg"
     ],
     "lastModified": "2026-10-17"
+  },
+  {
+    "id": "auto_14118",
+    "sesso": "M",
+    "name": "ZHANG YARAK-YARAN",
+    "allevatore": "O. BUNCHUK",
+    "proprietario": "J. NEMETH",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2007-11-03",
+    "note": "",
+    "colore": "WHITE",
+    "padre": "auto_3032",
+    "madre": "auto_4751",
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   }
 ]
