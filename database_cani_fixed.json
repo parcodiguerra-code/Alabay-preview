@@ -23436,22 +23436,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_1140",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come madre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "dog1556",
     "sesso": "F",
     "name": "BONNI AMBA (Russia)",
@@ -24674,38 +24658,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_1177",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_1178",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come madre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "dog1636",
     "sesso": "M",
     "name": "RYZHIY (ow. Tabunova-Rabyshko)",
@@ -25048,38 +25000,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_0801",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_0803",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come madre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "dog1657",
     "sesso": "F",
     "name": "UNCHARA (ow. Kovalev)",
@@ -25109,38 +25029,6 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "dog1629",
     "madre": "dog1657",
-    "foto_list": []
-  },
-  {
-    "id": "auto_1185",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_1186",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come madre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -27347,38 +27235,6 @@
     "foto_list": [],
     "note_en": "This male, sometimes said to come from Turkmenistan from the breeder Charyev, was born in Rostov-na-Donu from unknown parents.",
     "lastModified": "2026-10-12"
-  },
-  {
-    "id": "auto_1270",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_1271",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come madre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
   },
   {
     "id": "auto_1272",
@@ -30398,22 +30254,6 @@
     "colore": "",
     "padre": "auto_0001",
     "madre": "auto_1391",
-    "foto_list": []
-  },
-  {
-    "id": "auto_1391",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come madre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -35901,22 +35741,6 @@
     "madre": "auto_2368",
     "foto_list": [],
     "lastModified": "2026-10-11"
-  },
-  {
-    "id": "auto_2368",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
   },
   {
     "id": "auto_2369",
@@ -54764,22 +54588,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_3571",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_3572",
     "sesso": "F",
     "name": "GEL-ALKARA (ow. Procher)",
@@ -55134,22 +54942,6 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_3591",
     "madre": "auto_3594",
-    "foto_list": []
-  },
-  {
-    "id": "auto_3594",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -62537,22 +62329,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_4058",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_4059",
     "sesso": "F",
     "name": "EMKA (ow. Simakova)",
@@ -65412,22 +65188,6 @@
     "colore": "",
     "padre": "auto_1416",
     "madre": "auto_4241",
-    "foto_list": []
-  },
-  {
-    "id": "auto_4241",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -69167,22 +68927,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_4477",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_4478",
     "sesso": "F",
     "name": "ARUS SAKCHY AZAT",
@@ -69356,22 +69100,6 @@
     "colore": "",
     "padre": "auto_2755",
     "madre": "auto_4489",
-    "foto_list": []
-  },
-  {
-    "id": "auto_4489",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -70855,22 +70583,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_4582",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_4583",
     "sesso": "F",
     "name": "KARASH (ow. Uzhahov)",
@@ -71093,22 +70805,6 @@
     "colore": "",
     "padre": "auto_4594",
     "madre": "auto_4597",
-    "foto_list": []
-  },
-  {
-    "id": "auto_4597",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
