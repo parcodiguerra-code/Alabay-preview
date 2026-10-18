@@ -57165,8 +57165,12 @@
     "colore": "DARK FAWN WITH WHITE",
     "padre": "dog0337",
     "madre": "auto_3671",
-    "foto_list": [],
-    "lastModified": "2026-10-11"
+    "foto_list": [
+      "images/auto_3678.jpg",
+      "images/auto_3678_2.jpg",
+      "images/auto_3678_3.jpg"
+    ],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_3679",
