@@ -24223,22 +24223,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_0922",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come madre]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "dog1606",
     "sesso": "F",
     "name": "N-SANTA (ow. Chizevskaya)",
@@ -35760,22 +35744,6 @@
     "lastModified": "2026-10-12"
   },
   {
-    "id": "auto_2370",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_2371",
     "sesso": "F",
     "name": "BIGUL (ow. Timoshenko)",
@@ -36870,22 +36838,6 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "dog0647",
     "madre": "auto_0619",
-    "foto_list": []
-  },
-  {
-    "id": "auto_2441",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -41546,38 +41498,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_2745",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "UKRAINE",
-    "tipo": "UNDEFINED",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_2746",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "UKRAINE",
-    "tipo": "UNDEFINED",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_2744",
     "sesso": "M",
     "name": "HAN (ow. Kondratenko)",
@@ -41607,22 +41527,6 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_2748",
     "madre": "auto_2749",
-    "foto_list": []
-  },
-  {
-    "id": "auto_2749",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "UKRAINE",
-    "tipo": "UNDEFINED",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -53320,22 +53224,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_3486",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_3487",
     "sesso": "F",
     "name": "BARA (ow. Badak)",
@@ -55979,22 +55867,6 @@
     "colore": "WHITE WITH LIGHT GREY",
     "padre": "auto_0507",
     "madre": "auto_3659",
-    "foto_list": []
-  },
-  {
-    "id": "auto_3659",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -70599,22 +70471,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_4584",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_4585",
     "sesso": "F",
     "name": "BUTYA (ow. Uzhahov)",
@@ -70774,22 +70630,6 @@
     "madre": "auto_4595",
     "foto_list": [],
     "lastModified": "2026-10-09"
-  },
-  {
-    "id": "auto_4595",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
   },
   {
     "id": "auto_4596",
@@ -80036,22 +79876,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_5177",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_5178",
     "sesso": "F",
     "name": "DZHAY ALASHIR (ow. Popovich)",
@@ -80259,22 +80083,6 @@
     "colore": "",
     "padre": "auto_5191",
     "madre": "dog1014",
-    "foto_list": []
-  },
-  {
-    "id": "auto_5191",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -97625,38 +97433,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_6291",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_6293",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_6292",
     "sesso": "F",
     "name": "DINA (Kazakhstan)",
@@ -97782,22 +97558,6 @@
     "proprietario": "",
     "paese": "KAZAKHSTAN",
     "tipo": "KAZAKH TOBET",
-    "pedigree": "",
-    "birth": "",
-    "note": "",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
-    "id": "auto_6301",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
     "pedigree": "",
     "birth": "",
     "note": "",
@@ -107659,22 +107419,6 @@
     "madre": "auto_6923",
     "foto_list": [],
     "lastModified": "2026-10-09"
-  },
-  {
-    "id": "auto_6923",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
   },
   {
     "id": "auto_6925",
