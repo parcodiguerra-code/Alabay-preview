@@ -37577,22 +37577,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_2442",
-    "sesso": "F",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
-  },
-  {
     "id": "auto_2443",
     "sesso": "M",
     "name": "KARAGUSH (ow. Sudarikova)",
@@ -42311,22 +42295,6 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_2748",
     "madre": "auto_2749",
-    "foto_list": []
-  },
-  {
-    "id": "auto_2748",
-    "sesso": "M",
-    "name": "UNKNOWN",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "UKRAINE",
-    "tipo": "UNDEFINED",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
