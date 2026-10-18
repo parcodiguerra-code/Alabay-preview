@@ -61654,8 +61654,9 @@
     "padre": "auto_0052",
     "madre": "auto_3963",
     "foto_list": [],
-    "lastModified": "2026-10-12",
-    "note_en": "According to some long-time enthusiasts of the breed, this dog’s pedigree may have been affected by introgression from dogs belonging to Western breeds. Given this dog’s anatomical characteristics (long thighs, short format index, etc.) - which are indeed atypical for the breed - we share these doubts regarding the authenticity of its pedigree. * Testimony from a Russian breed expert and breeder who has traveled to Turkmenistan dozens of times since the late 1980s: “In 1998, Bayram Kyarizov purchased a male named Elbars from the city of Kazan (Russia), along with his full sister and another male. In the genealogy of Elbars and his full sister there was famous Kakysh Kyarizov's Babur, but, unfortunately, also famous Velikoivanenko's Baron, and thus Great Dane blood. These dogs were widely used for breeding, and it is clear that their descendants have spread throughout much of Turkmenistan. In fact, since the early 2000s, Turkmen dogs have begun to differ from their famous ancestors of the 1960s, 1970s, and 1980s. The fact is that today’s Turkmen dogs, especially in the capital region, are significantly different from traditional Turkmen dogs.>>."
+    "lastModified": "2026-10-18",
+    "note_en": "According to some long-time enthusiasts of the breed, this dog’s pedigree may have been affected by introgression from dogs belonging to Western breeds. Given this dog’s anatomical characteristics (long thighs, short format index, etc.) - which are indeed atypical for the breed - we share these doubts regarding the authenticity of its pedigree. * Testimony from a Russian breed expert and breeder who has traveled to Turkmenistan dozens of times since the late 1980s: “In 1998, Bayram Kyarizov purchased a male named Elbars from the city of Kazan (Russia), along with his full sister and another male. In the genealogy of Elbars and his full sister there was famous Kakysh Kyarizov's Babur, but, unfortunately, also famous Velikoivanenko's Baron, and thus Great Dane blood. These dogs were widely used for breeding, and it is clear that their descendants have spread throughout much of Turkmenistan. In fact, since the early 2000s, Turkmen dogs have begun to differ from their famous ancestors of the 1960s, 1970s, and 1980s. The fact is that today’s Turkmen dogs, especially in the capital region, are significantly different from traditional Turkmen dogs.>>.",
+    "segnala_discendenza": true
   },
   {
     "id": "auto_3965",
@@ -62206,8 +62207,9 @@
     "padre": "auto_0052",
     "madre": "auto_3963",
     "foto_list": [],
-    "lastModified": "2026-10-17",
-    "note_en": "This female is believed to be the full sister of Basar (ow. Gayballiev); please refer to Basar’s profile for related notes."
+    "lastModified": "2026-10-18",
+    "note_en": "This female is believed to be the full sister of Basar (ow. Gayballiev); please refer to Basar’s profile for related notes.",
+    "segnala_discendenza": true
   },
   {
     "id": "auto_3999",
@@ -77690,8 +77692,7 @@
     "madre": "auto_4976",
     "foto_list": [],
     "lastModified": "2026-10-18",
-    "note_en": "Long-time enthusiasts of the breed have expressed doubts about the authenticity and clarity of this male’s origins. BASAR (ow. Gayballiev) appears three times in his pedigree: see the note on that dog.",
-    "segnala_discendenza": true
+    "note_en": "Long-time enthusiasts of the breed have expressed doubts about the authenticity and clarity of this male’s origins. BASAR (ow. Gayballiev) appears three times in his pedigree: see the note on that dog."
   },
   {
     "id": "auto_4972",
