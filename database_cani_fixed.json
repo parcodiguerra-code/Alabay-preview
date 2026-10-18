@@ -223556,5 +223556,22 @@
       "images/auto_14128_2.jpg"
     ],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14129",
+    "sesso": "M",
+    "name": "AKBAR BOYAR (ow. Boyarintseva)",
+    "allevatore": "L. BOYARINTSEVA",
+    "proprietario": "L. BOYARINTSEVA",
+    "paese": "UKRAINE",
+    "colore": "WHITE WITH BLACK",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "UKU 43903160",
+    "birth": "2009-12-25",
+    "note": "",
+    "padre": "auto_8440",
+    "madre": "auto_14128",
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   }
 ]
