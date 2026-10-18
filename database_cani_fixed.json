@@ -159722,7 +159722,7 @@
   {
     "id": "auto_10134",
     "sesso": "F",
-    "name": "RAVSHAN (ow. Bolonov) - VERIFICARE",
+    "name": "RAVSHAN (ow. Bolonov)",
     "allevatore": "L. SHEPELEVA",
     "proprietario": "P. BOLONOV",
     "paese": "RUSSIA",
@@ -159733,7 +159733,8 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "dog1693",
     "madre": "auto_4451",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_10135",
