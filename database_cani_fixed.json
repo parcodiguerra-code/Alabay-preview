@@ -223443,5 +223443,22 @@
     "madre": "dog1548",
     "foto_list": [],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14123",
+    "sesso": "M",
+    "name": "Z-BEN (ow. Fojtova)",
+    "allevatore": "T. HABIBULIN",
+    "proprietario": "R. FOJTOVA",
+    "paese": "RUSSIA",
+    "colore": "REDDISH WITH WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_2444",
+    "madre": "auto_14122",
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   }
 ]
