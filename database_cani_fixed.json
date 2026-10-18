@@ -223379,14 +223379,17 @@
     "allevatore": "J. NEMETH",
     "proprietario": "L. SATEKOVA",
     "paese": "CZECH REPUBLIC",
-    "colore": "WHITE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "CMKU/SAO/3643/11",
     "birth": "2011-06-29",
     "note": "",
+    "colore": "WHITE",
     "padre": "auto_14118",
     "madre": "auto_14119",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14120.jpg",
+      "images/auto_14120_2.jpg"
+    ],
     "lastModified": "2026-10-18"
   }
 ]
