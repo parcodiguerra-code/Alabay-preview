@@ -223536,5 +223536,25 @@
     "madre": "auto_3245",
     "foto_list": [],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14128",
+    "sesso": "F",
+    "name": "ASSOL MATO",
+    "allevatore": "V. VOSKOBOYNIK",
+    "proprietario": "L. BOYARENTSEVA",
+    "paese": "UKRAINE",
+    "colore": "WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "UKU 009472",
+    "birth": "",
+    "note": "",
+    "padre": "auto_0442",
+    "madre": "auto_14127",
+    "foto_list": [
+      "images/auto_14128.jpg",
+      "images/auto_14128_2.jpg"
+    ],
+    "lastModified": "2026-10-18"
   }
 ]
