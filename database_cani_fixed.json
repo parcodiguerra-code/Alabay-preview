@@ -2573,11 +2573,12 @@
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "LOI 02110482",
     "birth": "2002-01-22",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "WHITE WITH REDDISH AND BLACK",
     "padre": "auto_0239",
     "madre": "auto_0240",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_0126",
