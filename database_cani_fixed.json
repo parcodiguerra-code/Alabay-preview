@@ -11843,8 +11843,12 @@
     "colore": "BLACK WITH WHITE",
     "padre": "dog0752",
     "madre": "auto_0634",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_0633.jpg",
+      "images/auto_0633_2.jpg",
+      "images/auto_0633_3.jpg"
+    ],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_0634",
