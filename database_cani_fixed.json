@@ -223519,5 +223519,22 @@
       "images/auto_14126_2.jpg"
     ],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14127",
+    "sesso": "F",
+    "name": "MAZIRA (ow. Voskoboynik)",
+    "allevatore": "V. VOSKOBOYNIK",
+    "proprietario": "V. VOSKOBOYNIK",
+    "paese": "UKRAINE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "UKU 009879",
+    "birth": "",
+    "note": "",
+    "colore": "WHITE WITH REDDISH",
+    "padre": "auto_2882",
+    "madre": "auto_3245",
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   }
 ]
