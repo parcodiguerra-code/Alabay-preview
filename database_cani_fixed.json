@@ -223426,5 +223426,22 @@
     "madre": "auto_13905",
     "foto_list": [],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14122",
+    "sesso": "F",
+    "name": "GARABAY (ow. Habibulin)",
+    "allevatore": "ZH. KOSTINA",
+    "proprietario": "T. HABIBULIN",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "colore": "REDDISH WITH WHITE",
+    "padre": "dog1545",
+    "madre": "dog1548",
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   }
 ]
