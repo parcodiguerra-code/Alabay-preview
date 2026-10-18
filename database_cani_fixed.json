@@ -55955,7 +55955,7 @@
   },
   {
     "id": "auto_3604",
-    "sesso": "F",
+    "sesso": "M",
     "name": "ABO SAKSONIYA",
     "allevatore": "L. KRIVOCHENKO",
     "proprietario": "P. LINKOVA",
@@ -55967,7 +55967,8 @@
     "colore": "WHITE WITH DARK FAWN",
     "padre": "dog0337",
     "madre": "auto_2456",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   },
   {
     "id": "auto_3605",
