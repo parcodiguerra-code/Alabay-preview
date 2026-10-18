@@ -223408,5 +223408,22 @@
       "images/auto_14120_2.jpg"
     ],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14121",
+    "sesso": "F",
+    "name": "ALEX ACHAL-TEKIN",
+    "allevatore": "J. HORECKY",
+    "proprietario": "D. OTAKAR",
+    "paese": "SLOVAKIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1998-01-10",
+    "note": "",
+    "colore": "LIGHT FAWN WITH WHITE",
+    "padre": "auto_3591",
+    "madre": "auto_13905",
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   }
 ]
