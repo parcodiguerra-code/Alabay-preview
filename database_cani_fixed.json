@@ -223495,5 +223495,22 @@
     "madre": "auto_14121",
     "foto_list": [],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14126",
+    "sesso": "M",
+    "name": "MORIS RIVAL DAIMON",
+    "allevatore": "L. MARKOVA",
+    "proprietario": "L. MARKOVA",
+    "paese": "CZECH REPUBLIC",
+    "colore": "WHITE WITH FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2003-11-11",
+    "note": "",
+    "padre": "auto_14124",
+    "madre": "auto_14125",
+    "foto_list": [],
+    "lastModified": "2026-10-18"
   }
 ]
