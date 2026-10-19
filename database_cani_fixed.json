@@ -222617,14 +222617,16 @@
     "allevatore": "J. VAREJCKO",
     "proprietario": "J. VAREJCKO",
     "paese": "CZECH REPUBLIC",
-    "colore": "WHITE WITH FAWN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2008-02-03",
     "note": "",
+    "colore": "WHITE WITH FAWN",
     "padre": "auto_0481",
     "madre": "auto_14147",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14156.jpg"
+    ],
     "lastModified": "2026-10-19"
   }
 ]
