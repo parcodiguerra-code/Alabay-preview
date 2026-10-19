@@ -148695,9 +148695,15 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_9512",
     "madre": "auto_9513",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9511.jpg",
+      "images/auto_9511_2.jpg",
+      "images/auto_9511_3.jpg",
+      "images/auto_9511_4.jpg",
+      "images/auto_9511_5.jpg"
+    ],
     "note_en": "Taken from Kyrgyzistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_9514",
