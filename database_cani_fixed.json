@@ -141534,7 +141534,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3261",
     "madre": "auto_9079",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9083.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_9084",
