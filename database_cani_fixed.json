@@ -54545,7 +54545,12 @@
     "colore": "BLACK WITH WHITE AND FAWN",
     "padre": "auto_3569",
     "madre": "auto_9090",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3572.jpg",
+      "images/auto_3572_2.jpg",
+      "images/auto_3572_3.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_3573",
