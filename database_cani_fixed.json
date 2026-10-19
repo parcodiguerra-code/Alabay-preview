@@ -222397,5 +222397,22 @@
     "madre": "auto_3153",
     "foto_list": [],
     "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14143",
+    "sesso": "F",
+    "name": "BOSZPORUSZI NAPTUZ ZAFIR",
+    "allevatore": "M. ZOVATH",
+    "proprietario": "M. ZOVATH",
+    "paese": "HUNGARY",
+    "colore": "",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "MET.KAJ. 3032/02",
+    "birth": "",
+    "note": "",
+    "padre": "auto_7501",
+    "madre": "auto_14141",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   }
 ]
