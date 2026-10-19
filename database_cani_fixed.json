@@ -65146,8 +65146,9 @@
     "note": "",
     "colore": "",
     "padre": "auto_1416",
-    "madre": "auto_4241",
-    "foto_list": []
+    "madre": "auto_14135",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_4242",
@@ -216711,7 +216712,7 @@
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "note": "Questa femmina è senz'altro affascinante, ma mostra chiari segni dell'influenza del Pit Bull.",
+    "note": "",
     "colore": "BLACK WITH WHITE",
     "padre": "auto_13809",
     "madre": "auto_12166",
@@ -216721,8 +216722,7 @@
       "images/auto_13808_3.jpg",
       "images/auto_13808_4.jpg"
     ],
-    "note_en": "Although this female is certainly charming, she shows clear signs of being influenced by the Pit Bull breed.",
-    "lastModified": "2026-10-15"
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_13807",
@@ -222161,5 +222161,21 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-18"
+  },
+  {
+    "id": "auto_14135",
+    "sesso": "F",
+    "name": "UNKNOWN (UNKNOWN BREED) 123",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
   }
 ]
