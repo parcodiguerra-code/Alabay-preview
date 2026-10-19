@@ -141453,9 +141453,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_9080",
     "madre": "auto_9081",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9079.jpg",
+      "images/auto_9079_2.jpg",
+      "images/auto_9079_3.jpg",
+      "images/auto_9079_4.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_9082",
