@@ -222380,5 +222380,22 @@
     "madre": "auto_14140",
     "foto_list": [],
     "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14142",
+    "sesso": "F",
+    "name": "ZUHRA IZ ALEKSANDROVOY SLOBODY",
+    "allevatore": "V. MARKOV",
+    "proprietario": "V. MARKOV",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RFK 1229079",
+    "birth": "2001-05-25",
+    "note": "",
+    "colore": "LIGHT FAWN WITH WHITE",
+    "padre": "auto_0788",
+    "madre": "auto_3153",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   }
 ]
