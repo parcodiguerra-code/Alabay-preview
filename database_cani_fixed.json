@@ -59526,16 +59526,17 @@
     "sesso": "F",
     "name": "ZUHRA IZ ALEKSANDROVOY SLOBODY",
     "allevatore": "V. MARKOV",
-    "proprietario": "",
+    "proprietario": "V. MARKOV",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "RFK 1229079",
     "birth": "2001-05-25",
     "note": "",
     "colore": "BLACK WITH LIGHT FAWN",
     "padre": "auto_0788",
     "madre": "auto_3153",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_3885",
@@ -111507,16 +111508,17 @@
     "sesso": "F",
     "name": "FARALLA EX ORIENTE",
     "allevatore": "H. HRU",
-    "proprietario": "",
+    "proprietario": "V. GULECOVA",
     "paese": "CZECH REPUBLIC",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "CMKU SAO 00990/98/00",
     "birth": "",
     "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1100",
     "madre": "auto_7135",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_7178",
@@ -222382,23 +222384,6 @@
     "lastModified": "2026-10-19"
   },
   {
-    "id": "auto_14142",
-    "sesso": "F",
-    "name": "ZUHRA IZ ALEKSANDROVOY SLOBODY",
-    "allevatore": "V. MARKOV",
-    "proprietario": "V. MARKOV",
-    "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "RFK 1229079",
-    "birth": "2001-05-25",
-    "note": "",
-    "colore": "LIGHT FAWN WITH WHITE",
-    "padre": "auto_0788",
-    "madre": "auto_3153",
-    "foto_list": [],
-    "lastModified": "2026-10-19"
-  },
-  {
     "id": "auto_14143",
     "sesso": "F",
     "name": "BOSZPORUSZI NAPTUZ ZAFIR",
@@ -222433,23 +222418,6 @@
     "lastModified": "2026-10-19"
   },
   {
-    "id": "auto_14145",
-    "sesso": "M",
-    "name": "BOMBER (UKU 00141902)",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "CZECH REPUBLIC",
-    "colore": "",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "UKU 00141902",
-    "birth": "",
-    "note": "",
-    "padre": "dog0337",
-    "madre": "auto_7135",
-    "foto_list": [],
-    "lastModified": "2026-10-19"
-  },
-  {
     "id": "auto_14146",
     "sesso": "M",
     "name": "BOMBER (ow. Kondrasiuk)",
@@ -222470,6 +222438,40 @@
       "images/auto_14146_4.jpg",
       "images/auto_14146_5.jpg"
     ],
+    "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14147",
+    "sesso": "F",
+    "name": "JENA RI-VE-GU",
+    "allevatore": "V. GULECOVA",
+    "proprietario": "",
+    "paese": "CZECH REPUBLIC",
+    "colore": "WHITE WITH FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "CMKU SAO 01909/03",
+    "birth": "",
+    "note": "",
+    "padre": "auto_14146",
+    "madre": "auto_7177",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14148",
+    "sesso": "M",
+    "name": "BACHAR IZ ALEKSANDROVOY SLOBODY",
+    "allevatore": "V. MARKOV",
+    "proprietario": "",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RFK 1373144",
+    "birth": "",
+    "note": "",
+    "padre": "auto_2401",
+    "madre": "auto_3883",
+    "foto_list": [],
     "lastModified": "2026-10-19"
   }
 ]
