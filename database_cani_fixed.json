@@ -20724,8 +20724,10 @@
     "colore": "WHITE WITH REDDISH AND BLACK",
     "padre": "auto_0995",
     "madre": "auto_1014",
-    "foto_list": [],
-    "lastModified": "2026-10-10"
+    "foto_list": [
+      "images/dog1365.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_1023",
