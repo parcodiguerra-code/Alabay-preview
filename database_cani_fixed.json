@@ -45155,7 +45155,11 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_0943",
     "madre": "auto_2973",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2974.jpg",
+      "images/auto_2974_2.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_2975",
