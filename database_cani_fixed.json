@@ -148094,11 +148094,15 @@
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1977-02-15",
-    "note": "",
+    "note": "Viene riportato che questo maschio non fu usato in riproduzione a causa della sua occlusione a forbice rovesciata.",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_9119",
     "madre": "auto_9031",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9485.jpg"
+    ],
+    "lastModified": "2026-10-19",
+    "note_en": "It is reported that this male was not used for breeding due to its reverse scissor bite."
   },
   {
     "id": "auto_9486",
