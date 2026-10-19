@@ -148400,7 +148400,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_9072",
     "madre": "auto_3575",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9496.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_9497",
