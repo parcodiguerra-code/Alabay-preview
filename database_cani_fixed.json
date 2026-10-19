@@ -58388,13 +58388,14 @@
     "proprietario": "E. MESHAKINA",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "RKF R 0012206",
     "birth": "1995-11-06",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_0474",
     "madre": "auto_2445",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_3812",
@@ -60031,13 +60032,14 @@
     "proprietario": "V. POLENNIKOV",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "RKF 0014074",
     "birth": "1998-01-05",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0267",
     "madre": "auto_3811",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_3916",
@@ -222445,13 +222447,13 @@
     "sesso": "F",
     "name": "JENA RI-VE-GU",
     "allevatore": "V. GULECOVA",
-    "proprietario": "",
+    "proprietario": "J. VAREJCKO",
     "paese": "CZECH REPUBLIC",
-    "colore": "WHITE WITH FAWN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "CMKU SAO 01909/03",
     "birth": "",
     "note": "",
+    "colore": "WHITE WITH FAWN",
     "padre": "auto_14146",
     "madre": "auto_7177",
     "foto_list": [],
@@ -222471,6 +222473,23 @@
     "note": "",
     "padre": "auto_2401",
     "madre": "auto_3883",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14149",
+    "sesso": "M",
+    "name": "DAG BADDY ZLATA LOUKA",
+    "allevatore": "J. VAREJCKO",
+    "proprietario": "M. VARGA",
+    "paese": "CZECH REPUBLIC",
+    "colore": "",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "COR A 171-07335",
+    "birth": "",
+    "note": "",
+    "padre": "auto_14148",
+    "madre": "auto_14147",
     "foto_list": [],
     "lastModified": "2026-10-19"
   }
