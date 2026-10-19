@@ -72495,16 +72495,17 @@
     "sesso": "F",
     "name": "DZHOTY (ow. Chepa)",
     "allevatore": "O. PAVLICHENKO",
-    "proprietario": "I. CHEPA",
+    "proprietario": "I. CHEPA - M. BURESOVA",
     "paese": "UKRAINE",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "pedigree": "CMKU SAO 4026",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0407",
     "madre": "auto_2956",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_4709",
@@ -222491,6 +222492,46 @@
     "padre": "auto_14148",
     "madre": "auto_14147",
     "foto_list": [],
+    "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14150",
+    "sesso": "F",
+    "name": "ARISA DE MARIANOVIA",
+    "allevatore": "M. VARGA",
+    "proprietario": "S. MONDINO",
+    "paese": "ROMANIA",
+    "colore": "WHITE WITH BLACK",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "COR A 230-09/93",
+    "birth": "2009-09-22",
+    "note": "",
+    "padre": "auto_14149",
+    "madre": "auto_14144",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14151",
+    "sesso": "M",
+    "name": "E-DUISH GRIFFIN'S SAO",
+    "allevatore": "M. BURESOVA",
+    "proprietario": "E. CATALANO",
+    "paese": "CZECH REPUBLIC",
+    "colore": "WHITE WITH LIGHT FAWN AND WHITE",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "Z REG/SAO/4236/14",
+    "birth": "2014-11-11",
+    "note": "",
+    "padre": "auto_14136",
+    "madre": "auto_4708",
+    "foto_list": [
+      "images/auto_14151.jpg",
+      "images/auto_14151_2.jpg",
+      "images/auto_14151_3.jpg",
+      "images/auto_14151_4.jpg",
+      "images/auto_14151_5.jpg"
+    ],
     "lastModified": "2026-10-19"
   }
 ]
