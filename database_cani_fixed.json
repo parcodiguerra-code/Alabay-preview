@@ -222537,5 +222537,24 @@
       "images/auto_14151_5.jpg"
     ],
     "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14152",
+    "sesso": "M",
+    "name": "BENITO ZLATA LOUKA",
+    "allevatore": "J. VAREJCKO",
+    "proprietario": "J. VAREJCKO",
+    "paese": "CZECH REPUBLIC",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2010-09-02",
+    "note": "",
+    "colore": "BLACK WITH WHITE AND LIGHT FAWN",
+    "padre": "auto_14148",
+    "madre": "auto_14147",
+    "foto_list": [
+      "images/auto_14152.jpg"
+    ],
+    "lastModified": "2026-10-19"
   }
 ]
