@@ -222275,13 +222275,13 @@
     "allevatore": "",
     "proprietario": "",
     "paese": "AFGHANISTAN",
-    "colore": "REDDISH",
     "tipo": "AFGHAN KOOCHEE",
     "pedigree": "",
     "birth": "",
     "note": "Preso in Afghanistan, portato prima in Kazakistan e poi in Repubblica Ceca.",
-    "padre": "",
-    "madre": "",
+    "colore": "REDDISH",
+    "padre": "auto_14137",
+    "madre": "auto_14138",
     "foto_list": [
       "images/auto_14136.jpg",
       "images/auto_14136_2.jpg",
@@ -222291,5 +222291,43 @@
     ],
     "lastModified": "2026-10-19",
     "note_en": "Taken from Afghanistan, brought first to Kazakhstan and then to Czech Republic."
+  },
+  {
+    "id": "auto_14137",
+    "sesso": "M",
+    "name": "ZAMBOOR (Afghanistan)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "AFGHANISTAN",
+    "tipo": "AFGHAN KOOCHEE",
+    "pedigree": "",
+    "birth": "",
+    "colore": "REDDISH",
+    "note": "Champion of Afghanistan.",
+    "padre": "",
+    "madre": "",
+    "foto_list": [
+      "images/auto_14137.jpg",
+      "images/auto_14137_2.jpg"
+    ],
+    "lastModified": "2026-10-19",
+    "segnala_discendenza": true
+  },
+  {
+    "id": "auto_14138",
+    "sesso": "F",
+    "name": "AFGHAN ABORIGEN (Afghanistan)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "AFGHANISTAN",
+    "tipo": "AFGHAN KOOCHEE",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "",
+    "padre": "",
+    "madre": "",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   }
 ]
