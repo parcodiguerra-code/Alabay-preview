@@ -222556,5 +222556,22 @@
       "images/auto_14152.jpg"
     ],
     "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14153",
+    "sesso": "F",
+    "name": "BIRGIT ZLATA LOUKA",
+    "allevatore": "J. VAREJCKO",
+    "proprietario": "J. VAREJCKO",
+    "paese": "CZECH REPUBLIC",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2010-09-02",
+    "note": "",
+    "colore": "",
+    "padre": "auto_14148",
+    "madre": "auto_14147",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   }
 ]
