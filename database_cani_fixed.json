@@ -141514,7 +141514,11 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_3261",
     "madre": "auto_9079",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9082.jpg",
+      "images/auto_9082_2.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_9083",
