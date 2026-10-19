@@ -45954,7 +45954,12 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_3022",
     "madre": "auto_3021",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3023.jpg",
+      "images/auto_3023_2.jpg",
+      "images/auto_3023_3.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_3024",
