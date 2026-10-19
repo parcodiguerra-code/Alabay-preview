@@ -222329,5 +222329,22 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14139",
+    "sesso": "M",
+    "name": "KING OF FLOCKS BATU",
+    "allevatore": "T. BUJDOSO",
+    "proprietario": "",
+    "paese": "HUNGARY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "MET.KAJ. 2957/02",
+    "birth": "",
+    "note": "",
+    "colore": "WHITE WITH FAWN",
+    "padre": "dog0337",
+    "madre": "auto_12079",
+    "foto_list": [],
+    "lastModified": "2026-10-19"
   }
 ]
