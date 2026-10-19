@@ -222267,5 +222267,29 @@
     "padre": "",
     "madre": "",
     "foto_list": []
+  },
+  {
+    "id": "auto_14136",
+    "sesso": "M",
+    "name": "ZAMBUR (Afghanistan)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "AFGHANISTAN",
+    "colore": "REDDISH",
+    "tipo": "AFGHAN KOOCHEE",
+    "pedigree": "",
+    "birth": "",
+    "note": "Preso in Afghanistan, portato prima in Kazakistan e poi in Repubblica Ceca.",
+    "padre": "",
+    "madre": "",
+    "foto_list": [
+      "images/auto_14136.jpg",
+      "images/auto_14136_2.jpg",
+      "images/auto_14136_3.jpg",
+      "images/auto_14136_4.jpg",
+      "images/auto_14136_5.jpg"
+    ],
+    "lastModified": "2026-10-19",
+    "note_en": "Taken from Afghanistan, brought first to Kazakhstan and then to Czech Republic."
   }
 ]
