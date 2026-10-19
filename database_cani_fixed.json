@@ -20637,7 +20637,10 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_0982",
     "madre": "auto_0983",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1017.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_1018",
