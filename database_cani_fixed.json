@@ -107150,7 +107150,13 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_6816",
     "madre": "auto_6905",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6906.jpg",
+      "images/auto_6906_2.jpg",
+      "images/auto_6906_3.jpg",
+      "images/auto_6906_4.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_6907",
