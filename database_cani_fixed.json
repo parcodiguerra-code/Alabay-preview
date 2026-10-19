@@ -222463,7 +222463,13 @@
     "colore": "WHITE WITH BLACK",
     "padre": "dog0337",
     "madre": "auto_3483",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14146.jpg",
+      "images/auto_14146_2.jpg",
+      "images/auto_14146_3.jpg",
+      "images/auto_14146_4.jpg",
+      "images/auto_14146_5.jpg"
+    ],
     "lastModified": "2026-10-19"
   }
 ]
