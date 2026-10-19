@@ -148769,7 +148769,13 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_8603",
     "madre": "auto_8601",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9516.jpg",
+      "images/auto_9516_2.jpg",
+      "images/auto_9516_3.jpg",
+      "images/auto_9516_4.jpg"
+    ],
+    "lastModified": "2026-10-19"
   },
   {
     "id": "auto_9517",
