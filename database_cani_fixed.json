@@ -222882,5 +222882,22 @@
       "images/auto_14168_2.jpg"
     ],
     "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14169",
+    "sesso": "M",
+    "name": "CUMASH (ow. Fronza)",
+    "allevatore": "D. CORONESE",
+    "proprietario": "V. FRONZA",
+    "paese": "ITALY",
+    "colore": "WHITE WITH FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1589629",
+    "birth": "2015-04-13",
+    "note": "",
+    "padre": "auto_14167",
+    "madre": "auto_0129",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   }
 ]
