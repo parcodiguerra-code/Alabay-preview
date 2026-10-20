@@ -149190,7 +149190,11 @@
     "colore": "FAWN WITH WHITE AND BLACK",
     "padre": "auto_4907",
     "madre": "auto_8756",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9536.jpg",
+      "images/auto_9536_2.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_9537",
