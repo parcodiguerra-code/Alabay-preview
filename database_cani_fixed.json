@@ -149139,7 +149139,10 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_3576",
     "madre": "auto_9028",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9533.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_9534",
