@@ -222650,5 +222650,22 @@
       "images/auto_14157.jpg"
     ],
     "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14158",
+    "sesso": "M",
+    "name": "DALER DLYA HRAMA DUSHI IZ GAREMA BELYH DIV",
+    "allevatore": "L. LUKASHOVA",
+    "proprietario": "",
+    "paese": "RUSSIA",
+    "colore": "WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 3028022",
+    "birth": "",
+    "note": "",
+    "padre": "auto_14157",
+    "madre": "auto_5483",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   }
 ]
