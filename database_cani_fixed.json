@@ -29828,20 +29828,20 @@
   {
     "id": "dog1972",
     "sesso": "F",
-    "name": "AK TAU (ow. Savich)",
+    "name": "AK-TAU (ow. Savich)",
     "allevatore": "",
     "proprietario": "V. SAVICH",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF R 0000565",
-    "birth": "",
+    "birth": "1988-11-05",
     "note": "Presa in Turkmenistan.",
-    "colore": "LIGHT FAWN",
-    "padre": "",
-    "madre": "",
+    "colore": "LIGHT FAWN WITH WHITE",
+    "padre": "auto_8995",
+    "madre": "auto_8996",
     "foto_list": [],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_1378",
