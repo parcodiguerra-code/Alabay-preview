@@ -64306,7 +64306,7 @@
     "sesso": "F",
     "name": "KARA KELLE PEK",
     "allevatore": "I. GOROHOV",
-    "proprietario": "I. GOROHOV - S. SHANOVIC",
+    "proprietario": "I. GOROHOV - S. SHANOVICH",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -64315,7 +64315,8 @@
     "colore": "WHITE",
     "padre": "auto_0031",
     "madre": "auto_0440",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_4186",
@@ -77466,18 +77467,19 @@
   {
     "id": "auto_5019",
     "sesso": "F",
-    "name": "DOVLET AYKICHI",
+    "name": "AYKICHI (ow. Bogdan)",
     "allevatore": "V. BOGDAN",
     "proprietario": "V. BOGDAN",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "pedigree": "RKF 1840893",
     "birth": "2005-11-27",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_4931",
     "madre": "auto_0020",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_5020",
@@ -79815,7 +79817,7 @@
   {
     "id": "auto_5165",
     "sesso": "F",
-    "name": "BAY MIRA (ow. Doronin)",
+    "name": "BAY-MIRA (ow. Doronin)",
     "allevatore": "V. PLESKOV",
     "proprietario": "E. DORONIN",
     "paese": "RUSSIA",
@@ -79826,7 +79828,8 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5161",
     "madre": "auto_5136",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_5166",
@@ -223246,6 +223249,110 @@
     "madre": "auto_4186",
     "foto_list": [
       "images/auto_14189.jpg"
+    ],
+    "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14190",
+    "sesso": "M",
+    "name": "RADZH (ow. Bogdan)",
+    "allevatore": "S. SHANOVICH",
+    "proprietario": "V. BOGDAN",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "RKF 2226039",
+    "birth": "2008-01-25",
+    "note": "",
+    "colore": "WHITE WITH ORANGE",
+    "padre": "auto_2951",
+    "madre": "auto_4185",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14191",
+    "sesso": "F",
+    "name": "DOVLET RAHAT",
+    "allevatore": "V. BOGDAN",
+    "proprietario": "V. BOGDAN",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "DOVLET RAHAT",
+    "birth": "",
+    "note": "",
+    "padre": "auto_0009",
+    "madre": "auto_5019",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14192",
+    "sesso": "F",
+    "name": "DOVLETI IRI AYAZ GYZ",
+    "allevatore": "V. BOGDAN",
+    "proprietario": "L. MANEVICH",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "RKF 4087192",
+    "birth": "",
+    "note": "",
+    "padre": "auto_14190",
+    "madre": "auto_14191",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14193",
+    "sesso": "M",
+    "name": "BEK (ow. Manevich)",
+    "allevatore": "M. BORISOVA",
+    "proprietario": "L. MANEVICH",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "RKF R 4024938",
+    "birth": "2014-10-04",
+    "note": "",
+    "colore": "WHITE WITH ORANGE",
+    "padre": "auto_7689",
+    "madre": "auto_5408",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14194",
+    "sesso": "M",
+    "name": "GAYRAT SHEPELEN",
+    "allevatore": "L. MANEVICH",
+    "proprietario": "",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH FAWN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "RKF 6410756",
+    "birth": "2021-05-21",
+    "note": "",
+    "padre": "auto_14193",
+    "madre": "auto_14192",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14195",
+    "sesso": "M",
+    "name": "DOVLET HARO",
+    "allevatore": "V. BOGDAN",
+    "proprietario": "V. BOGDAN",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_7691",
+    "madre": "auto_14191",
+    "foto_list": [
+      "images/auto_14195.jpg"
     ],
     "lastModified": "2026-10-20"
   }
