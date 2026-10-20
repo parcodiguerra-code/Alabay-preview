@@ -16362,7 +16362,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1460",
     "madre": "auto_1075",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0827.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "dog1074",
