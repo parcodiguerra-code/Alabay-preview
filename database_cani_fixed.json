@@ -222628,5 +222628,24 @@
       "images/auto_14156.jpg"
     ],
     "lastModified": "2026-10-19"
+  },
+  {
+    "id": "auto_14157",
+    "sesso": "M",
+    "name": "MIA-MIA YUTUK",
+    "allevatore": "I. MALYSH",
+    "proprietario": "",
+    "paese": "LITHUANIA",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LV 951/08",
+    "birth": "",
+    "note": "",
+    "padre": "auto_7598",
+    "madre": "auto_8069",
+    "foto_list": [
+      "images/auto_14157.jpg"
+    ],
+    "lastModified": "2026-10-20"
   }
 ]
