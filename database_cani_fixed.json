@@ -143909,7 +143909,11 @@
     "colore": "WHITE WITH BLACK AND LIGHT FAWN",
     "padre": "auto_0943",
     "madre": "auto_1153",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9222.jpg",
+      "images/auto_9222_2.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_9223",
