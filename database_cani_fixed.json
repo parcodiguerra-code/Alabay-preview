@@ -12947,7 +12947,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "dog1636",
     "madre": "dog0814",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0679.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_0678",
@@ -34085,7 +34088,8 @@
     "padre": "auto_2257",
     "madre": "auto_2258",
     "foto_list": [],
-    "lastModified": "2026-10-20"
+    "lastModified": "2026-10-20",
+    "note_en": "Taken from Tajikistan (Pamir Region)."
   },
   {
     "id": "auto_2255",
