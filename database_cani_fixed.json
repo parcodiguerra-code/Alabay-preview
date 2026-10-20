@@ -222899,5 +222899,39 @@
     "madre": "auto_0129",
     "foto_list": [],
     "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14170",
+    "sesso": "M",
+    "name": "CAKTASH (ow. Piangivino)",
+    "allevatore": "D. CORONESE",
+    "proprietario": "S. PIANGIVINO",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1589627",
+    "birth": "2015-04-13",
+    "note": "",
+    "colore": "WHITE WITH FAWN",
+    "padre": "auto_14167",
+    "madre": "auto_0129",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14171",
+    "sesso": "F",
+    "name": "ZURHA (ow. Maraglino)",
+    "allevatore": "D. CORONESE",
+    "proprietario": "A. MARAGLINO",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1589626",
+    "birth": "2015-04-13",
+    "note": "",
+    "colore": "WHITE WITH ORANGE",
+    "padre": "auto_14167",
+    "madre": "auto_0129",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   }
 ]
