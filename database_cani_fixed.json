@@ -21971,7 +21971,10 @@
     "colore": "DARK GREY WITH WHITE",
     "padre": "dog1408",
     "madre": "auto_1075",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1076.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_1077",
