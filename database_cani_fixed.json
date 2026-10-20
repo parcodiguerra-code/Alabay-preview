@@ -70401,9 +70401,9 @@
   {
     "id": "auto_4570",
     "sesso": "M",
-    "name": "GADZHI (br. Nezhinskiy)",
+    "name": "GADZHI (ow. Nezhinskiy)",
     "allevatore": "G. NEZHINSKIY",
-    "proprietario": "",
+    "proprietario": "G. NEZHINSKIY",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -70412,7 +70412,10 @@
     "colore": "REDDISH WITH WHITE AND BLACK",
     "padre": "auto_0407",
     "madre": "auto_4571",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4570.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_4572",
