@@ -34077,14 +34077,15 @@
     "allevatore": "",
     "proprietario": "B. ERGESHEV",
     "paese": "KAZAKHSTAN",
-    "tipo": "KAZAKH TOBET",
+    "tipo": "TAJIK DAHMARDA",
     "pedigree": "UKU R 00086800",
     "birth": "1990-01-01",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_2257",
     "madre": "auto_2258",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_2255",
@@ -34121,34 +34122,37 @@
   {
     "id": "auto_2257",
     "sesso": "M",
-    "name": "KAZAKH ABORIGEN (Kazakhstan)",
+    "name": "TAJIK ABORIGEN (Tajikistan)",
     "allevatore": "",
     "proprietario": "",
-    "paese": "KAZAKHSTAN",
-    "tipo": "KAZAKH TOBET",
+    "paese": "TAJIKISTAN",
+    "tipo": "TAJIK DAHMARDA",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20",
+    "note_en": "Pamir Region."
   },
   {
     "id": "auto_2258",
     "sesso": "F",
-    "name": "KAZAKH ABORIGEN (Kazakhstan)",
+    "name": "TAJIK ABORIGEN (Tajikistan)",
     "allevatore": "",
     "proprietario": "",
-    "paese": "KAZAKHSTAN",
-    "tipo": "KAZAKH TOBET",
+    "paese": "TAJIKISTAN",
+    "tipo": "TAJIK DAHMARDA",
     "pedigree": "",
     "birth": "",
-    "note": "",
+    "note": "Pamir Region.",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_2259",
@@ -34221,14 +34225,15 @@
     "allevatore": "",
     "proprietario": "B. ERGESHEV",
     "paese": "KAZAKHSTAN",
-    "tipo": "KAZAKH TOBET",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1994-04-10",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_2254",
     "madre": "auto_2255",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_2264",
@@ -34237,14 +34242,15 @@
     "allevatore": "B. ERGESHEV",
     "proprietario": "B. ERGESHEV",
     "paese": "KAZAKHSTAN",
-    "tipo": "KAZAKH TOBET",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_2256",
     "madre": "auto_2263",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_2265",
@@ -34253,14 +34259,15 @@
     "allevatore": "B. ERGESHEV",
     "proprietario": "B. ERGESHEV",
     "paese": "KAZAKHSTAN",
-    "tipo": "KAZAKH TOBET",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2003-01-01",
     "note": "",
     "colore": "LIGHT FAWN",
     "padre": "auto_2264",
     "madre": "auto_2263",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_2266",
@@ -34966,7 +34973,7 @@
     "allevatore": "E. KRASA",
     "proprietario": "G. NEZHINSKIY",
     "paese": "KAZAKHSTAN",
-    "tipo": "KAZAKH TOBET",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "Preso in Kazakistan.",
@@ -34975,7 +34982,7 @@
     "madre": "auto_2311",
     "foto_list": [],
     "note_en": "Taken from Kazakhstan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_2315",
