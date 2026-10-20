@@ -107619,7 +107619,11 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_0120",
     "madre": "auto_6928",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6931.jpg",
+      "images/auto_6931_2.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_6932",
