@@ -24614,7 +24614,14 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_1105",
     "madre": "auto_1171",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1629.jpg",
+      "images/dog1629_2.jpg",
+      "images/dog1629_3.jpg",
+      "images/dog1629_4.jpg",
+      "images/dog1629_5.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_1173",
