@@ -198352,7 +198352,14 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0407",
     "madre": "auto_4719",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_12637.jpg",
+      "images/auto_12637_2.jpg",
+      "images/auto_12637_3.jpg",
+      "images/auto_12637_4.jpg",
+      "images/auto_12637_5.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_12638",
