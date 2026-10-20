@@ -222862,5 +222862,25 @@
       "images/auto_14167_5.jpg"
     ],
     "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14168",
+    "sesso": "F",
+    "name": "GAYANA (Serbia)",
+    "allevatore": "J. RADOSEVIC",
+    "proprietario": "",
+    "paese": "SERBIA",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_14167",
+    "madre": "auto_7471",
+    "foto_list": [
+      "images/auto_14168.jpg",
+      "images/auto_14168_2.jpg"
+    ],
+    "lastModified": "2026-10-20"
   }
 ]
