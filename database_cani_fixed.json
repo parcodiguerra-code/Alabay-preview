@@ -25606,7 +25606,12 @@
     "colore": "BLACK WITH WHITE",
     "padre": "dog0721",
     "madre": "auto_1221",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1208.jpg",
+      "images/auto_1208_2.jpg",
+      "images/auto_1208_3.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_1209",
