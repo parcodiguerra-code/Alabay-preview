@@ -222822,5 +222822,45 @@
     "madre": "auto_0955",
     "foto_list": [],
     "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14166",
+    "sesso": "M",
+    "name": "AFI-KAYDAR ZAFAR",
+    "allevatore": "A. KRISHTOPIN",
+    "proprietario": "A. KRISHTOPIN - M. JANCOVIC",
+    "paese": "RUSSIA",
+    "colore": "LIGHT REDDISH WITH WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "SPKP 5926/03",
+    "birth": "",
+    "note": "",
+    "padre": "auto_0957",
+    "madre": "auto_14165",
+    "foto_list": [],
+    "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14167",
+    "sesso": "M",
+    "name": "FALKO (JR 70695 SRO)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "SERBIA",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "JR 70695 SRO",
+    "birth": "",
+    "note": "",
+    "padre": "auto_14166",
+    "madre": "auto_14163",
+    "foto_list": [
+      "images/auto_14167.jpg",
+      "images/auto_14167_2.jpg",
+      "images/auto_14167_3.jpg",
+      "images/auto_14167_4.jpg",
+      "images/auto_14167_5.jpg"
+    ],
+    "lastModified": "2026-10-20"
   }
 ]
