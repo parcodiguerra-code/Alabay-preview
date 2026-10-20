@@ -84838,7 +84838,10 @@
     "colore": "WHITE WITH LIGHT GREY",
     "padre": "dog0589",
     "madre": "dog1533",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5483.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_5484",
