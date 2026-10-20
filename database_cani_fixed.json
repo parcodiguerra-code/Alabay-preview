@@ -24610,7 +24610,7 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 0003735",
     "birth": "1991-02-28",
-    "note": "",
+    "note": "Preso in Turkmenistan.",
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_1105",
     "madre": "auto_1171",
@@ -24621,7 +24621,8 @@
       "images/dog1629_4.jpg",
       "images/dog1629_5.jpg"
     ],
-    "lastModified": "2026-10-20"
+    "lastModified": "2026-10-20",
+    "note_en": "Taken from Turkmenistan."
   },
   {
     "id": "auto_1173",
