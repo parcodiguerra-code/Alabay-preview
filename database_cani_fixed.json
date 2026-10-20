@@ -143130,7 +143130,10 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_1351",
     "madre": "dog1942",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9176.jpg"
+    ],
+    "lastModified": "2026-10-20"
   },
   {
     "id": "auto_9177",
