@@ -140299,7 +140299,12 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3169",
     "madre": "dog1853",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8988.jpg",
+      "images/auto_8988_2.jpg",
+      "images/auto_8988_3.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_8989",
