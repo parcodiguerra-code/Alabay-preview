@@ -34106,8 +34106,12 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_2257",
     "madre": "auto_2258",
-    "foto_list": [],
-    "lastModified": "2026-10-20",
+    "foto_list": [
+      "images/auto_2254.jpg",
+      "images/auto_2254_2.jpg",
+      "images/auto_2254_3.jpg"
+    ],
+    "lastModified": "2026-10-21",
     "note_en": "Taken from Tajikistan (Pamir Region)."
   },
   {
