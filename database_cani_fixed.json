@@ -149567,9 +149567,14 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_9551",
     "madre": "auto_9552",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9550.jpg",
+      "images/auto_9550_2.jpg",
+      "images/auto_9550_3.jpg",
+      "images/auto_9550_4.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_9553",
