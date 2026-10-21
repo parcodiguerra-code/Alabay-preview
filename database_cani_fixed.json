@@ -139950,7 +139950,10 @@
     "colore": "BLACK WITH LIGHT FAWN",
     "padre": "auto_1187",
     "madre": "auto_0541",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8966.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_8967",
