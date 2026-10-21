@@ -142883,7 +142883,10 @@
     "colore": "BLACK WITH WHITE AND REDDISH",
     "padre": "dog0721",
     "madre": "auto_9086",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9151.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_9153",
