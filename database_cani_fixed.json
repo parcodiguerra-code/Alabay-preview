@@ -37402,7 +37402,13 @@
     "colore": "BLACK WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2473.jpg",
+      "images/auto_2473_2.jpg",
+      "images/auto_2473_3.jpg",
+      "images/auto_2473_4.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_2474",
