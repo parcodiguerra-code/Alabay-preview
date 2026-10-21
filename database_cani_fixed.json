@@ -136605,9 +136605,9 @@
   {
     "id": "auto_8756",
     "sesso": "F",
-    "name": "ERDZHINA (ow. Chertkov)",
+    "name": "ERDZHINA (ow. Chertkova)",
     "allevatore": "S. SADOVA",
-    "proprietario": "Y. CHERTKOV",
+    "proprietario": "Y. CHERTKOVA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -136616,7 +136616,10 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0948",
     "madre": "auto_2587",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8756.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_8757",
