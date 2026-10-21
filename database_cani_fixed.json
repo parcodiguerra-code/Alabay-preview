@@ -78034,9 +78034,9 @@
   {
     "id": "auto_5050",
     "sesso": "M",
-    "name": "AKTASH (ow. Kigovic)",
+    "name": "AKTASH (ow. Kigovich)",
     "allevatore": "A. TELEGA",
-    "proprietario": "P. KIGOVIC",
+    "proprietario": "P. KIGOVICH",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -78045,7 +78045,8 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5049",
     "madre": "auto_3842",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_5051",
@@ -152850,9 +152851,9 @@
   {
     "id": "auto_9759",
     "sesso": "M",
-    "name": "FINDIAR (ow. Grinevic)",
+    "name": "FINDIAR (ow. Grinevich)",
     "allevatore": "I. LOBKOVSKAYA",
-    "proprietario": "Y. GRINEVIC",
+    "proprietario": "Y. GRINEVICH",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -152861,7 +152862,8 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_9065",
     "madre": "auto_0592",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_9760",
