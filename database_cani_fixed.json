@@ -8529,7 +8529,11 @@
     "colore": "WHITE",
     "padre": "auto_0037",
     "madre": "auto_0038",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0447.jpg",
+      "images/auto_0447_2.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_0448",
