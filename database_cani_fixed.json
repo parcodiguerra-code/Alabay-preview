@@ -39334,7 +39334,7 @@
   {
     "id": "auto_2594",
     "sesso": "M",
-    "name": "VELT KHAN (ow. Romanenko)",
+    "name": "VELT HAN (ow. Romanenko)",
     "allevatore": "COLLECTIVE FARM \"SHAYNAH\"",
     "proprietario": "V. ROMANENKO",
     "paese": "TAJIKISTAN",
@@ -39345,9 +39345,15 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2595",
     "madre": "auto_2596",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_2594.jpg",
+      "images/auto_2594_2.jpg",
+      "images/auto_2594_3.jpg",
+      "images/auto_2594_4.jpg",
+      "images/auto_2594_5.jpg"
+    ],
     "note_en": "Taken from Tajikistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_2597",
