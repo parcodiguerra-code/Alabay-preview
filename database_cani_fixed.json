@@ -19274,7 +19274,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1267.jpg",
+      "images/dog1267_2.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "dog1268",
