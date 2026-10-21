@@ -197939,7 +197939,12 @@
     "colore": "BLACK WITH LIGHT FAWN",
     "padre": "auto_12172",
     "madre": "auto_12179",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_12597.jpg",
+      "images/auto_12597_2.jpg",
+      "images/auto_12597_3.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_12598",
