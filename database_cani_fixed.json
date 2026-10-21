@@ -141969,7 +141969,10 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_9091",
     "madre": "auto_9001",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9092.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_9093",
