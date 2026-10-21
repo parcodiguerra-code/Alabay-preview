@@ -21906,7 +21906,10 @@
     "colore": "TIGER STRIPES WITH BLACK",
     "padre": "dog1408",
     "madre": "dog1440",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1071.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_1072",
