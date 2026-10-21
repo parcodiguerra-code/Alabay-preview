@@ -27792,7 +27792,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1335",
     "madre": "auto_1336",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1841.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_1294",
