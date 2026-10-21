@@ -54780,7 +54780,12 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_2977",
     "madre": "auto_3174",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3576.jpg",
+      "images/auto_3576_2.jpg",
+      "images/auto_3576_3.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_3577",
