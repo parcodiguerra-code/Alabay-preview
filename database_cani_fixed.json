@@ -19033,7 +19033,12 @@
     "colore": "WHITE WITH STRAW",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0936.jpg",
+      "images/auto_0936_2.jpg",
+      "images/auto_0936_3.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "dog1251",
