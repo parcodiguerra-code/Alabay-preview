@@ -19029,8 +19029,8 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF R 0001596",
     "birth": "1982-06-01",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "WHITE WITH STRAW",
+    "note": "Preso in Turkmenistan.",
+    "colore": "WHITE WITH LIGHT FAWN",
     "padre": "",
     "madre": "",
     "foto_list": [
@@ -19038,7 +19038,8 @@
       "images/auto_0936_2.jpg",
       "images/auto_0936_3.jpg"
     ],
-    "lastModified": "2026-10-21"
+    "lastModified": "2026-10-21",
+    "note_en": "Taken from Turkmenistan."
   },
   {
     "id": "dog1251",
