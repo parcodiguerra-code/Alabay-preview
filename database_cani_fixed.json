@@ -9934,9 +9934,13 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0525",
     "madre": "auto_0526",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0524.jpg",
+      "images/auto_0524_2.jpg",
+      "images/auto_0524_3.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-21"
   },
   {
     "id": "dog0647",
