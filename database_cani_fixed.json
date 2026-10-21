@@ -21922,7 +21922,12 @@
     "colore": "BLACK WITH REDDISH AND WHITE",
     "padre": "dog1408",
     "madre": "dog1440",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1072.jpg",
+      "images/auto_1072_2.jpg",
+      "images/auto_1072_3.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_1073",
