@@ -223626,5 +223626,24 @@
       "images/auto_14196.jpg"
     ],
     "lastModified": "2026-10-21"
+  },
+  {
+    "id": "auto_14197",
+    "sesso": "F",
+    "name": "DAMIRA IZ RUSSKOY LEGENDY",
+    "allevatore": "KENNEL \"RUSSKAYA LEGENDA\"",
+    "proprietario": "KENNEL \"RUSSKAYA LEGENDA\"",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1995-11-28",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "dog1629",
+    "madre": "dog1639",
+    "foto_list": [
+      "images/auto_14197.jpg"
+    ],
+    "lastModified": "2026-10-21"
   }
 ]
