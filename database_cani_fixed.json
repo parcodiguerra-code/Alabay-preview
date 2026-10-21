@@ -46025,7 +46025,14 @@
     "colore": "WHITE WITH BLACK AND REDDISH",
     "padre": "auto_3026",
     "madre": "auto_3024",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3020.jpg",
+      "images/auto_3020_2.jpg",
+      "images/auto_3020_3.jpg",
+      "images/auto_3020_4.jpg",
+      "images/auto_3020_5.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_3021",
