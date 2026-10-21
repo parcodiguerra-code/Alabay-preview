@@ -5142,14 +5142,14 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "BROWN WITH WHITE",
     "padre": "auto_0518",
     "madre": "auto_0519",
     "foto_list": [
       "images/auto_0271.jpg"
     ],
-    "lastModified": "2026-10-15"
+    "lastModified": "2026-10-21"
   },
   {
     "id": "dog0336",
