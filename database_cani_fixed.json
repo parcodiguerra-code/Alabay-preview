@@ -46113,7 +46113,7 @@
   {
     "id": "auto_3026",
     "sesso": "M",
-    "name": "OK HAN (ow. Kustova)",
+    "name": "OK-HAN (ow. Kustova)",
     "allevatore": "I. KOVRAYSKAYA",
     "proprietario": "O. KUSTOVA",
     "paese": "RUSSIA",
@@ -46124,7 +46124,13 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3027",
     "madre": "auto_3028",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3026.jpg",
+      "images/auto_3026_2.jpg",
+      "images/auto_3026_3.jpg",
+      "images/auto_3026_4.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_3027",
