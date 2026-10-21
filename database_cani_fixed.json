@@ -223465,5 +223465,24 @@
       "images/auto_14195.jpg"
     ],
     "lastModified": "2026-10-20"
+  },
+  {
+    "id": "auto_14196",
+    "sesso": "M",
+    "name": "KARAVAN ITI ERAN",
+    "allevatore": "A. RAZUVAEV",
+    "proprietario": "",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2011-10-01",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_3460",
+    "madre": "auto_4923",
+    "foto_list": [
+      "images/auto_14196.jpg"
+    ],
+    "lastModified": "2026-10-21"
   }
 ]
