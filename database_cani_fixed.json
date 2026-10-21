@@ -25705,7 +25705,12 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_1214",
     "madre": "auto_1215",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1213.jpg",
+      "images/auto_1213_2.jpg",
+      "images/auto_1213_3.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_1214",
