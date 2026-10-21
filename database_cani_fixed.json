@@ -87339,7 +87339,10 @@
     "colore": "BLACK WITH WHITE AND REDDISH",
     "padre": "auto_0419",
     "madre": "auto_0054",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5641.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_5642",
