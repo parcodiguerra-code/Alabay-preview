@@ -63397,8 +63397,11 @@
     "colore": "WHITE WITH BLACK AND REDDISH",
     "padre": "auto_4120",
     "madre": "auto_4117",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_4121.jpg",
+      "images/auto_4121_2.jpg"
+    ],
+    "lastModified": "2026-10-21"
   },
   {
     "id": "auto_4122",
