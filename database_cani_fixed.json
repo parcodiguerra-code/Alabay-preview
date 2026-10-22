@@ -1831,7 +1831,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0013",
     "madre": "dog0116",
-    "foto_list": []
+    "foto_list": [
+      "images/dog0119.jpg"
+    ],
+    "lastModified": "2026-10-22"
   },
   {
     "id": "dog0120",
