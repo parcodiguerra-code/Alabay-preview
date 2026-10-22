@@ -94831,7 +94831,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_4544",
     "madre": "dog0115",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6109.jpg"
+    ],
+    "lastModified": "2026-10-22"
   },
   {
     "id": "auto_6110",
