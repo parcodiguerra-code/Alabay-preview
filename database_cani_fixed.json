@@ -82979,7 +82979,14 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0164",
     "madre": "auto_0096",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5355.jpg",
+      "images/auto_5355_2.jpg",
+      "images/auto_5355_3.jpg",
+      "images/auto_5355_4.jpg",
+      "images/auto_5355_5.jpg"
+    ],
+    "lastModified": "2026-10-22"
   },
   {
     "id": "auto_5356",
