@@ -2587,8 +2587,14 @@
     "colore": "WHITE WITH REDDISH AND BLACK",
     "padre": "auto_0239",
     "madre": "auto_0240",
-    "foto_list": [],
-    "lastModified": "2026-10-18"
+    "foto_list": [
+      "images/auto_0124.jpg",
+      "images/auto_0124_2.jpg",
+      "images/auto_0124_3.jpg",
+      "images/auto_0124_4.jpg",
+      "images/auto_0124_5.jpg"
+    ],
+    "lastModified": "2026-10-22"
   },
   {
     "id": "auto_0126",
