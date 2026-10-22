@@ -109320,7 +109320,11 @@
     "colore": "WHITE",
     "padre": "dog0109",
     "madre": "auto_7020",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_7026.jpg",
+      "images/auto_7026_2.jpg"
+    ],
+    "lastModified": "2026-10-22"
   },
   {
     "id": "auto_7027",
