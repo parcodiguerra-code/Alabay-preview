@@ -197885,7 +197885,12 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_12182",
     "madre": "auto_12591",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_12590.jpg",
+      "images/auto_12590_2.jpg",
+      "images/auto_12590_3.jpg"
+    ],
+    "lastModified": "2026-10-22"
   },
   {
     "id": "auto_12592",
