@@ -94694,7 +94694,11 @@
     "colore": "WHITE",
     "padre": "auto_0380",
     "madre": "auto_0008",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6101.jpg",
+      "images/auto_6101_2.jpg"
+    ],
+    "lastModified": "2026-10-22"
   },
   {
     "id": "auto_6102",
