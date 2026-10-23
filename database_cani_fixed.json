@@ -5547,7 +5547,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0013",
     "madre": "auto_0096",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0288.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_0289",
