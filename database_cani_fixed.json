@@ -95421,7 +95421,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4339",
     "madre": "auto_6135",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6143.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_6144",
