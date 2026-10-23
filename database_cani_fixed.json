@@ -7120,7 +7120,7 @@
     "id": "dog0459",
     "sesso": "M",
     "name": "ERLEN KARAUL KHAN",
-    "allevatore": "J. BENEDICT",
+    "allevatore": "J. BENEDEK",
     "proprietario": "P. NEMETH - KENNEL \"DEL PARCO DI GUERRA\"",
     "paese": "BULGARIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -7134,7 +7134,7 @@
       "images/dog0459.jpg",
       "images/dog0459_2.jpg"
     ],
-    "lastModified": "2026-10-22"
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_0375",
@@ -53193,7 +53193,7 @@
     "id": "auto_3468",
     "sesso": "F",
     "name": "ERTASHA KARAUL KHAN",
-    "allevatore": "J. BENEDICT",
+    "allevatore": "J. BENEDEK",
     "proprietario": "F. BATTAGLIA",
     "paese": "BULGARIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -53203,7 +53203,8 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0346",
     "madre": "auto_3464",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_3469",
@@ -204450,7 +204451,7 @@
     "id": "auto_13000",
     "sesso": "M",
     "name": "GARABAS KARAUL KHAN",
-    "allevatore": "J. BENEDICT",
+    "allevatore": "J. BENEDEK",
     "proprietario": "",
     "paese": "BULGARIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -204460,7 +204461,8 @@
     "colore": "",
     "padre": "auto_12999",
     "madre": "auto_5981",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_13001",
@@ -223814,5 +223816,26 @@
       "images/auto_14197.jpg"
     ],
     "lastModified": "2026-10-21"
+  },
+  {
+    "id": "auto_14198",
+    "sesso": "F",
+    "name": "ERTAK KARAUL KHAN",
+    "allevatore": "J. BENEDEK",
+    "proprietario": "J. BENEDEK",
+    "paese": "BULGARIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2015-01-01",
+    "note": "",
+    "colore": "WHITE WITH REDDISH",
+    "padre": "auto_0346",
+    "madre": "auto_3464",
+    "foto_list": [
+      "images/auto_14198.jpg",
+      "images/auto_14198_2.jpg",
+      "images/auto_14198_3.jpg"
+    ],
+    "lastModified": "2026-10-23"
   }
 ]
