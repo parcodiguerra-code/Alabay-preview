@@ -6371,7 +6371,10 @@
     "colore": "WHTE",
     "padre": "auto_0334",
     "madre": "auto_0178",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0335.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_0336",
