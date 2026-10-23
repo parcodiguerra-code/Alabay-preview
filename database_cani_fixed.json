@@ -1767,7 +1767,13 @@
     "colore": "WHITE",
     "padre": "dog0109",
     "madre": "auto_0096",
-    "foto_list": []
+    "foto_list": [
+      "images/dog0115.jpg",
+      "images/dog0115_2.jpg",
+      "images/dog0115_3.jpg",
+      "images/dog0115_4.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "dog0116",
