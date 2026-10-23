@@ -9744,8 +9744,10 @@
     "colore": "BROWN WITH WHITE",
     "padre": "auto_1264",
     "madre": "auto_1265",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/auto_0510.jpg"
+    ],
+    "lastModified": "2026-10-23",
     "note_en": "This male is the grandson of a Great Dane."
   },
   {
