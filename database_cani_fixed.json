@@ -11905,7 +11905,9 @@
     "padre": "dog0752",
     "madre": "auto_0634",
     "foto_list": [
-      "images/auto_0633.jpg"
+      "images/auto_0633.jpg",
+      "images/auto_0633_2.jpg",
+      "images/auto_0633_3.jpg"
     ],
     "lastModified": "2026-10-23"
   },
