@@ -117046,7 +117046,13 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0187",
     "madre": "auto_7508",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_7509.jpg",
+      "images/auto_7509_2.jpg",
+      "images/auto_7509_3.jpg",
+      "images/auto_7509_4.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_7510",
