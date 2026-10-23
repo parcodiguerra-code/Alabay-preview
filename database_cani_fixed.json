@@ -27270,8 +27270,12 @@
     "colore": "WHITE WITH FAWN AND BLACK",
     "padre": "auto_1266",
     "madre": "auto_1267",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_1264.jpg",
+      "images/auto_1264_2.jpg",
+      "images/auto_1264_3.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_1265",
