@@ -3622,7 +3622,13 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0013",
     "madre": "dog0106",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0184.jpg",
+      "images/auto_0184_2.jpg",
+      "images/auto_0184_3.jpg",
+      "images/auto_0184_4.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_0185",
