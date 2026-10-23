@@ -7226,7 +7226,14 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0007",
     "madre": "auto_0017",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0378.jpg",
+      "images/auto_0378_2.jpg",
+      "images/auto_0378_3.jpg",
+      "images/auto_0378_4.jpg",
+      "images/auto_0378_5.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_0379",
