@@ -70145,7 +70145,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_4543",
     "madre": "auto_4537",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4544.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_4545",
