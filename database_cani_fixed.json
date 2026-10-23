@@ -109264,7 +109264,12 @@
     "colore": "WHITE",
     "padre": "auto_4926",
     "madre": "auto_3472",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_7020.jpg",
+      "images/auto_7020_2.jpg",
+      "images/auto_7020_3.jpg"
+    ],
+    "lastModified": "2026-10-23"
   },
   {
     "id": "auto_7021",
