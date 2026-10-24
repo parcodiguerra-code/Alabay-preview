@@ -17051,8 +17051,14 @@
     "colore": "WHITE WITH LIGHT ORANGE",
     "padre": "auto_0847",
     "madre": "auto_0851",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/dog1109.jpg",
+      "images/dog1109_2.jpg",
+      "images/dog1109_3.jpg",
+      "images/dog1109_4.jpg",
+      "images/dog1109_5.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_0852",
