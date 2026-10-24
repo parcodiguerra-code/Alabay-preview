@@ -223965,5 +223965,24 @@
       "images/auto_14200.jpg"
     ],
     "lastModified": "2026-10-24"
+  },
+  {
+    "id": "auto_14201",
+    "sesso": "F",
+    "name": "GAJANE BARONAS",
+    "allevatore": "V. VENCKUS",
+    "proprietario": "Z. STANKOVA",
+    "paese": "LITHUANIA",
+    "colore": "WHITE WITH BLACK",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LSVK SO 0978/05",
+    "birth": "2005-10-20",
+    "note": "",
+    "padre": "auto_11066",
+    "madre": "auto_4572",
+    "foto_list": [
+      "images/auto_14201.jpg"
+    ],
+    "lastModified": "2026-10-24"
   }
 ]
