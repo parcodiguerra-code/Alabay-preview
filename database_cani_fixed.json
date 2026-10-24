@@ -224140,5 +224140,26 @@
       "images/auto_14207.jpg"
     ],
     "lastModified": "2026-10-24"
+  },
+  {
+    "id": "auto_14208",
+    "sesso": "F",
+    "name": "NISHANA AKMENU GELE",
+    "allevatore": "A. DERUS",
+    "proprietario": "H. LEIVOJA",
+    "paese": "LITHUANIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "LSVK SO 1798/14",
+    "birth": "2013-11-05",
+    "note": "",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "padre": "auto_6981",
+    "madre": "auto_0043",
+    "foto_list": [
+      "images/auto_14208.jpg",
+      "images/auto_14208_2.jpg",
+      "images/auto_14208_3.jpg"
+    ],
+    "lastModified": "2026-10-24"
   }
 ]
