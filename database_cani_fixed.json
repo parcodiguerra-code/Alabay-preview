@@ -11131,7 +11131,7 @@
     "sesso": "M",
     "name": "BASAR AKMENU GELE",
     "allevatore": "A. DERUS",
-    "proprietario": "",
+    "proprietario": "N. KILIC",
     "paese": "LITHUANIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "LSVK SO 1375/10",
@@ -11140,7 +11140,12 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0046",
     "madre": "auto_0094",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0585.jpg",
+      "images/auto_0585_2.jpg",
+      "images/auto_0585_3.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_0586",
