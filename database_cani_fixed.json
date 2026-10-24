@@ -108776,16 +108776,23 @@
     "sesso": "M",
     "name": "PUSHTUN AKMENU GELE",
     "allevatore": "A. DERUS",
-    "proprietario": "A. DERUS",
+    "proprietario": "L. VIDAK",
     "paese": "LITHUANIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "LSVK SO 1901/15",
     "birth": "2014-12-05",
     "note": "",
-    "colore": "WHITE WITH REDDISH",
+    "colore": "WHITE WITH BLACK",
     "padre": "auto_4926",
     "madre": "auto_0393",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6987.jpg",
+      "images/auto_6987_2.jpg",
+      "images/auto_6987_3.jpg",
+      "images/auto_6987_4.jpg",
+      "images/auto_6987_5.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_6988",
