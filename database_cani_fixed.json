@@ -83602,7 +83602,14 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_0042",
     "madre": "auto_0138",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5389.jpg",
+      "images/auto_5389_2.jpg",
+      "images/auto_5389_3.jpg",
+      "images/auto_5389_4.jpg",
+      "images/auto_5389_5.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_5390",
