@@ -7940,7 +7940,14 @@
     "colore": "BLACK AND WHITE",
     "padre": "auto_0413",
     "madre": "auto_0414",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0412.jpg",
+      "images/auto_0412_2.jpg",
+      "images/auto_0412_3.jpg",
+      "images/auto_0412_4.jpg",
+      "images/auto_0412_5.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_0413",
