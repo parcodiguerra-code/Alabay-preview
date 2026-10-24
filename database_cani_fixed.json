@@ -119988,7 +119988,7 @@
     "id": "auto_7690",
     "sesso": "M",
     "name": "BATY (ZAR) (ow. Mogliani)",
-    "allevatore": "M. BORISOVA",
+    "allevatore": "M. DIMITROVA (BORISOVA)",
     "proprietario": "M. MOGLIANI",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -119999,13 +119999,13 @@
     "padre": "auto_7689",
     "madre": "auto_5408",
     "foto_list": [],
-    "lastModified": "2026-10-09"
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_7691",
     "sesso": "M",
     "name": "BOSAR (ow. Bogdan)",
-    "allevatore": "M. BORISOVA",
+    "allevatore": "M. DIMITROVA (BORISOVA)",
     "proprietario": "V. BOGDAN",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -120019,7 +120019,7 @@
       "images/auto_7691.jpg",
       "images/auto_7691_2.jpg"
     ],
-    "lastModified": "2026-10-20"
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_7692",
@@ -198163,9 +198163,11 @@
     "foto_list": [
       "images/auto_12597.jpg",
       "images/auto_12597_2.jpg",
-      "images/auto_12597_3.jpg"
+      "images/auto_12597_3.jpg",
+      "images/auto_12597_4.jpg",
+      "images/auto_12597_5.jpg"
     ],
-    "lastModified": "2026-10-21"
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_12598",
@@ -223836,7 +223838,7 @@
     "id": "auto_14193",
     "sesso": "M",
     "name": "BEK (ow. Manevich)",
-    "allevatore": "M. BORISOVA",
+    "allevatore": "M. DIMITROVA (BORISOVA)",
     "proprietario": "L. MANEVICH",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -223847,7 +223849,7 @@
     "padre": "auto_7689",
     "madre": "auto_5408",
     "foto_list": [],
-    "lastModified": "2026-10-20"
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_14194",
@@ -224043,7 +224045,7 @@
     "id": "auto_14204",
     "sesso": "M",
     "name": "BOYNAK (ow. Vasiliev)",
-    "allevatore": "M. BORISOVA",
+    "allevatore": "M. DIMITROVA (BORISOVA)",
     "proprietario": "A. VASILIEV",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
