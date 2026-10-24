@@ -53082,7 +53082,7 @@
   {
     "id": "auto_3458",
     "sesso": "F",
-    "name": "TOLGAT AKMENU GELE",
+    "name": "TALGAT AKMENU GELE",
     "allevatore": "A. DERUS",
     "proprietario": "D. ALINSKAS",
     "paese": "LITHUANIA",
@@ -53093,7 +53093,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0137",
     "madre": "auto_0138",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3458.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_3459",
