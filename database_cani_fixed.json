@@ -223999,5 +223999,60 @@
       "images/auto_14201.jpg"
     ],
     "lastModified": "2026-10-24"
+  },
+  {
+    "id": "auto_14202",
+    "sesso": "F",
+    "name": "ASUDA KURAZH BOLGARIA",
+    "allevatore": "D. DENCHEV",
+    "proprietario": "P. NEMETH - KENNEL \"DEL PARCO DI GUERRA\" - S. RUSSO",
+    "paese": "BULGARIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "",
+    "colore": "WHITE WITH ORANGE",
+    "note": "",
+    "padre": "auto_14204",
+    "madre": "auto_14203",
+    "foto_list": [
+      "images/auto_14202.jpg",
+      "images/auto_14202_2.jpg",
+      "images/auto_14202_3.jpg",
+      "images/auto_14202_4.jpg"
+    ],
+    "lastModified": "2026-10-24"
+  },
+  {
+    "id": "auto_14203",
+    "sesso": "F",
+    "name": "VARYA SAMUIL KAN",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
+  },
+  {
+    "id": "auto_14204",
+    "sesso": "M",
+    "name": "BOYNAK (ow. Vasiliev)",
+    "allevatore": "M. BORISOVA",
+    "proprietario": "A. VASILIEV",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2014-10-04",
+    "note": "",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "padre": "auto_7689",
+    "madre": "auto_5408",
+    "foto_list": [],
+    "lastModified": "2026-10-24"
   }
 ]
