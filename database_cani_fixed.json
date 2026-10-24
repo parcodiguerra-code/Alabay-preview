@@ -223937,5 +223937,24 @@
       "images/auto_14198_3.jpg"
     ],
     "lastModified": "2026-10-23"
+  },
+  {
+    "id": "auto_14200",
+    "sesso": "F",
+    "name": "ALMA SAMUIL KAN",
+    "allevatore": "S. DIMITROV",
+    "proprietario": "",
+    "paese": "BULGARIA",
+    "tipo": "TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2013-11-10",
+    "note": "",
+    "colore": "WHITE",
+    "padre": "auto_0375",
+    "madre": "auto_0649",
+    "foto_list": [
+      "images/auto_14200.jpg"
+    ],
+    "lastModified": "2026-10-24"
   }
 ]
