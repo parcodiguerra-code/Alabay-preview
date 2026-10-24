@@ -224054,5 +224054,26 @@
     "madre": "auto_5408",
     "foto_list": [],
     "lastModified": "2026-10-24"
+  },
+  {
+    "id": "auto_14205",
+    "sesso": "M",
+    "name": "AK DEL PARCO DI GUERRA",
+    "allevatore": "KENNEL \"DEL PARCO DI GUERRA\"",
+    "proprietario": "S. RAINONE - P. NEMETH",
+    "paese": "ITALY",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2021-02-12",
+    "note": "",
+    "padre": "auto_0007",
+    "madre": "auto_14202",
+    "foto_list": [
+      "images/auto_14205.jpg",
+      "images/auto_14205_2.jpg",
+      "images/auto_14205_3.jpg"
+    ],
+    "lastModified": "2026-10-24"
   }
 ]
