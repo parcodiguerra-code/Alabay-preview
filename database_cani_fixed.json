@@ -5873,7 +5873,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_3072",
     "madre": "auto_0279",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0307.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_0308",
