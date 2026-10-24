@@ -17304,7 +17304,13 @@
     "colore": "WHITE WITH GREY",
     "padre": "dog1109",
     "madre": "auto_0583",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1123.jpg",
+      "images/dog1123_2.jpg",
+      "images/dog1123_3.jpg",
+      "images/dog1123_4.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_0859",
