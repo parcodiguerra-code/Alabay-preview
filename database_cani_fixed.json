@@ -5326,7 +5326,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0275.jpg",
+      "images/auto_0275_2.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_0276",
