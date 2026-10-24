@@ -17035,7 +17035,11 @@
     "colore": "WHITE WITH BROWN",
     "padre": "auto_0852",
     "madre": "auto_0853",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0851.jpg",
+      "images/auto_0851_2.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "dog1109",
