@@ -224093,5 +224093,24 @@
     "madre": "auto_0108",
     "foto_list": [],
     "lastModified": "2026-10-24"
+  },
+  {
+    "id": "auto_14207",
+    "sesso": "F",
+    "name": "BERDASHLI (ow. Dimitrova)",
+    "allevatore": "M. DIMITROVA (BORISOVA)",
+    "proprietario": "M. DIMITROVA (BORISOVA)",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2014-10-04",
+    "note": "",
+    "colore": "WHITE WITH ORANGE",
+    "padre": "auto_7689",
+    "madre": "auto_5408",
+    "foto_list": [
+      "images/auto_14207.jpg"
+    ],
+    "lastModified": "2026-10-24"
   }
 ]
