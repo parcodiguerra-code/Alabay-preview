@@ -25428,7 +25428,12 @@
     "colore": "LIGHT FAWN",
     "padre": "dog1678",
     "madre": "auto_1075",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1679.jpg",
+      "images/dog1679_2.jpg",
+      "images/dog1679_3.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_1196",
