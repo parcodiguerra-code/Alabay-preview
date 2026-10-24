@@ -5406,9 +5406,13 @@
     "padre": "dog0108",
     "madre": "dog0141",
     "foto_list": [
-      "images/auto_0279.jpg"
+      "images/auto_0279.jpg",
+      "images/auto_0279_2.jpg",
+      "images/auto_0279_3.jpg",
+      "images/auto_0279_4.jpg",
+      "images/auto_0279_5.jpg"
     ],
-    "lastModified": "2026-10-14"
+    "lastModified": "2026-10-24"
   },
   {
     "id": "dog0348",
