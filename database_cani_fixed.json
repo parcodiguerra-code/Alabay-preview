@@ -19100,8 +19100,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": [],
-    "lastModified": "2026-10-10"
+    "foto_list": [
+      "images/auto_0935.jpg",
+      "images/auto_0935_2.jpg",
+      "images/auto_0935_3.jpg",
+      "images/auto_0935_4.jpg",
+      "images/auto_0935_5.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "dog1249",
