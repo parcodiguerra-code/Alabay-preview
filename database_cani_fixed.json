@@ -4660,7 +4660,12 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0275",
     "madre": "auto_0276",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0241.jpg",
+      "images/auto_0241_2.jpg",
+      "images/auto_0241_3.jpg"
+    ],
+    "lastModified": "2026-10-24"
   },
   {
     "id": "auto_0242",
