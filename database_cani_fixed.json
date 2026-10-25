@@ -20639,9 +20639,14 @@
     "colore": "WHITE WITH BROWN",
     "padre": "auto_1007",
     "madre": "auto_1008",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_1005.jpg",
+      "images/auto_1005_2.jpg",
+      "images/auto_1005_3.jpg",
+      "images/auto_1005_4.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_1006",
