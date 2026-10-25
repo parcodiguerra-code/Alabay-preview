@@ -22343,7 +22343,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0566",
     "madre": "dog1421",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1460.jpg",
+      "images/dog1460_2.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_1084",
