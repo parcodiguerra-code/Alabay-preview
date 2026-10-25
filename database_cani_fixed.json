@@ -143201,7 +143201,7 @@
   {
     "id": "auto_9147",
     "sesso": "M",
-    "name": "ZHINE-KURBASHI- PASHA (ow. Zaboykin)",
+    "name": "ZHINE-KURBASHI-PASHA (ow. Zaboykin)",
     "allevatore": "V. TRISHIN",
     "proprietario": "V. ZABOYKIN",
     "paese": "RUSSIA",
@@ -143212,7 +143212,8 @@
     "colore": "BLACK AND TAN",
     "padre": "dog0721",
     "madre": "auto_9086",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_9148",
