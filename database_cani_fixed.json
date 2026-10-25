@@ -20662,7 +20662,11 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_0989",
     "madre": "dog1942",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1006.jpg",
+      "images/auto_1006_2.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_1007",
