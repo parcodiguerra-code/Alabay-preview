@@ -105726,7 +105726,7 @@
   {
     "id": "auto_6786",
     "sesso": "F",
-    "name": "ISIDA ISKRA (ow. Schutt)",
+    "name": "ISIDA-ISKRA (ow. Schutt)",
     "allevatore": "N. SCHUTT",
     "proprietario": "N. SCHUTT",
     "paese": "UKRAINE",
@@ -105737,7 +105737,13 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_0868",
     "madre": "dog0623",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6786.jpg",
+      "images/auto_6786_2.jpg",
+      "images/auto_6786_3.jpg",
+      "images/auto_6786_4.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_6787",
