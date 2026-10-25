@@ -32423,9 +32423,13 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2142",
     "madre": "auto_2143",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_2125.jpg",
+      "images/auto_2125_2.jpg",
+      "images/auto_2125_3.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_2127",
