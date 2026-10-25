@@ -28833,7 +28833,12 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_1322",
     "madre": "auto_1323",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1893.jpg",
+      "images/dog1893_2.jpg",
+      "images/dog1893_3.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_1324",
