@@ -142833,7 +142833,10 @@
     "colore": "",
     "padre": "auto_1058",
     "madre": "auto_9122",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9123.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_9124",
