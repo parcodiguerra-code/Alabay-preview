@@ -141822,7 +141822,14 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1319",
     "madre": "auto_1200",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9066.jpg",
+      "images/auto_9066_2.jpg",
+      "images/auto_9066_3.jpg",
+      "images/auto_9066_4.jpg",
+      "images/auto_9066_5.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_9068",
