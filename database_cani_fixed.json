@@ -50973,7 +50973,11 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2562",
     "madre": "auto_2686",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3317.jpg",
+      "images/auto_3317_2.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_3318",
