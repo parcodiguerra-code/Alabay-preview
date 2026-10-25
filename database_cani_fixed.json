@@ -78288,7 +78288,14 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_3319",
     "madre": "auto_3317",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5049.jpg",
+      "images/auto_5049_2.jpg",
+      "images/auto_5049_3.jpg",
+      "images/auto_5049_4.jpg",
+      "images/auto_5049_5.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_5050",
