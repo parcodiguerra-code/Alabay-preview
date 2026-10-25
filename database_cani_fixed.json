@@ -178326,7 +178326,10 @@
     "colore": "WHITE",
     "padre": "auto_11341",
     "madre": "auto_11302",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_11342.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_11343",
