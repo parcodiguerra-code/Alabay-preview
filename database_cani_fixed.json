@@ -145810,7 +145810,10 @@
     "colore": "WHITE WITH BLACK AND LIGHT FAWN",
     "padre": "auto_3569",
     "madre": "auto_9297",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9298.jpg"
+    ],
+    "lastModified": "2026-10-25"
   },
   {
     "id": "auto_9299",
