@@ -147153,7 +147153,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_9300",
     "madre": "auto_9365",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9372.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9373",
