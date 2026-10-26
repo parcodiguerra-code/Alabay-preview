@@ -90021,7 +90021,14 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5686",
     "madre": "auto_4703",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5787.jpg",
+      "images/auto_5787_2.jpg",
+      "images/auto_5787_3.jpg",
+      "images/auto_5787_4.jpg",
+      "images/auto_5787_5.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_5788",
