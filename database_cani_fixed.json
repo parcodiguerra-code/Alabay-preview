@@ -152197,7 +152197,7 @@
   {
     "id": "auto_9669",
     "sesso": "F",
-    "name": "MARCHANDIN (ow. Fedorov)",
+    "name": "MARCHANDI (ow. Fedorov)",
     "allevatore": "N. SCHUTT",
     "proprietario": "V. FEDOROV",
     "paese": "UKRAINE",
@@ -152208,7 +152208,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_2978",
     "madre": "auto_6786",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9669.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9670",
