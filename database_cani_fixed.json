@@ -146344,7 +146344,11 @@
     "colore": "DARK GREY WITH LIGHT FAWN AND WHITE",
     "padre": "auto_9311",
     "madre": "auto_8669",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9319.jpg",
+      "images/auto_9319_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9320",
