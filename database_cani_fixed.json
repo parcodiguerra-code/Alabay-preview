@@ -21909,7 +21909,12 @@
     "colore": "REDDISH",
     "padre": "dog1431",
     "madre": "dog1403",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0985.jpg",
+      "images/auto_0985_2.jpg",
+      "images/auto_0985_3.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_1061",
