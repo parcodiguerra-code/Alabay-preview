@@ -151421,7 +151421,11 @@
     "colore": "REDDISH",
     "padre": "auto_9168",
     "madre": "dog1440",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9627.jpg",
+      "images/auto_9627_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9628",
