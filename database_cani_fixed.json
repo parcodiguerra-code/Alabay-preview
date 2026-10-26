@@ -55282,7 +55282,12 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1296",
     "madre": "dog1462",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3592.jpg",
+      "images/auto_3592_2.jpg",
+      "images/auto_3592_3.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_3593",
