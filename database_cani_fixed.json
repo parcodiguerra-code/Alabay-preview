@@ -151243,7 +151243,10 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_9287",
     "madre": "auto_9100",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9619.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9620",
