@@ -104667,9 +104667,15 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_6714",
     "madre": "auto_6715",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_6713.jpg",
+      "images/auto_6713_2.jpg",
+      "images/auto_6713_3.jpg",
+      "images/auto_6713_4.jpg",
+      "images/auto_6713_5.jpg"
+    ],
     "note_en": "This male, taken from Khorezm (Uzbekistan), was initially falsely advertised as being from Iran.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_6716",
