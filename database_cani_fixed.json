@@ -152555,7 +152555,7 @@
   {
     "id": "auto_9679",
     "sesso": "F",
-    "name": "OCHAHMA (ow. Cherkasova)",
+    "name": "OCHANMA (ow. Cherkasova)",
     "allevatore": "V. SOBOLEV",
     "proprietario": "E. CHERKASOVA",
     "paese": "RUSSIA",
@@ -152566,7 +152566,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_9404",
     "madre": "auto_9677",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9679.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9680",
@@ -152582,7 +152585,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9404",
     "madre": "auto_9677",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9680.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9681",
@@ -152598,7 +152604,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9390",
     "madre": "auto_9536",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9681.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9682",
