@@ -50190,7 +50190,11 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3261",
     "madre": "auto_2970",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3260.jpg",
+      "images/auto_3260_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_3262",
