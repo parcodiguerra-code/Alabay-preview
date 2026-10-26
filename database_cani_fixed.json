@@ -152069,7 +152069,11 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_3576",
     "madre": "auto_8756",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9661.jpg",
+      "images/auto_9661_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9662",
