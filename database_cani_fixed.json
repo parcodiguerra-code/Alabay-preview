@@ -151101,7 +151101,7 @@
   {
     "id": "auto_9611",
     "sesso": "M",
-    "name": "KEBIR-DZHES (ow. Bondarenko)",
+    "name": "KERIB-DZHES (ow. Bondarenko)",
     "allevatore": "I. LOBKOVSKAYA",
     "proprietario": "P. BONDARENKO",
     "paese": "RUSSIA",
@@ -151112,7 +151112,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_8671",
     "madre": "auto_0592",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9611.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9612",
