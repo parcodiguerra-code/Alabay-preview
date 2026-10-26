@@ -28793,7 +28793,14 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0566",
     "madre": "dog1898",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1890.jpg",
+      "images/dog1890_2.jpg",
+      "images/dog1890_3.jpg",
+      "images/dog1890_4.jpg",
+      "images/dog1890_5.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_1322",
