@@ -151509,7 +151509,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_8605",
     "madre": "auto_9577",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9629.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9630",
