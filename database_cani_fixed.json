@@ -151486,7 +151486,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_8605",
     "madre": "auto_9577",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9628.jpg",
+      "images/auto_9628_2.jpg",
+      "images/auto_9628_3.jpg",
+      "images/auto_9628_4.jpg",
+      "images/auto_9628_5.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9629",
