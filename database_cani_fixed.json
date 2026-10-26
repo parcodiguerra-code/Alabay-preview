@@ -22021,9 +22021,11 @@
     "colore": "TIGER STRIPES",
     "padre": "auto_1068",
     "madre": "auto_1069",
-    "foto_list": [],
+    "foto_list": [
+      "images/dog1440.jpg"
+    ],
     "note_en": "Long-time enthusiasts of the breed claim that this female has blood of German Shepherd Dog (VEO - Vostochno Evropejskaya Ovcharka).",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-26"
   },
   {
     "id": "dog1441",
