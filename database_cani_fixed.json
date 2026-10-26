@@ -76124,7 +76124,14 @@
     "colore": "REDDISH",
     "padre": "auto_4907",
     "madre": "auto_4906",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4908.jpg",
+      "images/auto_4908_2.jpg",
+      "images/auto_4908_3.jpg",
+      "images/auto_4908_4.jpg",
+      "images/auto_4908_5.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_4909",
