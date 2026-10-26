@@ -145000,9 +145000,11 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_9243",
     "madre": "auto_9244",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9245.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9246",
