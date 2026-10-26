@@ -224436,5 +224436,24 @@
       "images/auto_14208_4.jpg"
     ],
     "lastModified": "2026-10-24"
+  },
+  {
+    "id": "auto_14209",
+    "sesso": "F",
+    "name": "LYAMILKAR (ow. Volkova)",
+    "allevatore": "V. VASILIEVA",
+    "proprietario": "M. VOLKOVA",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1985-03-03",
+    "note": "",
+    "colore": "LIGHT FAWN WITH WHITE AND BLACK",
+    "padre": "auto_0566",
+    "madre": "dog1898",
+    "foto_list": [
+      "images/auto_14209.jpg"
+    ],
+    "lastModified": "2026-10-26"
   }
 ]
