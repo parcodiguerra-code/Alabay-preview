@@ -21946,7 +21946,10 @@
     "colore": "FAWN",
     "padre": "dog1431",
     "madre": "dog1403",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1065.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_1066",
