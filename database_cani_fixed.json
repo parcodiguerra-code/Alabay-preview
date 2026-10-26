@@ -105912,7 +105912,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2978",
     "madre": "auto_6786",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6787.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_6788",
