@@ -105904,9 +105904,9 @@
     "name": "MADZHAR (ow. Tabunova-Rabyshko)",
     "allevatore": "N. SCHUTT",
     "proprietario": "T. TABUNOVA-RABYSHKO",
-    "paese": "UKRAINE",
+    "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "RKF 1156844",
     "birth": "2000-09-14",
     "note": "",
     "colore": "BLACK WITH WHITE",
@@ -141462,9 +141462,12 @@
     "padre": "auto_0989",
     "madre": "auto_0990",
     "foto_list": [
-      "images/auto_9031.jpg"
+      "images/auto_9031.jpg",
+      "images/auto_9031_2.jpg",
+      "images/auto_9031_3.jpg",
+      "images/auto_9031_4.jpg"
     ],
-    "lastModified": "2026-10-16"
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9032",
