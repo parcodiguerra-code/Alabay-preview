@@ -28965,7 +28965,11 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0566",
     "madre": "dog1898",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1329.jpg",
+      "images/auto_1329_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "dog1900",
