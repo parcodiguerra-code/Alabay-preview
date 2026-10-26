@@ -48506,7 +48506,12 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_3167",
     "madre": "auto_3162",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3161.jpg",
+      "images/auto_3161_2.jpg",
+      "images/auto_3161_3.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_3162",
