@@ -48762,7 +48762,11 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_3167",
     "madre": "auto_3162",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3175.jpg",
+      "images/auto_3175_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_3176",
