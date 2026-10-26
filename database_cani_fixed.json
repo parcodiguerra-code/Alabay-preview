@@ -22539,7 +22539,12 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0566",
     "madre": "auto_0564",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1091.jpg",
+      "images/auto_1091_2.jpg",
+      "images/auto_1091_3.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_1092",
