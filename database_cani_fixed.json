@@ -21893,7 +21893,10 @@
     "colore": "FAWN WITH WHITE",
     "padre": "dog1431",
     "madre": "dog1403",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1432.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_0985",
@@ -21962,7 +21965,7 @@
     "pedigree": "",
     "birth": "1980-02-04",
     "note": "",
-    "colore": "FAWN",
+    "colore": "LIGHT FAWN WITH WHITE",
     "padre": "dog1431",
     "madre": "dog1403",
     "foto_list": [
