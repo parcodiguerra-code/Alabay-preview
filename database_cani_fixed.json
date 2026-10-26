@@ -63643,13 +63643,16 @@
     "paese": "KARACHAY-CHERKESSIA",
     "tipo": "KARACHEVSKIY VOLKODAV",
     "pedigree": "",
-    "birth": "",
+    "birth": "1981-01-01",
     "note": "Quattro volte Campione del Caucaso.",
     "colore": "FAWN",
     "padre": "auto_4118",
     "madre": "auto_4119",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/auto_4116.jpg",
+      "images/auto_4116_2.jpg"
+    ],
+    "lastModified": "2026-10-26",
     "note_en": "Four times Champion of Caucasus."
   },
   {
