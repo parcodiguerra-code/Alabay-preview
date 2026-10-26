@@ -24019,7 +24019,11 @@
     "colore": "REDDISH WITH WHITE AND BLACK",
     "padre": "dog1327",
     "madre": "auto_1055",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1575.jpg",
+      "images/dog1575_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "dog1576",
