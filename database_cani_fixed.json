@@ -48633,7 +48633,11 @@
     "colore": "FAWN WITH WHITE",
     "padre": "dog1327",
     "madre": "auto_1055",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3166.jpg",
+      "images/auto_3166_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_3167",
