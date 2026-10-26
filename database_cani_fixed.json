@@ -55255,9 +55255,9 @@
   {
     "id": "auto_3591",
     "sesso": "M",
-    "name": "LOSS BATYR HAN",
+    "name": "LOSS-BATYR-HAN",
     "allevatore": "N. SCHUTT",
-    "proprietario": "N. SCHUTT",
+    "proprietario": "",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -55266,7 +55266,12 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1296",
     "madre": "dog1462",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3591.jpg",
+      "images/auto_3591_2.jpg",
+      "images/auto_3591_3.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_3592",
