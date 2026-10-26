@@ -150929,7 +150929,14 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_4905",
     "madre": "auto_9600",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9601.jpg",
+      "images/auto_9601_2.jpg",
+      "images/auto_9601_3.jpg",
+      "images/auto_9601_4.jpg",
+      "images/auto_9601_5.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9602",
