@@ -147817,9 +147817,9 @@
   {
     "id": "auto_9415",
     "sesso": "F",
-    "name": "LAKIN (ow. Adamovic)",
+    "name": "LAKIN (ow. Adamovich)",
     "allevatore": "N. KUDRYATSEVA",
-    "proprietario": "L. ADAMOVIC",
+    "proprietario": "L. ADAMOVICH",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -147828,7 +147828,10 @@
     "colore": "LIGHT GREY WITH LIGHT FWAN AND WHITE",
     "padre": "auto_9404",
     "madre": "auto_9412",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9415.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9416",
