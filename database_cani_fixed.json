@@ -22523,7 +22523,13 @@
     "colore": "WHITE WITH ORANGE AND BLACK",
     "padre": "auto_0566",
     "madre": "auto_0564",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1470.jpg",
+      "images/dog1470_2.jpg",
+      "images/dog1470_3.jpg",
+      "images/dog1470_4.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_1091",
