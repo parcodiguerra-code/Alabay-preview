@@ -146536,9 +146536,12 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_9330",
     "madre": "auto_9331",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9329.jpg",
+      "images/auto_9329_2.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9332",
