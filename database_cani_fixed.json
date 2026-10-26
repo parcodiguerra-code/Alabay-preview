@@ -151289,7 +151289,12 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_2531",
     "madre": "auto_9395",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9621.jpg",
+      "images/auto_9621_2.jpg",
+      "images/auto_9621_3.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9622",
