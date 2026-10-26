@@ -147172,7 +147172,12 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_9300",
     "madre": "auto_9365",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9373.jpg",
+      "images/auto_9373_2.jpg",
+      "images/auto_9373_3.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9374",
