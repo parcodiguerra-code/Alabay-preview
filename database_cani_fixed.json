@@ -224455,5 +224455,24 @@
       "images/auto_14209.jpg"
     ],
     "lastModified": "2026-10-26"
+  },
+  {
+    "id": "auto_14210",
+    "sesso": "F",
+    "name": "LIPSY (ow. Rozhdestvenskiy)",
+    "allevatore": "V. VASILIEVA",
+    "proprietario": "O. ROZHDESTVENSKIY",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1985-03-03",
+    "note": "",
+    "colore": "LIGHT FAWN WITH WHITE",
+    "padre": "auto_0566",
+    "madre": "dog1898",
+    "foto_list": [
+      "images/auto_14210.jpg"
+    ],
+    "lastModified": "2026-10-26"
   }
 ]
