@@ -141432,7 +141432,11 @@
     "colore": "",
     "padre": "auto_0989",
     "madre": "auto_0990",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9029.jpg",
+      "images/auto_9029_2.jpg"
+    ],
+    "lastModified": "2026-10-26"
   },
   {
     "id": "auto_9030",
