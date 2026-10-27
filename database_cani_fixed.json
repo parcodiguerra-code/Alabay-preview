@@ -63783,7 +63783,9 @@
     "colore": "FAWN",
     "padre": "auto_4118",
     "madre": "auto_4119",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_4116.jpg"
+    ],
     "lastModified": "2026-10-27",
     "note_en": "Four times Champion of Caucasus."
   },
