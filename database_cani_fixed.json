@@ -26080,7 +26080,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "dog1161",
     "madre": "auto_7119",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1218.jpg",
+      "images/auto_1218_2.jpg",
+      "images/auto_1218_3.jpg",
+      "images/auto_1218_4.jpg",
+      "images/auto_1218_5.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_1220",
