@@ -224913,5 +224913,22 @@
       "images/auto_14212_2.jpg"
     ],
     "lastModified": "2026-10-27"
+  },
+  {
+    "id": "auto_14213",
+    "sesso": "F",
+    "name": "SARMA (ow. Bandurka)",
+    "allevatore": "L. IVANOVA",
+    "proprietario": "O. BANDURKA",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2004-01-27",
+    "note": "",
+    "padre": "auto_14105",
+    "madre": "dog1719",
+    "foto_list": [],
+    "lastModified": "2026-10-27"
   }
 ]
