@@ -24259,8 +24259,12 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0984",
     "madre": "auto_1054",
-    "foto_list": [],
-    "lastModified": "2026-10-10"
+    "foto_list": [
+      "images/dog1586_n.jpg",
+      "images/dog1586_n_2.jpg",
+      "images/dog1586_n_3.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_1157",
@@ -136058,7 +136062,13 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_1005",
     "madre": "auto_1006",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8685.jpg",
+      "images/auto_8685_2.jpg",
+      "images/auto_8685_3.jpg",
+      "images/auto_8685_4.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_8686",
@@ -136074,7 +136084,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_1005",
     "madre": "auto_1006",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8686.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_8687",
@@ -136090,7 +136103,11 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_1005",
     "madre": "auto_1006",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8687.jpg",
+      "images/auto_8687_2.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_8688",
