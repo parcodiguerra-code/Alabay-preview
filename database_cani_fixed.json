@@ -224869,5 +224869,25 @@
     "madre": "auto_10133",
     "foto_list": [],
     "lastModified": "2026-10-27"
+  },
+  {
+    "id": "auto_14212",
+    "sesso": "F",
+    "name": "SAGE (ow. Kataeva)",
+    "allevatore": "T. GALKINA",
+    "proprietario": "E. KATAEVA",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 2979054",
+    "birth": "2010-10-27",
+    "note": "",
+    "padre": "dog1719_n",
+    "madre": "auto_14211",
+    "foto_list": [
+      "images/auto_14212.jpg",
+      "images/auto_14212_2.jpg"
+    ],
+    "lastModified": "2026-10-27"
   }
 ]
