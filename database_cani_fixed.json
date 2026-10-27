@@ -8152,7 +8152,12 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_0425",
     "madre": "auto_0426",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0423.jpg",
+      "images/auto_0423_2.jpg",
+      "images/auto_0423_3.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_0424",
