@@ -153232,7 +153232,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9708",
     "madre": "auto_9709",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9711.jpg",
+      "images/auto_9711_2.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9712",
@@ -153248,7 +153252,12 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_9708",
     "madre": "auto_9709",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9712.jpg",
+      "images/auto_9712_2.jpg",
+      "images/auto_9712_3.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9713",
