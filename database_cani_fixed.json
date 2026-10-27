@@ -224921,14 +224921,20 @@
     "allevatore": "L. IVANOVA",
     "proprietario": "O. BANDURKA",
     "paese": "RUSSIA",
-    "colore": "WHITE WITH ORANGE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2004-01-27",
     "note": "",
+    "colore": "WHITE WITH ORANGE",
     "padre": "auto_14105",
     "madre": "dog1719",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14213.jpg",
+      "images/auto_14213_2.jpg",
+      "images/auto_14213_3.jpg",
+      "images/auto_14213_4.jpg",
+      "images/auto_14213_5.jpg"
+    ],
     "lastModified": "2026-10-27"
   }
 ]
