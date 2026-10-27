@@ -13139,8 +13139,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0542",
     "madre": "auto_2591",
-    "foto_list": [],
-    "lastModified": "2026-10-15"
+    "foto_list": [
+      "images/auto_0680.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "dog0845",
@@ -20260,7 +20262,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0987",
     "madre": "auto_0988",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0982.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_0983",
@@ -22552,7 +22557,14 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0542",
     "madre": "auto_2591",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1090.jpg",
+      "images/auto_1090_2.jpg",
+      "images/auto_1090_3.jpg",
+      "images/auto_1090_4.jpg",
+      "images/auto_1090_5.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "dog1470",
@@ -29177,7 +29189,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_1330",
     "madre": "auto_1331",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1905.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "dog1906",
@@ -46389,9 +46404,12 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_8675",
     "madre": "auto_8676",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_3022.jpg",
+      "images/auto_3022_2.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_3023",
@@ -141692,9 +141710,11 @@
     "colore": "LIGHT FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_9035.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9036",
@@ -141710,7 +141730,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0987",
     "madre": "auto_0988",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9036.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9037",
@@ -141726,7 +141749,12 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_0987",
     "madre": "auto_0988",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9037.jpg",
+      "images/auto_9037_2.jpg",
+      "images/auto_9037_3.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9038",
@@ -141742,7 +141770,10 @@
     "colore": "LIGHT REDDISH",
     "padre": "auto_0987",
     "madre": "auto_0988",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9038.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9039",
@@ -141758,7 +141789,10 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_0987",
     "madre": "auto_0988",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9039.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9040",
