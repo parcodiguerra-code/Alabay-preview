@@ -5559,7 +5559,13 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0013",
     "madre": "auto_0096",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0285.jpg",
+      "images/auto_0285_2.jpg",
+      "images/auto_0285_3.jpg",
+      "images/auto_0285_4.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_0286",
