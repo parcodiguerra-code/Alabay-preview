@@ -224852,5 +224852,22 @@
       "images/auto_14210.jpg"
     ],
     "lastModified": "2026-10-26"
+  },
+  {
+    "id": "auto_14211",
+    "sesso": "F",
+    "name": "SHELONA-SHTAR",
+    "allevatore": "",
+    "proprietario": "T. GALKINA",
+    "paese": "RUSSIA",
+    "colore": "",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 2299404",
+    "birth": "",
+    "note": "",
+    "padre": "dog1719_n",
+    "madre": "auto_10133",
+    "foto_list": [],
+    "lastModified": "2026-10-27"
   }
 ]
