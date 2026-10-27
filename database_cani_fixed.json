@@ -152912,7 +152912,13 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_3592",
     "madre": "auto_9527",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9696.jpg",
+      "images/auto_9696_2.jpg",
+      "images/auto_9696_3.jpg",
+      "images/auto_9696_4.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9697",
