@@ -26257,10 +26257,13 @@
     "pedigree": "RKF R 1000176",
     "birth": "1999-01-26",
     "note": "",
-    "colore": "WHITE WITH BLACK",
+    "colore": "WHITE WITH BLACK AND LIGHT FAWN",
     "padre": "dog1714",
     "madre": "dog1717",
-    "foto_list": [],
+    "foto_list": [
+      "images/dog1719.jpg",
+      "images/dog1719_2.jpg"
+    ],
     "lastModified": "2026-10-27"
   },
   {
