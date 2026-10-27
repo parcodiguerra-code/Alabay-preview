@@ -141146,7 +141146,12 @@
     "colore": "WHITE",
     "padre": "auto_0943",
     "madre": "auto_1328",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9001.jpg",
+      "images/auto_9001_2.jpg",
+      "images/auto_9001_3.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9002",
@@ -141958,7 +141963,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_4041",
     "madre": "auto_9047",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9049.jpg",
+      "images/auto_9049_2.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9050",
