@@ -59962,7 +59962,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_0412",
     "madre": "dog0047",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3878.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_3879",
