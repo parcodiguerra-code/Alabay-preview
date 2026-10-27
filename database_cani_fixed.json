@@ -60253,7 +60253,14 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_3740",
     "madre": "auto_3893",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3894.jpg",
+      "images/auto_3894_2.jpg",
+      "images/auto_3894_3.jpg",
+      "images/auto_3894_4.jpg",
+      "images/auto_3894_5.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_3895",
@@ -153417,7 +153424,11 @@
     "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "padre": "auto_9467",
     "madre": "auto_9720",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9722.jpg",
+      "images/auto_9722_2.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9723",
