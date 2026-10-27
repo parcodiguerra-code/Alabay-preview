@@ -17001,7 +17001,11 @@
     "colore": "LIGHT ORANGE WITH WHITE",
     "padre": "auto_0848",
     "madre": "auto_0849",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0847.jpg",
+      "images/auto_0847_2.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_0848",
