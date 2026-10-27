@@ -153099,7 +153099,13 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_9705",
     "madre": "dog1286",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9706.jpg",
+      "images/auto_9706_2.jpg",
+      "images/auto_9706_3.jpg",
+      "images/auto_9706_4.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_9707",
