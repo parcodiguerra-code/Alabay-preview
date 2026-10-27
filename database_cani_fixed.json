@@ -21437,7 +21437,14 @@
     "colore": "WHITE WITH DARK GREY",
     "padre": "auto_1036",
     "madre": "auto_1037",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1035.jpg",
+      "images/auto_1035_2.jpg",
+      "images/auto_1035_3.jpg",
+      "images/auto_1035_4.jpg",
+      "images/auto_1035_5.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_1036",
