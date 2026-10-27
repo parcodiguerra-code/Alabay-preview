@@ -40893,7 +40893,10 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_1205",
     "madre": "auto_1204",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2676.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_2677",
