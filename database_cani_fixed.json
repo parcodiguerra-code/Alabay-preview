@@ -20272,7 +20272,11 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_1005",
     "madre": "auto_1006",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0983.jpg",
+      "images/auto_0983_2.jpg"
+    ],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "auto_0984",
