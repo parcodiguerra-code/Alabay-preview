@@ -26242,7 +26242,7 @@
   {
     "id": "dog1719",
     "sesso": "F",
-    "name": "UM ALABASH (ow. Ivanova)",
+    "name": "UM-ALABASH (ow. Ivanova)",
     "allevatore": "A. LAVRENTIEVA",
     "proprietario": "L. IVANOVA",
     "paese": "RUSSIA",
@@ -26250,10 +26250,11 @@
     "pedigree": "RKF R 1000176",
     "birth": "1999-01-26",
     "note": "",
-    "colore": "",
+    "colore": "WHITE WITH BLACK",
     "padre": "dog1714",
     "madre": "dog1717",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-27"
   },
   {
     "id": "dog1719_n",
