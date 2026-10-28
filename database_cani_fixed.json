@@ -7758,7 +7758,10 @@
     "colore": "WHITE WITH BROWN",
     "padre": "auto_0188",
     "madre": "dog0487",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0401.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_0402",
@@ -9516,9 +9519,15 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0438",
     "madre": "auto_0523",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0495.jpg",
+      "images/auto_0495_2.jpg",
+      "images/auto_0495_3.jpg",
+      "images/auto_0495_4.jpg",
+      "images/auto_0495_5.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_0496",
