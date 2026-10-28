@@ -222763,8 +222763,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/auto_14076.jpg"
+    ],
+    "lastModified": "2026-10-28",
     "note_en": "Taken from Tajikistan."
   },
   {
