@@ -43103,7 +43103,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2816",
     "madre": "auto_2818",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2817.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_2819",
