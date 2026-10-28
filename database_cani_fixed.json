@@ -182888,22 +182888,6 @@
     "foto_list": []
   },
   {
-    "id": "auto_11570",
-    "sesso": "F",
-    "name": "SHAHRIYAR SUMRUNG GUSH",
-    "allevatore": "N. SAMSONOVA",
-    "proprietario": "N. SAMSONOVA",
-    "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
-    "birth": "1999-08-19",
-    "note": "",
-    "colore": "BLACK WITH WHITE AND REDDISH",
-    "padre": "auto_2594",
-    "madre": "auto_3020",
-    "foto_list": []
-  },
-  {
     "id": "auto_11571",
     "sesso": "F",
     "name": "SHAHRIYAR AK AYMA",
@@ -182916,8 +182900,9 @@
     "note": "",
     "colore": "WHITE",
     "padre": "auto_6824",
-    "madre": "auto_11570",
-    "foto_list": []
+    "madre": "auto_14217",
+    "foto_list": [],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_11572",
@@ -225355,6 +225340,29 @@
       "images/auto_14217_3.jpg",
       "images/auto_14217_4.jpg",
       "images/auto_14217_5.jpg"
+    ],
+    "lastModified": "2026-10-28"
+  },
+  {
+    "id": "auto_14218",
+    "sesso": "M",
+    "name": "SHAHRIYAR ASMAN",
+    "allevatore": "N. SAMSONOVA",
+    "proprietario": "N. SAMSONOVA",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF R 1797055",
+    "birth": "2004-11-08",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_6824",
+    "madre": "auto_14217",
+    "foto_list": [
+      "images/auto_14218.jpg",
+      "images/auto_14218_2.jpg",
+      "images/auto_14218_3.jpg",
+      "images/auto_14218_4.jpg",
+      "images/auto_14218_5.jpg"
     ],
     "lastModified": "2026-10-28"
   }
