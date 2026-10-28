@@ -53637,7 +53637,13 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0019",
     "madre": "auto_0020",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3471.jpg",
+      "images/auto_3471_2.jpg",
+      "images/auto_3471_3.jpg",
+      "images/auto_3471_4.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_3472",
