@@ -4756,7 +4756,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0241",
     "madre": "auto_0242",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0245.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_0246",
@@ -70241,7 +70244,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3874",
     "madre": "auto_3595",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4526.jpg",
+      "images/auto_4526_2.jpg",
+      "images/auto_4526_3.jpg",
+      "images/auto_4526_4.jpg",
+      "images/auto_4526_5.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_4527",
@@ -225170,5 +225180,27 @@
       "images/auto_14213_5.jpg"
     ],
     "lastModified": "2026-10-27"
+  },
+  {
+    "id": "auto_14214",
+    "sesso": "M",
+    "name": "ABORIGEN NUKER",
+    "allevatore": "KENNEL \"ABORIGEN\"",
+    "proprietario": "KENNEL \"ABORIGEN\"",
+    "paese": "UKRAINE",
+    "colore": "TIGER STRIPES WITH WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_0497",
+    "madre": "auto_3678",
+    "foto_list": [
+      "images/auto_14214.jpg",
+      "images/auto_14214_2.jpg",
+      "images/auto_14214_3.jpg",
+      "images/auto_14214_4.jpg"
+    ],
+    "lastModified": "2026-10-28"
   }
 ]
