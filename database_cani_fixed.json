@@ -290,15 +290,18 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 1264109",
     "birth": "2006-11-01",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "FAWN WITH WHITE",
     "padre": "auto_0019",
     "madre": "auto_0020",
     "foto_list": [
       "images/auto_0015.jpg",
-      "images/auto_0015_2.jpg"
+      "images/auto_0015_2.jpg",
+      "images/auto_0015_3.jpg",
+      "images/auto_0015_4.jpg",
+      "images/auto_0015_5.jpg"
     ],
-    "lastModified": "2026-10-18"
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_0016",
@@ -106701,9 +106704,13 @@
     "colore": "WHITE WITH FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_6823.jpg",
+      "images/auto_6823_2.jpg",
+      "images/auto_6823_3.jpg"
+    ],
     "note_en": "Imported from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_6824",
@@ -106719,7 +106726,13 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_6823",
     "madre": "auto_2185",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6824.jpg",
+      "images/auto_6824_2.jpg",
+      "images/auto_6824_3.jpg",
+      "images/auto_6824_4.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_6825",
