@@ -24472,7 +24472,13 @@
     "colore": "WHITE WITH BLACK",
     "padre": "dog0710",
     "madre": "dog1594",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1595.jpg",
+      "images/dog1595_2.jpg",
+      "images/dog1595_3.jpg",
+      "images/dog1595_4.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_1163",
