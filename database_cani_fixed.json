@@ -225334,5 +225334,28 @@
       "images/auto_14216_5.jpg"
     ],
     "lastModified": "2026-10-28"
+  },
+  {
+    "id": "auto_14217",
+    "sesso": "F",
+    "name": "SHAHRIYAR SURMUNG-GUSH",
+    "allevatore": "N. SAMSONOVA",
+    "proprietario": "N. SAMSONOVA",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 1409586",
+    "birth": "2002-11-08",
+    "note": "",
+    "padre": "auto_2594",
+    "madre": "auto_14216",
+    "foto_list": [
+      "images/auto_14217.jpg",
+      "images/auto_14217_2.jpg",
+      "images/auto_14217_3.jpg",
+      "images/auto_14217_4.jpg",
+      "images/auto_14217_5.jpg"
+    ],
+    "lastModified": "2026-10-28"
   }
 ]
