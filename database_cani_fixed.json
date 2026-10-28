@@ -225311,5 +225311,28 @@
       "images/auto_14215_5.jpg"
     ],
     "lastModified": "2026-10-28"
+  },
+  {
+    "id": "auto_14216",
+    "sesso": "F",
+    "name": "SHAHRIYAR GLASHA",
+    "allevatore": "N. SAMSONOVA",
+    "proprietario": "N. SAMSONOVA",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 1136024",
+    "birth": "2000-07-15",
+    "note": "",
+    "padre": "auto_3605",
+    "madre": "auto_3020",
+    "foto_list": [
+      "images/auto_14216.jpg",
+      "images/auto_14216_2.jpg",
+      "images/auto_14216_3.jpg",
+      "images/auto_14216_4.jpg",
+      "images/auto_14216_5.jpg"
+    ],
+    "lastModified": "2026-10-28"
   }
 ]
