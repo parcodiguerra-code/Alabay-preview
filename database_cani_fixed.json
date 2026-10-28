@@ -740,7 +740,14 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0059",
     "madre": "auto_0060",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0042.jpg",
+      "images/auto_0042_2.jpg",
+      "images/auto_0042_3.jpg",
+      "images/auto_0042_4.jpg",
+      "images/auto_0042_5.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_0043",
