@@ -178916,7 +178916,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_6787",
     "madre": "auto_11303",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_11324.jpg",
+      "images/auto_11324_2.jpg",
+      "images/auto_11324_3.jpg",
+      "images/auto_11324_4.jpg",
+      "images/auto_11324_5.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_11325",
