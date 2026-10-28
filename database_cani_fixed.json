@@ -104746,7 +104746,7 @@
   {
     "id": "auto_6704",
     "sesso": "M",
-    "name": "ABBAS-SHARHAZ KLOVI",
+    "name": "ABBAS-SHAHRAZ KLOVI",
     "allevatore": "E. CHUTKOVA",
     "proprietario": "A. KORNEEVA",
     "paese": "RUSSIA",
@@ -104757,7 +104757,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "dog1735",
     "madre": "auto_6702",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6704.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_6706",
