@@ -153569,7 +153569,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_8671",
     "madre": "auto_9189",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9726.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_9727",
