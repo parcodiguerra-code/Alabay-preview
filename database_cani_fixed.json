@@ -153748,7 +153748,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_9618",
     "madre": "auto_9339",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9736.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_9737",
@@ -153764,7 +153767,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9618",
     "madre": "auto_9339",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9737.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_9738",
@@ -153780,7 +153786,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_9618",
     "madre": "auto_9339",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9738.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_9739",
