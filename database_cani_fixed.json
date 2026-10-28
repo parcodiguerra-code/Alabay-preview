@@ -51062,7 +51062,10 @@
     "colore": "DARK FAWN WITH WHITE",
     "padre": "auto_3301",
     "madre": "auto_3307",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3309.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_3310",
