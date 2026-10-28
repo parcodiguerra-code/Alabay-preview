@@ -153622,7 +153622,7 @@
   {
     "id": "auto_9730",
     "sesso": "F",
-    "name": "SALYUPDA (ow. Novikov)",
+    "name": "SALYURDA (ow. Novikov)",
     "allevatore": "S. NONIKOV",
     "proprietario": "S. NOVIKOV",
     "paese": "RUSSIA",
@@ -153633,7 +153633,8 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_8671",
     "madre": "auto_9189",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_9731",
