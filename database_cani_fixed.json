@@ -179067,7 +179067,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_11298",
     "madre": "auto_11323",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_11334.jpg",
+      "images/auto_11334_2.jpg",
+      "images/auto_11334_3.jpg",
+      "images/auto_11334_4.jpg",
+      "images/auto_11334_5.jpg"
+    ],
+    "lastModified": "2026-10-28"
   },
   {
     "id": "auto_11335",
