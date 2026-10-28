@@ -225288,5 +225288,28 @@
       "images/auto_14214_4.jpg"
     ],
     "lastModified": "2026-10-28"
+  },
+  {
+    "id": "auto_14215",
+    "sesso": "F",
+    "name": "FARGANA (ow. Shantseva)",
+    "allevatore": "T. BOBROVA",
+    "proprietario": "I. SHANTSEVA",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 1458826",
+    "birth": "2003-01-31",
+    "note": "",
+    "padre": "auto_4447",
+    "madre": "auto_3558",
+    "foto_list": [
+      "images/auto_14215.jpg",
+      "images/auto_14215_2.jpg",
+      "images/auto_14215_3.jpg",
+      "images/auto_14215_4.jpg",
+      "images/auto_14215_5.jpg"
+    ],
+    "lastModified": "2026-10-28"
   }
 ]
