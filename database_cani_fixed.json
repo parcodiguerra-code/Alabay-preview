@@ -71080,9 +71080,10 @@
     "padre": "auto_0407",
     "madre": "auto_4571",
     "foto_list": [
-      "images/auto_4570.jpg"
+      "images/auto_4570.jpg",
+      "images/auto_4570_2.jpg"
     ],
-    "lastModified": "2026-10-20"
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_4572",
