@@ -39192,7 +39192,13 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1403",
     "madre": "auto_0619",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2563.jpg",
+      "images/auto_2563_2.jpg",
+      "images/auto_2563_3.jpg",
+      "images/auto_2563_4.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_2564",
@@ -53546,7 +53552,12 @@
     "colore": "FAWN AND WHITE",
     "padre": "auto_0019",
     "madre": "auto_0020",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3462.jpg",
+      "images/auto_3462_2.jpg",
+      "images/auto_3462_3.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_3463",
