@@ -7886,7 +7886,14 @@
     "colore": "WHITE AND FAWN",
     "padre": "auto_0408",
     "madre": "auto_0034",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0407.jpg",
+      "images/auto_0407_2.jpg",
+      "images/auto_0407_3.jpg",
+      "images/auto_0407_4.jpg",
+      "images/auto_0407_5.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_0408",
