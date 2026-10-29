@@ -3709,7 +3709,10 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0185",
-    "foto_list": []
+    "foto_list": [
+      "images/dog0240.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_0186",
@@ -3725,7 +3728,10 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0185",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0186.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_0187",
