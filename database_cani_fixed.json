@@ -225436,5 +225436,25 @@
       "images/auto_14218_5.jpg"
     ],
     "lastModified": "2026-10-28"
+  },
+  {
+    "id": "auto_14219",
+    "sesso": "F",
+    "name": "DOVLET BERKLIK",
+    "allevatore": "V. BOGDAN",
+    "proprietario": "V. BOGDAN",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2006-11-01",
+    "note": "",
+    "colore": "WHITE WITH FAWN",
+    "padre": "auto_0019",
+    "madre": "auto_0020",
+    "foto_list": [
+      "images/auto_14219.jpg",
+      "images/auto_14219_2.jpg"
+    ],
+    "lastModified": "2026-10-29"
   }
 ]
