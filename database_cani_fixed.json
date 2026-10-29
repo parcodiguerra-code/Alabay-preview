@@ -105425,7 +105425,7 @@
     "sesso": "M",
     "name": "AFI-KAYDAR OMON",
     "allevatore": "A. KRISHTOPIN",
-    "proprietario": "M. BOZICEVIC",
+    "proprietario": "M. JANKOVIC",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 1413394",
@@ -225506,6 +225506,43 @@
     "madre": "auto_3358",
     "foto_list": [
       "images/auto_14221.jpg"
+    ],
+    "lastModified": "2026-10-29"
+  },
+  {
+    "id": "auto_14222",
+    "sesso": "M",
+    "name": "PERENLI TAHMET",
+    "allevatore": "G. NEZHINSKIY",
+    "proprietario": "",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH BLACK",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2016-04-22",
+    "note": "",
+    "padre": "auto_12638",
+    "madre": "auto_14220",
+    "foto_list": [],
+    "lastModified": "2026-10-29"
+  },
+  {
+    "id": "auto_14223",
+    "sesso": "M",
+    "name": "FABUR MAKO-L-ALA",
+    "allevatore": "M. JANKOVIC",
+    "proprietario": "M. JANKOVIC",
+    "paese": "SLOVAKIA",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "SPKP 6389/09",
+    "birth": "2006-11-15",
+    "note": "",
+    "padre": "auto_6741",
+    "madre": "auto_14221",
+    "foto_list": [
+      "images/auto_14223.jpg",
+      "images/auto_14223_2.jpg"
     ],
     "lastModified": "2026-10-29"
   }
