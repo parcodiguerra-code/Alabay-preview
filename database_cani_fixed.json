@@ -21618,9 +21618,12 @@
     "colore": "DARK FAWN WITH WHITE",
     "padre": "auto_0987",
     "madre": "auto_0953",
-    "foto_list": [],
+    "foto_list": [
+      "images/dog1403.jpg",
+      "images/dog1403_2.jpg"
+    ],
     "note_en": "Long-time enthusiasts of the breed claim that this female has blood of German Shepherd Dog (VEO - Vostochno Evropejskaya Ovcharka).",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_1040",
@@ -28180,7 +28183,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0974",
     "madre": "auto_0979",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1295.jpg",
+      "images/auto_1295_2.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_1296",
@@ -28196,7 +28203,14 @@
     "colore": "REDDISH WITH WHITE AND BLACK",
     "padre": "auto_0974",
     "madre": "auto_0979",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1296.jpg",
+      "images/auto_1296_2.jpg",
+      "images/auto_1296_3.jpg",
+      "images/auto_1296_4.jpg",
+      "images/auto_1296_5.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_1297",
@@ -28212,7 +28226,14 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_0974",
     "madre": "auto_0979",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1297.jpg",
+      "images/auto_1297_2.jpg",
+      "images/auto_1297_3.jpg",
+      "images/auto_1297_4.jpg",
+      "images/auto_1297_5.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_1298",
@@ -28531,7 +28552,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_0542",
     "madre": "auto_2591",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1861_n.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_1312",
@@ -28547,7 +28571,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_0542",
     "madre": "auto_2591",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1312.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "dog1863",
@@ -144120,7 +144147,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_0542",
     "madre": "auto_2591",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9174.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_9175",
