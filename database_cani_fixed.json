@@ -225467,5 +225467,22 @@
       "images/auto_14219_2.jpg"
     ],
     "lastModified": "2026-10-29"
+  },
+  {
+    "id": "auto_14220",
+    "sesso": "F",
+    "name": "PERENLI PURGA",
+    "allevatore": "T. SIMAKOVA",
+    "proprietario": "G. NEZHINSKIY",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2014-10-11",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_5885",
+    "madre": "auto_4704",
+    "foto_list": [],
+    "lastModified": "2026-10-29"
   }
 ]
