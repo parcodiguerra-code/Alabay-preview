@@ -225489,5 +225489,24 @@
     "madre": "auto_4704",
     "foto_list": [],
     "lastModified": "2026-10-29"
+  },
+  {
+    "id": "auto_14221",
+    "sesso": "F",
+    "name": "IDZHA IZ KONVOYA NA SUGUTKE",
+    "allevatore": "A. ARSENTYEV",
+    "proprietario": "M. JANKOVIC",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "RKF 1266387",
+    "birth": "2002-01-31",
+    "note": "",
+    "colore": "ORANGE WITH WHITE",
+    "padre": "auto_2792",
+    "madre": "auto_3358",
+    "foto_list": [
+      "images/auto_14221.jpg"
+    ],
+    "lastModified": "2026-10-29"
   }
 ]
