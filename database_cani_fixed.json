@@ -205618,7 +205618,14 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_12638",
     "madre": "auto_4704",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_12997.jpg",
+      "images/auto_12997_2.jpg",
+      "images/auto_12997_3.jpg",
+      "images/auto_12997_4.jpg",
+      "images/auto_12997_5.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_12998",
