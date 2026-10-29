@@ -19529,7 +19529,14 @@
     "colore": "WHITE WITH REDDISH AND BLACK",
     "padre": "auto_0974",
     "madre": "auto_0979",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0945.jpg",
+      "images/auto_0945_2.jpg",
+      "images/auto_0945_3.jpg",
+      "images/auto_0945_4.jpg",
+      "images/auto_0945_5.jpg"
+    ],
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_0946",
