@@ -225553,5 +225553,27 @@
       "images/auto_14223_2.jpg"
     ],
     "lastModified": "2026-10-29"
+  },
+  {
+    "id": "auto_14224",
+    "sesso": "M",
+    "name": "KUVAT (ow. Patinskiy)",
+    "allevatore": "M. VYSOCHANSKIY",
+    "proprietario": "B. PATINSKIY",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH TIGER STRIPES",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2017-11-23",
+    "note": "",
+    "padre": "auto_5941",
+    "madre": "auto_5844",
+    "foto_list": [
+      "images/auto_14224.jpg",
+      "images/auto_14224_2.jpg",
+      "images/auto_14224_3.jpg",
+      "images/auto_14224_4.jpg"
+    ],
+    "lastModified": "2026-10-29"
   }
 ]
