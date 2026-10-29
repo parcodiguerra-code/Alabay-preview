@@ -259,10 +259,13 @@
     "padre": "auto_0015",
     "madre": "auto_0016",
     "foto_list": [
+      "images/auto_0013.jpg",
       "images/auto_0013_2.jpg",
-      "images/auto_0013.jpg"
+      "images/auto_0013_3.jpg",
+      "images/auto_0013_4.jpg",
+      "images/auto_0013_5.jpg"
     ],
-    "lastModified": "2026-10-14"
+    "lastModified": "2026-10-29"
   },
   {
     "id": "auto_0014",
