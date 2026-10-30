@@ -594,9 +594,9 @@
     "proprietario": "I. GOROHOV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF P 00080003",
+    "pedigree": "RKF R 0080003",
     "birth": "1992-11-18",
-    "note": "Esportato dal Turkmenistan.",
+    "note": "Preso in Turkmenistan.",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0050",
     "madre": "auto_0051",
@@ -607,7 +607,7 @@
       "images/auto_0033_4.jpg",
       "images/auto_0033_5.jpg"
     ],
-    "note_en": "Exported from Turkmenistan.",
+    "note_en": "Taken from Turkmenistan.",
     "lastModified": "2026-10-30"
   },
   {
