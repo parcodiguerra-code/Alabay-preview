@@ -203092,9 +203092,15 @@
     "colore": "TIGER STRIPES",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_12834.jpg",
+      "images/auto_12834_2.jpg",
+      "images/auto_12834_3.jpg",
+      "images/auto_12834_4.jpg",
+      "images/auto_12834_5.jpg"
+    ],
     "note_en": "Taken from Afghanistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-30"
   },
   {
     "id": "auto_12835",
