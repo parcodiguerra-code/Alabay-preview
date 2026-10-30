@@ -40677,7 +40677,14 @@
     "colore": "WHITE",
     "padre": "auto_0053",
     "madre": "auto_2652",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2654.jpg",
+      "images/auto_2654_2.jpg",
+      "images/auto_2654_3.jpg",
+      "images/auto_2654_4.jpg",
+      "images/auto_2654_5.jpg"
+    ],
+    "lastModified": "2026-10-30"
   },
   {
     "id": "auto_2655",
