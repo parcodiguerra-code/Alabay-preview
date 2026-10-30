@@ -600,9 +600,15 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0050",
     "madre": "auto_0051",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0033.jpg",
+      "images/auto_0033_2.jpg",
+      "images/auto_0033_3.jpg",
+      "images/auto_0033_4.jpg",
+      "images/auto_0033_5.jpg"
+    ],
     "note_en": "Exported from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-30"
   },
   {
     "id": "auto_0034",
