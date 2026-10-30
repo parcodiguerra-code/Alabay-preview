@@ -915,7 +915,7 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF R 0007795",
     "birth": "1993-07-27",
-    "note": "",
+    "note": "Preso in Turkmenistan.",
     "colore": "WHITE",
     "padre": "auto_0053",
     "madre": "auto_0054",
@@ -926,7 +926,12 @@
       "images/auto_0052_4.jpg",
       "images/auto_0052_5.jpg"
     ],
-    "lastModified": "2026-10-30"
+    "lastModified": "2026-10-30",
+    "verifica": {
+      "data": "2026-10-30",
+      "note": ""
+    },
+    "note_en": "Taken from Turkmenistan."
   },
   {
     "id": "auto_0053",
@@ -949,16 +954,17 @@
     "sesso": "F",
     "name": "TOGOLOK (ow. Saparov)",
     "allevatore": "G. KYARIZOV",
-    "proprietario": "G. SAPAROV",
+    "proprietario": "G. SAPAROV - K. KYARIZOV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 0000970",
     "birth": "1984-01-01",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "WHITE",
     "padre": "auto_0055",
     "madre": "auto_0093",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-30"
   },
   {
     "id": "auto_0055",
