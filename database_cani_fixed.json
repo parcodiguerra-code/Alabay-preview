@@ -919,7 +919,14 @@
     "colore": "WHITE",
     "padre": "auto_0053",
     "madre": "auto_0054",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0052.jpg",
+      "images/auto_0052_2.jpg",
+      "images/auto_0052_3.jpg",
+      "images/auto_0052_4.jpg",
+      "images/auto_0052_5.jpg"
+    ],
+    "lastModified": "2026-10-30"
   },
   {
     "id": "auto_0053",
