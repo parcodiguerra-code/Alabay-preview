@@ -12666,18 +12666,25 @@
   {
     "id": "auto_0660",
     "sesso": "M",
-    "name": "AKELA (ow. Kyarizov)",
+    "name": "AKELA I (ow. Kyarizov)",
     "allevatore": "G. KYARIZOV",
     "proprietario": "G. KYARIZOV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
+    "birth": "1982-01-01",
+    "note": "",
     "colore": "WHITE WITH GREY",
     "padre": "auto_0055",
     "madre": "auto_0082",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0660.jpg",
+      "images/auto_0660_2.jpg",
+      "images/auto_0660_3.jpg",
+      "images/auto_0660_4.jpg",
+      "images/auto_0660_5.jpg"
+    ],
+    "lastModified": "2026-10-30"
   },
   {
     "id": "dog0812",
