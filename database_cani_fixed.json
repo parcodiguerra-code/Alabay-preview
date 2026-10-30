@@ -1963,7 +1963,14 @@
     "colore": "REDDISH WITH SPOTS",
     "padre": "auto_0415",
     "madre": "auto_0065",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0100.jpg",
+      "images/auto_0100_2.jpg",
+      "images/auto_0100_3.jpg",
+      "images/auto_0100_4.jpg",
+      "images/auto_0100_5.jpg"
+    ],
+    "lastModified": "2026-10-30"
   },
   {
     "id": "dog0124",
