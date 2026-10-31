@@ -21495,7 +21495,11 @@
     "colore": "WHITE",
     "padre": "auto_0818",
     "madre": "dog1295",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1391.jpg",
+      "images/dog1391_2.jpg"
+    ],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_1033",
