@@ -105657,8 +105657,8 @@
     "birth": "1998-10-19",
     "note": "",
     "colore": "REDDISH WITH WHITE",
-    "padre": "auto_6748",
-    "madre": "auto_6747",
+    "padre": "auto_6747",
+    "madre": "auto_6748",
     "foto_list": [],
     "lastModified": "2026-10-31"
   },
@@ -105677,7 +105677,8 @@
     "padre": "auto_6748",
     "madre": "auto_6747",
     "foto_list": [
-      "images/auto_6750.jpg"
+      "images/auto_6750.jpg",
+      "images/auto_6750_2.jpg"
     ],
     "lastModified": "2026-10-31"
   },
