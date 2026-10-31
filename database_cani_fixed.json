@@ -97350,7 +97350,14 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_6221",
     "madre": "auto_4936",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6222.jpg",
+      "images/auto_6222_2.jpg",
+      "images/auto_6222_3.jpg",
+      "images/auto_6222_4.jpg",
+      "images/auto_6222_5.jpg"
+    ],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_6224",
