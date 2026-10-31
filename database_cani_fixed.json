@@ -9818,9 +9818,13 @@
     "colore": "BROWNISH",
     "padre": "auto_0510",
     "madre": "auto_1268",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0507.jpg",
+      "images/auto_0507_2.jpg",
+      "images/auto_0507_3.jpg"
+    ],
     "note_en": "This male has Caucasian Shepherd and Great Dane blood on his father’s side, whilst his mother’s origins are unknown.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_0508",
