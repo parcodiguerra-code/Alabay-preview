@@ -83362,7 +83362,12 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5323",
     "madre": "auto_4203",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5338.jpg",
+      "images/auto_5338_2.jpg",
+      "images/auto_5338_3.jpg"
+    ],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_5339",
@@ -83746,7 +83751,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_5338",
     "madre": "auto_5344",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5361.jpg",
+      "images/auto_5361_2.jpg",
+      "images/auto_5361_3.jpg",
+      "images/auto_5361_4.jpg",
+      "images/auto_5361_5.jpg"
+    ],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_5362",
