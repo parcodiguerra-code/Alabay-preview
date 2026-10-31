@@ -105608,7 +105608,7 @@
     "allevatore": "",
     "proprietario": "KENNEL \"RUSSKAYA LEGENDA\" - KENNEL \"ORTODOKS KONVENT\"",
     "paese": "TURKMENISTAN",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1993-11-12",
     "note": "Presa in Turkmenistan.",
@@ -105647,14 +105647,15 @@
     "allevatore": "KENNEL \"ORTODOKS KONVENT\"",
     "proprietario": "KENNEL \"ORTODOKS KONVENT\"",
     "paese": "RUSSIA",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1998-10-19",
     "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_6748",
     "madre": "auto_6747",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_6750",
@@ -105663,7 +105664,7 @@
     "allevatore": "KENNEL \"ORTODOKS KONVENT\"",
     "proprietario": "KENNEL \"ORTODOKS KONVENT\"",
     "paese": "RUSSIA",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 0018057",
     "birth": "1998-10-19",
     "note": "",
@@ -108583,14 +108584,15 @@
     "allevatore": "KENNEL \"ORTODOKS KONVENT\"",
     "proprietario": "KENNEL \"ORTODOKS KONVENT\"",
     "paese": "RUSSIA",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF R 1183390",
     "birth": "2001-05-24",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_6935",
     "madre": "auto_6750",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_6937",
@@ -160346,14 +160348,15 @@
     "allevatore": "KENNEL \"ORTODOKS KONVENT\"",
     "proprietario": "KENNEL \"ORTODOKS KONVENT\"",
     "paese": "RUSSIA",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 1183387",
     "birth": "2001-05-24",
     "note": "",
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_6935",
     "madre": "auto_6750",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_10138",
@@ -183175,14 +183178,15 @@
     "allevatore": "KENNEL \"ORTODOKS KONVENT\"",
     "proprietario": "KENNEL \"ORTODOKS KONVENT\"",
     "paese": "RUSSIA",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2001-05-24",
     "note": "",
     "colore": "ORANGE WITH WHITE",
     "padre": "auto_6935",
     "madre": "auto_6750",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_11579",
@@ -225667,31 +225671,33 @@
     "sesso": "M",
     "name": "BEKER (ow. Nazbaev)",
     "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
+    "proprietario": "H. NAZBAEV",
+    "paese": "TURKMENISTAN",
+    "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
+    "note": "",
     "colore": "",
-    "note": "[Creato automaticamente]",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_14226",
     "sesso": "F",
     "name": "ZAIRA (ow. Aslamurzaev)",
     "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
+    "proprietario": "T. ASLAMURZAEV",
+    "paese": "TURKMENISTAN",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
+    "note": "",
     "colore": "",
-    "note": "[Creato automaticamente]",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-10-31"
   }
 ]
