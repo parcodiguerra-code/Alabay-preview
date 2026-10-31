@@ -12766,9 +12766,12 @@
     "madre": "auto_0093",
     "foto_list": [
       "images/dog0814.jpg",
-      "images/dog0814_2.jpg"
+      "images/dog0814_2.jpg",
+      "images/dog0814_3.jpg",
+      "images/dog0814_4.jpg",
+      "images/dog0814_5.jpg"
     ],
-    "lastModified": "2026-10-24"
+    "lastModified": "2026-10-31"
   },
   {
     "id": "dog0815",
@@ -34619,9 +34622,11 @@
     "foto_list": [
       "images/auto_2254.jpg",
       "images/auto_2254_2.jpg",
-      "images/auto_2254_3.jpg"
+      "images/auto_2254_3.jpg",
+      "images/auto_2254_4.jpg",
+      "images/auto_2254_5.jpg"
     ],
-    "lastModified": "2026-10-21",
+    "lastModified": "2026-10-31",
     "note_en": "Taken from Tajikistan (Pamir Region)."
   },
   {
@@ -105495,7 +105500,7 @@
     "sesso": "M",
     "name": "AFI-KAYDAR OMON",
     "allevatore": "A. KRISHTOPIN",
-    "proprietario": "M. JANKOVIC",
+    "proprietario": "M. JANKOVIC - A. CEKO",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 1413394",
