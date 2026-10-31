@@ -105613,13 +105613,14 @@
     "birth": "1993-11-12",
     "note": "Presa in Turkmenistan.",
     "colore": "TIGER STRIPES WITH WHITE",
-    "padre": "",
-    "madre": "",
+    "padre": "auto_14225",
+    "madre": "auto_14226",
     "foto_list": [
-      "images/auto_6747.jpg"
+      "images/auto_6747.jpg",
+      "images/auto_6747_2.jpg"
     ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-24"
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_6748",
@@ -225660,5 +225661,37 @@
       "images/auto_14224_4.jpg"
     ],
     "lastModified": "2026-10-29"
+  },
+  {
+    "id": "auto_14225",
+    "sesso": "M",
+    "name": "BEKER (ow. Nazbaev)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
+  },
+  {
+    "id": "auto_14226",
+    "sesso": "F",
+    "name": "ZAIRA (ow. Aslamurzaev)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
   }
 ]
