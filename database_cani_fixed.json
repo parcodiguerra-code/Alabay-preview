@@ -12441,7 +12441,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0458",
     "madre": "dog0730",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0652.jpg"
+    ],
+    "lastModified": "2026-10-31"
   },
   {
     "id": "auto_0653",
