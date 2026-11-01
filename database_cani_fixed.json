@@ -1868,9 +1868,10 @@
     "padre": "auto_0013",
     "madre": "dog0116",
     "foto_list": [
-      "images/dog0117.jpg"
+      "images/dog0117.jpg",
+      "images/dog0117_2.jpg"
     ],
-    "lastModified": "2026-10-30"
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_0097",
