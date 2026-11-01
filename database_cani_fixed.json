@@ -51069,7 +51069,11 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2495",
     "madre": "dog0959",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3299.jpg",
+      "images/auto_3299_2.jpg"
+    ],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_3300",
