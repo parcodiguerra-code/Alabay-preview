@@ -53616,7 +53616,14 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0019",
     "madre": "auto_0024",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3460.jpg",
+      "images/auto_3460_2.jpg",
+      "images/auto_3460_3.jpg",
+      "images/auto_3460_4.jpg",
+      "images/auto_3460_5.jpg"
+    ],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_3461",
