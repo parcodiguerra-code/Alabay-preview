@@ -503,7 +503,14 @@
     "colore": "WHITE",
     "padre": "auto_0029",
     "madre": "auto_0030",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0027.jpg",
+      "images/auto_0027_2.jpg",
+      "images/auto_0027_3.jpg",
+      "images/auto_0027_4.jpg",
+      "images/auto_0027_5.jpg"
+    ],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_0028",
