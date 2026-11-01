@@ -20,6 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # cronologia completa: serve per le date delle foto (foto_date.json)
+          filter: blob:none     # senza scaricare le vecchie versioni dei file
       - uses: actions/setup-node@v4
         with:
           node-version: 20
