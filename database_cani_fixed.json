@@ -18050,7 +18050,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_7076",
     "madre": "auto_0888",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1161.jpg",
+      "images/dog1161_2.jpg",
+      "images/dog1161_3.jpg",
+      "images/dog1161_4.jpg",
+      "images/dog1161_5.jpg"
+    ],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_0893",
