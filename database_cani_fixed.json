@@ -16285,9 +16285,9 @@
   {
     "id": "auto_0812",
     "sesso": "M",
-    "name": "DEKHAN (ow. Turkmenistan)",
+    "name": "DEKHAN (Turkmenistan)",
     "allevatore": "",
-    "proprietario": "TURKMENISTAN",
+    "proprietario": "",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -16296,7 +16296,8 @@
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_0813",
