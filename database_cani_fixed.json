@@ -75000,7 +75000,11 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_4810",
     "madre": "auto_3184",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4813.jpg",
+      "images/auto_4813_2.jpg"
+    ],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_4814",
