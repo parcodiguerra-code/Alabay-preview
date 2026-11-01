@@ -224613,15 +224613,18 @@
     "allevatore": "",
     "proprietario": "",
     "paese": "RUSSIA",
-    "colore": "WHITE WITH ORANGE",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "JR 70483 SRO",
     "birth": "",
     "note": "",
+    "colore": "WHITE WITH ORANGE",
     "padre": "dog0124",
     "madre": "auto_14163",
-    "foto_list": [],
-    "lastModified": "2026-10-20"
+    "foto_list": [
+      "images/auto_14164.jpg",
+      "images/auto_14164_2.jpg"
+    ],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_14165",
