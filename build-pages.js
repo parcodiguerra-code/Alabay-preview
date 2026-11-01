@@ -257,4 +257,22 @@ if(SITE){
   fs.writeFileSync(path.join(OUT,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>'+esc(SITE)+'</loc><lastmod>'+now+'</lastmod></url>\n'+urls.map(u=>'<url><loc>'+esc(u)+'</loc></url>').join('\n')+'\n</urlset>\n');
   fs.writeFileSync(path.join(OUT,'robots.txt'),'User-agent: *\nAllow: /\nSitemap: '+SITE+'sitemap.xml\n');
 }
+/* ── 01/11/2026: data di caricamento delle foto (dalla cronologia di GitHub) → foto_date.json
+   { "<codice cane>": "AAAA-MM-GGTHH:MM" } = quando è stata caricata la sua foto più recente.
+   Serve alla Home ("Ultime foto inserite"). Richiede la cronologia completa (fetch-depth: 0 in pages.yml):
+   se la copia è "corta" il file non viene scritto e la Home mostra gli ultimi cani inseriti con foto. */
+try{
+  const cp=require('child_process');
+  const shallow=cp.execSync('git rev-parse --is-shallow-repository',{cwd:ROOT}).toString().trim()==='true';
+  if(shallow) throw new Error('cronologia incompleta (shallow)');
+  const log=cp.execSync('git log --diff-filter=A --name-only --format=@@%aI -- images/',{cwd:ROOT,maxBuffer:64*1024*1024}).toString();
+  const added=new Map(); let cur='';
+  for(const l of log.split('\n')){ const t=l.trim(); if(!t) continue; if(t.startsWith('@@')) cur=t.slice(2); else if(!added.has(t)) added.set(t,cur); }
+  const fd={}; let nf=0;
+  for(const r of DB){ const fl=Array.isArray(r.foto_list)?r.foto_list:[]; let best='';
+    for(const f of fl){ const k=String(f||'').replace(/^\.?\//,''); const d=added.get(k); if(d&&new Date(d)>new Date(best||0)) best=d; }
+    if(best){ fd[r.id]=new Date(best).toISOString().slice(0,16); nf++; } }
+  fs.writeFileSync(path.join(OUT,'foto_date.json'),JSON.stringify(fd));
+  console.log('Date delle foto:',nf,'cani');
+}catch(e){ console.log('Date delle foto non create:',e.message); }
 console.log('Pagine create:',pages,'· indice A–Z:',LK.length,'· sito:',SITE||'(indirizzo non indicato)','· tempo',Date.now()-t0,'ms');
