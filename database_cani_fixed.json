@@ -178684,7 +178684,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_6741",
     "madre": "auto_11294",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_11291.jpg"
+    ],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_11292",
