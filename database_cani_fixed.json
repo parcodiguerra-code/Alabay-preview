@@ -105638,7 +105638,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1391",
     "madre": "auto_6744",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6745.jpg",
+      "images/auto_6745_2.jpg"
+    ],
+    "lastModified": "2026-11-01"
   },
   {
     "id": "auto_6746",
