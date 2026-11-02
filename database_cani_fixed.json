@@ -247,7 +247,7 @@
   {
     "id": "auto_0013",
     "sesso": "M",
-    "name": "E-APPAK AK ESGER (ow. Kennel \"Del Parco Di Guerra\")",
+    "name": "E-APPAK AK EZGER (ow. Kennel \"Del Parco Di Guerra\")",
     "allevatore": "H. KOSTADINOV",
     "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
     "paese": "BULGARIA",
@@ -260,12 +260,16 @@
     "madre": "auto_0016",
     "foto_list": [
       "images/auto_0013.jpg",
-      "images/auto_0013_2.jpg",
       "images/auto_0013_3.jpg",
       "images/auto_0013_4.jpg",
-      "images/auto_0013_5.jpg"
+      "images/auto_0013_5.jpg",
+      "images/auto_0013_2.jpg"
     ],
-    "lastModified": "2026-11-01"
+    "lastModified": "2026-11-02",
+    "verifica": {
+      "data": "2026-11-02",
+      "note": ""
+    }
   },
   {
     "id": "auto_0014",
