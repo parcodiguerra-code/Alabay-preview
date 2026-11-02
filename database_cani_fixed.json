@@ -3659,7 +3659,8 @@
     "madre": "dog0227",
     "foto_list": [
       "images/auto_0180.jpg",
-      "images/auto_0180_2.jpg"
+      "images/auto_0180_2.jpg",
+      "images/auto_0180_3.jpg"
     ],
     "lastModified": "2026-11-02"
   },
@@ -70814,9 +70815,10 @@
     "padre": "auto_4543",
     "madre": "auto_4537",
     "foto_list": [
-      "images/auto_4544.jpg"
+      "images/auto_4544.jpg",
+      "images/auto_4544_2.jpg"
     ],
-    "lastModified": "2026-10-23"
+    "lastModified": "2026-11-02"
   },
   {
     "id": "auto_4545",
