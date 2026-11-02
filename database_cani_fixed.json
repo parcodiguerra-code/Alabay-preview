@@ -172894,7 +172894,10 @@
     "colore": "BLACK WITH WHITE AND FAWN",
     "padre": "auto_7154",
     "madre": "auto_1419",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_10923.jpg"
+    ],
+    "lastModified": "2026-11-02"
   },
   {
     "id": "auto_10924",
