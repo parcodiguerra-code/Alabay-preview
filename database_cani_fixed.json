@@ -3644,7 +3644,11 @@
     "colore": "WHITE",
     "padre": "auto_0175",
     "madre": "dog0227",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0180.jpg",
+      "images/auto_0180_2.jpg"
+    ],
+    "lastModified": "2026-11-02"
   },
   {
     "id": "dog0234",
@@ -54863,7 +54867,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0821",
     "madre": "auto_3539",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3540.jpg"
+    ],
+    "lastModified": "2026-11-02"
   },
   {
     "id": "auto_3541",
@@ -179212,7 +179219,7 @@
       "images/auto_11322_4.jpg",
       "images/auto_11322_5.jpg"
     ],
-    "lastModified": "2026-10-28"
+    "lastModified": "2026-11-02"
   },
   {
     "id": "auto_11323",
