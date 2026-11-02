@@ -1097,7 +1097,10 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0033",
     "madre": "auto_0063",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0061.jpg"
+    ],
+    "lastModified": "2026-11-02"
   },
   {
     "id": "auto_0062",
