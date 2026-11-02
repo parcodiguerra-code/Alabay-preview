@@ -16127,9 +16127,11 @@
     "foto_list": [
       "images/auto_0799.jpg",
       "images/auto_0799_2.jpg",
-      "images/auto_0799_3.jpg"
+      "images/auto_0799_3.jpg",
+      "images/auto_0799_4.jpg",
+      "images/auto_0799_5.jpg"
     ],
-    "lastModified": "2026-10-16"
+    "lastModified": "2026-11-02"
   },
   {
     "id": "auto_0800",
@@ -30219,7 +30221,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "dog1957",
     "madre": "auto_1367",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1959.jpg",
+      "images/dog1959_2.jpg",
+      "images/dog1959_3.jpg",
+      "images/dog1959_4.jpg",
+      "images/dog1959_5.jpg"
+    ],
+    "lastModified": "2026-11-02"
   },
   {
     "id": "auto_1009",
@@ -104577,7 +104586,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_6674",
     "madre": "auto_6675",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6676.jpg"
+    ],
+    "lastModified": "2026-11-02"
   },
   {
     "id": "auto_6677",
