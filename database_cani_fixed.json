@@ -224777,15 +224777,17 @@
     "allevatore": "A. KRISHTOPIN",
     "proprietario": "A. KRISHTOPIN",
     "paese": "RUSSIA",
-    "colore": "WHITE WITH LIGHT FAWN",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 1037561",
     "birth": "",
     "note": "",
+    "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_1025",
     "madre": "auto_0955",
-    "foto_list": [],
-    "lastModified": "2026-10-20"
+    "foto_list": [
+      "images/auto_14165.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_14166",
