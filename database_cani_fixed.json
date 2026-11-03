@@ -8197,7 +8197,14 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0419",
     "madre": "auto_0054",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0417.jpg",
+      "images/auto_0417_2.jpg",
+      "images/auto_0417_3.jpg",
+      "images/auto_0417_4.jpg",
+      "images/auto_0417_5.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_0418",
