@@ -846,12 +846,13 @@
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 1442766",
-    "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "birth": "2001-03-01",
+    "note": "",
     "colore": "WHITE",
     "padre": "auto_0061",
     "madre": "auto_2946",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_0048",
@@ -1086,9 +1087,10 @@
     "padre": "auto_0061",
     "madre": "auto_2946",
     "foto_list": [
-      "images/auto_0060.jpg"
+      "images/auto_0060.jpg",
+      "images/auto_0060_2.jpg"
     ],
-    "lastModified": "2026-11-02"
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_0061",
