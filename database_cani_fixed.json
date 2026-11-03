@@ -154782,7 +154782,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_8753",
     "madre": "auto_8756",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9768.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_9769",
@@ -154830,7 +154833,11 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_9319",
     "madre": "auto_9707",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9771.jpg",
+      "images/auto_9771_2.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_9772",
