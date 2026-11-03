@@ -51174,7 +51174,12 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_2385",
     "madre": "dog0962",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3298.jpg",
+      "images/auto_3298_2.jpg",
+      "images/auto_3298_3.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_3299",
