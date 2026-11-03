@@ -9520,9 +9520,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0484.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_0486",
