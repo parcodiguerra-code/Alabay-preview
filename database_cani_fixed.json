@@ -5992,7 +5992,10 @@
     "colore": "WHITE",
     "padre": "auto_3072",
     "madre": "auto_0279",
-    "foto_list": []
+    "foto_list": [
+      "images/dog0377.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_0306",
