@@ -34009,7 +34009,10 @@
     "colore": "TRICOLOURED",
     "padre": "auto_0658",
     "madre": "auto_0421",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2209.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_2210",
