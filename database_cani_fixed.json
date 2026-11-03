@@ -64105,9 +64105,11 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_4118",
     "madre": "auto_4119",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_4117.jpg"
+    ],
     "note_en": "Caucasian Champion 1986, 1987, 1988, 1989, 1990.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_4118",
