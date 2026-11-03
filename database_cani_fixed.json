@@ -57890,7 +57890,10 @@
     "colore": "WHITE WITH LIGHT ORANGE",
     "padre": "auto_3723",
     "madre": "dog1260",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3724.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_3725",
