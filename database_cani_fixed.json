@@ -7378,7 +7378,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0007",
     "madre": "auto_0017",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0377.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_0378",
@@ -57841,7 +57844,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_3038",
     "madre": "auto_3558",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3723.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_3724",
@@ -64100,9 +64106,9 @@
     "paese": "KARACHAY-CHERKESSIA",
     "tipo": "KARACHEVSKIY VOLKODAV",
     "pedigree": "",
-    "birth": "",
+    "birth": "1981-01-01",
     "note": "Campionessa del Caucaso 1986, 1987, 1988, 1989, 1990.",
-    "colore": "FAWN WITH WHITE",
+    "colore": "WHITE",
     "padre": "auto_4118",
     "madre": "auto_4119",
     "foto_list": [
