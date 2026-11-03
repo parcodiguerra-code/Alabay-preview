@@ -1122,7 +1122,10 @@
     "colore": "WHITE",
     "padre": "auto_0074",
     "madre": "auto_0078",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0062.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_0063",
@@ -1342,7 +1345,13 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog0796",
     "madre": "auto_0077",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0074.jpg",
+      "images/auto_0074_2.jpg",
+      "images/auto_0074_3.jpg",
+      "images/auto_0074_4.jpg"
+    ],
+    "lastModified": "2026-11-03"
   },
   {
     "id": "auto_0077",
