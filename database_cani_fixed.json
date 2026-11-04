@@ -144678,7 +144678,14 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_3569",
     "madre": "auto_8679",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9183.jpg",
+      "images/auto_9183_2.jpg",
+      "images/auto_9183_3.jpg",
+      "images/auto_9183_4.jpg",
+      "images/auto_9183_5.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_9184",
