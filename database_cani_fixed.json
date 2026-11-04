@@ -19560,7 +19560,10 @@
     "colore": "WHITE WITH REDDISH AND FAWN",
     "padre": "dog1251",
     "madre": "auto_0940",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1260.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "dog1262",
