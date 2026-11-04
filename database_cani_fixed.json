@@ -136367,7 +136367,14 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_4907",
     "madre": "auto_8669",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8672.jpg",
+      "images/auto_8672_2.jpg",
+      "images/auto_8672_3.jpg",
+      "images/auto_8672_4.jpg",
+      "images/auto_8672_5.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_8673",
@@ -136399,7 +136406,11 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_4907",
     "madre": "auto_8669",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8674.jpg",
+      "images/auto_8674_2.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_8675",
