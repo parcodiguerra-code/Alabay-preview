@@ -54022,7 +54022,11 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0023",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3472.jpg",
+      "images/auto_3472_2.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_3473",
