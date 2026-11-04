@@ -155220,7 +155220,11 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_9043",
     "madre": "auto_9233",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9789.jpg",
+      "images/auto_9789_2.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_9790",
@@ -155236,7 +155240,10 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_9043",
     "madre": "auto_9233",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9790.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_9791",
@@ -155284,7 +155291,10 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_1361",
     "madre": "auto_3567",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9793.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_9794",
@@ -155300,7 +155310,13 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_9773",
     "madre": "auto_9719",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9794.jpg",
+      "images/auto_9794_2.jpg",
+      "images/auto_9794_3.jpg",
+      "images/auto_9794_4.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_9795",
@@ -155316,7 +155332,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_9773",
     "madre": "auto_9719",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9795.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_9796",
