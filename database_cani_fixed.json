@@ -24335,7 +24335,13 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0067",
     "madre": "dog1575",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1153.jpg",
+      "images/auto_1153_2.jpg",
+      "images/auto_1153_3.jpg",
+      "images/auto_1153_4.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_1154",
