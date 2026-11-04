@@ -226049,5 +226049,42 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-31"
+  },
+  {
+    "id": "auto_14229",
+    "sesso": "M",
+    "name": "GUNDOGAR ITI B-AKBAY",
+    "allevatore": "V. STASEV",
+    "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
+    "paese": "BELARUS",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2011-11-05",
+    "note": "",
+    "colore": "WHITE",
+    "padre": "auto_0027",
+    "madre": "auto_0095",
+    "foto_list": [],
+    "lastModified": "2026-11-04"
+  },
+  {
+    "id": "auto_14230",
+    "sesso": "M",
+    "name": "GUNDOGAR ITI BOYNAK",
+    "allevatore": "V. STASEV",
+    "proprietario": "V. STASEV",
+    "paese": "BELARUS",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2011-11-05",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0027",
+    "madre": "auto_0095",
+    "foto_list": [
+      "images/auto_14230.jpg",
+      "images/auto_14230_2.jpg"
+    ],
+    "lastModified": "2026-11-04"
   }
 ]
