@@ -29327,7 +29327,10 @@
     "colore": "DARK GREY WITH WHITE",
     "padre": "dog1893",
     "madre": "auto_1072",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1898.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_1328",
@@ -45824,7 +45827,10 @@
     "colore": "FAWN WITH WHITE",
     "padre": "dog1893",
     "madre": "auto_1072",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2968.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_2969",
@@ -45840,7 +45846,10 @@
     "colore": "FAWN WITH WHITE",
     "padre": "dog1893",
     "madre": "auto_1072",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2969.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_2970",
