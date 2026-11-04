@@ -106772,7 +106772,7 @@
   {
     "id": "auto_6800",
     "sesso": "M",
-    "name": "FART AKMENU GELE",
+    "name": "FART AKMENU GELE, b. 2017",
     "allevatore": "A. DERUS",
     "proprietario": "E. YUZAPAVICIUS",
     "paese": "LITHUANIA",
@@ -106783,7 +106783,8 @@
     "colore": "WHITE WITH LIGHT REDDISH",
     "padre": "auto_5922",
     "madre": "auto_4924",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_6801",
@@ -226225,7 +226226,7 @@
   {
     "id": "auto_14231",
     "sesso": "M",
-    "name": "FART AKMENU GELE",
+    "name": "FART AKMENU GELE, b. 2011",
     "allevatore": "A. DERUS",
     "proprietario": "A. RAZUVAEV",
     "paese": "LITHUANIA",
