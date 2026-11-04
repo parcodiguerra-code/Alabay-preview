@@ -147392,7 +147392,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_9191",
     "madre": "auto_9046",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9341.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_9342",
@@ -154382,7 +154385,14 @@
     "colore": "BLACK WITH WHITE AND LIGHT FAWN",
     "padre": "auto_9410",
     "madre": "dog1233",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9742.jpg",
+      "images/auto_9742_2.jpg",
+      "images/auto_9742_3.jpg",
+      "images/auto_9742_4.jpg",
+      "images/auto_9742_5.jpg"
+    ],
+    "lastModified": "2026-11-04"
   },
   {
     "id": "auto_9743",
