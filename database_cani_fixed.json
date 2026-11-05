@@ -9366,7 +9366,14 @@
     "colore": "WHITE WITH BLACK",
     "padre": "dog0580",
     "madre": "auto_0433",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0473.jpg",
+      "images/auto_0473_2.jpg",
+      "images/auto_0473_3.jpg",
+      "images/auto_0473_4.jpg",
+      "images/auto_0473_5.jpg"
+    ],
+    "lastModified": "2026-11-05"
   },
   {
     "id": "auto_0474",
