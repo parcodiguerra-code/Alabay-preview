@@ -6773,7 +6773,11 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0015",
     "madre": "auto_0016",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0346.jpg",
+      "images/auto_0346_2.jpg"
+    ],
+    "lastModified": "2026-11-05"
   },
   {
     "id": "dog0425",
