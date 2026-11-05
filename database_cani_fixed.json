@@ -84029,7 +84029,14 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4528",
     "madre": "auto_0473",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5363.jpg",
+      "images/auto_5363_2.jpg",
+      "images/auto_5363_3.jpg",
+      "images/auto_5363_4.jpg",
+      "images/auto_5363_5.jpg"
+    ],
+    "lastModified": "2026-11-05"
   },
   {
     "id": "auto_5364",
