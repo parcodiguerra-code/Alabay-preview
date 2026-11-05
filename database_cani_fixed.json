@@ -9927,7 +9927,7 @@
     "allevatore": "E. MEKSHILO",
     "proprietario": "I. VELIKOIVANENKO",
     "paese": "BELARUS",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "CROSSBRED",
     "pedigree": "RKF R 0000229",
     "birth": "",
     "note": "Questo maschio ha sangue di Alano e ascendenti sconosciuti da parte di padre, mentre sua madre è un Pastore del Caucaso.",
@@ -27877,7 +27877,7 @@
     "allevatore": "",
     "proprietario": "E. MEKSHILO",
     "paese": "BELARUS",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "CAUCASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
@@ -37667,18 +37667,22 @@
     "allevatore": "FEDOROV",
     "proprietario": "L. SUDARIKOVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "CROSSBRED",
     "pedigree": "",
     "birth": "",
-    "note": "Questo maschio ha sangue di Pastore del Caucaso e di Alano da parte di padre, mentre le origini della madre sono sconosciute.",
+    "note": "Questo maschio ha sangue di Alano e ascendenti sconosciuti da parte di padre, mentre sua madre è un Pastore del Caucaso.",
     "colore": "DARK REDDISH",
     "padre": "auto_0510",
     "madre": "auto_1268",
     "foto_list": [
       "images/auto_2443.jpg"
     ],
-    "note_en": "This male has Caucasian Shepherd and Great Dane blood on his father’s side, whilst his mother’s origins are unknown.",
-    "lastModified": "2026-10-31"
+    "note_en": "This male has Great Dane blood and unknown paternal ancestry, while his mother is a Caucasian Shepherd Dog.",
+    "lastModified": "2026-11-05",
+    "verifica": {
+      "data": "2026-11-05",
+      "note": ""
+    }
   },
   {
     "id": "auto_2444",
