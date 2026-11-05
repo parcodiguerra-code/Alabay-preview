@@ -45520,7 +45520,10 @@
     "colore": "WHITE",
     "padre": "auto_0074",
     "madre": "auto_0078",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2946.jpg"
+    ],
+    "lastModified": "2026-11-05"
   },
   {
     "id": "auto_2947",
