@@ -84052,13 +84052,14 @@
     "proprietario": "N. GULYA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "pedigree": "UKU R 0017323",
     "birth": "2011-05-11",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4528",
     "madre": "auto_0473",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-05"
   },
   {
     "id": "auto_5365",
@@ -226337,6 +226338,23 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_0027",
     "madre": "auto_0095",
+    "foto_list": [],
+    "lastModified": "2026-11-05"
+  },
+  {
+    "id": "auto_14235",
+    "sesso": "F",
+    "name": "ZHIBEK SAMANA STAR",
+    "allevatore": "N. GULYA",
+    "proprietario": "V. STASEV",
+    "paese": "BELARUS",
+    "colore": "WHITE WITH REDDISH",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "BKO 335-005807",
+    "birth": "2014-02-15",
+    "note": "",
+    "padre": "auto_5364",
+    "madre": "auto_14234",
     "foto_list": [],
     "lastModified": "2026-11-05"
   }
