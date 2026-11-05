@@ -226207,8 +226207,14 @@
     "colore": "WHITE",
     "padre": "auto_0027",
     "madre": "auto_0095",
-    "foto_list": [],
-    "lastModified": "2026-11-04"
+    "foto_list": [
+      "images/auto_14229.jpg",
+      "images/auto_14229_2.jpg",
+      "images/auto_14229_3.jpg",
+      "images/auto_14229_4.jpg",
+      "images/auto_14229_5.jpg"
+    ],
+    "lastModified": "2026-11-05"
   },
   {
     "id": "auto_14230",
