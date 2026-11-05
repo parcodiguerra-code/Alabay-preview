@@ -226274,5 +226274,28 @@
     "madre": "auto_0095",
     "foto_list": [],
     "lastModified": "2026-11-04"
+  },
+  {
+    "id": "auto_14233",
+    "sesso": "F",
+    "name": "ACHAK ASY YUKA (copia)",
+    "allevatore": "T. KOBZEVA",
+    "proprietario": "T. KOBZEVA",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_5363",
+    "madre": "auto_5775",
+    "foto_list": [
+      "images/auto_14233.jpg",
+      "images/auto_14233_2.jpg",
+      "images/auto_14233_3.jpg",
+      "images/auto_14233_4.jpg",
+      "images/auto_14233_5.jpg"
+    ],
+    "lastModified": "2026-11-05"
   }
 ]
