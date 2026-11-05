@@ -9924,13 +9924,13 @@
     "id": "auto_0507",
     "sesso": "M",
     "name": "BARON (ow. Velikoivanenko)",
-    "allevatore": "FEDOROV",
+    "allevatore": "E. MEKSHILO",
     "proprietario": "I. VELIKOIVANENKO",
-    "paese": "RUSSIA",
+    "paese": "BELARUS",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF R 0000229",
     "birth": "",
-    "note": "Questo maschio ha sangue di Pastore del Caucaso e di Alano da parte di padre, mentre le origini della madre sono sconosciute.",
+    "note": "Questo maschio ha sangue di Alano e ascendenti sconosciuti da parte di padre, mentre sua madre è un Pastore del Caucaso.",
     "colore": "BROWNISH",
     "padre": "auto_0510",
     "madre": "auto_1268",
@@ -9939,8 +9939,9 @@
       "images/auto_0507_2.jpg",
       "images/auto_0507_3.jpg"
     ],
-    "note_en": "This male has Caucasian Shepherd and Great Dane blood on his father’s side, whilst his mother’s origins are unknown.",
-    "lastModified": "2026-10-31"
+    "note_en": "This male has Great Dane blood and unknown paternal ancestry, while his mother is a Caucasian Shepherd Dog.",
+    "lastModified": "2026-11-05",
+    "segnala_discendenza": true
   },
   {
     "id": "auto_0508",
