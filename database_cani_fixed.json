@@ -19625,14 +19625,15 @@
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF R 0002100",
     "birth": "1990-03-19",
-    "note": "",
+    "note": "Questa femmina è stata esclusa dalla riproduzione a causa della sua occlusione a forbice rovesciata.",
     "colore": "WHITE",
     "padre": "auto_0943",
     "madre": "auto_0944",
     "foto_list": [
       "images/auto_0942.jpg"
     ],
-    "lastModified": "2026-11-05"
+    "lastModified": "2026-11-05",
+    "note_en": "This female was excluded from the breeding program due to her reverse scissor bite."
   },
   {
     "id": "dog1264",
