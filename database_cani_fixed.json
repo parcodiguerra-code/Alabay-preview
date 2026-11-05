@@ -90404,7 +90404,13 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5661",
     "madre": "auto_5664",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5768.jpg",
+      "images/auto_5768_2.jpg",
+      "images/auto_5768_3.jpg",
+      "images/auto_5768_4.jpg"
+    ],
+    "lastModified": "2026-11-05"
   },
   {
     "id": "auto_5769",
