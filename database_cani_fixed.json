@@ -77188,9 +77188,9 @@
   {
     "id": "auto_4939",
     "sesso": "M",
-    "name": "AVULY (ow. Suraev)",
+    "name": "AVULY (ow. Kobzeva)",
     "allevatore": "A. BERCHANSKIY",
-    "proprietario": "B. SURAEV",
+    "proprietario": "B. SURAEV - T. KOBZEVA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -77199,7 +77199,13 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_2949",
     "madre": "auto_2948",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4939.jpg",
+      "images/auto_4939_2.jpg",
+      "images/auto_4939_3.jpg",
+      "images/auto_4939_4.jpg"
+    ],
+    "lastModified": "2026-11-05"
   },
   {
     "id": "auto_4940",
