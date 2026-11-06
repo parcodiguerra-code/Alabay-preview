@@ -200650,7 +200650,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5686",
     "madre": "auto_4703",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_12638.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_12639",
