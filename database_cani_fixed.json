@@ -226562,13 +226562,32 @@
     "allevatore": "P. NEMETH",
     "proprietario": "W. FAST",
     "paese": "HUNGARY",
-    "colore": "WHITE WITH REDDISH",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
     "note": "",
+    "colore": "WHITE WITH REDDISH",
     "padre": "auto_6987",
     "madre": "auto_4987",
+    "foto_list": [
+      "images/auto_14237.jpg"
+    ],
+    "lastModified": "2026-11-06"
+  },
+  {
+    "id": "auto_14238",
+    "sesso": "M",
+    "name": "PUSHTUN AKMENU GELE, b. 2008",
+    "allevatore": "A. DERUS",
+    "proprietario": "",
+    "paese": "LITHUANIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LSVK SO 1227/08",
+    "birth": "2008-08-31",
+    "note": "",
+    "colore": "WHITE WITH FAWN",
+    "padre": "auto_0407",
+    "madre": "auto_0110",
     "foto_list": [],
     "lastModified": "2026-11-06"
   }
