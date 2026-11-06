@@ -285,7 +285,12 @@
     "colore": "WHITE",
     "padre": "auto_0035",
     "madre": "auto_0036",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0014.jpg",
+      "images/auto_0014_2.jpg",
+      "images/auto_0014_3.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_0015",
