@@ -226554,5 +226554,22 @@
       "images/auto_14236.jpg"
     ],
     "lastModified": "2026-11-06"
+  },
+  {
+    "id": "auto_14237",
+    "sesso": "F",
+    "name": "TEKLA MIDISLANDER UNIQUE",
+    "allevatore": "P. NEMETH",
+    "proprietario": "W. FAST",
+    "paese": "HUNGARY",
+    "colore": "WHITE WITH REDDISH",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_6987",
+    "madre": "auto_4987",
+    "foto_list": [],
+    "lastModified": "2026-11-06"
   }
 ]
