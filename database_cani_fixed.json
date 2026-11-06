@@ -27843,14 +27843,15 @@
     "allevatore": "",
     "proprietario": "",
     "paese": "",
-    "tipo": "",
+    "tipo": "GREAT DANE",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_1267",
