@@ -226491,14 +226491,18 @@
     "allevatore": "N. GULYA",
     "proprietario": "V. STASEV",
     "paese": "BELARUS",
-    "colore": "WHITE WITH REDDISH",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "BKO 335-005807",
     "birth": "2014-02-15",
     "note": "",
+    "colore": "WHITE WITH REDDISH",
     "padre": "auto_5364",
     "madre": "auto_14234",
-    "foto_list": [],
-    "lastModified": "2026-11-05"
+    "foto_list": [
+      "images/auto_14235.jpg",
+      "images/auto_14235_2.jpg",
+      "images/auto_14235_3.jpg"
+    ],
+    "lastModified": "2026-11-06"
   }
 ]
