@@ -154846,7 +154846,14 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_9065",
     "madre": "auto_0592",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9761.jpg",
+      "images/auto_9761_2.jpg",
+      "images/auto_9761_3.jpg",
+      "images/auto_9761_4.jpg",
+      "images/auto_9761_5.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9762",
@@ -154862,7 +154869,11 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_9065",
     "madre": "auto_0592",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9762.jpg",
+      "images/auto_9762_2.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9763",
@@ -154878,7 +154889,11 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_9065",
     "madre": "auto_0592",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9763.jpg",
+      "images/auto_9763_2.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9764",
@@ -155546,7 +155561,13 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1199",
     "madre": "auto_9365",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9800.jpg",
+      "images/auto_9800_2.jpg",
+      "images/auto_9800_3.jpg",
+      "images/auto_9800_4.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9801",
@@ -155615,7 +155636,10 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_3592",
     "madre": "auto_8963",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9804.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9805",
@@ -155631,12 +155655,15 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_2977",
     "madre": "auto_9494",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9805.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9806",
     "sesso": "F",
-    "name": "FARHAD (ow. Shidlovskaya)",
+    "name": "FAYUM (ow. Shidlovskaya)",
     "allevatore": "N. HILCHENKO",
     "proprietario": "O. SHIDLOVSKAYA",
     "paese": "RUSSIA",
@@ -155647,7 +155674,11 @@
     "colore": "REDDISH WITH WHITE AND BLACK",
     "padre": "auto_2977",
     "madre": "auto_9494",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9806.jpg",
+      "images/auto_9806_2.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9807",
