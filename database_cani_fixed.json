@@ -147932,7 +147932,13 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog1679",
     "madre": "auto_1328",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9366.jpg",
+      "images/auto_9366_2.jpg",
+      "images/auto_9366_3.jpg",
+      "images/auto_9366_4.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9367",
