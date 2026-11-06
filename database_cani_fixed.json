@@ -226518,5 +226518,24 @@
       "images/auto_14235_3.jpg"
     ],
     "lastModified": "2026-11-06"
+  },
+  {
+    "id": "auto_14236",
+    "sesso": "F",
+    "name": "PERENLI ORZA",
+    "allevatore": "R. EREMIN",
+    "proprietario": "G. NEZHINSKIY",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2012-05-11",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_5686",
+    "madre": "auto_4703",
+    "foto_list": [
+      "images/auto_14236.jpg"
+    ],
+    "lastModified": "2026-11-06"
   }
 ]
