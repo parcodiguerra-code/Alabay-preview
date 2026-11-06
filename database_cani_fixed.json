@@ -147954,7 +147954,12 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "dog1679",
     "madre": "auto_1328",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9367.jpg",
+      "images/auto_9367_2.jpg",
+      "images/auto_9367_3.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_9368",
