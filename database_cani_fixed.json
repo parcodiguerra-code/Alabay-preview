@@ -3440,7 +3440,14 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0161",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0167.jpg",
+      "images/auto_0167_2.jpg",
+      "images/auto_0167_3.jpg",
+      "images/auto_0167_4.jpg",
+      "images/auto_0167_5.jpg"
+    ],
+    "lastModified": "2026-11-06"
   },
   {
     "id": "auto_0168",
