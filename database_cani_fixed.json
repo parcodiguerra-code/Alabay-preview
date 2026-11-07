@@ -44690,8 +44690,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0099",
     "madre": "auto_2886",
-    "foto_list": [],
-    "lastModified": "2026-10-09"
+    "foto_list": [
+      "images/auto_2890.jpg"
+    ],
+    "lastModified": "2026-11-07"
   },
   {
     "id": "auto_2891",
