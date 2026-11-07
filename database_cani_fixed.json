@@ -5658,9 +5658,11 @@
     "padre": "auto_0013",
     "madre": "auto_0279",
     "foto_list": [
-      "images/auto_0281.jpg"
+      "images/auto_0281.jpg",
+      "images/auto_0281_2.jpg",
+      "images/auto_0281_3.jpg"
     ],
-    "lastModified": "2026-10-14"
+    "lastModified": "2026-11-07"
   },
   {
     "id": "auto_0282",
