@@ -1840,7 +1840,14 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_5340",
     "madre": "auto_5343",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0096.jpg",
+      "images/auto_0096_2.jpg",
+      "images/auto_0096_3.jpg",
+      "images/auto_0096_4.jpg",
+      "images/auto_0096_5.jpg"
+    ],
+    "lastModified": "2026-11-07"
   },
   {
     "id": "dog0114",
