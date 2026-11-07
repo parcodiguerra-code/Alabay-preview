@@ -13,8 +13,12 @@
     "colore": "BIANCO",
     "padre": "auto_0003",
     "madre": "auto_0004",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_0001.jpg",
+      "images/auto_0001_2.jpg",
+      "images/auto_0001_3.jpg"
+    ],
+    "lastModified": "2026-11-07"
   },
   {
     "id": "auto_0002",
