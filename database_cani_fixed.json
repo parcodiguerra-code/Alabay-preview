@@ -5105,14 +5105,15 @@
     "allevatore": "PATRAKOV",
     "proprietario": "J. KOVACS",
     "paese": "BELARUS",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "MET.KAJ. 204/92",
     "birth": "1992-01-01",
     "note": "",
     "colore": "BLACK WITH WHITE",
     "padre": "auto_0423",
     "madre": "auto_0424",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-07"
   },
   {
     "id": "auto_0257",
@@ -8390,7 +8391,7 @@
     "allevatore": "PATRAKOV",
     "proprietario": "PATRAKOV",
     "paese": "BELARUS",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "MET.KAJ. 120/91",
     "birth": "1990-01-01",
     "note": "",
@@ -8398,7 +8399,7 @@
     "padre": "dog0806",
     "madre": "auto_4763",
     "foto_list": [],
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-07"
   },
   {
     "id": "auto_0425",
@@ -74532,18 +74533,18 @@
     "id": "auto_4763",
     "sesso": "F",
     "name": "AK KAYA (ow. Patrakov)",
-    "allevatore": "",
+    "allevatore": "T. SALNIKOVA (SATTAROVA)",
     "proprietario": "PATRAKOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "MET.KAJ. 120/89",
     "birth": "1988-09-17",
     "note": "",
     "colore": "WHITE",
-    "padre": "",
-    "madre": "",
+    "padre": "dog1467",
+    "madre": "auto_4302",
     "foto_list": [],
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-07"
   },
   {
     "id": "auto_4765",
