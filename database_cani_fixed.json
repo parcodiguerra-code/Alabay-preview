@@ -3623,7 +3623,10 @@
     "colore": "WHITE",
     "padre": "auto_0035",
     "madre": "auto_0036",
-    "foto_list": []
+    "foto_list": [
+      "images/dog0227.jpg"
+    ],
+    "lastModified": "2026-11-07"
   },
   {
     "id": "dog0228",
