@@ -20503,7 +20503,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0542",
     "madre": "auto_0980",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0979.jpg",
+      "images/auto_0979_2.jpg"
+    ],
+    "lastModified": "2026-11-07"
   },
   {
     "id": "auto_0980",
