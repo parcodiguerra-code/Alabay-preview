@@ -2019,7 +2019,13 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog0127",
     "madre": "auto_0101",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0099.jpg",
+      "images/auto_0099_2.jpg",
+      "images/auto_0099_3.jpg",
+      "images/auto_0099_4.jpg",
+      "images/auto_0099_5.jpg"
+    ],
     "note_en": "Taken from Turkmenistan.",
     "lastModified": "2026-11-07"
   },
