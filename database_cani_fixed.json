@@ -43158,7 +43158,7 @@
   {
     "id": "auto_2792",
     "sesso": "M",
-    "name": "KABUR (ow. Habibulin)",
+    "name": "K-BABUR (KABUR) (ow. Habibulin)",
     "allevatore": "T. HABIBULIN",
     "proprietario": "T. HABIBULIN",
     "paese": "RUSSIA",
@@ -43169,7 +43169,8 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_2791",
     "madre": "auto_2687",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_2793",
