@@ -226766,14 +226766,16 @@
     "allevatore": "V. PEKKI",
     "proprietario": "S. KRASNOVIDOV",
     "paese": "RUSSIA",
-    "colore": "FAWN WITH WHITE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2001-05-02",
     "note": "",
+    "colore": "FAWN WITH WHITE",
     "padre": "auto_9385",
     "madre": "auto_9326",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14245.jpg"
+    ],
     "lastModified": "2026-11-08"
   }
 ]
