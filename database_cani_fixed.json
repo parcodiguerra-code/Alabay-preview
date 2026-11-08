@@ -82743,7 +82743,10 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_4638",
     "madre": "auto_5273",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5276.jpg"
+    ],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_5277",
