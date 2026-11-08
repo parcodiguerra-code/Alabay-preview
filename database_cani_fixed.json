@@ -49554,7 +49554,10 @@
     "colore": "WHITE",
     "padre": "auto_2409",
     "madre": "auto_0482",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_3184.jpg",
+      "images/auto_3184_2.jpg"
+    ],
     "lastModified": "2026-11-08"
   },
   {
