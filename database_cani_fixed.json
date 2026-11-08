@@ -128153,7 +128153,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_3156",
     "madre": "dog1623",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8142.jpg"
+    ],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_8143",
