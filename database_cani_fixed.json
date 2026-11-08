@@ -226741,5 +226741,39 @@
     "madre": "auto_9653",
     "foto_list": [],
     "lastModified": "2026-11-08"
+  },
+  {
+    "id": "auto_14243",
+    "sesso": "F",
+    "name": "HALIDA (ow. Borovik) (copia)",
+    "allevatore": "O. VASILIEVA",
+    "proprietario": "L. BOROVIK",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1998-12-02",
+    "note": "",
+    "colore": "LIGHT FAWN WITH WHITE",
+    "padre": "auto_9065",
+    "madre": "auto_9653",
+    "foto_list": [],
+    "lastModified": "2026-11-08"
+  },
+  {
+    "id": "auto_14244",
+    "sesso": "F",
+    "name": "HATIMA (ow. Vasilieva)",
+    "allevatore": "O. VASILIEVA",
+    "proprietario": "O. VASILIEVA",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1998-12-02",
+    "note": "",
+    "colore": "LIGHT FAWN WITH WHITE",
+    "padre": "auto_9065",
+    "madre": "auto_9653",
+    "foto_list": [],
+    "lastModified": "2026-11-08"
   }
 ]
