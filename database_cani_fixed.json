@@ -40690,7 +40690,9 @@
     "colore": "REDDISH",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_2631.jpg"
+    ],
     "lastModified": "2026-11-08"
   },
   {
