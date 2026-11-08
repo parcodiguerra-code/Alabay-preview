@@ -226690,5 +226690,22 @@
     "madre": "auto_9820",
     "foto_list": [],
     "lastModified": "2026-11-08"
+  },
+  {
+    "id": "auto_14240",
+    "sesso": "F",
+    "name": "HAYBAT (ow. Pavlov)",
+    "allevatore": "N. IVANOVA",
+    "proprietario": "Y. PAVLOV",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1995-12-20",
+    "note": "",
+    "colore": "REDDISH WITH WHITE",
+    "padre": "auto_9045",
+    "madre": "auto_9820",
+    "foto_list": [],
+    "lastModified": "2026-11-08"
   }
 ]
