@@ -43169,13 +43169,19 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_2791",
     "madre": "auto_2687",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_2792.jpg",
+      "images/auto_2792_2.jpg",
+      "images/auto_2792_3.jpg",
+      "images/auto_2792_4.jpg",
+      "images/auto_2792_5.jpg"
+    ],
     "lastModified": "2026-11-08"
   },
   {
     "id": "auto_2793",
     "sesso": "M",
-    "name": "K-ELBARS (ow. Habibulin)",
+    "name": "K-ELBARS (KELBARS) (ow. Habibulin)",
     "allevatore": "T. HABIBULIN",
     "proprietario": "T. HABIBULIN",
     "paese": "RUSSIA",
@@ -43186,7 +43192,8 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_2791",
     "madre": "auto_2687",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_2794",
