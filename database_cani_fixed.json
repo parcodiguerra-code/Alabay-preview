@@ -49030,7 +49030,14 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_2407",
     "madre": "auto_3151",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3152.jpg",
+      "images/auto_3152_2.jpg",
+      "images/auto_3152_3.jpg",
+      "images/auto_3152_4.jpg",
+      "images/auto_3152_5.jpg"
+    ],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_3153",
