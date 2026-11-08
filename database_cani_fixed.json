@@ -16459,8 +16459,14 @@
     "colore": "LIGHT REDDISH",
     "padre": "auto_0812",
     "madre": "auto_0813",
-    "foto_list": [],
-    "lastModified": "2026-10-12",
+    "foto_list": [
+      "images/dog1052.jpg",
+      "images/dog1052_2.jpg",
+      "images/dog1052_3.jpg",
+      "images/dog1052_4.jpg",
+      "images/dog1052_5.jpg"
+    ],
+    "lastModified": "2026-11-08",
     "note_en": "\"I will try to clarify the origin of the male named Aktash. I brought him from the mountain regions of Uzbekistan, from the city of Jizzakh, but he arrived there from the city of Kerkici, Turkmenistan. (...). Fate decreed that Aktash would be taken by Lidiya Dyadichkina from Novokuznetsk.\" Alik Yanathanov, Almaty"
   },
   {
