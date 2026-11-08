@@ -25175,7 +25175,10 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "dog1622",
     "madre": "dog1619",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1623.jpg"
+    ],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "dog1624",
