@@ -19824,18 +19824,19 @@
   {
     "id": "auto_0946",
     "sesso": "F",
-    "name": "CHANA (br. Samoletov)",
+    "name": "CHANA (ow. Barysheva)",
     "allevatore": "A. SAMOLETOV",
-    "proprietario": "",
+    "proprietario": "A. BARYSHEVA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1986-07-30",
     "note": "",
-    "colore": "LIGHT STRAW",
+    "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0945",
     "madre": "auto_0944",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_0947",
