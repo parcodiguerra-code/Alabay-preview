@@ -44595,9 +44595,15 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_3213",
     "madre": "auto_3214",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_2883.jpg",
+      "images/auto_2883_2.jpg",
+      "images/auto_2883_3.jpg",
+      "images/auto_2883_4.jpg",
+      "images/auto_2883_5.jpg"
+    ],
     "note_en": "This male, who has excelled in competitions both previously in Kazakhstan and subsequently in Russia, as well as at dog shows, was born in Lenger (southern Kazakhstan) and has always been described as a purebred Kazakh Tobet. However, it has recently come to light that his father is Pelvan, a Turkmen, whilst his mother, Goyunchi, is a native Kazakh female.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_2882",
