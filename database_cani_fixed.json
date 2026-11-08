@@ -226673,5 +226673,22 @@
     "madre": "auto_0110",
     "foto_list": [],
     "lastModified": "2026-11-06"
+  },
+  {
+    "id": "auto_14239",
+    "sesso": "M",
+    "name": "HIDAR (ow. Skibo)",
+    "allevatore": "N. IVANOVA",
+    "proprietario": "S. SKIBO",
+    "paese": "RUSSIA",
+    "colore": "LIGHT FAWN WITH WHITE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1995-12-20",
+    "note": "",
+    "padre": "auto_9045",
+    "madre": "auto_9820",
+    "foto_list": [],
+    "lastModified": "2026-11-08"
   }
 ]
