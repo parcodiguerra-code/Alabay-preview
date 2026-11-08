@@ -180465,7 +180465,11 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_11347",
     "madre": "auto_11354",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_11355.jpg",
+      "images/auto_11355_2.jpg"
+    ],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_11356",
