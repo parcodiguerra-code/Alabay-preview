@@ -49037,7 +49037,7 @@
   {
     "id": "auto_3154",
     "sesso": "F",
-    "name": "AK ULA ARGA",
+    "name": "AK-ULA ARGA",
     "allevatore": "K. TIMOFEEV",
     "proprietario": "K. TIMOFEEV",
     "paese": "RUSSIA",
@@ -49048,12 +49048,13 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_0069",
     "madre": "auto_3152",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_3155",
     "sesso": "F",
-    "name": "AK ULA ANDEK (ow. Lisenko)",
+    "name": "AK-ULA ANDEK",
     "allevatore": "K. TIMOFEEV",
     "proprietario": "A. LISENKO",
     "paese": "RUSSIA",
@@ -49064,12 +49065,13 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_0069",
     "madre": "auto_3152",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_3156",
     "sesso": "M",
-    "name": "AK ULA BERK",
+    "name": "AK-ULA BERK",
     "allevatore": "K. TIMOFEEV",
     "proprietario": "S. SKOBOTKOV",
     "paese": "RUSSIA",
@@ -49080,7 +49082,11 @@
     "colore": "LIGHT FAWN",
     "padre": "auto_2359",
     "madre": "auto_3154",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3156.jpg",
+      "images/auto_3156_2.jpg"
+    ],
+    "lastModified": "2026-11-08"
   },
   {
     "id": "auto_3157",
