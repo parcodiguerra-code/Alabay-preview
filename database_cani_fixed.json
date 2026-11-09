@@ -156237,7 +156237,10 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_4905",
     "madre": "auto_8751",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9823.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_9824",
@@ -156285,7 +156288,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_4905",
     "madre": "auto_9824",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9826.jpg",
+      "images/auto_9826_2.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_9827",
