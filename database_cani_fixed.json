@@ -24726,7 +24726,11 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1090",
     "madre": "dog1586_n",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_1159.jpg",
+      "images/auto_1159_2.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_1160",
