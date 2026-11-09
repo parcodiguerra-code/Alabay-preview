@@ -84514,7 +84514,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "dog0177",
     "madre": "auto_5346",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5377.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_5378",
