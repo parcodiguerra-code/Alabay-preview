@@ -141594,7 +141594,13 @@
     "colore": "FAWN WITH WHITE",
     "padre": "dog1905",
     "madre": "dog1898",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8977.jpg",
+      "images/auto_8977_2.jpg",
+      "images/auto_8977_3.jpg",
+      "images/auto_8977_4.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_8978",
