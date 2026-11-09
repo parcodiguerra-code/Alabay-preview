@@ -144277,8 +144277,11 @@
     "colore": "WHITE WITH LIGHT REDDISH",
     "padre": "dog1905",
     "madre": "dog1898",
-    "foto_list": [],
-    "lastModified": "2026-10-11"
+    "foto_list": [
+      "images/auto_9140.jpg",
+      "images/auto_9140_2.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_9141",
