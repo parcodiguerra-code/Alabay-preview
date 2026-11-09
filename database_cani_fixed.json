@@ -10616,8 +10616,10 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0542",
     "madre": "auto_0543",
-    "foto_list": [],
-    "lastModified": "2026-10-16"
+    "foto_list": [
+      "images/auto_0541.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "dog0665",
@@ -11012,8 +11014,12 @@
     "colore": "BROWN WITH WHITE",
     "padre": "auto_0542",
     "madre": "auto_0543",
-    "foto_list": [],
-    "lastModified": "2026-10-16"
+    "foto_list": [
+      "images/auto_0564.jpg",
+      "images/auto_0564_2.jpg",
+      "images/auto_0564_3.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_0565",
