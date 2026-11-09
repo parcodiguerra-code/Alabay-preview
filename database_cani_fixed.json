@@ -29653,7 +29653,10 @@
     "colore": "DARK GREY WITH WHITE",
     "padre": "dog1905",
     "madre": "dog1898",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1906.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_1332",
