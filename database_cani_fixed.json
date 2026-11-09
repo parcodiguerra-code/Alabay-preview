@@ -156465,7 +156465,10 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_8989",
     "madre": "auto_2575",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9832.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_9833",
