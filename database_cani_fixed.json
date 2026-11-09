@@ -74625,7 +74625,14 @@
     "colore": "FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4762.jpg",
+      "images/auto_4762_2.jpg",
+      "images/auto_4762_3.jpg",
+      "images/auto_4762_4.jpg",
+      "images/auto_4762_5.jpg"
+    ],
+    "lastModified": "2026-11-09"
   },
   {
     "id": "auto_4763",
