@@ -201268,7 +201268,11 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_5338",
     "madre": "auto_5344",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_12655.jpg",
+      "images/auto_12655_2.jpg"
+    ],
+    "lastModified": "2026-11-11"
   },
   {
     "id": "auto_12656",
