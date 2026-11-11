@@ -74737,7 +74737,14 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4764",
     "madre": "auto_4761",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4767.jpg",
+      "images/auto_4767_2.jpg",
+      "images/auto_4767_3.jpg",
+      "images/auto_4767_4.jpg",
+      "images/auto_4767_5.jpg"
+    ],
+    "lastModified": "2026-11-11"
   },
   {
     "id": "auto_4768",
