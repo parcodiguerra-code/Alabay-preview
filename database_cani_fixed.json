@@ -227036,5 +227036,22 @@
       "images/auto_14245.jpg"
     ],
     "lastModified": "2026-11-08"
+  },
+  {
+    "id": "auto_14246",
+    "sesso": "F",
+    "name": "SISTER OF CHEREDNICHENKO'S ESGER",
+    "allevatore": "I. ZHUKOVA",
+    "proprietario": "",
+    "paese": "RUSSIA",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "1999-07-12",
+    "note": "",
+    "colore": "LIGHT FAWN WITH WHITE",
+    "padre": "auto_9385",
+    "madre": "auto_9105",
+    "foto_list": [],
+    "lastModified": "2026-11-12"
   }
 ]
