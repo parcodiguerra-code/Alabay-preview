@@ -658,7 +658,14 @@
     "colore": "WHITE",
     "padre": "auto_0044",
     "madre": "dog0047",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0034.jpg",
+      "images/auto_0034_2.jpg",
+      "images/auto_0034_3.jpg",
+      "images/auto_0034_4.jpg",
+      "images/auto_0034_5.jpg"
+    ],
+    "lastModified": "2026-11-12"
   },
   {
     "id": "auto_0035",
@@ -81062,9 +81069,15 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_3050",
     "madre": "auto_3060",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_5161.jpg",
+      "images/auto_5161_2.jpg",
+      "images/auto_5161_3.jpg",
+      "images/auto_5161_4.jpg",
+      "images/auto_5161_5.jpg"
+    ],
     "note_en": "Imported from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-12"
   },
   {
     "id": "auto_5162",
