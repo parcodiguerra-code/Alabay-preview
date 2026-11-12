@@ -658,7 +658,13 @@
     "colore": "WHITE",
     "padre": "auto_0044",
     "madre": "dog0047",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0034.jpg",
+      "images/auto_0034_2.jpg",
+      "images/auto_0034_3.jpg",
+      "images/auto_0034_4.jpg",
+      "images/auto_0034_5.jpg"
+    ],
     "lastModified": "2026-11-12",
     "note_en": "Taken from Turkmenistan."
   },
