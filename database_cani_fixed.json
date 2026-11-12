@@ -12688,18 +12688,20 @@
   {
     "id": "auto_0072",
     "sesso": "M",
-    "name": "SAKAR (ow. Kyarizov)",
+    "name": "SAKAR (ow. Berchanskiy)",
     "allevatore": "G. KYARIZOV",
-    "proprietario": "G. KYARIZOV",
+    "proprietario": "G. KYARIZOV - A. BERCHANSKIY",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente come padre]",
+    "birth": "1988-01-01",
+    "note": "Preso in Turkmenistan.",
     "colore": "WHITE WITH ORANGE AND BLACK",
     "padre": "auto_0075",
     "madre": "auto_0093",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-12",
+    "note_en": "Taken from Turkmenistan."
   },
   {
     "id": "dog0799",
