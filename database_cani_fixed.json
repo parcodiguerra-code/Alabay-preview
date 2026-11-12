@@ -654,18 +654,13 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 0013309",
     "birth": "1994-10-22",
-    "note": "[Creato automaticamente come madre]",
+    "note": "Presa in Turkmenistan.",
     "colore": "WHITE",
     "padre": "auto_0044",
     "madre": "dog0047",
-    "foto_list": [
-      "images/auto_0034.jpg",
-      "images/auto_0034_2.jpg",
-      "images/auto_0034_3.jpg",
-      "images/auto_0034_4.jpg",
-      "images/auto_0034_5.jpg"
-    ],
-    "lastModified": "2026-11-12"
+    "foto_list": [],
+    "lastModified": "2026-11-12",
+    "note_en": "Taken from Turkmenistan."
   },
   {
     "id": "auto_0035",
