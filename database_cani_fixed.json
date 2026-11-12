@@ -135631,8 +135631,10 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_0860",
     "madre": "auto_1196",
-    "foto_list": [],
-    "lastModified": "2026-10-10"
+    "foto_list": [
+      "images/auto_8605.jpg"
+    ],
+    "lastModified": "2026-11-12"
   },
   {
     "id": "auto_8606",
