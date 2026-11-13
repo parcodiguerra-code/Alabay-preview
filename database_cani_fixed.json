@@ -110426,7 +110426,12 @@
     "colore": "WHITE",
     "padre": "auto_6999",
     "madre": "auto_0324",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_7010.jpg",
+      "images/auto_7010_2.jpg",
+      "images/auto_7010_3.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_7011",
