@@ -63353,7 +63353,12 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1294",
     "madre": "dog1841",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4041.jpg",
+      "images/auto_4041_2.jpg",
+      "images/auto_4041_3.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_4042",
