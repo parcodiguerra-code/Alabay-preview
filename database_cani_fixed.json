@@ -1413,7 +1413,7 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 1178716",
     "birth": "1994-10-22",
-    "note": "Esportata dal Turkmenistan.",
+    "note": "Presa dal Turkmenistan.",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0417",
     "madre": "auto_3047",
@@ -1422,7 +1422,7 @@
       "images/auto_0078_2.jpg",
       "images/auto_0078_3.jpg"
     ],
-    "note_en": "Exported from Turkmenistan.",
+    "note_en": "Taken from Turkmenistan.",
     "lastModified": "2026-11-13"
   },
   {
