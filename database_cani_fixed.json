@@ -1727,16 +1727,23 @@
     "sesso": "F",
     "name": "KARAVAN ITI HATYRA",
     "allevatore": "A. RAZUVAEV",
-    "proprietario": "V. STASEV",
+    "proprietario": "V. STASEV - G. LANZOLLA - D. CORONESE",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 2753104",
     "birth": "2009-11-23",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "WHITE",
     "padre": "auto_0107",
     "madre": "auto_0108",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0095.jpg",
+      "images/auto_0095_2.jpg",
+      "images/auto_0095_3.jpg",
+      "images/auto_0095_4.jpg",
+      "images/auto_0095_5.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "dog0105",
