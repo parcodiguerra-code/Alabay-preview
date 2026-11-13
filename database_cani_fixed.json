@@ -992,7 +992,14 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0055",
     "madre": "auto_0056",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0053.jpg",
+      "images/auto_0053_2.jpg",
+      "images/auto_0053_3.jpg",
+      "images/auto_0053_4.jpg",
+      "images/auto_0053_5.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_0054",
