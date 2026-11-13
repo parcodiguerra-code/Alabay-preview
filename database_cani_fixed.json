@@ -44736,7 +44736,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_2883",
     "madre": "auto_0491",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_2884.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_2885",
