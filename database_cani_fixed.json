@@ -12045,18 +12045,12 @@
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF R 0001432",
-    "birth": "",
+    "birth": "1988-01-01",
     "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0613",
     "madre": "auto_0614",
-    "foto_list": [
-      "images/dog0752.jpg",
-      "images/dog0752_2.jpg",
-      "images/dog0752_3.jpg",
-      "images/dog0752_4.jpg",
-      "images/dog0752_5.jpg"
-    ],
+    "foto_list": [],
     "lastModified": "2026-11-13"
   },
   {
