@@ -255,14 +255,14 @@
   {
     "id": "auto_0013",
     "sesso": "M",
-    "name": "E-APPAK AK EZGER (ow. Kennel \"Del Parco Di Guerra\")",
+    "name": "E-APPAK AK EZGER",
     "allevatore": "H. KOSTADINOV",
     "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
     "paese": "BULGARIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "PK 13816/10",
     "birth": "2009-06-09",
-    "note": "Ch Riproduttori; Ch Internazionale; Ch Montenegro; Gran Ch Montenegro.",
+    "note": "Ch. Riproduttori, Ch. Internazionale, Ch. Montenegro, Gran Ch. Montenegro.",
     "colore": "WHITE",
     "padre": "auto_0015",
     "madre": "auto_0016",
@@ -273,11 +273,12 @@
       "images/auto_0013_5.jpg",
       "images/auto_0013_2.jpg"
     ],
-    "lastModified": "2026-11-02",
+    "lastModified": "2026-11-13",
     "verifica": {
       "data": "2026-11-02",
       "note": ""
-    }
+    },
+    "note_en": "Reproductor Ch., International Ch., Montenegro Ch., Montenegro Grand Ch.."
   },
   {
     "id": "auto_0014",
