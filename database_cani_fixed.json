@@ -151498,7 +151498,14 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_9256",
     "madre": "auto_9183",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9543.jpg",
+      "images/auto_9543_2.jpg",
+      "images/auto_9543_3.jpg",
+      "images/auto_9543_4.jpg",
+      "images/auto_9543_5.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_9544",
