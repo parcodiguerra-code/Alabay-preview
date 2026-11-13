@@ -4611,7 +4611,14 @@
     "colore": "WHITE WITH BROWN",
     "padre": "auto_0222",
     "madre": "auto_0213",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0226.jpg",
+      "images/auto_0226_2.jpg",
+      "images/auto_0226_3.jpg",
+      "images/auto_0226_4.jpg",
+      "images/auto_0226_5.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_0227",
