@@ -9590,9 +9590,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_11142",
     "madre": "auto_0480",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0482.jpg"
+    ],
     "note_en": "\"According to official genealogies, Porcha, Palash, Pinachet and Abas are children of Kyarizov's Babur and of El (Elka). However, in the reality, there are two versions of the story about their origins. For sure their mother El (Elka) was taken to Ashgabat to be bred to Kyarizov's Babur: Kakysh Kyarizov said that she was bred to Better, Babur’s son; Bayram Kyarizov said that she was bred to Oguz, Better’s son.\"",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_0483",
