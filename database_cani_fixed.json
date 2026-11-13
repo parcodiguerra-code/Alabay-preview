@@ -151136,7 +151136,7 @@
   {
     "id": "auto_9523",
     "sesso": "M",
-    "name": "YUKEN-TASH (ow. Solovieva)",
+    "name": "YUKEY-TASH (ow. Solovieva)",
     "allevatore": "I. SMIRNOVA",
     "proprietario": "E. SOLOVIEVA",
     "paese": "RUSSIA",
@@ -151147,7 +151147,10 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_9042",
     "madre": "auto_3259",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_9523.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_9524",
