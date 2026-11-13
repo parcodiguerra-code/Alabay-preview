@@ -227136,5 +227136,24 @@
       "images/auto_14246.jpg"
     ],
     "lastModified": "2026-11-12"
+  },
+  {
+    "id": "auto_14247",
+    "sesso": "M",
+    "name": "GOYMOT (ow. Berchanskiy)",
+    "allevatore": "A. BERCHANSKIY",
+    "proprietario": "A. BERCHANSKIY",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_3051",
+    "madre": "dog0799",
+    "foto_list": [
+      "images/auto_14247.jpg"
+    ],
+    "lastModified": "2026-11-13"
   }
 ]
