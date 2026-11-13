@@ -5607,7 +5607,14 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0278",
     "madre": "auto_0034",
-    "foto_list": []
+    "foto_list": [
+      "images/dog0346.jpg",
+      "images/dog0346_2.jpg",
+      "images/dog0346_3.jpg",
+      "images/dog0346_4.jpg",
+      "images/dog0346_5.jpg"
+    ],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_0279",
@@ -6848,7 +6855,7 @@
   {
     "id": "auto_0346",
     "sesso": "M",
-    "name": "ESSER AK ESGER",
+    "name": "E-ESSER AK ESGER",
     "allevatore": "H. KOSTADINOV",
     "proprietario": "H. KOSTADINOV",
     "paese": "BULGARIA",
@@ -6861,9 +6868,12 @@
     "madre": "auto_0016",
     "foto_list": [
       "images/auto_0346.jpg",
-      "images/auto_0346_2.jpg"
+      "images/auto_0346_2.jpg",
+      "images/auto_0346_3.jpg",
+      "images/auto_0346_4.jpg",
+      "images/auto_0346_5.jpg"
     ],
-    "lastModified": "2026-11-05"
+    "lastModified": "2026-11-13"
   },
   {
     "id": "dog0425",
