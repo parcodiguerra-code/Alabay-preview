@@ -503,18 +503,19 @@
   {
     "id": "auto_0026",
     "sesso": "F",
-    "name": "KARA-GUL (GAYRAT)",
+    "name": "GARA-GUL (GAYRAT)",
     "allevatore": "A. BERCHANSKIY",
     "proprietario": "A. BERCHANSKIY - A. VASILIEV",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 1178718",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_3051",
     "madre": "dog0799",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_0027",
