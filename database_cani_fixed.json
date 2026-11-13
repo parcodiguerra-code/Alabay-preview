@@ -6627,11 +6627,13 @@
     "padre": "auto_3072",
     "madre": "auto_0281",
     "foto_list": [
-      "images/auto_0332_3.jpg",
+      "images/auto_0332.jpg",
       "images/auto_0332_2.jpg",
-      "images/auto_0332.jpg"
+      "images/auto_0332_3.jpg",
+      "images/auto_0332_4.jpg",
+      "images/auto_0332_5.jpg"
     ],
-    "lastModified": "2026-10-14"
+    "lastModified": "2026-11-13"
   },
   {
     "id": "auto_0334",
