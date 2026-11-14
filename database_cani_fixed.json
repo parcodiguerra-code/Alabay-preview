@@ -128399,7 +128399,10 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_3169",
     "madre": "auto_1328",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8144.jpg"
+    ],
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_8145",
