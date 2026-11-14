@@ -138244,7 +138244,13 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_4905",
     "madre": "auto_8749",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8755.jpg",
+      "images/auto_8755_2.jpg",
+      "images/auto_8755_3.jpg",
+      "images/auto_8755_4.jpg"
+    ],
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_8756",
