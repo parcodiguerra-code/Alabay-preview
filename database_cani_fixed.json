@@ -111567,19 +111567,18 @@
     "id": "auto_7075",
     "sesso": "F",
     "name": "BYASHIM (ow. Volkov)",
-    "allevatore": "",
+    "allevatore": "K. KUBIK",
     "proprietario": "A. VOLKOV",
-    "paese": "TURKMENISTAN",
-    "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "paese": "RUSSIA",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "454-B",
     "birth": "",
-    "note": "Presa in Turkmenistan.",
-    "colore": "",
-    "padre": "",
-    "madre": "",
+    "note": "",
+    "colore": "WHITE WITH LIGHT GREY",
+    "padre": "auto_0542",
+    "madre": "auto_1018",
     "foto_list": [],
-    "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_7076",
@@ -111588,14 +111587,15 @@
     "allevatore": "A. VOLKOV",
     "proprietario": "I. BAHAREV",
     "paese": "UKRAINE",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1984-12-18",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2124",
     "madre": "auto_7075",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_7077",
@@ -111604,14 +111604,15 @@
     "allevatore": "A. VOLKOV",
     "proprietario": "I. BAHAREV",
     "paese": "UKRAINE",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1984-12-18",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2124",
     "madre": "auto_7075",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_7078",
@@ -146854,7 +146855,7 @@
     "allevatore": "A. VOLKOV",
     "proprietario": "D. KOLASHNIKOVA - T. EGOROVA",
     "paese": "UKRAINE",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1984-12-18",
     "note": "",
@@ -146866,7 +146867,7 @@
       "images/auto_9277_2.jpg",
       "images/auto_9277_3.jpg"
     ],
-    "lastModified": "2026-10-15"
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_9278",
@@ -152214,14 +152215,15 @@
     "allevatore": "A. VOLKOV",
     "proprietario": "",
     "paese": "UKRAINE",
-    "tipo": "PUREBRED TURKMEN ALABAY",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1984-12-18",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_2124",
     "madre": "auto_7075",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_9583",
