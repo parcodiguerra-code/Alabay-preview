@@ -138224,7 +138224,11 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_4905",
     "madre": "auto_8749",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8754.jpg",
+      "images/auto_8754_2.jpg"
+    ],
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_8755",
