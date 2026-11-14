@@ -138202,7 +138202,13 @@
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_4905",
     "madre": "auto_8749",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_8753.jpg",
+      "images/auto_8753_2.jpg",
+      "images/auto_8753_3.jpg",
+      "images/auto_8753_4.jpg"
+    ],
+    "lastModified": "2026-11-14"
   },
   {
     "id": "auto_8754",
