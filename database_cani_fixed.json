@@ -1674,16 +1674,18 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 1275418",
     "birth": "2001-06-27",
-    "note": "[Creato automaticamente come madre]",
+    "note": "Il pedigree di questa femmina riporta come sua madre Bakshi Tayshe, ma il documento è notoriamente falso in quanto fu dichiarato dall'allevatore stesso.",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0025",
     "madre": "auto_2947",
     "foto_list": [
       "images/auto_0090.jpg",
       "images/auto_0090_2.jpg",
-      "images/auto_0090_3.jpg"
+      "images/auto_0090_3.jpg",
+      "images/auto_0090_4.jpg"
     ],
-    "lastModified": "2026-11-15"
+    "lastModified": "2026-11-15",
+    "note_en": "This female’s pedigree lists Bakshi Tayshe as her mother, but the document is known to be false as it was declared by the breeder himself."
   },
   {
     "id": "auto_0091",
