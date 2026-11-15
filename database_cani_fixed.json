@@ -1343,7 +1343,14 @@
     "colore": "WHITE WITH BROWN AND BLACK",
     "padre": "auto_0025",
     "madre": "auto_0026",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0070.jpg",
+      "images/auto_0070_2.jpg",
+      "images/auto_0070_3.jpg",
+      "images/auto_0070_4.jpg",
+      "images/auto_0070_5.jpg"
+    ],
+    "lastModified": "2026-11-15"
   },
   {
     "id": "dog0077",
