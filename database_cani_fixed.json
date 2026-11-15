@@ -110739,7 +110739,10 @@
     "colore": "WHITE",
     "padre": "dog0177",
     "madre": "dog0106",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_7019.jpg"
+    ],
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_7020",
