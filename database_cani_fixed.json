@@ -396,7 +396,14 @@
     "colore": "WHITE WITH BROWN",
     "padre": "auto_0025",
     "madre": "auto_0026",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0019.jpg",
+      "images/auto_0019_2.jpg",
+      "images/auto_0019_3.jpg",
+      "images/auto_0019_4.jpg",
+      "images/auto_0019_5.jpg"
+    ],
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_0020",
@@ -45913,7 +45920,7 @@
   {
     "id": "auto_2951",
     "sesso": "M",
-    "name": "KARA KELLE ROVAIAT",
+    "name": "KARA KELLE ROVAYAT",
     "allevatore": "E. LIPOVSKAYA",
     "proprietario": "I. GOROHOV",
     "paese": "RUSSIA",
@@ -45924,7 +45931,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog0124",
     "madre": "auto_0090",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_2952",
