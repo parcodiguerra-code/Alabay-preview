@@ -143,7 +143,7 @@ if(logoM){ LOGO='cane/logo.'+(logoM[1]==='png'?'png':'jpg'); fs.writeFileSync(pa
 fs.writeFileSync(path.join(DIR,'style.css'),`
 *{box-sizing:border-box}body{margin:0;background:#FBF7EF;color:#2B1D14;font:15px/1.5 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
 a{color:#6B1A1A}header{background:#FFFCF6;border-bottom:1px solid #E3D6BD;padding:10px 16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-header img{width:36px;height:36px;border-radius:50%}header b{font-family:Georgia,serif;color:#6B1A1A}header .sp{flex:1}
+header img{width:36px;height:36px;border-radius:50%}header b{font-family:Georgia,serif;color:#6B1A1A}header .sp{flex:1}header a{margin-left:4px}
 main{max-width:980px;margin:0 auto;padding:16px}h1{font-family:Georgia,serif;font-size:28px;margin:6px 0 2px;color:#2B1D14}
 .sub{color:#6B5540;margin-bottom:12px}.btn{display:inline-block;padding:8px 14px;border-radius:8px;background:#6B1A1A;color:#FFF7E6;text-decoration:none;font-weight:700;margin:4px 6px 4px 0}
 .btn.g{background:#fff;color:#6B1A1A;border:1px solid #C4A44A}.card{background:#FFFCF6;border:1px solid #E3D6BD;border-radius:12px;padding:12px 14px;margin:12px 0}
@@ -212,7 +212,7 @@ for(const r of DB){
     '<meta property="og:title" content="'+esc(name)+(tipo?' · '+esc(tipo):'')+'"><meta property="og:description" content="'+esc(desc)+'">'+
     (SITE?'<meta property="og:url" content="'+esc(url)+'">':'')+(img?'<meta property="og:image" content="'+esc(img)+'">':'')+
     '<link rel="stylesheet" href="style.css"></head><body>'+
-    '<header>'+(LOGO?'<img src="logo.'+LOGO.split('.').pop()+'" alt="">':'')+'<b>Archivio Alabay</b><span class="en">Alabay Club Italia</span><span class="sp"></span><a href="../">Archivio · Archive</a></header>'+
+    '<header>'+(LOGO?'<img src="logo.'+LOGO.split('.').pop()+'" alt="">':'')+'<b>Archivio Alabay</b><span class="en">Alabay Club Italia</span><span class="sp"></span><a href="indice-a.html">Indice A–Z · Index</a><a href="../">Archivio · Archive</a></header>'+
     '<main><h1>'+esc(name)+lineMark(r.id)+'</h1><div class="sub">'+[esc(tipo),esc(paese),y].filter(Boolean).join(' · ')+'</div>'+
     (altTxt.length?'<div class="alt">'+[].concat(regNames.map(x=>'<span lang="it">'+esc(x[0])+'</span> <span class="en">(grafia '+esc(x[1])+' · '+esc(x[1])+' spelling)</span>'),cyr?['<span lang="ru">'+esc(cyr)+'</span>']:[]).join(' · ')+'</div>':'')+
     (()=>{ const L=(LINE.get(String(r.id))||[]).filter(x=>x!==String(r.id)); if(!L.length) return '';
