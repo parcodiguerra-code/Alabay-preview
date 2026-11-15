@@ -54412,15 +54412,18 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "2010-11-16",
-    "note": "[Creato automaticamente come padre]",
+    "note": "",
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0023",
     "foto_list": [
       "images/auto_3472.jpg",
-      "images/auto_3472_2.jpg"
+      "images/auto_3472_2.jpg",
+      "images/auto_3472_3.jpg",
+      "images/auto_3472_4.jpg",
+      "images/auto_3472_5.jpg"
     ],
-    "lastModified": "2026-11-04"
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_3473",
@@ -227432,7 +227435,7 @@
     "pedigree": "",
     "birth": "2010-11-16",
     "note": "",
-    "colore": "WHITE WITH LIGHT FAWN",
+    "colore": "WHITE WITH FAWN",
     "padre": "auto_0013",
     "madre": "auto_0023",
     "foto_list": [],
