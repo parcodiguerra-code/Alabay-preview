@@ -9733,11 +9733,18 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF R 0014415",
     "birth": "1995-10-29",
-    "note": "[Creato automaticamente come padre]",
+    "note": "Preso dal Turkmenistan.",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0412",
     "madre": "auto_0971",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0490.jpg",
+      "images/auto_0490_2.jpg",
+      "images/auto_0490_3.jpg",
+      "images/auto_0490_4.jpg"
+    ],
+    "lastModified": "2026-11-15",
+    "note_en": "Taken from Turkmenistan."
   },
   {
     "id": "auto_0491",
