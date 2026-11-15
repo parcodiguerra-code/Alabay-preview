@@ -84657,9 +84657,10 @@
     "padre": "dog0177",
     "madre": "auto_5346",
     "foto_list": [
-      "images/auto_5377.jpg"
+      "images/auto_5377.jpg",
+      "images/auto_5377_2.jpg"
     ],
-    "lastModified": "2026-11-09"
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_5378",
