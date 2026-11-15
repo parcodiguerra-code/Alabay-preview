@@ -110470,7 +110470,14 @@
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_0040",
     "madre": "auto_3766",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_7005.jpg",
+      "images/auto_7005_2.jpg",
+      "images/auto_7005_3.jpg",
+      "images/auto_7005_4.jpg",
+      "images/auto_7005_5.jpg"
+    ],
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_7006",
