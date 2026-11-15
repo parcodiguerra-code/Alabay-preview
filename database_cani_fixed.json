@@ -2940,7 +2940,11 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0129",
-    "foto_list": []
+    "foto_list": [
+      "images/dog0177.jpg",
+      "images/dog0177_2.jpg"
+    ],
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_0130",
