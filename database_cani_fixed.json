@@ -84142,7 +84142,10 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5340",
     "madre": "auto_5343",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5344.jpg"
+    ],
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_5345",
