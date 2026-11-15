@@ -431,8 +431,8 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "BKU 004406",
     "birth": "2010-11-16",
-    "note": "[Creato automaticamente come padre]",
-    "colore": "WHITE WITH BROWN",
+    "note": "",
+    "colore": "WHITE WITH FAWN",
     "padre": "auto_0013",
     "madre": "auto_0023",
     "foto_list": [
@@ -442,7 +442,7 @@
       "images/auto_0021_4.jpg",
       "images/auto_0021_5.jpg"
     ],
-    "lastModified": "2026-11-04"
+    "lastModified": "2026-11-15"
   },
   {
     "id": "auto_0022",
@@ -227420,5 +227420,39 @@
       "images/auto_14247.jpg"
     ],
     "lastModified": "2026-11-13"
+  },
+  {
+    "id": "auto_14248",
+    "sesso": "M",
+    "name": "I-BORYL TAKLAMAKAN IT",
+    "allevatore": "K. STOEV",
+    "proprietario": "L. LEOPOLD",
+    "paese": "BULGARIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2010-11-16",
+    "note": "",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "padre": "auto_0013",
+    "madre": "auto_0023",
+    "foto_list": [],
+    "lastModified": "2026-11-15"
+  },
+  {
+    "id": "auto_14249",
+    "sesso": "M",
+    "name": "I-BABADZHAN TAKLAMAKAN IT",
+    "allevatore": "K. STOEV",
+    "proprietario": "A. PASSARO",
+    "paese": "BULGARIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2010-11-16",
+    "note": "",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "padre": "auto_0013",
+    "madre": "auto_0023",
+    "foto_list": [],
+    "lastModified": "2026-11-15"
   }
 ]
