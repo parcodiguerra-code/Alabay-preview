@@ -1700,7 +1700,14 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0412",
     "madre": "dog0047",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0094.jpg",
+      "images/auto_0094_2.jpg",
+      "images/auto_0094_3.jpg",
+      "images/auto_0094_4.jpg",
+      "images/auto_0094_5.jpg"
+    ],
+    "lastModified": "2026-11-15"
   },
   {
     "id": "dog0103",
