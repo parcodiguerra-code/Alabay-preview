@@ -92033,7 +92033,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0046",
     "madre": "auto_0103",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_5837.jpg",
+      "images/auto_5837_2.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5838",
