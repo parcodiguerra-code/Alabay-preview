@@ -16474,7 +16474,7 @@
       "images/auto_0799_4.jpg",
       "images/auto_0799_5.jpg"
     ],
-    "lastModified": "2026-11-02"
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_0800",
@@ -115581,7 +115581,7 @@
   {
     "id": "auto_7315",
     "sesso": "F",
-    "name": "CHARRA BARONAS (ow. Greco)",
+    "name": "CHARRA BARONAS",
     "allevatore": "V. VENCKUS",
     "proprietario": "G. GRECO",
     "paese": "LITHUANIA",
@@ -115592,12 +115592,13 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_7312",
     "madre": "auto_7311",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_7316",
     "sesso": "F",
-    "name": "CHAKRA BARONAS (ow. Venckus)",
+    "name": "CHAKRA BARONAS",
     "allevatore": "V. VENCKUS",
     "proprietario": "V. VENCKUS",
     "paese": "LITHUANIA",
@@ -115608,7 +115609,8 @@
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "auto_7312",
     "madre": "auto_7311",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_7317",
@@ -115629,7 +115631,7 @@
   {
     "id": "auto_7318",
     "sesso": "F",
-    "name": "ORKA BARONAS (ow. Albanese)",
+    "name": "ORKA BARONAS",
     "allevatore": "V. VENCKUS",
     "proprietario": "A. ALBANESE",
     "paese": "LITHUANIA",
@@ -115640,7 +115642,8 @@
     "colore": "WHITE",
     "padre": "auto_2958",
     "madre": "auto_7316",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_7319",
