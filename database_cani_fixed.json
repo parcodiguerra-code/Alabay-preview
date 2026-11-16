@@ -54502,11 +54502,15 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "2009-02-12",
-    "note": "[Creato automaticamente]",
+    "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "dog0120",
     "madre": "auto_4538",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3477.jpg",
+      "images/auto_3477_2.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_3476",
