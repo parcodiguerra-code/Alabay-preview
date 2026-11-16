@@ -40486,8 +40486,14 @@
     "colore": "WHITE WITH LIGHT ORANGE",
     "padre": "auto_0052",
     "madre": "auto_0478",
-    "foto_list": [],
-    "lastModified": "2026-10-11"
+    "foto_list": [
+      "images/auto_2601.jpg",
+      "images/auto_2601_2.jpg",
+      "images/auto_2601_3.jpg",
+      "images/auto_2601_4.jpg",
+      "images/auto_2601_5.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2602",
