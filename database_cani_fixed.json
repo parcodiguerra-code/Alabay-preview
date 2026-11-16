@@ -77477,7 +77477,7 @@
   {
     "id": "auto_4925",
     "sesso": "F",
-    "name": "KAHIRA (ow. Yarygina)",
+    "name": "KARA KELLE KAHIRA",
     "allevatore": "I. GOROHOV",
     "proprietario": "L. YARYGINA",
     "paese": "RUSSIA",
@@ -77488,7 +77488,11 @@
     "colore": "WHITE WITH LIGHT ORANGE",
     "padre": "auto_4028",
     "madre": "auto_0440",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4925.jpg",
+      "images/auto_4925_2.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_4926",
