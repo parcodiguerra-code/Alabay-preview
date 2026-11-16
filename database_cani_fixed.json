@@ -77508,7 +77508,14 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_4922",
     "madre": "auto_4925",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4926.jpg",
+      "images/auto_4926_2.jpg",
+      "images/auto_4926_3.jpg",
+      "images/auto_4926_4.jpg",
+      "images/auto_4926_5.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_4928",
