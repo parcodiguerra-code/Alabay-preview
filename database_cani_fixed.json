@@ -30934,34 +30934,16 @@
     "lastModified": "2026-10-20"
   },
   {
-    "id": "auto_1378",
-    "sesso": "F",
-    "name": "GULCHA (ow. Savich)",
-    "allevatore": "BAHIROV",
-    "proprietario": "V. SAVICH",
-    "paese": "TAJIKISTAN",
-    "tipo": "TAJIK DAHMARDA",
-    "pedigree": "",
-    "birth": "",
-    "note": "Presa in Tagikistan.",
-    "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": [],
-    "note_en": "Taken from Tajikistan.",
-    "lastModified": "2026-10-12"
-  },
-  {
     "id": "dog1975",
     "sesso": "M",
     "name": "SYRLON (ow. Levchishin)",
     "allevatore": "V. SAVICH",
-    "proprietario": "A. LEVCHISHIN",
-    "paese": "BELARUS",
-    "tipo": "CROSSBRED",
+    "proprietario": "V. SAVICH - A. LEVCHISHIN",
+    "paese": "TAJIKISTAN",
+    "tipo": "TAJIK DAHMARDA",
     "pedigree": "UKU R 00093600",
     "birth": "1988-01-01",
-    "note": "Testimonianza di un esperto e allevatore russo della razza: «Syrlon aveva un certificato uzbeko e anche un altro pedigree. Si diceva che venisse dal Tagikistan, ma si scoprì che era figlio di un Guardiano Moscovita. L'accoppiamento lo organizzò Savich e Syrlon nacque a Gomel, in Bielorussia, da Savich. È stato Savich stesso a raccontarmi questi fatti: Savich mi ha detto, personalmente, di aver usato un Guardiano Moscovita. Gli chiesi perché producesse ibridi e mi rispose che ogni mezzo era giustificato per raggiungere i suoi obiettivi. Syrlon dava cuccioli ossuti, dall'ossatura grossolana, ma evidentemente di un'altra razza. Sono fatti accertati, di cui ci sono molti testimoni. Ho seguito anche la storia dei cani nati da Syrlon e da Amba di Sinchuk: non ricordo i loro nomi, ma tre di loro finirono in Kazakistan, dove la loro linea di sangue si diffuse, contaminando gravemente la razza.».",
+    "note": "Preso dal Kazakistan, proveniente dal Tagikistan.",
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_11794",
     "madre": "auto_1378",
@@ -30970,8 +30952,12 @@
       "images/dog1975_2.jpg",
       "images/dog1975_3.jpg"
     ],
-    "note_en": "Testimony of a Russian breed expert and breeder: «Syrlon had an Uzbek certificate and also another pedigree. It was said that he came from Tajikistan, but it turned out that he was the son of a Moscow Watchdog. Savich arranged the mating and Syrlon was born in Gomel, Belarus, to Savich. It was Savich himself who told me these facts: Savich told me, in person, that he had used a Moskow Watchdog. I asked him why he was producing hybrids, and he replied that any means were justified to achieve his goals. Syrlon sired bony, coarse-boned puppies, but they were clearly of a different breed. These are established facts, and there are many witnesses to them. I have also followed the story of the dogs who were born from Syrlon and Sinchuk's Amba: I don't remember their names, but three of them ended up in Kazakhstan, where their bloodline spread, seriously contaminating the breed.».",
-    "lastModified": "2026-11-04"
+    "lastModified": "2026-11-16",
+    "verifica": {
+      "data": "2026-11-16",
+      "note": ""
+    },
+    "note_en": "Taken from Kazakhstan, having come from Tajikistan."
   },
   {
     "id": "dog1976",
@@ -30980,14 +30966,15 @@
     "allevatore": "V. SAVICH",
     "proprietario": "I. SUHACHEV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF R 0004034",
     "birth": "1990-08-10",
     "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "dog1975",
     "madre": "dog1972",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "dog1977",
@@ -31172,14 +31159,15 @@
     "allevatore": "A. LEVCHISHIN",
     "proprietario": "I. SUHACHEV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 0005277",
     "birth": "1993-05-12",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog1975",
     "madre": "dog1987",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "dog1989",
@@ -32719,14 +32707,15 @@
     "allevatore": "I. SUHACHEV",
     "proprietario": "S. KOZLOVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 1122438",
     "birth": "2000-01-01",
     "note": "[Creato automaticamente]",
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_2092",
     "madre": "auto_6966",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2092",
@@ -32735,14 +32724,15 @@
     "allevatore": "I. SUHACHEV",
     "proprietario": "I. SUHACHEV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 0018582",
     "birth": "1998-02-15",
     "note": "[Creato automaticamente]",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2166",
     "madre": "dog1988",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2094",
@@ -33858,14 +33848,15 @@
     "allevatore": "I. SUHACHEV",
     "proprietario": "I. SUHACHEV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1998-02-15",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2166",
     "madre": "dog1988",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2168",
@@ -39016,14 +39007,15 @@
     "allevatore": "A. LEVCHISHIN",
     "proprietario": "",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "TAJIK DAHMARDA",
     "pedigree": "UKU R 00548300",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "dog1975",
     "madre": "auto_2517",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2512",
@@ -39032,14 +39024,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "G. CHUDNOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU R 00172799",
     "birth": "1999-11-28",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_2513",
     "madre": "auto_2478",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2514",
@@ -39048,14 +39041,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "I. VORONIN",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1999-11-28",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_2513",
     "madre": "auto_2478",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2515",
@@ -39064,14 +39058,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "G. CHUDNOV - B. KUSTY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU R 00024305",
     "birth": "2001-11-09",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog0551",
     "madre": "auto_2512",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2516",
@@ -39080,14 +39075,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2001-11-09",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "dog0551",
     "madre": "auto_2512",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2517",
@@ -39096,14 +39092,15 @@
     "allevatore": "V. SAVICH",
     "proprietario": "A. LEVCHISHIN",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "TAJIK DAHMARDA",
     "pedigree": "UKU R 00404800",
     "birth": "",
     "note": "",
     "colore": "",
     "padre": "dog1975",
     "madre": "auto_2518",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2518",
@@ -42836,14 +42833,15 @@
     "allevatore": "V. SAVICH",
     "proprietario": "M. ANISHENKO",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU R 00109800",
     "birth": "1990-08-10",
     "note": "",
     "colore": "LIGHT FAWN WITH WHITE",
     "padre": "dog1975",
     "madre": "dog1972",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2755",
@@ -42852,14 +42850,15 @@
     "allevatore": "M. ANISHENKO",
     "proprietario": "S. SLUKIN",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU 00206598",
     "birth": "1993-01-11",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN AND BLACK",
     "padre": "auto_2254",
     "madre": "auto_2754",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2756",
@@ -43049,7 +43048,7 @@
     "allevatore": "A. SINCHUK",
     "proprietario": "S. FRIZEN",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "Tre fratelli di questa femmina finirono in Kazakistan, dove la loro linea di sangue si diffuse, contaminando gravemente la razza.",
@@ -43058,7 +43057,7 @@
     "madre": "auto_0496",
     "foto_list": [],
     "note_en": "Three of this female’s brothers ended up in Kazakhstan, where their bloodline spread, seriously contaminating the breed.",
-    "lastModified": "2026-10-12"
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_2769",
@@ -60354,14 +60353,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "G. CHUDNOV - O. PAVLYUVCHENKO",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2004-02-03",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0449",
     "madre": "auto_2515",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_3844",
@@ -60370,14 +60370,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "G. CHUDNOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2004-02-03",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0449",
     "madre": "auto_2515",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_3845",
@@ -85946,14 +85947,15 @@
     "allevatore": "O. PAVLICHENKO",
     "proprietario": "B. KOPELIOVIC",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2010-03-22",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2888",
     "madre": "auto_3843",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5450",
@@ -85978,14 +85980,15 @@
     "allevatore": "B. KOPELIOVIC",
     "proprietario": "P. SVOBODA",
     "paese": "SLOVAKIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2013-08-07",
     "note": "",
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_2341",
     "madre": "auto_5449",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5452",
@@ -85994,14 +85997,15 @@
     "allevatore": "O. PAVLICHENKO - G. CHUDNOV",
     "proprietario": "V. CHERNIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2010-03-22",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2888",
     "madre": "auto_3843",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5453",
@@ -87329,14 +87333,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "B. KUSTY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4281",
     "madre": "auto_2515",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5541",
@@ -87361,14 +87366,15 @@
     "allevatore": "B. KUSTY",
     "proprietario": "B. KUSTY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2012-12-04",
     "note": "",
     "colore": "",
     "padre": "auto_5541",
     "madre": "auto_5540",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5543",
@@ -87377,14 +87383,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "B. KUSTY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_4281",
     "madre": "auto_2515",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5544",
@@ -87393,14 +87400,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "B. KUSTY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2011-01-01",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_4339",
     "madre": "auto_3844",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5545",
@@ -87409,14 +87417,15 @@
     "allevatore": "B. KUSTY",
     "proprietario": "B. KUSTY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2012-11-07",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_5543",
     "madre": "auto_5544",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5546",
@@ -87425,14 +87434,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "B. KUSTY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4281",
     "madre": "auto_2515",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5547",
@@ -87441,14 +87451,15 @@
     "allevatore": "V. SHRAMKO",
     "proprietario": "V. SHRAMKO",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2015-08-04",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5546",
     "madre": "auto_4280",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5548",
@@ -87457,14 +87468,15 @@
     "allevatore": "V. SHRAMKO",
     "proprietario": "B. KUSTY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-02-18",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5546",
     "madre": "auto_4280",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5549",
@@ -87473,14 +87485,15 @@
     "allevatore": "V. SHRAMKO",
     "proprietario": "V. SHRAMKO",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-02-18",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5546",
     "madre": "auto_4280",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5550",
@@ -87505,14 +87518,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "S. VALUEV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2010-01-06",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2523",
     "madre": "auto_2515",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5552",
@@ -87521,14 +87535,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "G. SKOROMNIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2010-01-06",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2523",
     "madre": "auto_2515",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5553",
@@ -87537,14 +87552,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2010-01-06",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2523",
     "madre": "auto_2515",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5554",
@@ -87569,14 +87585,15 @@
     "allevatore": "D. TIHONOVSKIY",
     "proprietario": "R. DYLOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2013-11-17",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5551",
     "madre": "auto_5554",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5556",
@@ -87585,14 +87602,15 @@
     "allevatore": "D. TIHONOVSKIY",
     "proprietario": "",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2013-11-17",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5551",
     "madre": "auto_5554",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5557",
@@ -87601,14 +87619,15 @@
     "allevatore": "D. TIHONOVSKIY",
     "proprietario": "G. CHUDNOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2013-11-17",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5551",
     "madre": "auto_5554",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5558",
@@ -87617,14 +87636,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "G. CHUDNOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2018-11-15",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_5557",
     "madre": "auto_5971",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5560",
@@ -87633,14 +87653,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "S. VALUEV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2018-11-15",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5557",
     "madre": "auto_5971",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5561",
@@ -89247,14 +89268,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "T. KOBZEVA",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_4339",
     "madre": "auto_3844",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5662",
@@ -89263,14 +89285,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_5661",
     "madre": "auto_5660",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5663",
@@ -90622,14 +90645,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_5746",
     "madre": "auto_5748",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5748",
@@ -90638,14 +90662,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_5661",
     "madre": "auto_5664",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5749",
@@ -90670,14 +90695,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "A. ABIDOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-05-12",
     "note": "",
     "colore": "BLACK WITH WHITE",
     "padre": "auto_5749",
     "madre": "auto_5748",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5751",
@@ -90910,14 +90936,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "A. PAVLOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_5661",
     "madre": "auto_5664",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5766",
@@ -90942,14 +90969,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5661",
     "madre": "auto_5664",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5768",
@@ -90958,7 +90986,7 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
@@ -90971,7 +90999,7 @@
       "images/auto_5768_3.jpg",
       "images/auto_5768_4.jpg"
     ],
-    "lastModified": "2026-11-05"
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5769",
@@ -90980,14 +91008,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5768",
     "madre": "auto_4937",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5770",
@@ -90996,14 +91025,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "V. SHRAMKO",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2019-02-06",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5755",
     "madre": "auto_5769",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5771",
@@ -91028,14 +91058,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA - A. ISLAEV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2016-10-20",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_5661",
     "madre": "auto_5771",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5773",
@@ -91076,14 +91107,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5661",
     "madre": "auto_5754",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5776",
@@ -91092,14 +91124,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "V. SHRAMKO",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-11-08",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5755",
     "madre": "auto_5775",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5777",
@@ -91140,14 +91173,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "V. SHRAMKO",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-10-26",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_5755",
     "madre": "auto_5747",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5780",
@@ -91156,14 +91190,15 @@
     "allevatore": "V. SHRAMKO",
     "proprietario": "V. SHRAMKO",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_5776",
     "madre": "auto_5779",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5781",
@@ -91172,14 +91207,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5363",
     "madre": "auto_5775",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5782",
@@ -91188,14 +91224,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5363",
     "madre": "auto_5775",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5783",
@@ -91455,14 +91492,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "V. KOROPETS",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU 0268084",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5788",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5799",
@@ -91471,14 +91509,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "E. BORTNIK",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2014-01-07",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5788",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5800",
@@ -91487,14 +91526,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "G. SKOROMNIY",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5788",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5801",
@@ -91503,14 +91543,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2014-01-07",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5788",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5802",
@@ -91519,14 +91560,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "K. SIMCHEV (KENNEL \"TURKMEN VATAN\")",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2014-01-07",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5788",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5803",
@@ -91631,14 +91673,15 @@
     "allevatore": "E. BORTNIK",
     "proprietario": "O. BILYK",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-05-03",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5808",
     "madre": "auto_5799",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5810",
@@ -91647,14 +91690,15 @@
     "allevatore": "E. BORTNIK",
     "proprietario": "V. BELETSKIY",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-05-03",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5808",
     "madre": "auto_5799",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5811",
@@ -91985,14 +92029,15 @@
     "allevatore": "B. KUSTY",
     "proprietario": "",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH GREY",
     "padre": "auto_5795",
     "madre": "auto_5540",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5833",
@@ -92001,14 +92046,15 @@
     "allevatore": "E. BORTNIK",
     "proprietario": "V. BELETSKIY",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2015-12-26",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_5795",
     "madre": "auto_5799",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5834",
@@ -92017,14 +92063,15 @@
     "allevatore": "E. BORTNIK",
     "proprietario": "E. BORTNIK",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2015-12-26",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5795",
     "madre": "auto_5799",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5835",
@@ -92375,14 +92422,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "G. SKOROMNIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2011-01-01",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_4339",
     "madre": "auto_3844",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5858",
@@ -92391,14 +92439,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "G. CHUDNOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2012-04-20",
     "note": "",
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_5857",
     "madre": "auto_5856",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5859",
@@ -92423,14 +92472,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "V. KALININ",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2015-02-12",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5858",
     "madre": "auto_5859",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5861",
@@ -97062,14 +97112,15 @@
     "allevatore": "G. CHUDNOV",
     "proprietario": "E. LEVINA",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2011-01-01",
     "note": "",
     "colore": "WHITE WITH FAWN",
     "padre": "auto_4339",
     "madre": "auto_3844",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6153",
@@ -100853,14 +100904,15 @@
     "allevatore": "G. KYARIZOV - D. DETKOVICH",
     "proprietario": "V. SHAMRAY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2019-11-06",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5800",
     "madre": "auto_6351",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6394",
@@ -100869,14 +100921,15 @@
     "allevatore": "G. KYARIZOV - D. DETKOVICH",
     "proprietario": "D. DETKOVICH - A. GUZ",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2019-11-06",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5800",
     "madre": "auto_6351",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6395",
@@ -100885,14 +100938,15 @@
     "allevatore": "G. KYARIZOV - D. DETKOVICH",
     "proprietario": "G. SKOROMNIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2019-11-06",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5800",
     "madre": "auto_6351",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6396",
@@ -100901,14 +100955,15 @@
     "allevatore": "G. KYARIZOV - D. DETKOVICH",
     "proprietario": "O. PORTNIK",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2019-11-06",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5800",
     "madre": "auto_6351",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6397",
@@ -101983,14 +102038,15 @@
     "allevatore": "D. DETKOVICH - A. KARATAEV",
     "proprietario": "E. BORTNIK",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2018-04-12",
     "note": "",
     "colore": "LIGHT REDDISH WITH WHITE",
     "padre": "auto_5834",
     "madre": "auto_6001",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6466",
@@ -102047,14 +102103,15 @@
     "allevatore": "A. KARATAEV - E. BORTNIK",
     "proprietario": "D. DETKOVICH - G. CHUDNOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2020-03-03",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5834",
     "madre": "auto_6468",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6471",
@@ -102063,14 +102120,15 @@
     "allevatore": "D. DETKOVICH - G. CHUDNOV",
     "proprietario": "G. BUTKEVICH",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2021-10-20",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_5717",
     "madre": "auto_6470",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6472",
@@ -102287,14 +102345,15 @@
     "allevatore": "V. CHALIY",
     "proprietario": "K. ESENBAHTIN",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2021-06-19",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5834",
     "madre": "auto_6388",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6486",
@@ -102303,14 +102362,15 @@
     "allevatore": "V. CHALIY",
     "proprietario": "V. CHALIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2020-06-05",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5834",
     "madre": "auto_6388",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6487",
@@ -102319,14 +102379,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "O. KOVETS",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2018-11-28",
     "note": "",
     "colore": "FAWN WITH WHITE",
     "padre": "auto_5834",
     "madre": "auto_5798",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6488",
@@ -102351,14 +102412,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "G. SKOROMNIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2018-01-06",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_6488",
     "madre": "auto_5798",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6490",
@@ -102367,14 +102429,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "A. KUZNETSOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-02-10",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_6488",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6491",
@@ -102383,14 +102446,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "G. SKOROMNIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-02-10",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_6488",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6492",
@@ -104143,14 +104207,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "M. KOLESNIKOVA",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2013-01-15",
     "note": "",
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_5857",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6602",
@@ -104159,14 +104224,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "G. SKOROMNIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2013-01-15",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5857",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6603",
@@ -104175,14 +104241,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "A. PLOTINKOV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2014-11-13",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_3975",
     "madre": "auto_6602",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6604",
@@ -104768,14 +104835,15 @@
     "allevatore": "E. BORTNIK",
     "proprietario": "E. BORTNIK",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-05-03",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5795",
     "madre": "auto_5799",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6641",
@@ -104832,14 +104900,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "S. DUKAI",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2019-11-30",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_5800",
     "madre": "auto_6643",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6645",
@@ -104848,14 +104917,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "D. DETKOVICH",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2019-11-30",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_5800",
     "madre": "auto_6643",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6646",
@@ -104864,14 +104934,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "E. BORTNIK - V. CHALIY",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU 0531869",
     "birth": "2021-06-27",
     "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_5834",
     "madre": "auto_6643",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6647",
@@ -104880,14 +104951,15 @@
     "allevatore": "E. BORTNIK",
     "proprietario": "E. BORTNIK",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2024-01-06",
     "note": "",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_6640",
     "madre": "auto_6646",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6648",
@@ -109960,14 +110032,15 @@
     "allevatore": "I. SUHACHEV",
     "proprietario": "I. SUHACHEV - V. ULAEV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "1995-07-19",
     "note": "",
     "colore": "REDDISH WITH WHITE",
     "padre": "auto_1369",
     "madre": "dog1988",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6967",
@@ -113143,14 +113216,15 @@
     "allevatore": "V. BELETSKIY",
     "proprietario": "YAROSLAV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2018-02-20",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_6639",
     "madre": "auto_5833",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_7162",
@@ -164073,14 +164147,15 @@
     "allevatore": "E. BEGUN",
     "proprietario": "S. ANDREEVA",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "UKU 0381626",
     "birth": "2017-12-10",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5452",
     "madre": "auto_5855",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_10282",
@@ -174706,14 +174781,15 @@
     "allevatore": "I. SUHACHEV",
     "proprietario": "",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 0018586",
     "birth": "1998-02-15",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2166",
     "madre": "dog1988",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_10955",
@@ -188046,22 +188122,6 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_11724",
     "madre": "auto_7736",
-    "foto_list": []
-  },
-  {
-    "id": "auto_11794",
-    "sesso": "M",
-    "name": "UNKNOWN (MOSKOW WATCHDOG)",
-    "allevatore": "",
-    "proprietario": "",
-    "paese": "",
-    "tipo": "",
-    "pedigree": "",
-    "birth": "",
-    "note": "[Creato automaticamente]",
-    "colore": "",
-    "padre": "",
-    "madre": "",
     "foto_list": []
   },
   {
@@ -201540,14 +201600,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "O. DIMOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 5330728",
     "birth": "",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_12641",
     "madre": "auto_5781",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12643",
@@ -201556,14 +201617,15 @@
     "allevatore": "O. DIMOV",
     "proprietario": "O. DIMOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 5688260",
     "birth": "2019-11-21",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5758",
     "madre": "auto_12642",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12644",
@@ -201572,14 +201634,15 @@
     "allevatore": "O. DIMOV",
     "proprietario": "O. DIMOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2019-11-21",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5758",
     "madre": "auto_12642",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12645",
@@ -201912,14 +201975,15 @@
     "allevatore": "O. DIMOV",
     "proprietario": "O. DIMOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "ORANGE WITH WHITE",
     "padre": "auto_12644",
     "madre": "auto_12655",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12666",
@@ -202160,14 +202224,15 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "O. DIMOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH REDDISH",
     "padre": "auto_5746",
     "madre": "auto_5748",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12682",
@@ -202176,14 +202241,15 @@
     "allevatore": "O. DIMOV",
     "proprietario": "O. DIMOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_12681",
     "madre": "auto_12632",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12683",
@@ -202192,14 +202258,15 @@
     "allevatore": "O. DIMOV",
     "proprietario": "O. DIMOV",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_12681",
     "madre": "auto_12632",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12684",
@@ -202510,14 +202577,15 @@
     "allevatore": "G. SKOROMNIY",
     "proprietario": "Y. ISAYEV",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2017-02-10",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_6488",
     "madre": "auto_5552",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12705",
@@ -202526,14 +202594,15 @@
     "allevatore": "Y. ISAYEV",
     "proprietario": "",
     "paese": "UKRAINE",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5834",
     "madre": "auto_12702",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_12706",
@@ -218838,14 +218907,15 @@
     "allevatore": "O. DIMOV",
     "proprietario": "O. GUIVAN",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "RKF 6415554",
     "birth": "2021-11-27",
     "note": "",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_5361",
     "madre": "auto_12683",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_13733",
@@ -227302,7 +227372,7 @@
     "allevatore": "T. KOBZEVA",
     "proprietario": "T. KOBZEVA",
     "paese": "RUSSIA",
-    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
     "note": "",
@@ -227316,7 +227386,7 @@
       "images/auto_14233_4.jpg",
       "images/auto_14233_5.jpg"
     ],
-    "lastModified": "2026-11-05"
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_14234",
