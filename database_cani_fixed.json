@@ -77459,7 +77459,12 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_2955",
     "madre": "auto_0108",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_4923.jpg",
+      "images/auto_4923_2.jpg",
+      "images/auto_4923_3.jpg",
+      "images/auto_4923_4.jpg"
+    ],
     "lastModified": "2026-11-16"
   },
   {
