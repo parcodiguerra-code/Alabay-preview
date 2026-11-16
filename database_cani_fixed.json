@@ -58385,7 +58385,7 @@
   {
     "id": "auto_3722",
     "sesso": "M",
-    "name": "ALTYN KYZYL BATYR",
+    "name": "ALTON KYZYL BATYR",
     "allevatore": "O. GUIVAN",
     "proprietario": "I. MARTEMYANOVA - K. PITKE",
     "paese": "ESTONIA",
@@ -58396,8 +58396,13 @@
     "colore": "ORANGE WITH WHITE",
     "padre": "auto_3720",
     "madre": "auto_3721",
-    "foto_list": [],
-    "lastModified": "2026-10-12"
+    "foto_list": [
+      "images/auto_3722.jpg",
+      "images/auto_3722_2.jpg",
+      "images/auto_3722_3.jpg",
+      "images/auto_3722_4.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_3723",
