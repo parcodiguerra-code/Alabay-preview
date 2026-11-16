@@ -18284,7 +18284,7 @@
     "id": "auto_0888",
     "sesso": "F",
     "name": "YALASH (ow. Baharev)",
-    "allevatore": "I. BAHAREV",
+    "allevatore": "COLLECTIVE FARM \"YUSUPOVA\"",
     "proprietario": "I. BAHAREV",
     "paese": "UZBEKISTAN",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
@@ -18299,7 +18299,7 @@
       "images/auto_0888_2.jpg"
     ],
     "note_en": "Taken from Uzbekistan.",
-    "lastModified": "2026-10-14"
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_0889",
@@ -18320,18 +18320,19 @@
   {
     "id": "auto_0890",
     "sesso": "F",
-    "name": "ALASH (Uzbekistan)",
-    "allevatore": "",
-    "proprietario": "",
+    "name": "ALASH (ow. Collective Farm \"Yusupova\")",
+    "allevatore": "ABLYAMETOV",
+    "proprietario": "COLLECTIVE FARM \"YUSUPOVA\"",
     "paese": "UZBEKISTAN",
     "tipo": "UZBEK SARKANJIK",
     "pedigree": "",
     "birth": "",
     "note": "",
     "colore": "",
-    "padre": "",
-    "madre": "",
-    "foto_list": []
+    "padre": "auto_14250",
+    "madre": "auto_14251",
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_0891",
@@ -18375,7 +18376,7 @@
     "sesso": "M",
     "name": "BATIY ALU (ow. Ghidini)",
     "allevatore": "I. BAHAREV",
-    "proprietario": "A. GHIDINI",
+    "proprietario": "V. KOZLOV - A. GHIDINI",
     "paese": "UKRAINE",
     "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "DS 136037",
@@ -18391,7 +18392,7 @@
       "images/dog1161_4.jpg",
       "images/dog1161_5.jpg"
     ],
-    "lastModified": "2026-11-01"
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_0893",
@@ -227472,5 +227473,37 @@
     "madre": "auto_0023",
     "foto_list": [],
     "lastModified": "2026-11-15"
+  },
+  {
+    "id": "auto_14250",
+    "sesso": "M",
+    "name": "TORKOZ (ow. Valihanov)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
+  },
+  {
+    "id": "auto_14251",
+    "sesso": "F",
+    "name": "ZUZU (ow. Ablyametov)",
+    "allevatore": "",
+    "proprietario": "",
+    "paese": "",
+    "tipo": "",
+    "pedigree": "",
+    "birth": "",
+    "colore": "",
+    "note": "[Creato automaticamente]",
+    "padre": "",
+    "madre": "",
+    "foto_list": []
   }
 ]
