@@ -12692,14 +12692,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0035",
     "madre": "auto_0118",
-    "foto_list": [
-      "images/auto_0649.jpg",
-      "images/auto_0649_2.jpg",
-      "images/auto_0649_3.jpg",
-      "images/auto_0649_4.jpg",
-      "images/auto_0649_5.jpg"
-    ],
-    "lastModified": "2026-10-24"
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_0650",
