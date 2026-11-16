@@ -107310,7 +107310,11 @@
     "colore": "WHITE",
     "padre": "auto_5922",
     "madre": "auto_4924",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_6801.jpg",
+      "images/auto_6801_2.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_6802",
