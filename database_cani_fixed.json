@@ -77388,7 +77388,11 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_2955",
     "madre": "auto_0070",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_4922.jpg",
+      "images/auto_4922_2.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_4923",
