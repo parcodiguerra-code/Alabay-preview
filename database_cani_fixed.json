@@ -19404,7 +19404,10 @@
     "colore": "WHITE",
     "padre": "auto_1159",
     "madre": "auto_0921",
-    "foto_list": []
+    "foto_list": [
+      "images/dog1227.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_0923",
