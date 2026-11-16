@@ -640,7 +640,14 @@
     "colore": "WHITE WITH BROWN",
     "padre": "auto_0033",
     "madre": "auto_0034",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_0032.jpg",
+      "images/auto_0032_2.jpg",
+      "images/auto_0032_3.jpg",
+      "images/auto_0032_4.jpg",
+      "images/auto_0032_5.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_0033",
