@@ -110630,7 +110630,7 @@
   {
     "id": "auto_7010",
     "sesso": "F",
-    "name": "GAYRAT AKMENU GELE",
+    "name": "GAYRAT AKMENU GELE, b. 2011",
     "allevatore": "A. DERUS",
     "proprietario": "R. BENEDETTO",
     "paese": "LITHUANIA",
@@ -219047,7 +219047,7 @@
   {
     "id": "auto_13750",
     "sesso": "F",
-    "name": "GAIRAT AKMENU GELE",
+    "name": "GAYRAT AKMENU GELE, b. 2006",
     "allevatore": "A. DERUS",
     "proprietario": "E. CASCIANI",
     "paese": "LITHUANIA",
@@ -219058,7 +219058,8 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_6694",
     "madre": "auto_7441",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_13751",
