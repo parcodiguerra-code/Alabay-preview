@@ -227671,5 +227671,26 @@
       "images/auto_14254_2.jpg"
     ],
     "lastModified": "2026-11-16"
+  },
+  {
+    "id": "auto_14255",
+    "sesso": "F",
+    "name": "TAVUS AKMENU GELE",
+    "allevatore": "A. DERUS",
+    "proprietario": "",
+    "paese": "LITHUANIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "",
+    "birth": "2009-05-19",
+    "note": "[Creato automaticamente come madre]",
+    "colore": "WHITE WITH LIGHT FAWN",
+    "padre": "auto_0137",
+    "madre": "auto_0138",
+    "foto_list": [
+      "images/auto_14255.jpg",
+      "images/auto_14255_2.jpg",
+      "images/auto_14255_3.jpg"
+    ],
+    "lastModified": "2026-11-16"
   }
 ]
