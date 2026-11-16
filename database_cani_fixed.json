@@ -227767,5 +227767,22 @@
       "images/auto_14255_3.jpg"
     ],
     "lastModified": "2026-11-16"
+  },
+  {
+    "id": "auto_14256",
+    "sesso": "M",
+    "name": "EKIMEN (br. Chudnov)",
+    "allevatore": "G. CHUDNOV",
+    "proprietario": "",
+    "paese": "UKRAINE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2004-02-03",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0449",
+    "madre": "auto_2515",
+    "foto_list": [],
+    "lastModified": "2026-11-16"
   }
 ]
