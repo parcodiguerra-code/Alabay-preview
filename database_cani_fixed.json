@@ -59052,7 +59052,10 @@
     "colore": "LIGHT ORANGE WITH WHITE",
     "padre": "dog0127",
     "madre": "auto_3765",
-    "foto_list": []
+    "foto_list": [
+      "images/auto_3764.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_3765",
