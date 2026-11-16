@@ -84210,8 +84210,12 @@
     "colore": "WHITE",
     "padre": "auto_0011",
     "madre": "auto_0088",
-    "foto_list": [],
-    "lastModified": "2026-10-11"
+    "foto_list": [
+      "images/auto_5343.jpg",
+      "images/auto_5343_2.jpg",
+      "images/auto_5343_3.jpg"
+    ],
+    "lastModified": "2026-11-16"
   },
   {
     "id": "auto_5344",
