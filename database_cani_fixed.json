@@ -107299,21 +107299,18 @@
   {
     "id": "auto_6801",
     "sesso": "F",
-    "name": "FIRYUZA AKMENU GELE",
+    "name": "FIRYUZA AKMENU GELE, b. 2017",
     "allevatore": "A. DERUS",
     "proprietario": "D. KRISYUKENAS",
     "paese": "LITHUANIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "",
+    "pedigree": "LSVK SO 2262/18",
     "birth": "2017-11-25",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_5922",
     "madre": "auto_4924",
-    "foto_list": [
-      "images/auto_6801.jpg",
-      "images/auto_6801_2.jpg"
-    ],
+    "foto_list": [],
     "lastModified": "2026-11-16"
   },
   {
@@ -227557,6 +227554,26 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
+    "lastModified": "2026-11-16"
+  },
+  {
+    "id": "auto_14254",
+    "sesso": "F",
+    "name": "FIRYUZA AKMENU GELE, b. 2011",
+    "allevatore": "A. DERUS",
+    "proprietario": "",
+    "paese": "LITHUANIA",
+    "tipo": "PUREBRED TURKMEN ALABAY",
+    "pedigree": "LSVK SO 1505/11",
+    "birth": "2011-07-06",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0042",
+    "madre": "auto_0138",
+    "foto_list": [
+      "images/auto_14254.jpg",
+      "images/auto_14254_2.jpg"
+    ],
     "lastModified": "2026-11-16"
   }
 ]
