@@ -1816,7 +1816,7 @@
   {
     "id": "dog0105",
     "sesso": "M",
-    "name": "GUNDOGAR ITI ELBARS",
+    "name": "GYNDAGAR ITI ELBARS",
     "allevatore": "V. STASEV",
     "proprietario": "B. CRUCIANI",
     "paese": "BELARUS",
@@ -1827,7 +1827,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog0103",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "dog0106",
@@ -1942,7 +1943,7 @@
   {
     "id": "auto_0096",
     "sesso": "F",
-    "name": "GUNDOGAR ITI VESET",
+    "name": "GYNDAGAR ITI VESET",
     "allevatore": "V. STASEV",
     "proprietario": "N. CAPONIO",
     "paese": "BELARUS",
@@ -1960,7 +1961,7 @@
       "images/auto_0096_4.jpg",
       "images/auto_0096_5.jpg"
     ],
-    "lastModified": "2026-11-16"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "dog0114",
@@ -2004,7 +2005,7 @@
   {
     "id": "dog0116",
     "sesso": "F",
-    "name": "GUNDOGAR ITI BABU",
+    "name": "GYNDAGAR ITI BABU",
     "allevatore": "V. STASEV",
     "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
     "paese": "BELARUS",
@@ -2022,7 +2023,7 @@
       "images/dog0116_4.jpg",
       "images/dog0116_5.jpg"
     ],
-    "lastModified": "2026-11-02"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "dog0117",
@@ -4365,7 +4366,7 @@
   {
     "id": "auto_0207",
     "sesso": "M",
-    "name": "GUNDOGAR ITI EKIMEN",
+    "name": "GYNDAGAR ITI EKIMEN",
     "allevatore": "V. STASEV",
     "proprietario": "G. CICATELLI",
     "paese": "BELARUS",
@@ -4376,12 +4377,13 @@
     "colore": "WHITE",
     "padre": "dog0103",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_0208",
     "sesso": "M",
-    "name": "GUNDOGAR ITI E-HUMMER",
+    "name": "GYNDAGAR ITI E-HUMMER",
     "allevatore": "V. STASEV",
     "proprietario": "B. IURA",
     "paese": "BELARUS",
@@ -4392,7 +4394,8 @@
     "colore": "WHITE",
     "padre": "dog0103",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "dog0266",
@@ -4639,7 +4642,7 @@
   {
     "id": "auto_0222",
     "sesso": "M",
-    "name": "GUNDOGAR ITI G-TONKO",
+    "name": "GYNDAGAR ITI G-TONKO",
     "allevatore": "V. STASEV",
     "proprietario": "A. DESIATI",
     "paese": "BELARUS",
@@ -4650,7 +4653,8 @@
     "colore": "",
     "padre": "dog0397",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "dog0282",
@@ -6997,7 +7001,7 @@
   {
     "id": "auto_0346",
     "sesso": "M",
-    "name": "E-ESSER AK ESGER",
+    "name": "E-ESSER AK EZGER",
     "allevatore": "H. KOSTADINOV",
     "proprietario": "H. KOSTADINOV",
     "paese": "BULGARIA",
@@ -7015,7 +7019,7 @@
       "images/auto_0346_4.jpg",
       "images/auto_0346_5.jpg"
     ],
-    "lastModified": "2026-11-13"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "dog0425",
@@ -7603,7 +7607,7 @@
   {
     "id": "auto_0376",
     "sesso": "M",
-    "name": "E-BOVSER AK ESGER",
+    "name": "E-BOVSER AK EZGER",
     "allevatore": "H. KOSTADINOV",
     "proprietario": "H. KOSTADINOV",
     "paese": "BULGARIA",
@@ -7614,7 +7618,8 @@
     "colore": "WHITE",
     "padre": "auto_0015",
     "madre": "auto_0016",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "dog0462",
@@ -8274,7 +8279,7 @@
   {
     "id": "dog0503",
     "sesso": "M",
-    "name": "GUNDOGAR ITI GHORAN",
+    "name": "GYNDAGAR ITI GHORAN",
     "allevatore": "V. STASEV",
     "proprietario": "A. FARACI",
     "paese": "BELARUS",
@@ -8285,12 +8290,13 @@
     "colore": "WHITE",
     "padre": "dog0397",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_0409",
     "sesso": "F",
-    "name": "GUNDOGAR ITI GONUR",
+    "name": "GYNDAGAR ITI GONUR",
     "allevatore": "V. STASEV",
     "proprietario": "D. LICOMATI",
     "paese": "BELARUS",
@@ -8301,7 +8307,8 @@
     "colore": "WHITE",
     "padre": "dog0397",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "dog0505",
@@ -52696,7 +52703,7 @@
   {
     "id": "auto_3363",
     "sesso": "M",
-    "name": "YALAN AK ESGER",
+    "name": "YALAN AK EZGER",
     "allevatore": "S. MIHAYLOV",
     "proprietario": "A. GREZOV",
     "paese": "BULGARIA",
@@ -52707,7 +52714,8 @@
     "colore": "",
     "padre": "auto_2617",
     "madre": "auto_3354",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_3365",
@@ -53557,7 +53565,7 @@
   {
     "id": "auto_3416",
     "sesso": "F",
-    "name": "DISHA AK ESGER",
+    "name": "DISHA AK EZGER",
     "allevatore": "S. MIHAYLOV",
     "proprietario": "S. MIHAYLOV",
     "paese": "BULGARIA",
@@ -53568,12 +53576,13 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0905",
     "madre": "auto_3413",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_3417",
     "sesso": "F",
-    "name": "DZHURA AK ESGER",
+    "name": "DZHURA AK EZGER",
     "allevatore": "S. MIHAYLOV",
     "proprietario": "",
     "paese": "BULGARIA",
@@ -53584,7 +53593,8 @@
     "colore": "TIGER STRIPES WITH WHITE",
     "padre": "auto_0905",
     "madre": "auto_3413",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_3418",
@@ -54504,7 +54514,7 @@
   {
     "id": "auto_3473",
     "sesso": "F",
-    "name": "E-ERTAK AK ESGER",
+    "name": "E-ERTAK AK EZGER",
     "allevatore": "H. KOSTADINOV",
     "proprietario": "V. ATASANOV",
     "paese": "BULGARIA",
@@ -54515,7 +54525,8 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_0015",
     "madre": "auto_0016",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_3474",
@@ -66875,7 +66886,7 @@
   {
     "id": "auto_4257",
     "sesso": "F",
-    "name": "VAGA AK ESGER",
+    "name": "VAGA AK EZGER",
     "allevatore": "S. MIHAYLOV",
     "proprietario": "S. MIHAYLOV",
     "paese": "BULGARIA",
@@ -66886,12 +66897,13 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_1387",
     "madre": "auto_4256",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_4258",
     "sesso": "M",
-    "name": "VAGAY AK ESGER, b. 2022",
+    "name": "VAGAY AK EZGER, b. 2022",
     "allevatore": "S. MIHAYLOV",
     "proprietario": "S. MIHAYLOV",
     "paese": "BULGARIA",
@@ -66902,7 +66914,8 @@
     "colore": "WHITE",
     "padre": "auto_1387",
     "madre": "auto_4256",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_4259",
@@ -74072,7 +74085,7 @@
   {
     "id": "auto_4711",
     "sesso": "F",
-    "name": "BALA AK ESGER",
+    "name": "BALA AK EZGER",
     "allevatore": "A. PUGACH - S. MIHAYLOV",
     "proprietario": "N. RIMCHUK",
     "paese": "RUSSIA",
@@ -74083,7 +74096,8 @@
     "colore": "FAWN WITH WHITE",
     "padre": "auto_0099",
     "madre": "auto_4347",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_4712",
@@ -74104,7 +74118,7 @@
   {
     "id": "auto_4713",
     "sesso": "M",
-    "name": "BERGUD AK ESGER",
+    "name": "BERGUD AK EZGER",
     "allevatore": "A. PUGACH - S. MIHAYLOV",
     "proprietario": "I. VOLCHENKOVA",
     "paese": "RUSSIA",
@@ -74115,7 +74129,8 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "auto_0099",
     "madre": "auto_4347",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_4714",
@@ -84256,7 +84271,7 @@
   {
     "id": "auto_5344",
     "sesso": "F",
-    "name": "GUNDOGAR ITI VISHAP",
+    "name": "GYNDAGAR ITI VISHAP",
     "allevatore": "V. STASEV",
     "proprietario": "V. PETROSYAN",
     "paese": "BELARUS",
@@ -84270,12 +84285,12 @@
     "foto_list": [
       "images/auto_5344.jpg"
     ],
-    "lastModified": "2026-11-15"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_5345",
     "sesso": "F",
-    "name": "GUNDOGAR ITI VARDA",
+    "name": "GYNDAGAR ITI VARDA",
     "allevatore": "V. STASEV",
     "proprietario": "A. PROSCIA",
     "paese": "BELARUS",
@@ -84293,12 +84308,12 @@
       "images/auto_5345_4.jpg",
       "images/auto_5345_5.jpg"
     ],
-    "lastModified": "2026-11-08"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_5346",
     "sesso": "F",
-    "name": "GUNDOGAR ITI VAGSHI",
+    "name": "GYNDAGAR ITI VAGSHI",
     "allevatore": "V. STASEV",
     "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
     "paese": "BELARUS",
@@ -84309,7 +84324,8 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_5340",
     "madre": "auto_5343",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_5347",
@@ -87015,7 +87031,7 @@
   {
     "id": "auto_5514",
     "sesso": "M",
-    "name": "VORYAG AK ESGER (AHILES)",
+    "name": "VORYAG AK EZGER (AHILES)",
     "allevatore": "S. MIHAYLOV",
     "proprietario": "S. MIHAYLOV - V. SIROTA",
     "paese": "BULGARIA",
@@ -87026,7 +87042,8 @@
     "colore": "GREY WITH WHITE",
     "padre": "auto_2414",
     "madre": "auto_3416",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_5515",
@@ -93553,7 +93570,7 @@
   {
     "id": "auto_5927",
     "sesso": "M",
-    "name": "GUNDOGAR ITI VEPA",
+    "name": "GYNDAGAR ITI VEPA",
     "allevatore": "V. STASEV",
     "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
     "paese": "BELARUS",
@@ -93564,7 +93581,8 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_5340",
     "madre": "auto_5343",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_5928",
@@ -97102,7 +97120,7 @@
   {
     "id": "auto_6150",
     "sesso": "F",
-    "name": "DZHEYHUN (KUBA) AK ESGER",
+    "name": "DZHEYHUN (KUBA) AK EZGER",
     "allevatore": "H. KOSTADINOV",
     "proprietario": "B. PATINSKIY",
     "paese": "BULGARIA",
@@ -97113,7 +97131,8 @@
     "colore": "WHITE",
     "padre": "auto_4339",
     "madre": "auto_4961",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_6151",
@@ -107043,7 +107062,7 @@
   {
     "id": "auto_6774",
     "sesso": "F",
-    "name": "GUNDOGAR ITI BILEK",
+    "name": "GYNDAGAR ITI BILEK",
     "allevatore": "V. STASEV",
     "proprietario": "V. STASEV",
     "paese": "BELARUS",
@@ -107054,7 +107073,8 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0027",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_6775",
@@ -110108,7 +110128,7 @@
   {
     "id": "auto_6969",
     "sesso": "M",
-    "name": "GUNDOGAR ITI BOYNAK",
+    "name": "GYNDAGAR ITI BOYNAK",
     "allevatore": "V. STASEV",
     "proprietario": "V. STASEV",
     "paese": "BELARUS",
@@ -110119,7 +110139,8 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0027",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_6970",
@@ -179551,7 +179572,7 @@
   {
     "id": "auto_11254",
     "sesso": "M",
-    "name": "VAGAY AK ESGER, b. 2006",
+    "name": "VAGAY AK EZGER, b. 2006",
     "allevatore": "S. MIHAYLOV",
     "proprietario": "S. MIHAYLOV",
     "paese": "BULGARIA",
@@ -179562,12 +179583,13 @@
     "colore": "GREY WITH WHITE",
     "padre": "auto_2414",
     "madre": "auto_3416",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_11255",
     "sesso": "F",
-    "name": "ALKMENA AK ESGER",
+    "name": "ALKMENA AK EZGER",
     "allevatore": "S. MIHAYLOV",
     "proprietario": "",
     "paese": "BULGARIA",
@@ -179578,7 +179600,8 @@
     "colore": "",
     "padre": "auto_11254",
     "madre": "auto_4347",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_11256",
@@ -185175,7 +185198,7 @@
   {
     "id": "auto_11605",
     "sesso": "F",
-    "name": "GUNDOGAR ITI GAYRAT",
+    "name": "GYNDAGAR ITI GAYRAT",
     "allevatore": "V. STASEV",
     "proprietario": "V. STASEV",
     "paese": "BELARUS",
@@ -185186,7 +185209,8 @@
     "colore": "WHITE",
     "padre": "auto_0327",
     "madre": "auto_0095",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_11606",
@@ -205308,7 +205332,7 @@
   {
     "id": "auto_12874",
     "sesso": "M",
-    "name": "GUNDOGAR ITI DZHANGO",
+    "name": "GYNDAGAR ITI DZHANGO",
     "allevatore": "V. STASEV",
     "proprietario": "A. LOIZZO",
     "paese": "ITALY",
@@ -205319,7 +205343,8 @@
     "colore": "WHITE WITH FAWN",
     "padre": "auto_0021",
     "madre": "auto_5343",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_12875",
@@ -218897,7 +218922,7 @@
   {
     "id": "auto_13730",
     "sesso": "M",
-    "name": "GUNDOGAR ITI ZABAR",
+    "name": "GYNDAGAR ITI ZABAR",
     "allevatore": "V. STASEV",
     "proprietario": "",
     "paese": "BELARUS",
@@ -218908,12 +218933,13 @@
     "colore": "WHITE WITH GREY",
     "padre": "auto_3480",
     "madre": "auto_5343",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_13731",
     "sesso": "M",
-    "name": "GUNDOGAR ITI IRBIS",
+    "name": "GYNDAGAR ITI IRBIS",
     "allevatore": "V. STASEV",
     "proprietario": "",
     "paese": "BELARUS",
@@ -218924,7 +218950,8 @@
     "colore": "WHITE",
     "padre": "auto_13730",
     "madre": "auto_11605",
-    "foto_list": []
+    "foto_list": [],
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_13732",
@@ -227315,7 +227342,7 @@
   {
     "id": "auto_14229",
     "sesso": "M",
-    "name": "GUNDOGAR ITI B-AKBAY",
+    "name": "GYNDAGAR ITI B-AKBAY",
     "allevatore": "V. STASEV",
     "proprietario": "KENNEL \"DEL PARCO DI GUERRA\"",
     "paese": "BELARUS",
@@ -227333,12 +227360,12 @@
       "images/auto_14229_4.jpg",
       "images/auto_14229_5.jpg"
     ],
-    "lastModified": "2026-11-05"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_14230",
     "sesso": "M",
-    "name": "GUNDOGAR ITI BOYNAK",
+    "name": "GYNDAGAR ITI BOYNAK",
     "allevatore": "V. STASEV",
     "proprietario": "V. STASEV",
     "paese": "BELARUS",
@@ -227353,7 +227380,7 @@
       "images/auto_14230.jpg",
       "images/auto_14230_2.jpg"
     ],
-    "lastModified": "2026-11-04"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_14231",
@@ -227377,7 +227404,7 @@
   {
     "id": "auto_14232",
     "sesso": "F",
-    "name": "GUNDOGAR ITI BILEK",
+    "name": "GYNDAGAR ITI BILEK",
     "allevatore": "V. STASEV",
     "proprietario": "V. STASEV",
     "paese": "BELARUS",
@@ -227389,7 +227416,7 @@
     "padre": "auto_0027",
     "madre": "auto_0095",
     "foto_list": [],
-    "lastModified": "2026-11-04"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_14233",
@@ -227417,7 +227444,7 @@
   {
     "id": "auto_14234",
     "sesso": "F",
-    "name": "GUNDOGAR ITI BULAK",
+    "name": "GYNDAGAR ITI BULAK",
     "allevatore": "V. STASEV",
     "proprietario": "N. GULYA",
     "paese": "BELARUS",
@@ -227431,7 +227458,7 @@
     "foto_list": [
       "images/auto_14234.jpg"
     ],
-    "lastModified": "2026-11-06"
+    "lastModified": "2026-11-17"
   },
   {
     "id": "auto_14235",
