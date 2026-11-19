@@ -90998,7 +90998,12 @@
     "colore": "WHITE",
     "padre": "auto_0443",
     "madre": "auto_1366",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_5430.jpg",
+      "images/auto_5430_2.jpg",
+      "images/auto_5430_3.jpg",
+      "images/auto_5430_4.jpg"
+    ],
     "_tier": 3,
     "lastModified": "2026-11-19"
   },
