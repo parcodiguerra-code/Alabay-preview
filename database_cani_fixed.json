@@ -43884,7 +43884,10 @@
     "colore": "WHITE",
     "padre": "auto_0053",
     "madre": "auto_2652",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_2654.jpg",
+      "images/auto_2654_2.jpg"
+    ],
     "lastModified": "2026-11-19",
     "_tier": 4
   },
