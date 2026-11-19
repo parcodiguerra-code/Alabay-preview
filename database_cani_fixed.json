@@ -90992,17 +90992,13 @@
     "proprietario": "O. RADCHENKO",
     "paese": "RUSSIA",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
-    "pedigree": "",
+    "pedigree": "RKF 1442052",
     "birth": "2003-05-28",
     "note": "",
     "colore": "WHITE",
     "padre": "auto_0443",
     "madre": "auto_1366",
-    "foto_list": [
-      "images/auto_5430.jpg",
-      "images/auto_5430_2.jpg",
-      "images/auto_5430_3.jpg"
-    ],
+    "foto_list": [],
     "_tier": 3,
     "lastModified": "2026-11-19"
   },
