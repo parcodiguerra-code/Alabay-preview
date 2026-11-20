@@ -3342,7 +3342,13 @@
     "colore": "WHITE WITH BROWN",
     "padre": "dog0124",
     "madre": "auto_3459",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0138.jpg",
+      "images/auto_0138_2.jpg",
+      "images/auto_0138_3.jpg",
+      "images/auto_0138_4.jpg",
+      "images/auto_0138_5.jpg"
+    ],
     "lastModified": "2026-11-20",
     "_tier": 4
   },
