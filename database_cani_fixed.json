@@ -132799,8 +132799,15 @@
     "colore": "WHITE WITH DARK FAWN AND REDDISH",
     "padre": "dog0997",
     "madre": "auto_7897",
-    "foto_list": [],
-    "_tier": 4
+    "foto_list": [
+      "images/auto_7896.jpg",
+      "images/auto_7896_2.jpg",
+      "images/auto_7896_3.jpg",
+      "images/auto_7896_4.jpg",
+      "images/auto_7896_5.jpg"
+    ],
+    "_tier": 4,
+    "lastModified": "2026-11-20"
   },
   {
     "id": "auto_7898",
