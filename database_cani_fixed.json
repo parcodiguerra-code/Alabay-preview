@@ -40878,7 +40878,7 @@
     "padre": "dog0647",
     "madre": "auto_2217",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2476",
@@ -81123,7 +81123,7 @@
     "padre": "auto_1349",
     "madre": "auto_3226",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 2
   },
   {
     "id": "auto_4853",
@@ -81315,9 +81315,9 @@
   {
     "id": "auto_4864",
     "sesso": "M",
-    "name": "BAY (ow. Patinskiy)",
+    "name": "BAY (ow. Kennel \"House of Barzev\")",
     "allevatore": "B. PATINSKIY",
-    "proprietario": "B. PATINSKIY",
+    "proprietario": "B. PATINSKIY - KENNEL \"HOUSE OF BARZEV\"",
     "paese": "UKRAINE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
@@ -81326,8 +81326,15 @@
     "colore": "WHITE WITH REDDISH",
     "padre": "dog0124",
     "madre": "auto_3226",
-    "foto_list": [],
-    "_tier": 3
+    "foto_list": [
+      "images/auto_4864.jpg",
+      "images/auto_4864_2.jpg",
+      "images/auto_4864_3.jpg",
+      "images/auto_4864_4.jpg",
+      "images/auto_4864_5.jpg"
+    ],
+    "_tier": 4,
+    "lastModified": "2026-11-20"
   },
   {
     "id": "auto_4865",
@@ -85564,7 +85571,7 @@
     "padre": "auto_0019",
     "madre": "auto_4411",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 2
   },
   {
     "id": "auto_5111",
