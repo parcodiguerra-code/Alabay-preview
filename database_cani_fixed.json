@@ -32616,11 +32616,7 @@
     "colore": "WHITE",
     "padre": "dog1886",
     "madre": "dog1953",
-    "foto_list": [
-      "images/auto_1366.jpg",
-      "images/auto_1366_2.jpg",
-      "images/auto_1366_3.jpg"
-    ],
+    "foto_list": [],
     "_tier": 4,
     "lastModified": "2026-11-21"
   },
