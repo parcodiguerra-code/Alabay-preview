@@ -1503,7 +1503,7 @@
     "padre": "auto_0019",
     "madre": "auto_0071",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0074",
@@ -1870,7 +1870,7 @@
       "images/auto_0094_5.jpg"
     ],
     "lastModified": "2026-11-15",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "dog0103",
@@ -3104,7 +3104,7 @@
     "padre": "auto_7291",
     "madre": "auto_7292",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0128",
@@ -3503,7 +3503,7 @@
     "padre": "auto_10083",
     "madre": "auto_10084",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "dog0199",
@@ -3873,8 +3873,11 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0161",
-    "foto_list": [],
-    "_tier": 4
+    "foto_list": [
+      "images/auto_0168.jpg"
+    ],
+    "_tier": 4,
+    "lastModified": "2026-11-21"
   },
   {
     "id": "auto_0169",
@@ -5306,7 +5309,7 @@
     "padre": "auto_7233",
     "madre": "auto_0679",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_0241",
@@ -5348,7 +5351,7 @@
     "madre": "auto_0257",
     "foto_list": [],
     "lastModified": "2026-10-09",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0243",
@@ -5627,7 +5630,7 @@
     "madre": "auto_7307",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0258",
@@ -6036,7 +6039,7 @@
       "images/auto_0275_2.jpg"
     ],
     "lastModified": "2026-10-24",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0276",
@@ -7691,7 +7694,7 @@
     "padre": "auto_0035",
     "madre": "auto_3414",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0356",
@@ -8520,7 +8523,7 @@
     "foto_list": [],
     "note_en": "Taken from Georgia.",
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "dog0487",
@@ -10876,7 +10879,7 @@
       "images/auto_0508_2.jpg"
     ],
     "lastModified": "2026-10-17",
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "dog0626",
@@ -11998,7 +12001,7 @@
     "padre": "auto_0566",
     "madre": "auto_0564",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_0568",
@@ -12653,7 +12656,7 @@
     "padre": "auto_0596",
     "madre": "dog0731",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0597",
@@ -13641,7 +13644,7 @@
       "images/dog0796_3.jpg"
     ],
     "lastModified": "2026-11-03",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0652",
@@ -13712,7 +13715,7 @@
     "padre": "auto_0081",
     "madre": "auto_0082",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0072",
@@ -14654,7 +14657,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_0688",
@@ -14797,7 +14800,7 @@
     "padre": "dog0821",
     "madre": "auto_0681",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0685",
@@ -15205,7 +15208,7 @@
     "padre": "dog0873",
     "madre": "auto_0707",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog0890",
@@ -15469,7 +15472,7 @@
     "padre": "auto_0719",
     "madre": "auto_0720",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "dog0906",
@@ -15520,7 +15523,7 @@
     "padre": "auto_0716",
     "madre": "auto_0718",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0719",
@@ -15537,7 +15540,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0720",
@@ -15554,7 +15557,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "dog0912",
@@ -15572,7 +15575,7 @@
     "madre": "auto_0720",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0722",
@@ -15589,7 +15592,7 @@
     "padre": "auto_0719",
     "madre": "auto_0720",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "dog0914",
@@ -15606,7 +15609,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "dog0915",
@@ -15675,7 +15678,7 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0725",
@@ -15982,7 +15985,7 @@
     "padre": "auto_0657",
     "madre": "auto_0738",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "dog0943",
@@ -16458,7 +16461,7 @@
     "padre": "dog0752",
     "madre": "auto_0755",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog0976",
@@ -16892,7 +16895,7 @@
     "padre": "dog0665",
     "madre": "auto_0770",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0772",
@@ -16943,7 +16946,7 @@
     "padre": "auto_0777",
     "madre": "auto_0778",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0773",
@@ -17011,7 +17014,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_0778",
@@ -17113,7 +17116,7 @@
     "padre": "dog0665",
     "madre": "auto_0779",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0781",
@@ -17569,7 +17572,7 @@
     "padre": "auto_1183",
     "madre": "auto_0802",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_0802",
@@ -17586,7 +17589,7 @@
     "padre": "auto_0565",
     "madre": "auto_0873",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_0804",
@@ -18129,7 +18132,7 @@
       "images/auto_0827.jpg"
     ],
     "lastModified": "2026-10-20",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "dog1074",
@@ -18572,7 +18575,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0846",
@@ -18589,7 +18592,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1102",
@@ -18899,7 +18902,7 @@
     "padre": "auto_1058",
     "madre": "auto_1197",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "dog1119",
@@ -19687,7 +19690,7 @@
     "padre": "auto_0001",
     "madre": "auto_0892",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0894",
@@ -19992,7 +19995,7 @@
     "padre": "auto_0278",
     "madre": "dog1185",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0904",
@@ -20181,7 +20184,7 @@
     "padre": "dog1198",
     "madre": "dog1195",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0908",
@@ -20452,7 +20455,7 @@
     "padre": "dog1211",
     "madre": "auto_0914",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_0915",
@@ -20571,7 +20574,7 @@
     "padre": "auto_0412",
     "madre": "auto_0918",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1221",
@@ -20588,7 +20591,7 @@
     "padre": "dog1220",
     "madre": "dog1217",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "dog1222",
@@ -20823,7 +20826,7 @@
     "padre": "auto_0923",
     "madre": "auto_3568",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "dog1238",
@@ -21075,7 +21078,7 @@
     "padre": "dog1251",
     "madre": "dog1484",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0938",
@@ -21128,7 +21131,7 @@
     "padre": "dog1251",
     "madre": "auto_0939",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0940",
@@ -21145,7 +21148,7 @@
     "padre": "auto_1294",
     "madre": "dog1841",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "dog1260",
@@ -21598,7 +21601,7 @@
     "padre": "auto_0956",
     "madre": "dog1288",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0957",
@@ -21632,7 +21635,7 @@
     "padre": "auto_0799",
     "madre": "auto_5206",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_0959",
@@ -21819,7 +21822,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_0969",
@@ -21836,7 +21839,7 @@
     "padre": "auto_0967",
     "madre": "auto_0968",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_0970",
@@ -21870,7 +21873,7 @@
     "padre": "auto_0969",
     "madre": "auto_0970",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0971",
@@ -22191,7 +22194,7 @@
       "images/auto_0983_2.jpg"
     ],
     "lastModified": "2026-10-27",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_0984",
@@ -22291,7 +22294,7 @@
       "images/auto_0988.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_0989",
@@ -22313,7 +22316,7 @@
       "images/auto_0989_3.jpg"
     ],
     "lastModified": "2026-10-13",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0990",
@@ -22371,7 +22374,7 @@
       "images/auto_0992_2.jpg"
     ],
     "lastModified": "2026-10-14",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_0993",
@@ -22636,7 +22639,7 @@
       "images/auto_1006_2.jpg"
     ],
     "lastModified": "2026-10-25",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1007",
@@ -23001,7 +23004,7 @@
     "padre": "auto_0818",
     "madre": "dog1372",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1370",
@@ -23507,7 +23510,7 @@
     "padre": "auto_0957",
     "madre": "auto_0961",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_1038",
@@ -23582,7 +23585,7 @@
     ],
     "note_en": "Long-time enthusiasts of the breed claim that this female has blood of German Shepherd Dog (VEO - Vostochno Evropejskaya Ovcharka).",
     "lastModified": "2026-10-29",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1040",
@@ -23788,7 +23791,7 @@
     "padre": "dog1408",
     "madre": "dog1403",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1057",
@@ -23822,7 +23825,7 @@
     "padre": "dog1408",
     "madre": "dog1403",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1059",
@@ -23846,7 +23849,7 @@
       "images/auto_1059_5.jpg"
     ],
     "lastModified": "2026-10-16",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1060",
@@ -23863,7 +23866,7 @@
     "padre": "dog1408",
     "madre": "dog1403",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1062",
@@ -23880,7 +23883,7 @@
     "padre": "dog1408",
     "madre": "dog1403",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1063",
@@ -23900,7 +23903,7 @@
       "images/auto_1063.jpg"
     ],
     "lastModified": "2026-10-16",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1064",
@@ -23917,7 +23920,7 @@
     "padre": "dog1408",
     "madre": "dog1403",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "dog1431",
@@ -23937,7 +23940,7 @@
       "images/dog1431.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1432",
@@ -23979,7 +23982,7 @@
       "images/auto_0985_3.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_1061",
@@ -24128,7 +24131,7 @@
       "images/dog1441.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1070",
@@ -24145,7 +24148,7 @@
     "padre": "dog1408",
     "madre": "dog1440",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1071",
@@ -24165,7 +24168,7 @@
       "images/auto_1071.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1072",
@@ -24187,7 +24190,7 @@
       "images/auto_1072_3.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1073",
@@ -24204,7 +24207,7 @@
     "padre": "dog1408",
     "madre": "dog1440",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1074",
@@ -24221,7 +24224,7 @@
     "padre": "dog1408",
     "madre": "dog1440",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1075",
@@ -24258,7 +24261,7 @@
     "padre": "dog1408",
     "madre": "auto_1075",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1076",
@@ -24278,7 +24281,7 @@
       "images/auto_1076.jpg"
     ],
     "lastModified": "2026-10-20",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1077",
@@ -24471,7 +24474,7 @@
     "padre": "dog1460",
     "madre": "auto_1075",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "dog1462",
@@ -24492,7 +24495,7 @@
       "images/dog1462_2.jpg"
     ],
     "lastModified": "2026-10-14",
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_1085",
@@ -24835,7 +24838,7 @@
     "padre": "auto_0852",
     "madre": "dog1479_n",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "dog1481",
@@ -25126,7 +25129,7 @@
     "padre": "dog1497",
     "madre": "auto_1035",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1109",
@@ -25285,7 +25288,7 @@
       "images/auto_1112.jpg"
     ],
     "lastModified": "2026-11-19",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_1113",
@@ -25439,7 +25442,7 @@
     "padre": "auto_1125",
     "madre": "auto_1126",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1524",
@@ -25610,7 +25613,7 @@
     "padre": "auto_1106",
     "madre": "dog1534",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_1130",
@@ -25834,7 +25837,7 @@
     "padre": "dog0647",
     "madre": "auto_0619",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "dog1549",
@@ -25869,7 +25872,7 @@
     "padre": "auto_2793",
     "madre": "dog1548",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1138",
@@ -26503,7 +26506,7 @@
       "images/auto_1158_3.jpg"
     ],
     "lastModified": "2026-11-09",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1159",
@@ -26524,7 +26527,7 @@
       "images/auto_1159_2.jpg"
     ],
     "lastModified": "2026-11-09",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1160",
@@ -26545,7 +26548,7 @@
       "images/auto_1160_2.jpg"
     ],
     "lastModified": "2026-11-09",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1161",
@@ -26795,7 +26798,7 @@
     "padre": "auto_0775",
     "madre": "auto_0922",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "dog1607",
@@ -27107,7 +27110,7 @@
     "padre": "dog1489",
     "madre": "auto_1103",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1105",
@@ -27636,7 +27639,7 @@
     "padre": "dog1629",
     "madre": "dog1657",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "dog1661",
@@ -27671,7 +27674,7 @@
     "padre": "dog1679",
     "madre": "auto_1196",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "dog1663",
@@ -27705,7 +27708,7 @@
     "padre": "dog1658",
     "madre": "dog1663",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "dog1665",
@@ -27722,7 +27725,7 @@
     "padre": "auto_1099",
     "madre": "dog1664",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1666",
@@ -27756,7 +27759,7 @@
     "padre": "auto_1106",
     "madre": "dog1665",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "dog1668",
@@ -27773,7 +27776,7 @@
     "padre": "auto_0788",
     "madre": "dog1665",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1189",
@@ -27875,7 +27878,7 @@
     "padre": "auto_0989",
     "madre": "auto_1006",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "dog1678",
@@ -27898,7 +27901,7 @@
       "images/dog1678_4.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1679",
@@ -27920,7 +27923,7 @@
       "images/dog1679_3.jpg"
     ],
     "lastModified": "2026-10-24",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_1196",
@@ -27964,7 +27967,7 @@
       "images/auto_1197.jpg"
     ],
     "lastModified": "2026-10-16",
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_1198",
@@ -27988,7 +27991,7 @@
       "images/auto_1198_5.jpg"
     ],
     "lastModified": "2026-10-16",
-    "_tier": 4
+    "_tier": 2
   },
   {
     "id": "auto_1199",
@@ -28047,7 +28050,7 @@
       "images/auto_1201.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_1202",
@@ -28118,7 +28121,7 @@
     "padre": "dog1629",
     "madre": "dog0973",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_1204",
@@ -28135,7 +28138,7 @@
     "padre": "dog1629",
     "madre": "dog0973",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1690",
@@ -28994,7 +28997,7 @@
     "padre": "dog1738",
     "madre": "dog1739",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog1741",
@@ -29633,7 +29636,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_1250",
@@ -29788,7 +29791,7 @@
     "padre": "auto_1242",
     "madre": "dog1786",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_1259",
@@ -29839,7 +29842,7 @@
     "padre": "auto_1262",
     "madre": "auto_1263",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_1262",
@@ -30300,7 +30303,7 @@
     "padre": "auto_0788",
     "madre": "auto_1395",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "dog1824",
@@ -31108,7 +31111,7 @@
     "padre": "auto_1313",
     "madre": "auto_1312",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_1314",
@@ -31178,7 +31181,7 @@
     "padre": "auto_1058",
     "madre": "auto_1198",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "dog1871",
@@ -32258,7 +32261,7 @@
       "images/auto_1351_2.jpg"
     ],
     "lastModified": "2026-10-14",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1352",
@@ -32275,7 +32278,7 @@
     "padre": "auto_0991",
     "madre": "auto_0992",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "dog1937",
@@ -32950,7 +32953,7 @@
     "padre": "auto_0620",
     "madre": "dog1976",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_1379",
@@ -33190,7 +33193,7 @@
     "padre": "auto_0620",
     "madre": "auto_1382",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_1383",
@@ -33380,7 +33383,7 @@
     "padre": "auto_1242",
     "madre": "dog1786",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog2006",
@@ -33465,7 +33468,7 @@
     "padre": "auto_1396",
     "madre": "dog1011",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1396",
@@ -33671,7 +33674,7 @@
     "padre": "dog0890",
     "madre": "dog2022",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "dog2024",
@@ -34126,7 +34129,7 @@
     "padre": "auto_1058",
     "madre": "auto_1075",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "dog2052",
@@ -34351,7 +34354,7 @@
     "padre": "dog1840",
     "madre": "auto_1421",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_1423",
@@ -34385,7 +34388,7 @@
     "padre": "auto_1425",
     "madre": "auto_1426",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "dog2067",
@@ -34763,7 +34766,7 @@
     "padre": "auto_2081",
     "madre": "auto_2087",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2091",
@@ -34781,7 +34784,7 @@
     "madre": "auto_6966",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_2092",
@@ -34816,7 +34819,7 @@
     "padre": "auto_2081",
     "madre": "auto_2091",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_2095",
@@ -34833,7 +34836,7 @@
     "padre": "auto_2081",
     "madre": "auto_2091",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_2096",
@@ -34850,7 +34853,7 @@
     "padre": "auto_2081",
     "madre": "auto_2091",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_2097",
@@ -35173,7 +35176,7 @@
     "padre": "auto_1190",
     "madre": "dog1090",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2117",
@@ -35244,7 +35247,7 @@
       "images/auto_2120.jpg"
     ],
     "lastModified": "2026-10-15",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2121",
@@ -35487,7 +35490,7 @@
     "padre": "dog1636",
     "madre": "auto_0804",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2135",
@@ -35973,7 +35976,7 @@
     "padre": "auto_0791",
     "madre": "auto_1108",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2167",
@@ -36059,7 +36062,7 @@
     "padre": "auto_2170",
     "madre": "auto_2168",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2172",
@@ -36212,7 +36215,7 @@
     "padre": "auto_2181",
     "madre": "auto_2180",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2183",
@@ -36435,7 +36438,7 @@
     "padre": "auto_2194",
     "madre": "dog1600",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2196",
@@ -37632,7 +37635,7 @@
     "padre": "auto_2273",
     "madre": "auto_2274",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2273",
@@ -38270,7 +38273,7 @@
     "padre": "auto_2307",
     "madre": "auto_2243",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_2310",
@@ -38357,7 +38360,7 @@
     "foto_list": [],
     "note_en": "Taken from Kazakhstan.",
     "lastModified": "2026-10-20",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_2315",
@@ -38713,7 +38716,7 @@
     "padre": "auto_2276",
     "madre": "auto_2339",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_2339",
@@ -38832,7 +38835,7 @@
     "padre": "dog0633",
     "madre": "auto_1197",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2346",
@@ -39021,7 +39024,7 @@
     "padre": "auto_2102",
     "madre": "auto_2358",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_2356",
@@ -39089,7 +39092,7 @@
     "padre": "dog1977",
     "madre": "dog0635",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_2361",
@@ -39347,7 +39350,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_2378",
@@ -39364,7 +39367,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_2379",
@@ -41202,7 +41205,7 @@
     "padre": "auto_2494",
     "madre": "auto_2454",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2496",
@@ -41495,7 +41498,7 @@
     "madre": "auto_2478",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2514",
@@ -41513,7 +41516,7 @@
     "madre": "auto_2478",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2515",
@@ -42013,7 +42016,7 @@
     "padre": "auto_1403",
     "madre": "auto_1402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2545",
@@ -42539,7 +42542,7 @@
       "images/auto_2574_2.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2575",
@@ -42559,7 +42562,7 @@
       "images/auto_2575.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2576",
@@ -42579,7 +42582,7 @@
       "images/auto_2576.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2577",
@@ -42596,7 +42599,7 @@
     "padre": "auto_1090",
     "madre": "dog1586_n",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 2
   },
   {
     "id": "auto_2578",
@@ -42662,7 +42665,7 @@
       "images/auto_2580_5.jpg"
     ],
     "lastModified": "2026-10-14",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2581",
@@ -42961,7 +42964,7 @@
     "padre": "auto_2594",
     "madre": "auto_2585",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2598",
@@ -42995,7 +42998,7 @@
     "padre": "auto_2600",
     "madre": "auto_2598",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2600",
@@ -43053,7 +43056,7 @@
     "padre": "auto_2594",
     "madre": "auto_2585",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2604",
@@ -43175,7 +43178,7 @@
     "padre": "dog1489",
     "madre": "auto_2597",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2609",
@@ -43226,7 +43229,7 @@
     "padre": "dog1489",
     "madre": "auto_2597",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2612",
@@ -43418,7 +43421,7 @@
     "padre": "dog0890",
     "madre": "auto_2622",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_2624",
@@ -44183,7 +44186,7 @@
     "padre": "auto_2700",
     "madre": "auto_3182",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_2670",
@@ -44837,7 +44840,7 @@
     "foto_list": [],
     "note_en": "Champion of Turkmenistan.",
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_2708",
@@ -45631,7 +45634,7 @@
     "padre": "auto_2756",
     "madre": "auto_2757",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2759",
@@ -46596,7 +46599,7 @@
     "padre": "auto_12877",
     "madre": "auto_12878",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2817",
@@ -46633,7 +46636,7 @@
     "padre": "auto_0935",
     "madre": "auto_1196",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_2820",
@@ -46804,7 +46807,7 @@
     "padre": "auto_2119",
     "madre": "auto_2828",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2830",
@@ -46821,7 +46824,7 @@
     "padre": "auto_0423",
     "madre": "auto_2829",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2831",
@@ -46838,7 +46841,7 @@
     "padre": "dog0806",
     "madre": "auto_2829",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_2832",
@@ -47582,7 +47585,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2875",
@@ -47616,7 +47619,7 @@
     "padre": "auto_2869",
     "madre": "auto_2874",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2877",
@@ -47633,7 +47636,7 @@
     "padre": "auto_2875",
     "madre": "auto_2873",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2878",
@@ -48635,7 +48638,7 @@
     "padre": "auto_2250",
     "madre": "auto_0970",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_2936",
@@ -48933,7 +48936,7 @@
     "madre": "auto_0090",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_2953",
@@ -49302,7 +49305,7 @@
     "foto_list": [],
     "note_en": "Taken from Uzbekistan.",
     "lastModified": "2026-10-12",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_2974",
@@ -49343,7 +49346,7 @@
       "images/auto_2975.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_2976",
@@ -49360,7 +49363,7 @@
     "padre": "auto_2975",
     "madre": "auto_2972",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2977",
@@ -49399,7 +49402,7 @@
       "images/auto_2978_3.jpg"
     ],
     "lastModified": "2026-10-14",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2979",
@@ -49554,7 +49557,7 @@
     "padre": "auto_2985",
     "madre": "auto_2449",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_2988",
@@ -49956,7 +49959,7 @@
     "padre": "auto_0771",
     "madre": "auto_3002",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3011",
@@ -49973,7 +49976,7 @@
     "padre": "auto_0771",
     "madre": "auto_3002",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3012",
@@ -50041,7 +50044,7 @@
     "padre": "dog0728",
     "madre": "auto_3017",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3016",
@@ -50075,7 +50078,7 @@
     "padre": "auto_3018",
     "madre": "auto_3019",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3018",
@@ -50237,7 +50240,7 @@
     "padre": "auto_3023",
     "madre": "auto_2970",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3026",
@@ -50472,7 +50475,7 @@
     "padre": "auto_0019",
     "madre": "auto_0062",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3040",
@@ -50489,7 +50492,7 @@
     "padre": "auto_3038",
     "madre": "auto_3039",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3041",
@@ -51132,7 +51135,7 @@
     "padre": "auto_0742",
     "madre": "auto_2192",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_3079",
@@ -51551,7 +51554,7 @@
     "padre": "auto_2714",
     "madre": "auto_3063",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3103",
@@ -52072,7 +52075,7 @@
     "padre": "dog0709",
     "madre": "auto_2134",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3133",
@@ -52225,7 +52228,7 @@
     "padre": "auto_3146",
     "madre": "auto_3147",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3142",
@@ -52403,7 +52406,7 @@
     "padre": "auto_3150",
     "madre": "auto_3147",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3152",
@@ -52545,7 +52548,7 @@
     "foto_list": [],
     "note_en": "Taken from Georgia.",
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3159",
@@ -52820,7 +52823,7 @@
     "padre": "auto_3157",
     "madre": "auto_3172",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3173",
@@ -52837,7 +52840,7 @@
     "padre": "auto_3171",
     "madre": "auto_3155",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3174",
@@ -53143,7 +53146,7 @@
     "padre": "auto_0909",
     "madre": "auto_3189",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3191",
@@ -53262,7 +53265,7 @@
     "padre": "auto_2400",
     "madre": "auto_3196",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3198",
@@ -53279,7 +53282,7 @@
     "padre": "auto_0909",
     "madre": "auto_3189",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3199",
@@ -53674,7 +53677,7 @@
     "padre": "auto_2883",
     "madre": "auto_3219",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_3222",
@@ -54153,7 +54156,7 @@
     "padre": "auto_0269",
     "madre": "auto_3232",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_3252",
@@ -54289,7 +54292,7 @@
     "padre": "auto_3168",
     "madre": "auto_0636",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3261",
@@ -55146,7 +55149,7 @@
     "padre": "auto_3308",
     "madre": "auto_3306",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3309",
@@ -55200,7 +55203,7 @@
     "padre": "auto_2685",
     "madre": "dog0971",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3312",
@@ -55343,7 +55346,7 @@
       "images/auto_3319.jpg"
     ],
     "lastModified": "2026-10-25",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_3320",
@@ -55497,7 +55500,7 @@
     "padre": "auto_3330",
     "madre": "auto_2544",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3328",
@@ -55531,7 +55534,7 @@
     "padre": "auto_1138",
     "madre": "auto_3290",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_3331",
@@ -55650,7 +55653,7 @@
     "padre": "auto_2444",
     "madre": "auto_3335",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3338",
@@ -55684,7 +55687,7 @@
     "padre": "dog0589",
     "madre": "auto_3338",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3340",
@@ -55718,7 +55721,7 @@
     "padre": "auto_2792",
     "madre": "auto_3337",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3342",
@@ -55786,7 +55789,7 @@
     "padre": "auto_2444",
     "madre": "auto_3290",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_3348",
@@ -55922,7 +55925,7 @@
     "padre": "auto_2792",
     "madre": "auto_2221",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3357",
@@ -55939,7 +55942,7 @@
     "padre": "auto_2792",
     "madre": "dog1664",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3358",
@@ -55990,7 +55993,7 @@
     "padre": "auto_2792",
     "madre": "auto_3351",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3361",
@@ -56007,7 +56010,7 @@
     "padre": "auto_2444",
     "madre": "auto_3360",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3362",
@@ -56059,7 +56062,7 @@
     "padre": "auto_2675",
     "madre": "auto_13554",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3364",
@@ -56076,7 +56079,7 @@
     "padre": "auto_2792",
     "madre": "auto_3365",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3366",
@@ -56093,7 +56096,7 @@
     "padre": "auto_2792",
     "madre": "auto_3365",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3367",
@@ -56110,7 +56113,7 @@
     "padre": "auto_2792",
     "madre": "auto_3365",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3369",
@@ -56558,7 +56561,7 @@
     "padre": "auto_1138",
     "madre": "dog1549",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3394",
@@ -56575,7 +56578,7 @@
     "padre": "auto_1138",
     "madre": "dog1549",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3395",
@@ -56643,7 +56646,7 @@
     "padre": "auto_1138",
     "madre": "dog1548",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3399",
@@ -57353,7 +57356,7 @@
     "padre": "dog0965",
     "madre": "auto_3438",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3440",
@@ -57421,7 +57424,7 @@
     "padre": "auto_0474",
     "madre": "dog2000",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3445",
@@ -57813,7 +57816,7 @@
     "padre": "auto_0375",
     "madre": "auto_0023",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3466",
@@ -58574,7 +58577,7 @@
     "padre": "auto_0033",
     "madre": "auto_1181",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3512",
@@ -58695,7 +58698,7 @@
     "foto_list": [],
     "note_en": "Taken from Dagestan.",
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3519",
@@ -58746,7 +58749,7 @@
     "padre": "auto_4422",
     "madre": "dog1199",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3524",
@@ -58986,7 +58989,7 @@
     "foto_list": [],
     "note_en": "Taken from Uzbekistan.",
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3539",
@@ -59908,7 +59911,7 @@
       "images/auto_3592_3.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3593",
@@ -59976,7 +59979,7 @@
     "padre": "auto_3592",
     "madre": "auto_3596",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3598",
@@ -60061,7 +60064,7 @@
     "padre": "dog0337",
     "madre": "auto_3599",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3603",
@@ -60096,7 +60099,7 @@
     "madre": "auto_2456",
     "foto_list": [],
     "lastModified": "2026-10-18",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3605",
@@ -60737,7 +60740,7 @@
     "padre": "auto_3640",
     "madre": "auto_3637",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3642",
@@ -60907,7 +60910,7 @@
     "padre": "auto_2700",
     "madre": "auto_3182",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3652",
@@ -61077,7 +61080,7 @@
     "padre": "auto_0481",
     "madre": "auto_2425",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3663",
@@ -61162,7 +61165,7 @@
     "padre": "auto_2136",
     "madre": "auto_3492",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3668",
@@ -61264,7 +61267,7 @@
     "padre": "dog0709",
     "madre": "auto_2134",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3674",
@@ -61316,7 +61319,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3677",
@@ -61457,7 +61460,7 @@
     "padre": "auto_3672",
     "madre": "auto_3683",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_3685",
@@ -62194,7 +62197,7 @@
     "padre": "auto_3722",
     "madre": "auto_3724",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3727",
@@ -62296,7 +62299,7 @@
     "padre": "auto_1396",
     "madre": "dog0999",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3733",
@@ -62313,7 +62316,7 @@
     "padre": "auto_1396",
     "madre": "dog0999",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3734",
@@ -62330,7 +62333,7 @@
     "padre": "auto_3732",
     "madre": "auto_3733",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3735",
@@ -62449,7 +62452,7 @@
     "padre": "auto_3739",
     "madre": "dog1526",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3742",
@@ -62732,7 +62735,7 @@
     "padre": "auto_0451",
     "madre": "auto_2616",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3758",
@@ -63049,7 +63052,7 @@
     "padre": "auto_0758",
     "madre": "auto_0268",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3776",
@@ -63185,7 +63188,7 @@
     "padre": "auto_3439",
     "madre": "auto_3442",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_3785",
@@ -63670,7 +63673,7 @@
     "padre": "auto_0474",
     "madre": "auto_2408",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_3813",
@@ -64013,7 +64016,7 @@
     "padre": "auto_2700",
     "madre": "auto_3831",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_3833",
@@ -64424,7 +64427,7 @@
     "madre": "auto_3855",
     "foto_list": [],
     "lastModified": "2026-10-09",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3857",
@@ -64441,7 +64444,7 @@
     "padre": "auto_2793",
     "madre": "auto_2668",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3858",
@@ -64747,7 +64750,7 @@
     "padre": "auto_2793",
     "madre": "auto_2221",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3877",
@@ -64922,7 +64925,7 @@
     "padre": "auto_0788",
     "madre": "auto_3885",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_3887",
@@ -65150,7 +65153,7 @@
     "padre": "auto_6854",
     "madre": "auto_10403",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_3900",
@@ -65564,7 +65567,7 @@
     "padre": "auto_2519",
     "madre": "auto_3924",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_3926",
@@ -65786,7 +65789,7 @@
     "padre": "auto_0758",
     "madre": "auto_2219",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3941",
@@ -65803,7 +65806,7 @@
     "padre": "auto_3356",
     "madre": "auto_3940",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3942",
@@ -65820,7 +65823,7 @@
     "padre": "auto_3356",
     "madre": "auto_3940",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3943",
@@ -65871,7 +65874,7 @@
     "padre": "dog1025",
     "madre": "auto_3907",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_3946",
@@ -65922,7 +65925,7 @@
     "padre": "auto_1106",
     "madre": "auto_0790",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_3949",
@@ -67401,7 +67404,7 @@
     "padre": "auto_3395",
     "madre": "dog2034",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4034",
@@ -67699,7 +67702,7 @@
     "padre": "auto_0025",
     "madre": "auto_4049",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4051",
@@ -67716,7 +67719,7 @@
     "padre": "auto_3723",
     "madre": "auto_4050",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_4052",
@@ -68713,7 +68716,7 @@
     "padre": "auto_3036",
     "madre": "auto_4109",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4111",
@@ -69193,7 +69196,7 @@
     "padre": "auto_2486",
     "madre": "auto_4135",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_4139",
@@ -69227,7 +69230,7 @@
     "padre": "auto_2133",
     "madre": "auto_4139",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4141",
@@ -69465,7 +69468,7 @@
     "padre": "auto_3884",
     "madre": "auto_4154",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4157",
@@ -69482,7 +69485,7 @@
     "padre": "auto_3884",
     "madre": "auto_4154",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4158",
@@ -69550,7 +69553,7 @@
     "padre": "auto_4160",
     "madre": "auto_4158",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4162",
@@ -69584,7 +69587,7 @@
     "padre": "auto_4160",
     "madre": "auto_4158",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4164",
@@ -70291,7 +70294,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4206",
@@ -70461,7 +70464,7 @@
     "padre": "auto_0472",
     "madre": "auto_3876",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4216",
@@ -70512,7 +70515,7 @@
     "padre": "auto_2523",
     "madre": "auto_4213",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4219",
@@ -70529,7 +70532,7 @@
     "padre": "auto_2523",
     "madre": "auto_4213",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4220",
@@ -70580,7 +70583,7 @@
     "padre": "auto_3830",
     "madre": "auto_3832",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4223",
@@ -70597,7 +70600,7 @@
     "padre": "auto_0450",
     "madre": "auto_4222",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4224",
@@ -70888,7 +70891,7 @@
     "padre": "auto_1416",
     "madre": "auto_2460",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_4243",
@@ -70905,7 +70908,7 @@
     "padre": "auto_1416",
     "madre": "auto_2460",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_4244",
@@ -71009,7 +71012,7 @@
     "padre": "auto_0272",
     "madre": "auto_4243",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4250",
@@ -71026,7 +71029,7 @@
     "padre": "auto_0272",
     "madre": "auto_4243",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4251",
@@ -71060,7 +71063,7 @@
     "padre": "auto_2570",
     "madre": "auto_4250",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_4255",
@@ -71438,7 +71441,7 @@
     "padre": "auto_4274",
     "madre": "auto_4276",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4278",
@@ -71591,7 +71594,7 @@
     "padre": "auto_3615",
     "madre": "auto_4285",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4287",
@@ -71937,7 +71940,7 @@
     "padre": "auto_4301",
     "madre": "auto_4305",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4307",
@@ -71992,7 +71995,7 @@
     "padre": "auto_2843",
     "madre": "auto_4306",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4310",
@@ -72162,7 +72165,7 @@
     "padre": "auto_2102",
     "madre": "dog1988",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4320",
@@ -72179,7 +72182,7 @@
     "padre": "auto_4316",
     "madre": "auto_4319",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4321",
@@ -72196,7 +72199,7 @@
     "padre": "dog0079",
     "madre": "auto_4320",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4322",
@@ -72284,7 +72287,7 @@
     "madre": "auto_4304",
     "foto_list": [],
     "lastModified": "2026-10-15",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_4327",
@@ -72874,7 +72877,7 @@
     "padre": "auto_2102",
     "madre": "dog1988",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4362",
@@ -72977,7 +72980,7 @@
     "padre": "auto_3395",
     "madre": "auto_2563",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4368",
@@ -73062,7 +73065,7 @@
     "padre": "auto_3395",
     "madre": "dog2034",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4373",
@@ -73096,7 +73099,7 @@
     "padre": "auto_2519",
     "madre": "auto_3775",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4375",
@@ -74373,7 +74376,7 @@
     "padre": "dog1598",
     "madre": "auto_0592",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_4449",
@@ -74628,7 +74631,7 @@
     "padre": "dog1123",
     "madre": "auto_0880",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4464",
@@ -74645,7 +74648,7 @@
     "padre": "auto_2944",
     "madre": "auto_4463",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4465",
@@ -74662,7 +74665,7 @@
     "padre": "auto_4464",
     "madre": "auto_4321",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4466",
@@ -74751,7 +74754,7 @@
     "padre": "auto_4469",
     "madre": "auto_0654",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4471",
@@ -74887,7 +74890,7 @@
     "padre": "auto_4152",
     "madre": "auto_4476",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4480",
@@ -74904,7 +74907,7 @@
     "padre": "auto_4233",
     "madre": "auto_4479",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4481",
@@ -76510,7 +76513,7 @@
     "padre": "auto_2620",
     "madre": "auto_2539",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_4575",
@@ -76631,7 +76634,7 @@
     "padre": "auto_4580",
     "madre": "auto_4582",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_4583",
@@ -76853,7 +76856,7 @@
     "padre": "auto_4574",
     "madre": "auto_4596",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_4599",
@@ -77108,7 +77111,7 @@
     "padre": "auto_4612",
     "madre": "auto_4611",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4614",
@@ -77499,7 +77502,7 @@
     "padre": "auto_4228",
     "madre": "auto_4636",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4638",
@@ -77686,7 +77689,7 @@
     "padre": "dog0551",
     "madre": "auto_4647",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4649",
@@ -77703,7 +77706,7 @@
     "padre": "auto_1387",
     "madre": "dog0940",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4650",
@@ -77720,7 +77723,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4651",
@@ -77771,7 +77774,7 @@
     "padre": "auto_4652",
     "madre": "auto_4649",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4654",
@@ -78185,7 +78188,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 2
   },
   {
     "id": "auto_4678",
@@ -78515,7 +78518,7 @@
     "padre": "auto_3350",
     "madre": "auto_3833",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4697",
@@ -79382,7 +79385,7 @@
     "padre": "auto_4745",
     "madre": "auto_4744",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4747",
@@ -79485,7 +79488,7 @@
     "madre": "auto_4751",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4753",
@@ -80389,7 +80392,7 @@
     "padre": "auto_4796",
     "madre": "auto_4411",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4807",
@@ -80805,7 +80808,7 @@
     "madre": "auto_4830",
     "foto_list": [],
     "lastModified": "2026-10-09",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_4831",
@@ -80941,7 +80944,7 @@
     "padre": "auto_2882",
     "madre": "auto_3245",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_4839",
@@ -81044,7 +81047,7 @@
     "padre": "auto_1348",
     "madre": "auto_4842",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_4845",
@@ -81970,7 +81973,7 @@
     "padre": "auto_3300",
     "madre": "auto_4897",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_4900",
@@ -82060,7 +82063,7 @@
       "images/auto_4905_3.jpg"
     ],
     "lastModified": "2026-10-25",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4906",
@@ -82104,7 +82107,7 @@
       "images/auto_4907_4.jpg"
     ],
     "lastModified": "2026-11-09",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4908",
@@ -82548,7 +82551,7 @@
     "padre": "auto_4028",
     "madre": "auto_0062",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4933",
@@ -82565,7 +82568,7 @@
     "padre": "dog0079",
     "madre": "auto_4932",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4934",
@@ -82582,7 +82585,7 @@
     "padre": "auto_0019",
     "madre": "auto_4933",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4935",
@@ -82633,7 +82636,7 @@
     "padre": "auto_4934",
     "madre": "auto_4935",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4938",
@@ -82650,7 +82653,7 @@
     "padre": "auto_4934",
     "madre": "auto_4935",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4939",
@@ -82884,7 +82887,7 @@
     "padre": "auto_3469",
     "madre": "auto_4950",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_4952",
@@ -82937,7 +82940,7 @@
     "padre": "auto_4743",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4955",
@@ -83044,7 +83047,7 @@
     "padre": "auto_4959",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4961",
@@ -83063,7 +83066,7 @@
     "foto_list": [],
     "note_en": "Imported from Turkmenistan. This female was brought from Turkmenistan to Bulgaria whilst she was pregnant.",
     "lastModified": "2026-10-12",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_4962",
@@ -83080,7 +83083,7 @@
     "padre": "auto_4743",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4963",
@@ -83097,7 +83100,7 @@
     "padre": "auto_4743",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4964",
@@ -83114,7 +83117,7 @@
     "padre": "auto_4959",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4965",
@@ -83131,7 +83134,7 @@
     "padre": "auto_4430",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4966",
@@ -83148,7 +83151,7 @@
     "padre": "auto_4339",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4967",
@@ -83165,7 +83168,7 @@
     "padre": "auto_4339",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4968",
@@ -83182,7 +83185,7 @@
     "padre": "auto_4339",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4969",
@@ -83199,7 +83202,7 @@
     "padre": "auto_4339",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4970",
@@ -83216,7 +83219,7 @@
     "padre": "auto_4339",
     "madre": "auto_4953",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_4971",
@@ -83655,7 +83658,7 @@
     "padre": "auto_3350",
     "madre": "auto_2393",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4996",
@@ -83672,7 +83675,7 @@
     "padre": "auto_4994",
     "madre": "auto_4995",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_4997",
@@ -83757,7 +83760,7 @@
     "padre": "auto_4994",
     "madre": "auto_4995",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5002",
@@ -83995,7 +83998,7 @@
     "padre": "auto_4954",
     "madre": "auto_5014",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_5016",
@@ -84012,7 +84015,7 @@
     "padre": "auto_3997",
     "madre": "auto_5015",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5017",
@@ -84240,7 +84243,7 @@
     "padre": "auto_5028",
     "madre": "auto_1374",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5030",
@@ -84257,7 +84260,7 @@
     "padre": "auto_4815",
     "madre": "auto_5029",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5031",
@@ -84291,7 +84294,7 @@
     "padre": "auto_3350",
     "madre": "auto_4647",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5034",
@@ -84325,7 +84328,7 @@
     "padre": "auto_5034",
     "madre": "auto_5032",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5035",
@@ -85085,7 +85088,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5079",
@@ -85527,7 +85530,7 @@
     "padre": "auto_4228",
     "madre": "auto_4411",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5105",
@@ -86447,7 +86450,7 @@
     "padre": "auto_5150",
     "madre": "auto_5154",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_5159",
@@ -86464,7 +86467,7 @@
     "padre": "auto_5150",
     "madre": "auto_5154",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_5160",
@@ -86881,7 +86884,7 @@
     "padre": "auto_5180",
     "madre": "auto_2167",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5186",
@@ -87036,7 +87039,7 @@
     "padre": "dog1391",
     "madre": "auto_0958",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5196",
@@ -87053,7 +87056,7 @@
     "padre": "auto_2178",
     "madre": "auto_5195",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5197",
@@ -87070,7 +87073,7 @@
     "padre": "auto_5194",
     "madre": "auto_5196",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5198",
@@ -87121,7 +87124,7 @@
     "padre": "dog1144",
     "madre": "auto_2677",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5201",
@@ -87138,7 +87141,7 @@
     "padre": "auto_0623",
     "madre": "auto_2677",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5202",
@@ -87206,7 +87209,7 @@
     "padre": "auto_5202",
     "madre": "auto_5201",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5206",
@@ -87223,7 +87226,7 @@
     "padre": "auto_5207",
     "madre": "dog1474",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5207",
@@ -87279,7 +87282,7 @@
     "padre": "auto_0508",
     "madre": "auto_5208",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5210",
@@ -87470,7 +87473,7 @@
     "padre": "auto_5219",
     "madre": "auto_3777",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5221",
@@ -87827,7 +87830,7 @@
     "padre": "auto_2945",
     "madre": "auto_3219",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5242",
@@ -88291,7 +88294,7 @@
     "padre": "auto_5268",
     "madre": "auto_2309",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_5270",
@@ -88325,7 +88328,7 @@
     "padre": "auto_2675",
     "madre": "dog1199",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5272",
@@ -88376,7 +88379,7 @@
     "padre": "auto_4638",
     "madre": "auto_5273",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5275",
@@ -88413,7 +88416,7 @@
       "images/auto_5276.jpg"
     ],
     "lastModified": "2026-11-08",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5277",
@@ -88447,7 +88450,7 @@
     "padre": "auto_4638",
     "madre": "auto_5137",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5279",
@@ -88464,7 +88467,7 @@
     "padre": "auto_4638",
     "madre": "auto_5137",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5280",
@@ -88634,7 +88637,7 @@
     "padre": "auto_3430",
     "madre": "auto_2393",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5290",
@@ -88847,7 +88850,7 @@
     "padre": "dog0589",
     "madre": "auto_3642",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_5302",
@@ -88864,7 +88867,7 @@
     "padre": "auto_5049",
     "madre": "auto_5301",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5303",
@@ -89277,7 +89280,7 @@
     "padre": "auto_5322",
     "madre": "auto_4203",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5327",
@@ -89294,7 +89297,7 @@
     "padre": "auto_4528",
     "madre": "auto_5326",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5328",
@@ -89468,7 +89471,7 @@
     "padre": "auto_4528",
     "madre": "auto_5326",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5338",
@@ -90243,7 +90246,7 @@
     "padre": "dog0177",
     "madre": "auto_5346",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5380",
@@ -90365,7 +90368,7 @@
     "padre": "auto_5385",
     "madre": "auto_4030",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5389",
@@ -90440,7 +90443,7 @@
     "padre": "auto_4006",
     "madre": "auto_3039",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5393",
@@ -90617,7 +90620,7 @@
     "padre": "auto_3480",
     "madre": "auto_5401",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5403",
@@ -90634,7 +90637,7 @@
     "padre": "auto_3480",
     "madre": "auto_5401",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5404",
@@ -90721,7 +90724,7 @@
     "padre": "auto_5406",
     "madre": "auto_5398",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5409",
@@ -91620,7 +91623,7 @@
     "padre": "auto_5459",
     "madre": "auto_2584",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5461",
@@ -91654,7 +91657,7 @@
     "padre": "auto_0933",
     "madre": "auto_5461",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5463",
@@ -91790,7 +91793,7 @@
     "padre": "auto_5469",
     "madre": "dog1668",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5471",
@@ -91807,7 +91810,7 @@
     "padre": "auto_1286",
     "madre": "auto_3528",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5472",
@@ -91824,7 +91827,7 @@
     "padre": "auto_5471",
     "madre": "auto_5470",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5473",
@@ -91977,7 +91980,7 @@
     "padre": "auto_1106",
     "madre": "auto_4360",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_5482",
@@ -91994,7 +91997,7 @@
     "padre": "auto_1106",
     "madre": "dog1534",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5483",
@@ -92201,7 +92204,7 @@
     "padre": "auto_5440",
     "madre": "auto_5493",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5495",
@@ -92405,7 +92408,7 @@
     "padre": "auto_3606",
     "madre": "auto_5503",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 2
   },
   {
     "id": "auto_5507",
@@ -92473,7 +92476,7 @@
     "padre": "auto_3606",
     "madre": "auto_3600",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5511",
@@ -93207,7 +93210,7 @@
     "madre": "auto_5554",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5558",
@@ -93464,7 +93467,7 @@
     "padre": "auto_3780",
     "madre": "auto_3777",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5574",
@@ -94096,7 +94099,7 @@
     "padre": "auto_4006",
     "madre": "auto_3039",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_5612",
@@ -94113,7 +94116,7 @@
     "padre": "auto_4006",
     "madre": "auto_4932",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5613",
@@ -94130,7 +94133,7 @@
     "padre": "auto_4006",
     "madre": "auto_4932",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5614",
@@ -94147,7 +94150,7 @@
     "padre": "auto_4006",
     "madre": "auto_4932",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5615",
@@ -94215,7 +94218,7 @@
     "padre": "auto_3432",
     "madre": "auto_5617",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5619",
@@ -94300,7 +94303,7 @@
     "padre": "auto_5622",
     "madre": "auto_5075",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5624",
@@ -94317,7 +94320,7 @@
     "padre": "auto_5622",
     "madre": "auto_5619",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_5625",
@@ -94334,7 +94337,7 @@
     "padre": "auto_5622",
     "madre": "auto_5619",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5626",
@@ -94488,7 +94491,7 @@
     "madre": "auto_5630",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5635",
@@ -94522,7 +94525,7 @@
     "padre": "auto_5628",
     "madre": "auto_5635",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5637",
@@ -94573,7 +94576,7 @@
     "padre": "auto_4785",
     "madre": "auto_4027",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5640",
@@ -95163,7 +95166,7 @@
     "padre": "auto_0407",
     "madre": "auto_4703",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5674",
@@ -95394,7 +95397,7 @@
     ],
     "note_en": "Imported from Turkmenistan.",
     "lastModified": "2026-11-18",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5687",
@@ -96444,7 +96447,7 @@
     "madre": "auto_5664",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5749",
@@ -96735,7 +96738,7 @@
     "madre": "auto_5664",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5766",
@@ -96770,7 +96773,7 @@
     "madre": "auto_5664",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5768",
@@ -96793,7 +96796,7 @@
       "images/auto_5768_4.jpg"
     ],
     "lastModified": "2026-11-16",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5769",
@@ -96881,7 +96884,7 @@
     "padre": "auto_5044",
     "madre": "auto_4283",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_5774",
@@ -97092,7 +97095,7 @@
     "madre": "auto_5785",
     "foto_list": [],
     "lastModified": "2026-10-09",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_5786",
@@ -97272,7 +97275,7 @@
     "padre": "auto_4673",
     "madre": "auto_3421",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_5796",
@@ -97585,7 +97588,7 @@
     "padre": "auto_4710",
     "madre": "auto_5787",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_5814",
@@ -97947,7 +97950,7 @@
     "padre": "auto_4973",
     "madre": "auto_5817",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_5836",
@@ -98364,7 +98367,7 @@
     "madre": "auto_5859",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5861",
@@ -99300,7 +99303,7 @@
     "padre": "auto_5885",
     "madre": "auto_5674",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_5917",
@@ -100594,7 +100597,7 @@
     "padre": "auto_4872",
     "madre": "auto_5990",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_5994",
@@ -100927,7 +100930,7 @@
     "padre": "auto_4959",
     "madre": "auto_4963",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6013",
@@ -101012,7 +101015,7 @@
     "padre": "auto_4964",
     "madre": "auto_6016",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6018",
@@ -101046,7 +101049,7 @@
     "padre": "auto_6018",
     "madre": "auto_6016",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6020",
@@ -102714,7 +102717,7 @@
     "padre": "auto_6117",
     "madre": "auto_6114",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6119",
@@ -103506,7 +103509,7 @@
     "padre": "auto_6161",
     "madre": "auto_5123",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6165",
@@ -104033,7 +104036,7 @@
     "padre": "auto_6194",
     "madre": "dog1398",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6196",
@@ -104465,7 +104468,7 @@
     "padre": "auto_4532",
     "madre": "auto_6219",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6221",
@@ -104815,7 +104818,7 @@
     "padre": "auto_5582",
     "madre": "auto_6239",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6242",
@@ -106123,7 +106126,7 @@
     "padre": "auto_6321",
     "madre": "auto_6315",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6323",
@@ -106960,7 +106963,7 @@
     "padre": "auto_4672",
     "madre": "auto_5828",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6372",
@@ -107198,7 +107201,7 @@
     "padre": "auto_6121",
     "madre": "auto_6351",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6386",
@@ -108158,7 +108161,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6443",
@@ -108175,7 +108178,7 @@
     "padre": "auto_2316",
     "madre": "auto_6442",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6444",
@@ -108279,7 +108282,7 @@
     "padre": "dog0977",
     "madre": "auto_6448",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_6451",
@@ -109023,7 +109026,7 @@
     "padre": "auto_2949",
     "madre": "auto_6493",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6495",
@@ -109040,7 +109043,7 @@
     "padre": "auto_2949",
     "madre": "auto_6493",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6496",
@@ -109074,7 +109077,7 @@
     "padre": "auto_4573",
     "madre": "auto_6494",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6498",
@@ -109091,7 +109094,7 @@
     "padre": "auto_4573",
     "madre": "auto_6494",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6499",
@@ -109142,7 +109145,7 @@
     "padre": "auto_3943",
     "madre": "auto_6500",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6502",
@@ -109244,7 +109247,7 @@
     "padre": "auto_5922",
     "madre": "auto_6506",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6508",
@@ -109431,7 +109434,7 @@
     "padre": "auto_5156",
     "madre": "auto_6516",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6519",
@@ -109482,7 +109485,7 @@
     "padre": "auto_5727",
     "madre": "auto_6516",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6522",
@@ -109533,7 +109536,7 @@
     "padre": "auto_5727",
     "madre": "auto_6516",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6525",
@@ -109550,7 +109553,7 @@
     "padre": "auto_5276",
     "madre": "auto_5725",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6526",
@@ -109567,7 +109570,7 @@
     "padre": "auto_6158",
     "madre": "auto_6525",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6527",
@@ -109601,7 +109604,7 @@
     "padre": "auto_5688",
     "madre": "auto_6526",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6529",
@@ -109635,7 +109638,7 @@
     "padre": "auto_4967",
     "madre": "auto_4951",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6531",
@@ -109652,7 +109655,7 @@
     "padre": "auto_4967",
     "madre": "auto_4951",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6532",
@@ -109669,7 +109672,7 @@
     "padre": "auto_5688",
     "madre": "auto_6526",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6533",
@@ -109720,7 +109723,7 @@
     "padre": "auto_3465",
     "madre": "auto_5408",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6536",
@@ -109737,7 +109740,7 @@
     "padre": "auto_6534",
     "madre": "auto_6535",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6537",
@@ -110913,7 +110916,7 @@
     "padre": "auto_2400",
     "madre": "auto_6604",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6606",
@@ -111910,7 +111913,7 @@
       "images/auto_6664.jpg"
     ],
     "lastModified": "2026-11-15",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6665",
@@ -112013,7 +112016,7 @@
     "padre": "auto_6669",
     "madre": "auto_6668",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6671",
@@ -112203,7 +112206,7 @@
     "padre": "auto_0786",
     "madre": "auto_5211",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6682",
@@ -112339,7 +112342,7 @@
     "padre": "dog0332",
     "madre": "auto_6687",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6690",
@@ -112356,7 +112359,7 @@
     "padre": "dog0332",
     "madre": "auto_6687",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6691",
@@ -112672,7 +112675,7 @@
     "padre": "auto_3324",
     "madre": "auto_6707",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6710",
@@ -113212,7 +113215,7 @@
     "padre": "auto_6738",
     "madre": "auto_6739",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6741",
@@ -113331,7 +113334,7 @@
       "images/auto_6746.jpg"
     ],
     "lastModified": "2026-11-02",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6747",
@@ -113679,7 +113682,7 @@
     "padre": "auto_5102",
     "madre": "auto_6761",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6766",
@@ -114097,7 +114100,7 @@
     "padre": "auto_6788",
     "madre": "auto_1163",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6790",
@@ -114131,7 +114134,7 @@
     "padre": "auto_0860",
     "madre": "auto_3568",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6792",
@@ -114371,7 +114374,7 @@
     "padre": "auto_2987",
     "madre": "auto_4307",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6806",
@@ -114558,7 +114561,7 @@
     "padre": "auto_6812",
     "madre": "auto_6821",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_6817",
@@ -114776,7 +114779,7 @@
     "padre": "auto_2959",
     "madre": "auto_5126",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6829",
@@ -114793,7 +114796,7 @@
     "padre": "auto_2959",
     "madre": "auto_5126",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6830",
@@ -115014,7 +115017,7 @@
     "padre": "auto_1179",
     "madre": "dog1122",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6843",
@@ -115736,7 +115739,7 @@
     "padre": "auto_1235",
     "madre": "auto_6885",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6887",
@@ -115753,7 +115756,7 @@
     "padre": "auto_1203",
     "madre": "auto_6886",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6888",
@@ -116146,7 +116149,7 @@
     "padre": "auto_5041",
     "madre": "auto_6911",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6912",
@@ -116482,7 +116485,7 @@
     "padre": "auto_1286",
     "madre": "auto_3528",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_6934",
@@ -116738,7 +116741,7 @@
     "padre": "auto_6703",
     "madre": "dog1648",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_6949",
@@ -116983,7 +116986,7 @@
     "padre": "auto_4964",
     "madre": "auto_5014",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6964",
@@ -117000,7 +117003,7 @@
     "padre": "auto_4964",
     "madre": "auto_5014",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_6965",
@@ -117195,7 +117198,7 @@
     "padre": "dog0778",
     "madre": "auto_6975",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_6976",
@@ -119238,7 +119241,7 @@
     "padre": "auto_3527",
     "madre": "auto_7089",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7091",
@@ -119255,7 +119258,7 @@
     "padre": "auto_3527",
     "madre": "auto_7089",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_7092",
@@ -119273,7 +119276,7 @@
     "madre": "auto_7091",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7093",
@@ -119477,7 +119480,7 @@
     "padre": "auto_7102",
     "madre": "auto_7103",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_7105",
@@ -119714,7 +119717,7 @@
     "padre": "auto_7293",
     "madre": "auto_7265",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7118",
@@ -119817,7 +119820,7 @@
     "padre": "auto_7125",
     "madre": "dog0344",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7126",
@@ -119834,7 +119837,7 @@
     "padre": "auto_7125",
     "madre": "dog0344",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7127",
@@ -119851,7 +119854,7 @@
     "padre": "auto_0273",
     "madre": "dog0344",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7128",
@@ -120301,7 +120304,7 @@
     "padre": "auto_1288",
     "madre": "auto_7153",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7155",
@@ -120318,7 +120321,7 @@
     "padre": "auto_7154",
     "madre": "auto_7093",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7156",
@@ -120369,7 +120372,7 @@
     "padre": "auto_7157",
     "madre": "auto_7155",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7159",
@@ -120857,7 +120860,7 @@
     "padre": "auto_3591",
     "madre": "auto_7165",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7187",
@@ -120997,7 +121000,7 @@
     "padre": "auto_7191",
     "madre": "auto_2832",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7195",
@@ -121048,7 +121051,7 @@
     "padre": "auto_2830",
     "madre": "auto_2832",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7198",
@@ -121099,7 +121102,7 @@
     "padre": "auto_7194",
     "madre": "auto_7195",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7201",
@@ -121116,7 +121119,7 @@
     "padre": "auto_7194",
     "madre": "auto_7195",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7202",
@@ -121155,7 +121158,7 @@
     "padre": "auto_3713",
     "madre": "dog1664",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_7204",
@@ -121291,7 +121294,7 @@
     "padre": "dog1383",
     "madre": "auto_7211",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7213",
@@ -121427,7 +121430,7 @@
     "padre": "auto_5049",
     "madre": "auto_5301",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7221",
@@ -121633,7 +121636,7 @@
     "padre": "auto_7172",
     "madre": "auto_7176",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7233",
@@ -121650,7 +121653,7 @@
     "padre": "auto_7234",
     "madre": "auto_2820",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7234",
@@ -121842,7 +121845,7 @@
     "padre": "auto_1100",
     "madre": "auto_7241",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7245",
@@ -122046,7 +122049,7 @@
     "padre": "auto_3947",
     "madre": "auto_7248",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7257",
@@ -122148,7 +122151,7 @@
     "padre": "auto_2792",
     "madre": "auto_2103",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_7263",
@@ -122492,7 +122495,7 @@
     "padre": "auto_7108",
     "madre": "auto_7280",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7283",
@@ -122628,7 +122631,7 @@
     "padre": "auto_7296",
     "madre": "auto_7295",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7291",
@@ -122945,7 +122948,7 @@
     "madre": "auto_7307",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7310",
@@ -123433,7 +123436,7 @@
     "padre": "auto_7108",
     "madre": "auto_7267",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7338",
@@ -123467,7 +123470,7 @@
     "padre": "auto_7108",
     "madre": "auto_7267",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7340",
@@ -123518,7 +123521,7 @@
     "padre": "auto_7339",
     "madre": "auto_7341",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7343",
@@ -123535,7 +123538,7 @@
     "padre": "auto_7339",
     "madre": "auto_7341",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7344",
@@ -123552,7 +123555,7 @@
     "padre": "auto_7339",
     "madre": "auto_7341",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7345",
@@ -123586,7 +123589,7 @@
     "padre": "auto_7339",
     "madre": "auto_7341",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7347",
@@ -123807,7 +123810,7 @@
     "padre": "auto_7355",
     "madre": "auto_7358",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7360",
@@ -124182,7 +124185,7 @@
     "padre": "auto_7376",
     "madre": "auto_7122",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7383",
@@ -124199,7 +124202,7 @@
     "padre": "auto_7376",
     "madre": "auto_7122",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7384",
@@ -124216,7 +124219,7 @@
     "padre": "auto_7376",
     "madre": "auto_7122",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7385",
@@ -124233,7 +124236,7 @@
     "padre": "auto_7376",
     "madre": "auto_7122",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7387",
@@ -124284,7 +124287,7 @@
     "padre": "auto_7271",
     "madre": "auto_7280",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7390",
@@ -124420,7 +124423,7 @@
     "padre": "auto_3732",
     "madre": "auto_2349",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_7398",
@@ -124522,7 +124525,7 @@
     "padre": "auto_7388",
     "madre": "auto_7397",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7404",
@@ -124835,7 +124838,7 @@
     "padre": "auto_7396",
     "madre": "auto_7391",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_7423",
@@ -124920,7 +124923,7 @@
     "padre": "auto_7422",
     "madre": "auto_7425",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7428",
@@ -125978,7 +125981,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7491",
@@ -126086,7 +126089,7 @@
       "images/auto_7496_3.jpg"
     ],
     "lastModified": "2026-10-18",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7497",
@@ -126263,7 +126266,7 @@
     "padre": "auto_7504",
     "madre": "auto_7346",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7507",
@@ -126297,7 +126300,7 @@
     "padre": "auto_7505",
     "madre": "auto_7506",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7509",
@@ -126388,7 +126391,7 @@
     "padre": "auto_0187",
     "madre": "auto_7508",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7514",
@@ -126575,7 +126578,7 @@
     "padre": "auto_2178",
     "madre": "auto_5195",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7526",
@@ -126932,7 +126935,7 @@
     "padre": "auto_3032",
     "madre": "auto_5461",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7547",
@@ -127034,7 +127037,7 @@
     "padre": "auto_4314",
     "madre": "auto_7551",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7553",
@@ -127153,7 +127156,7 @@
     "padre": "auto_3032",
     "madre": "auto_4751",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7560",
@@ -127766,7 +127769,7 @@
     "padre": "auto_3310",
     "madre": "auto_4668",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7596",
@@ -127874,7 +127877,7 @@
       "images/auto_7601_4.jpg",
       "images/auto_7601_5.jpg"
     ],
-    "_tier": 4,
+    "_tier": 1,
     "lastModified": "2026-11-19"
   },
   {
@@ -127892,7 +127895,7 @@
     "padre": "auto_3043",
     "madre": "auto_2603",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_7603",
@@ -128266,7 +128269,7 @@
     "padre": "auto_1190",
     "madre": "dog1090",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_7625",
@@ -128453,7 +128456,7 @@
     "padre": "auto_3032",
     "madre": "auto_2094",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7636",
@@ -128557,7 +128560,7 @@
     "madre": "auto_7640",
     "foto_list": [],
     "lastModified": "2026-10-09",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_7642",
@@ -128608,7 +128611,7 @@
     "padre": "auto_6949",
     "madre": "auto_7643",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_7645",
@@ -128780,7 +128783,7 @@
     "padre": "auto_3032",
     "madre": "auto_4751",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7655",
@@ -128933,7 +128936,7 @@
     "padre": "auto_6949",
     "madre": "auto_7643",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_7664",
@@ -129154,7 +129157,7 @@
     "padre": "auto_0623",
     "madre": "auto_7675",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_7678",
@@ -129171,7 +129174,7 @@
     "padre": "auto_0623",
     "madre": "auto_7675",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_7679",
@@ -129274,7 +129277,7 @@
     "padre": "auto_7582",
     "madre": "auto_7683",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_7685",
@@ -129377,7 +129380,7 @@
     "madre": "auto_5408",
     "foto_list": [],
     "lastModified": "2026-10-24",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7691",
@@ -129398,7 +129401,7 @@
       "images/auto_7691_2.jpg"
     ],
     "lastModified": "2026-10-24",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7692",
@@ -129422,7 +129425,7 @@
       "images/auto_7692_5.jpg"
     ],
     "lastModified": "2026-10-24",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7693",
@@ -130902,7 +130905,7 @@
     "padre": "auto_7779",
     "madre": "auto_4132",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7781",
@@ -130937,7 +130940,7 @@
     "madre": "auto_7780",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7783",
@@ -130971,7 +130974,7 @@
     "padre": "auto_7542",
     "madre": "auto_5201",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7785",
@@ -131294,7 +131297,7 @@
     "padre": "auto_5510",
     "madre": "auto_7802",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7804",
@@ -131719,7 +131722,7 @@
     "padre": "auto_2281",
     "madre": "auto_7517",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7830",
@@ -132059,7 +132062,7 @@
     "padre": "auto_4795",
     "madre": "auto_4149",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_7850",
@@ -132161,7 +132164,7 @@
     "padre": "auto_4110",
     "madre": "auto_4149",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7856",
@@ -132212,7 +132215,7 @@
     "padre": "auto_4160",
     "madre": "auto_7855",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7859",
@@ -132280,7 +132283,7 @@
     "padre": "auto_7862",
     "madre": "auto_5292",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_7864",
@@ -132331,7 +132334,7 @@
     "padre": "auto_6509",
     "madre": "auto_7865",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7867",
@@ -132348,7 +132351,7 @@
     "padre": "auto_6509",
     "madre": "auto_7865",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7868",
@@ -132501,7 +132504,7 @@
     "padre": "auto_7875",
     "madre": "auto_7873",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_7877",
@@ -132603,7 +132606,7 @@
     "padre": "auto_7876",
     "madre": "auto_7878",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7883",
@@ -132705,7 +132708,7 @@
     "padre": "auto_7886",
     "madre": "auto_7887",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_7889",
@@ -132722,7 +132725,7 @@
     "padre": "auto_7888",
     "madre": "auto_7871",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7890",
@@ -132790,7 +132793,7 @@
     "padre": "auto_6509",
     "madre": "auto_7891",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_7894",
@@ -133157,7 +133160,7 @@
     "padre": "auto_0836",
     "madre": "auto_7916",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7916",
@@ -133174,7 +133177,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7917",
@@ -133514,7 +133517,7 @@
     "padre": "auto_7934",
     "madre": "auto_6752",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7940",
@@ -133992,7 +133995,7 @@
     "padre": "auto_0769",
     "madre": "auto_7967",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7969",
@@ -134026,7 +134029,7 @@
     "padre": "auto_7969",
     "madre": "auto_3734",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7971",
@@ -134043,7 +134046,7 @@
     "padre": "auto_7635",
     "madre": "auto_7970",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7973",
@@ -134111,7 +134114,7 @@
     "padre": "auto_0786",
     "madre": "auto_7976",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7976",
@@ -134384,7 +134387,7 @@
     "padre": "auto_4274",
     "madre": "auto_4273",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_7992",
@@ -134401,7 +134404,7 @@
     "padre": "auto_3872",
     "madre": "auto_7991",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_7993",
@@ -134469,7 +134472,7 @@
     "padre": "auto_4293",
     "madre": "auto_7995",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_7997",
@@ -134537,7 +134540,7 @@
     "padre": "auto_3884",
     "madre": "auto_2775",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8001",
@@ -134554,7 +134557,7 @@
     "padre": "auto_7749",
     "madre": "auto_8000",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8002",
@@ -134622,7 +134625,7 @@
     "padre": "auto_7090",
     "madre": "auto_5201",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8006",
@@ -134673,7 +134676,7 @@
     "padre": "auto_2639",
     "madre": "auto_8007",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8009",
@@ -134690,7 +134693,7 @@
     "padre": "auto_5485",
     "madre": "auto_8008",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8011",
@@ -134860,7 +134863,7 @@
     "padre": "auto_4233",
     "madre": "auto_8018",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8020",
@@ -135081,7 +135084,7 @@
     "padre": "auto_5507",
     "madre": "auto_8030",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_8033",
@@ -135591,7 +135594,7 @@
     "padre": "auto_6949",
     "madre": "auto_8064",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8068",
@@ -136017,7 +136020,7 @@
     "padre": "auto_8090",
     "madre": "auto_8091",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_8093",
@@ -136136,7 +136139,7 @@
     "padre": "auto_6949",
     "madre": "auto_7643",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_8101",
@@ -136170,7 +136173,7 @@
     "padre": "auto_3884",
     "madre": "auto_2109",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8103",
@@ -136290,7 +136293,7 @@
     "padre": "auto_4491",
     "madre": "auto_7559",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8110",
@@ -136375,7 +136378,7 @@
     "padre": "auto_8110",
     "madre": "auto_3602",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8115",
@@ -136477,7 +136480,7 @@
     "padre": "auto_7661",
     "madre": "auto_7660",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_8121",
@@ -136837,7 +136840,7 @@
       "images/auto_8142.jpg"
     ],
     "lastModified": "2026-11-08",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8143",
@@ -137618,7 +137621,7 @@
     "padre": "auto_2417",
     "madre": "auto_8187",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8189",
@@ -137635,7 +137638,7 @@
     "padre": "auto_4561",
     "madre": "auto_8188",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_8190",
@@ -137652,7 +137655,7 @@
     "padre": "auto_3032",
     "madre": "auto_7539",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_8191",
@@ -137788,7 +137791,7 @@
     "padre": "auto_2157",
     "madre": "auto_8198",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8200",
@@ -137992,7 +137995,7 @@
     "padre": "auto_1095",
     "madre": "auto_8210",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8212",
@@ -138179,7 +138182,7 @@
     "padre": "auto_6713",
     "madre": "auto_8221",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8223",
@@ -138281,7 +138284,7 @@
     "padre": "auto_6824",
     "madre": "auto_8227",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8229",
@@ -138454,7 +138457,7 @@
     "padre": "auto_8248",
     "madre": "auto_8249",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8239",
@@ -138658,7 +138661,7 @@
     "padre": "dog1830",
     "madre": "auto_8233",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_8251",
@@ -138743,7 +138746,7 @@
     "padre": "auto_4129",
     "madre": "auto_4146",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8256",
@@ -139083,7 +139086,7 @@
     "padre": "auto_7763",
     "madre": "auto_8272",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8276",
@@ -139168,7 +139171,7 @@
     "padre": "auto_8269",
     "madre": "auto_8279",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8281",
@@ -139391,7 +139394,7 @@
     "padre": "auto_8291",
     "madre": "auto_8290",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_8294",
@@ -139425,7 +139428,7 @@
     "padre": "auto_8293",
     "madre": "auto_8294",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8296",
@@ -139546,7 +139549,7 @@
     "padre": "auto_7930",
     "madre": "auto_6265",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_8303",
@@ -140073,7 +140076,7 @@
     "padre": "dog1244",
     "madre": "auto_6752",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8334",
@@ -140107,7 +140110,7 @@
     "padre": "auto_3343",
     "madre": "auto_6753",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8336",
@@ -140243,7 +140246,7 @@
     "padre": "auto_8341",
     "madre": "auto_6753",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8344",
@@ -140260,7 +140263,7 @@
     "padre": "auto_8341",
     "madre": "auto_6753",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8345",
@@ -140328,7 +140331,7 @@
     "padre": "auto_8293",
     "madre": "auto_8347",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8349",
@@ -140362,7 +140365,7 @@
     "padre": "auto_5340",
     "madre": "auto_6943",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_8351",
@@ -140874,7 +140877,7 @@
     "padre": "auto_2356",
     "madre": "auto_7541",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8381",
@@ -140891,7 +140894,7 @@
     "padre": "auto_2356",
     "madre": "auto_7541",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8382",
@@ -140925,7 +140928,7 @@
     "padre": "auto_7981",
     "madre": "auto_8381",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_8384",
@@ -140942,7 +140945,7 @@
     "padre": "auto_7799",
     "madre": "auto_8380",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8385",
@@ -140959,7 +140962,7 @@
     "padre": "auto_7981",
     "madre": "auto_8380",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8386",
@@ -141027,7 +141030,7 @@
     "padre": "auto_7981",
     "madre": "auto_8384",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8390",
@@ -141044,7 +141047,7 @@
     "padre": "auto_7981",
     "madre": "auto_8384",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8391",
@@ -141146,7 +141149,7 @@
     "padre": "auto_3653",
     "madre": "auto_2151",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8397",
@@ -141435,7 +141438,7 @@
     "padre": "auto_5202",
     "madre": "auto_8412",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8414",
@@ -141452,7 +141455,7 @@
     "padre": "auto_5202",
     "madre": "auto_8412",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8415",
@@ -141470,7 +141473,7 @@
     "madre": "auto_7780",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8416",
@@ -141487,7 +141490,7 @@
     "padre": "auto_8414",
     "madre": "auto_8415",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8417",
@@ -141623,7 +141626,7 @@
     "padre": "auto_5510",
     "madre": "auto_8423",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8425",
@@ -141980,7 +141983,7 @@
     "padre": "auto_7635",
     "madre": "auto_8444",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8446",
@@ -142031,7 +142034,7 @@
     "padre": "auto_4399",
     "madre": "auto_8000",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8449",
@@ -142048,7 +142051,7 @@
     "padre": "auto_7579",
     "madre": "auto_7995",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8450",
@@ -142099,7 +142102,7 @@
     "padre": "auto_0623",
     "madre": "auto_2680",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8453",
@@ -142269,7 +142272,7 @@
     "padre": "auto_2793",
     "madre": "auto_2668",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8464",
@@ -142303,7 +142306,7 @@
     "padre": "auto_8128",
     "madre": "auto_8464",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8466",
@@ -143173,7 +143176,7 @@
     "padre": "auto_2102",
     "madre": "auto_8515",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8517",
@@ -143190,7 +143193,7 @@
     "padre": "dog1598",
     "madre": "auto_0592",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8518",
@@ -143241,7 +143244,7 @@
     "padre": "auto_7154",
     "madre": "auto_8519",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8521",
@@ -143258,7 +143261,7 @@
     "padre": "auto_7154",
     "madre": "auto_8519",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8522",
@@ -143275,7 +143278,7 @@
     "padre": "auto_4471",
     "madre": "auto_8519",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8523",
@@ -143292,7 +143295,7 @@
     "padre": "auto_4471",
     "madre": "auto_8519",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8524",
@@ -143343,7 +143346,7 @@
     "padre": "auto_4491",
     "madre": "auto_8522",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8527",
@@ -143377,7 +143380,7 @@
     "padre": "auto_8416",
     "madre": "auto_8527",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8529",
@@ -143904,7 +143907,7 @@
     "padre": "auto_0443",
     "madre": "auto_6755",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8561",
@@ -144057,7 +144060,7 @@
     "padre": "auto_2155",
     "madre": "auto_3836",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_8570",
@@ -144091,7 +144094,7 @@
     "padre": "auto_8570",
     "madre": "auto_8569",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8572",
@@ -144108,7 +144111,7 @@
     "padre": "auto_4491",
     "madre": "auto_4021",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8573",
@@ -144125,7 +144128,7 @@
     "padre": "auto_4493",
     "madre": "auto_8571",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8574",
@@ -144244,7 +144247,7 @@
     "padre": "auto_2679",
     "madre": "auto_2680",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8581",
@@ -144329,7 +144332,7 @@
     "padre": "auto_8584",
     "madre": "auto_7629",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8586",
@@ -144517,7 +144520,7 @@
     "padre": "auto_8574",
     "madre": "auto_8595",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_8597",
@@ -144568,7 +144571,7 @@
     "padre": "auto_8293",
     "madre": "auto_8598",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8600",
@@ -144754,7 +144757,7 @@
     "padre": "auto_2157",
     "madre": "auto_8198",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8610",
@@ -144907,7 +144910,7 @@
     "padre": "auto_8201",
     "madre": "auto_8617",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8619",
@@ -144941,7 +144944,7 @@
     "padre": "auto_5028",
     "madre": "auto_1374",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8621",
@@ -145213,7 +145216,7 @@
     "padre": "auto_8574",
     "madre": "auto_8595",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_8637",
@@ -145230,7 +145233,7 @@
     "padre": "auto_8574",
     "madre": "auto_8595",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_8638",
@@ -145283,7 +145286,7 @@
     "padre": "auto_8640",
     "madre": "auto_7667",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8641",
@@ -145476,7 +145479,7 @@
     "padre": "dog1386",
     "madre": "auto_8650",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_8652",
@@ -145493,7 +145496,7 @@
     "padre": "dog1840",
     "madre": "auto_8651",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8653",
@@ -145510,7 +145513,7 @@
     "padre": "dog1840",
     "madre": "auto_8651",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8654",
@@ -145544,7 +145547,7 @@
     "padre": "auto_8580",
     "madre": "auto_8651",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_8656",
@@ -145561,7 +145564,7 @@
     "padre": "dog0589",
     "madre": "auto_1423",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8657",
@@ -145578,7 +145581,7 @@
     "padre": "auto_8656",
     "madre": "dog1623",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8658",
@@ -145613,7 +145616,7 @@
     "madre": "auto_8658",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8660",
@@ -145647,7 +145650,7 @@
     "padre": "auto_8267",
     "madre": "auto_8660",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8662",
@@ -145698,7 +145701,7 @@
     "padre": "auto_6253",
     "madre": "auto_8268",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 2
   },
   {
     "id": "auto_8665",
@@ -145820,7 +145823,7 @@
       "images/auto_8670.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8671",
@@ -145840,7 +145843,7 @@
       "images/auto_8671.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8672",
@@ -145902,7 +145905,7 @@
       "images/auto_8674_2.jpg"
     ],
     "lastModified": "2026-11-04",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8675",
@@ -146146,7 +146149,7 @@
       "images/auto_8687_2.jpg"
     ],
     "lastModified": "2026-10-27",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8688",
@@ -146397,7 +146400,7 @@
     "padre": "auto_8700",
     "madre": "auto_5470",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_8702",
@@ -146414,7 +146417,7 @@
     "padre": "auto_7745",
     "madre": "auto_8701",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8703",
@@ -146743,7 +146746,7 @@
     "padre": "auto_8720",
     "madre": "auto_8717",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8722",
@@ -147236,7 +147239,7 @@
     "padre": "auto_3592",
     "madre": "dog1906",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8751",
@@ -147914,7 +147917,7 @@
     "padre": "auto_7896",
     "madre": "auto_8786",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8788",
@@ -148033,7 +148036,7 @@
     "padre": "auto_8789",
     "madre": "auto_7553",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_8796",
@@ -148050,7 +148053,7 @@
     "padre": "auto_8789",
     "madre": "auto_7553",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_8797",
@@ -148135,7 +148138,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8802",
@@ -148152,7 +148155,7 @@
     "padre": "auto_8800",
     "madre": "auto_8801",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8803",
@@ -148884,7 +148887,7 @@
     "padre": "auto_0769",
     "madre": "auto_8844",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8846",
@@ -148901,7 +148904,7 @@
     "padre": "auto_6445",
     "madre": "auto_8845",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8847",
@@ -148986,7 +148989,7 @@
     "padre": "auto_8850",
     "madre": "auto_8848",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8852",
@@ -149071,7 +149074,7 @@
     "padre": "auto_8846",
     "madre": "auto_8855",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8857",
@@ -149105,7 +149108,7 @@
     "padre": "dog1244",
     "madre": "auto_2608",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8859",
@@ -149122,7 +149125,7 @@
     "padre": "auto_8217",
     "madre": "auto_8858",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8860",
@@ -149656,7 +149659,7 @@
     "padre": "auto_3884",
     "madre": "auto_2775",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8891",
@@ -150302,7 +150305,7 @@
     "padre": "auto_3896",
     "madre": "auto_3895",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8929",
@@ -150557,7 +150560,7 @@
     "padre": "auto_2606",
     "madre": "auto_8942",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8947",
@@ -150642,7 +150645,7 @@
     "padre": "auto_6665",
     "madre": "auto_3945",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_8952",
@@ -151010,7 +151013,7 @@
     "padre": "auto_8969",
     "madre": "auto_8968",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_8973",
@@ -151222,7 +151225,7 @@
     "padre": "auto_2570",
     "madre": "auto_4250",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_8986",
@@ -151299,7 +151302,7 @@
     "padre": "auto_8976",
     "madre": "auto_8669",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8991",
@@ -151333,7 +151336,7 @@
     "padre": "auto_8976",
     "madre": "auto_8669",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8993",
@@ -151367,7 +151370,7 @@
     "padre": "auto_8976",
     "madre": "auto_8669",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8995",
@@ -151439,7 +151442,7 @@
     "padre": "auto_3168",
     "madre": "auto_8997",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_8999",
@@ -151456,7 +151459,7 @@
     "padre": "auto_3168",
     "madre": "auto_8997",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9000",
@@ -151476,7 +151479,7 @@
       "images/auto_9000.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9001",
@@ -151916,7 +151919,7 @@
     "padre": "auto_3592",
     "madre": "auto_8669",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_9026",
@@ -151933,7 +151936,7 @@
     "padre": "auto_3592",
     "madre": "auto_8669",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_9027",
@@ -151950,7 +151953,7 @@
     "padre": "auto_3592",
     "madre": "auto_8669",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_9028",
@@ -152005,7 +152008,7 @@
     "padre": "auto_0989",
     "madre": "auto_0990",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_9031",
@@ -152028,7 +152031,7 @@
       "images/auto_9031_4.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_9032",
@@ -152120,7 +152123,7 @@
       "images/auto_9036.jpg"
     ],
     "lastModified": "2026-10-27",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9037",
@@ -152182,7 +152185,7 @@
       "images/auto_9039.jpg"
     ],
     "lastModified": "2026-10-27",
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_9040",
@@ -152253,7 +152256,7 @@
       "images/auto_9043.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9044",
@@ -152270,7 +152273,7 @@
     "padre": "auto_8670",
     "madre": "auto_8997",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9045",
@@ -152287,7 +152290,7 @@
     "padre": "auto_8670",
     "madre": "auto_8997",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9046",
@@ -152307,7 +152310,7 @@
       "images/auto_9046.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9047",
@@ -152324,7 +152327,7 @@
     "padre": "auto_8670",
     "madre": "auto_8997",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9048",
@@ -152341,7 +152344,7 @@
     "padre": "auto_8670",
     "madre": "auto_8997",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_9049",
@@ -153063,7 +153066,7 @@
       "images/auto_9092.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9093",
@@ -153336,7 +153339,7 @@
       "images/auto_9107.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9108",
@@ -153563,7 +153566,7 @@
       "images/auto_9119_2.jpg"
     ],
     "lastModified": "2026-10-25",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9120",
@@ -153580,7 +153583,7 @@
     "padre": "auto_0989",
     "madre": "auto_1006",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9121",
@@ -153597,7 +153600,7 @@
     "padre": "auto_0989",
     "madre": "auto_1006",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9122",
@@ -153614,7 +153617,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9123",
@@ -153634,7 +153637,7 @@
       "images/auto_9123.jpg"
     ],
     "lastModified": "2026-10-25",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9124",
@@ -153706,7 +153709,7 @@
     "padre": "auto_3169",
     "madre": "auto_1328",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9128",
@@ -153992,7 +153995,7 @@
       "images/auto_9142_2.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9143",
@@ -154558,7 +154561,7 @@
     "padre": "auto_1329",
     "madre": "auto_1312",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9174",
@@ -154683,7 +154686,7 @@
     "padre": "auto_3592",
     "madre": "auto_3568",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9181",
@@ -154700,7 +154703,7 @@
     "padre": "auto_3569",
     "madre": "auto_8679",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9182",
@@ -154758,7 +154761,7 @@
     "padre": "auto_3569",
     "madre": "auto_8679",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9185",
@@ -155183,7 +155186,7 @@
     "padre": "auto_8671",
     "madre": "auto_9185",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9208",
@@ -155319,7 +155322,7 @@
     "padre": "dog1408",
     "madre": "auto_9031",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9217",
@@ -155855,7 +155858,7 @@
     ],
     "note_en": "Taken from Turkmenistan.",
     "lastModified": "2026-10-26",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_9246",
@@ -155909,7 +155912,7 @@
       "images/auto_9248.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9249",
@@ -155926,7 +155929,7 @@
     "padre": "auto_3592",
     "madre": "auto_9245",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_9250",
@@ -156237,7 +156240,7 @@
     "padre": "auto_9085",
     "madre": "auto_8966",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_9266",
@@ -156907,7 +156910,7 @@
     "padre": "auto_0984",
     "madre": "dog1675",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9302",
@@ -157227,7 +157230,7 @@
       "images/auto_9319_2.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9320",
@@ -157396,7 +157399,7 @@
     "padre": "auto_9313",
     "madre": "auto_9249",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9330",
@@ -157469,7 +157472,7 @@
     "padre": "auto_3168",
     "madre": "auto_2575",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9333",
@@ -157486,7 +157489,7 @@
     "padre": "auto_3168",
     "madre": "auto_2575",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9335",
@@ -157869,7 +157872,7 @@
     "padre": "dog1850",
     "madre": "auto_2820",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9355",
@@ -158045,7 +158048,7 @@
     "padre": "dog1679",
     "madre": "auto_1328",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9365",
@@ -158092,7 +158095,7 @@
       "images/auto_9366_4.jpg"
     ],
     "lastModified": "2026-11-06",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9367",
@@ -158315,7 +158318,7 @@
       "images/auto_9377.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_9378",
@@ -158360,7 +158363,7 @@
       "images/auto_9379_2.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_9380",
@@ -158539,7 +158542,7 @@
       "images/auto_9388_2.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9389",
@@ -158821,7 +158824,7 @@
     "padre": "auto_9065",
     "madre": "auto_9329",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9403",
@@ -158838,7 +158841,7 @@
     "padre": "auto_9065",
     "madre": "auto_9329",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9404",
@@ -158881,7 +158884,7 @@
       "images/auto_9405.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9406",
@@ -158916,7 +158919,7 @@
     "padre": "auto_9065",
     "madre": "auto_9329",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9408",
@@ -158936,7 +158939,7 @@
       "images/auto_9408.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9409",
@@ -159249,7 +159252,7 @@
       "images/auto_9424.jpg"
     ],
     "lastModified": "2026-10-16",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_9425",
@@ -159266,7 +159269,7 @@
     "padre": "auto_9113",
     "madre": "auto_9057",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9426",
@@ -159317,7 +159320,7 @@
     "padre": "auto_1199",
     "madre": "auto_9164",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9429",
@@ -160281,7 +160284,7 @@
       "images/auto_9483.jpg"
     ],
     "lastModified": "2026-10-17",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9484",
@@ -160322,7 +160325,7 @@
     ],
     "lastModified": "2026-10-19",
     "note_en": "It is reported that this male was not used for breeding due to its reverse scissor bite.",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9486",
@@ -160339,7 +160342,7 @@
     "padre": "auto_9119",
     "madre": "auto_9031",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9487",
@@ -160400,7 +160403,7 @@
       "images/auto_9489_2.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9490",
@@ -160491,7 +160494,7 @@
       "images/auto_9494_4.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9495",
@@ -160698,7 +160701,7 @@
       "images/auto_9505_4.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9506",
@@ -160820,7 +160823,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_9511",
@@ -161005,7 +161008,7 @@
     "padre": "auto_9042",
     "madre": "auto_3259",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9522",
@@ -161110,7 +161113,7 @@
     "padre": "auto_9042",
     "madre": "auto_3259",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9528",
@@ -161468,7 +161471,7 @@
     "padre": "dog0003",
     "madre": "auto_6786",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9547",
@@ -161733,7 +161736,7 @@
     "padre": "auto_8671",
     "madre": "auto_3259",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9561",
@@ -161767,7 +161770,7 @@
     "padre": "auto_8671",
     "madre": "auto_3259",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9563",
@@ -161801,7 +161804,7 @@
     "padre": "auto_8671",
     "madre": "auto_3259",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9565",
@@ -162028,7 +162031,7 @@
     "padre": "auto_2977",
     "madre": "auto_2976",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9579",
@@ -162065,7 +162068,7 @@
       "images/auto_9578.jpg"
     ],
     "lastModified": "2026-10-21",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9580",
@@ -162261,7 +162264,7 @@
       "images/auto_9590_2.jpg"
     ],
     "lastModified": "2026-10-25",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9591",
@@ -162509,7 +162512,7 @@
     "padre": "auto_4905",
     "madre": "auto_9600",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9604",
@@ -162973,7 +162976,7 @@
       "images/auto_9627_2.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9628",
@@ -163139,7 +163142,7 @@
     "padre": "auto_4907",
     "madre": "auto_9260",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_9637",
@@ -163364,7 +163367,7 @@
     "padre": "auto_9152",
     "madre": "auto_9638",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9650",
@@ -163677,7 +163680,7 @@
       "images/auto_9665_2.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_9666",
@@ -163849,7 +163852,7 @@
       "images/auto_9674_5.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_9675",
@@ -164130,7 +164133,7 @@
     "padre": "auto_4905",
     "madre": "auto_9687",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_9690",
@@ -164186,7 +164189,7 @@
     "padre": "auto_4905",
     "madre": "auto_9687",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9693",
@@ -164411,7 +164414,7 @@
       "images/auto_9704_2.jpg"
     ],
     "lastModified": "2026-10-27",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9705",
@@ -164522,7 +164525,7 @@
     "padre": "auto_9708",
     "madre": "auto_9709",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9711",
@@ -164582,7 +164585,7 @@
     "padre": "auto_9708",
     "madre": "auto_9709",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9714",
@@ -164856,7 +164859,7 @@
     "padre": "auto_8671",
     "madre": "auto_9189",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_9729",
@@ -165011,7 +165014,7 @@
       "images/auto_9736.jpg"
     ],
     "lastModified": "2026-10-28",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9737",
@@ -165137,7 +165140,7 @@
       "images/auto_9742_5.jpg"
     ],
     "lastModified": "2026-11-04",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9743",
@@ -165359,7 +165362,7 @@
       "images/auto_9754.jpg"
     ],
     "lastModified": "2026-11-02",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9755",
@@ -166021,7 +166024,7 @@
     "padre": "auto_9043",
     "madre": "auto_9233",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9789",
@@ -166042,7 +166045,7 @@
       "images/auto_9789_2.jpg"
     ],
     "lastModified": "2026-11-04",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9790",
@@ -166393,7 +166396,7 @@
     "padre": "auto_2977",
     "madre": "auto_9494",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9809",
@@ -166843,7 +166846,7 @@
     "padre": "auto_8989",
     "madre": "auto_2575",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9832",
@@ -166863,7 +166866,7 @@
       "images/auto_9832.jpg"
     ],
     "lastModified": "2026-11-09",
-    "_tier": 3
+    "_tier": 2
   },
   {
     "id": "auto_9833",
@@ -167046,7 +167049,7 @@
       "images/auto_9842.jpg"
     ],
     "lastModified": "2026-11-12",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9843",
@@ -167100,7 +167103,7 @@
       "images/auto_9845.jpg"
     ],
     "lastModified": "2026-11-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9846",
@@ -167181,7 +167184,7 @@
     "padre": "auto_3167",
     "madre": "auto_1302",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9850",
@@ -167215,7 +167218,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9852",
@@ -167322,7 +167325,7 @@
     "padre": "auto_9308",
     "madre": "auto_9853",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9858",
@@ -167356,7 +167359,7 @@
     "padre": "auto_9308",
     "madre": "auto_9853",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_9860",
@@ -167562,7 +167565,7 @@
       "images/auto_9870_5.jpg"
     ],
     "lastModified": "2026-11-14",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9871",
@@ -167681,7 +167684,7 @@
     "padre": "auto_8607",
     "madre": "auto_9416",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9878",
@@ -167919,7 +167922,7 @@
     "padre": "auto_6823",
     "madre": "auto_3894",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9892",
@@ -168055,7 +168058,7 @@
     "padre": "auto_9898",
     "madre": "auto_7155",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9901",
@@ -168072,7 +168075,7 @@
     "padre": "auto_8496",
     "madre": "auto_7936",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9902",
@@ -168140,7 +168143,7 @@
     "padre": "auto_3689",
     "madre": "auto_9904",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9906",
@@ -168157,7 +168160,7 @@
     "padre": "auto_7815",
     "madre": "auto_9905",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_9907",
@@ -168310,7 +168313,7 @@
     "padre": "auto_5194",
     "madre": "auto_5196",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9917",
@@ -168573,7 +168576,7 @@
       "images/auto_9931_4.jpg",
       "images/auto_9931_5.jpg"
     ],
-    "_tier": 1,
+    "_tier": 4,
     "lastModified": "2026-11-19"
   },
   {
@@ -168591,7 +168594,7 @@
     "padre": "auto_9931",
     "madre": "auto_7583",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9933",
@@ -168795,7 +168798,7 @@
     "padre": "auto_0933",
     "madre": "auto_5461",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9946",
@@ -168846,7 +168849,7 @@
     "padre": "auto_0933",
     "madre": "auto_5461",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9949",
@@ -168948,7 +168951,7 @@
     "padre": "auto_8217",
     "madre": "auto_8858",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9955",
@@ -168965,7 +168968,7 @@
     "padre": "auto_7545",
     "madre": "auto_9953",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9956",
@@ -169205,7 +169208,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9970",
@@ -169222,7 +169225,7 @@
     "padre": "auto_2634",
     "madre": "auto_9969",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9971",
@@ -169307,7 +169310,7 @@
     "padre": "auto_9974",
     "madre": "auto_9970",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_9976",
@@ -169426,7 +169429,7 @@
     "padre": "auto_9980",
     "madre": "auto_9975",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_9983",
@@ -169647,7 +169650,7 @@
     "padre": "auto_8501",
     "madre": "auto_9994",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_9996",
@@ -169698,7 +169701,7 @@
     "padre": "auto_8445",
     "madre": "auto_9991",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_9999",
@@ -169715,7 +169718,7 @@
     "padre": "auto_8445",
     "madre": "auto_9991",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10000",
@@ -169732,7 +169735,7 @@
     "padre": "auto_8445",
     "madre": "auto_9991",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10001",
@@ -170123,7 +170126,7 @@
     "padre": "auto_6684",
     "madre": "auto_10022",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10024",
@@ -170140,7 +170143,7 @@
     "padre": "auto_6684",
     "madre": "auto_10022",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10025",
@@ -170379,7 +170382,7 @@
     "padre": "auto_3014",
     "madre": "auto_3733",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10039",
@@ -170430,7 +170433,7 @@
     "padre": "auto_3732",
     "madre": "auto_1395",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10043",
@@ -170536,7 +170539,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10048",
@@ -170621,7 +170624,7 @@
     "padre": "auto_10051",
     "madre": "auto_10041",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10053",
@@ -170656,7 +170659,7 @@
     "padre": "auto_10045",
     "madre": "auto_10046",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10055",
@@ -170675,7 +170678,7 @@
     "foto_list": [],
     "note_en": "Taken from Kazakhstan.",
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10056",
@@ -171154,7 +171157,7 @@
     "padre": "auto_5404",
     "madre": "auto_10085",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10084",
@@ -171392,7 +171395,7 @@
     "padre": "auto_2400",
     "madre": "auto_2402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10099",
@@ -171902,7 +171905,7 @@
     "padre": "dog1391",
     "madre": "auto_10129",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10131",
@@ -171988,7 +171991,7 @@
     "padre": "auto_8570",
     "madre": "auto_8569",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10136",
@@ -172417,7 +172420,7 @@
     "padre": "auto_10162",
     "madre": "auto_10163",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10162",
@@ -172434,7 +172437,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10163",
@@ -172468,7 +172471,7 @@
     "padre": "auto_10162",
     "madre": "auto_10163",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10165",
@@ -172656,7 +172659,7 @@
     "padre": "auto_5471",
     "madre": "auto_5470",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10176",
@@ -172758,7 +172761,7 @@
     "padre": "auto_5471",
     "madre": "auto_5470",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10183",
@@ -172793,7 +172796,7 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-09",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10182",
@@ -172844,7 +172847,7 @@
     "padre": "auto_4169",
     "madre": "auto_10185",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10187",
@@ -172998,7 +173001,7 @@
     "padre": "auto_10186",
     "madre": "auto_10194",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_10196",
@@ -173015,7 +173018,7 @@
     "padre": "auto_10186",
     "madre": "auto_10194",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10197",
@@ -173577,7 +173580,7 @@
     "padre": "auto_4297",
     "madre": "auto_10225",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10230",
@@ -173679,7 +173682,7 @@
     "padre": "auto_10204",
     "madre": "auto_10234",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10236",
@@ -173696,7 +173699,7 @@
     "padre": "auto_10221",
     "madre": "auto_10233",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10237",
@@ -173832,7 +173835,7 @@
     "padre": "auto_1038",
     "madre": "auto_7535",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10245",
@@ -174242,7 +174245,7 @@
     "padre": "auto_10267",
     "madre": "auto_1230",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10269",
@@ -174276,7 +174279,7 @@
     "padre": "auto_2620",
     "madre": "auto_10271",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10271",
@@ -174293,7 +174296,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10272",
@@ -174310,7 +174313,7 @@
     "padre": "auto_10270",
     "madre": "auto_10269",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10273",
@@ -174344,7 +174347,7 @@
     "padre": "auto_3242",
     "madre": "auto_10273",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10275",
@@ -174412,7 +174415,7 @@
     "padre": "auto_4796",
     "madre": "auto_10278",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10280",
@@ -174498,7 +174501,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10284",
@@ -174583,7 +174586,7 @@
     "padre": "auto_10283",
     "madre": "auto_10288",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10290",
@@ -174753,7 +174756,7 @@
     "padre": "auto_10296",
     "madre": "auto_10297",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10300",
@@ -174957,7 +174960,7 @@
     "padre": "auto_10309",
     "madre": "auto_8451",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10312",
@@ -175127,7 +175130,7 @@
     "padre": "auto_10312",
     "madre": "auto_10317",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10322",
@@ -175671,7 +175674,7 @@
     "padre": "auto_4293",
     "madre": "auto_10353",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10355",
@@ -175756,7 +175759,7 @@
     "padre": "auto_4454",
     "madre": "auto_8571",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10360",
@@ -175773,7 +175776,7 @@
     "padre": "auto_8567",
     "madre": "auto_10359",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10361",
@@ -175858,7 +175861,7 @@
     "padre": "auto_8567",
     "madre": "auto_10359",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10366",
@@ -176301,7 +176304,7 @@
     "padre": "auto_10296",
     "madre": "auto_10297",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10395",
@@ -176318,7 +176321,7 @@
     "padre": "auto_10393",
     "madre": "auto_10394",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10396",
@@ -176522,7 +176525,7 @@
     "padre": "auto_10406",
     "madre": "auto_10402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10408",
@@ -176641,7 +176644,7 @@
     "padre": "auto_10375",
     "madre": "auto_6505",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10415",
@@ -176658,7 +176661,7 @@
     "padre": "auto_10375",
     "madre": "auto_6505",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10416",
@@ -176675,7 +176678,7 @@
     "padre": "auto_10375",
     "madre": "auto_6505",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10417",
@@ -176692,7 +176695,7 @@
     "padre": "auto_10415",
     "madre": "auto_8698",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10418",
@@ -177032,7 +177035,7 @@
     "padre": "auto_10436",
     "madre": "auto_8936",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10438",
@@ -177083,7 +177086,7 @@
     "padre": "auto_10423",
     "madre": "auto_6505",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10441",
@@ -177100,7 +177103,7 @@
     "padre": "auto_10423",
     "madre": "auto_6505",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10442",
@@ -177117,7 +177120,7 @@
     "padre": "auto_10423",
     "madre": "auto_6505",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10443",
@@ -177338,7 +177341,7 @@
     "padre": "dog1673",
     "madre": "auto_10454",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10456",
@@ -177372,7 +177375,7 @@
     "padre": "auto_6948",
     "madre": "auto_10456",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10458",
@@ -177389,7 +177392,7 @@
     "padre": "auto_5510",
     "madre": "auto_10457",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10459",
@@ -177542,7 +177545,7 @@
     "padre": "auto_9947",
     "madre": "auto_2610",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10468",
@@ -177576,7 +177579,7 @@
     "padre": "auto_10467",
     "madre": "auto_10468",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10470",
@@ -177627,7 +177630,7 @@
     "padre": "auto_6811",
     "madre": "auto_8704",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_10473",
@@ -177644,7 +177647,7 @@
     "padre": "auto_9982",
     "madre": "auto_10472",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_10474",
@@ -178069,7 +178072,7 @@
     "padre": "auto_3399",
     "madre": "dog0847",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10500",
@@ -178702,7 +178705,7 @@
     "padre": "auto_7958",
     "madre": "auto_10533",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10537",
@@ -178753,7 +178756,7 @@
     "padre": "auto_10404",
     "madre": "auto_7968",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10540",
@@ -178770,7 +178773,7 @@
     "padre": "auto_10404",
     "madre": "auto_7968",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10541",
@@ -178787,7 +178790,7 @@
     "padre": "dog1244",
     "madre": "auto_10539",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10542",
@@ -178804,7 +178807,7 @@
     "padre": "dog1244",
     "madre": "auto_10539",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10543",
@@ -178838,7 +178841,7 @@
     "padre": "auto_5194",
     "madre": "dog0999",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10545",
@@ -178855,7 +178858,7 @@
     "padre": "auto_10540",
     "madre": "auto_10052",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10546",
@@ -178872,7 +178875,7 @@
     "padre": "auto_10540",
     "madre": "auto_10052",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10547",
@@ -179230,7 +179233,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10568",
@@ -179282,7 +179285,7 @@
     "padre": "auto_3689",
     "madre": "auto_10569",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10571",
@@ -179299,7 +179302,7 @@
     "padre": "auto_10570",
     "madre": "auto_10559",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10572",
@@ -179401,7 +179404,7 @@
     "padre": "auto_3948",
     "madre": "auto_10576",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10578",
@@ -179435,7 +179438,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10580",
@@ -179537,7 +179540,7 @@
     "padre": "auto_10575",
     "madre": "auto_10582",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10586",
@@ -179690,7 +179693,7 @@
     "padre": "auto_10355",
     "madre": "auto_7922",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10595",
@@ -179707,7 +179710,7 @@
     "padre": "auto_10355",
     "madre": "auto_7922",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10596",
@@ -179896,7 +179899,7 @@
     "padre": "auto_7154",
     "madre": "auto_9905",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10606",
@@ -179981,7 +179984,7 @@
     "padre": "auto_10601",
     "madre": "auto_10607",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10612",
@@ -180100,7 +180103,7 @@
     "padre": "auto_10617",
     "madre": "auto_10230",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10619",
@@ -180117,7 +180120,7 @@
     "padre": "auto_10617",
     "madre": "auto_10230",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10620",
@@ -180134,7 +180137,7 @@
     "padre": "auto_10235",
     "madre": "auto_10619",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10621",
@@ -180391,7 +180394,7 @@
     "padre": "auto_10631",
     "madre": "auto_10633",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_10636",
@@ -180442,7 +180445,7 @@
     "padre": "auto_10158",
     "madre": "auto_10625",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10639",
@@ -180476,7 +180479,7 @@
     "padre": "auto_10638",
     "madre": "auto_8695",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10641",
@@ -180954,7 +180957,7 @@
     "padre": "auto_10089",
     "madre": "auto_10667",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10669",
@@ -181209,7 +181212,7 @@
     "padre": "auto_10158",
     "madre": "auto_10680",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10684",
@@ -181312,7 +181315,7 @@
     "padre": "auto_10640",
     "madre": "auto_10681",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10690",
@@ -181363,7 +181366,7 @@
     "padre": "auto_10683",
     "madre": "auto_10691",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10693",
@@ -181380,7 +181383,7 @@
     "padre": "auto_10683",
     "madre": "auto_10691",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10694",
@@ -181397,7 +181400,7 @@
     "padre": "auto_10683",
     "madre": "auto_10691",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10695",
@@ -181448,7 +181451,7 @@
     "padre": "auto_2136",
     "madre": "auto_3492",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10698",
@@ -181465,7 +181468,7 @@
     "padre": "auto_2136",
     "madre": "auto_3492",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10699",
@@ -181992,7 +181995,7 @@
     "padre": "auto_10540",
     "madre": "auto_10052",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10732",
@@ -182009,7 +182012,7 @@
     "padre": "auto_10201",
     "madre": "auto_10731",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10733",
@@ -182196,7 +182199,7 @@
     "padre": "auto_8168",
     "madre": "auto_10742",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_10744",
@@ -182264,7 +182267,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10748",
@@ -182383,7 +182386,7 @@
     "padre": "auto_7678",
     "madre": "auto_8869",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10755",
@@ -182468,7 +182471,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10760",
@@ -182689,7 +182692,7 @@
     "padre": "auto_7930",
     "madre": "auto_10773",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10775",
@@ -183557,7 +183560,7 @@
     "padre": "auto_8588",
     "madre": "auto_10823",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_10826",
@@ -183728,7 +183731,7 @@
     "padre": "auto_10565",
     "madre": "auto_10834",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_10836",
@@ -183779,7 +183782,7 @@
     "padre": "auto_7888",
     "madre": "auto_8694",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10839",
@@ -183796,7 +183799,7 @@
     "padre": "auto_8217",
     "madre": "auto_5461",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_10840",
@@ -183813,7 +183816,7 @@
     "padre": "auto_8217",
     "madre": "auto_5461",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_10841",
@@ -183830,7 +183833,7 @@
     "padre": "auto_3032",
     "madre": "auto_5461",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10842",
@@ -183847,7 +183850,7 @@
     "padre": "auto_5462",
     "madre": "auto_10841",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_10843",
@@ -184291,7 +184294,7 @@
     "padre": "dog1638",
     "madre": "auto_10868",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_10870",
@@ -184632,7 +184635,7 @@
     "padre": "auto_3032",
     "madre": "auto_10737",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_10890",
@@ -184649,7 +184652,7 @@
     "padre": "auto_9946",
     "madre": "auto_10889",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_10891",
@@ -184853,7 +184856,7 @@
     "padre": "auto_8033",
     "madre": "auto_1188",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10903",
@@ -185040,7 +185043,7 @@
     "padre": "auto_7811",
     "madre": "auto_7808",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10914",
@@ -185249,7 +185252,7 @@
     "madre": "auto_10922",
     "foto_list": [],
     "lastModified": "2026-10-09",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10926",
@@ -185369,7 +185372,7 @@
     "padre": "auto_10931",
     "madre": "auto_10619",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10933",
@@ -185744,7 +185747,7 @@
     "madre": "dog1988",
     "foto_list": [],
     "lastModified": "2026-11-16",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_10955",
@@ -185999,7 +186002,7 @@
     "padre": "auto_6194",
     "madre": "auto_10968",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_10970",
@@ -186103,7 +186106,7 @@
     "padre": "auto_5203",
     "madre": "auto_10974",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10976",
@@ -186154,7 +186157,7 @@
     "padre": "auto_10975",
     "madre": "auto_8142",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_10979",
@@ -186462,7 +186465,7 @@
     "padre": "auto_7625",
     "madre": "auto_10990",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_10997",
@@ -186649,7 +186652,7 @@
     "padre": "auto_10995",
     "madre": "auto_11004",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_11008",
@@ -187245,7 +187248,7 @@
     "padre": "auto_1100",
     "madre": "auto_11041",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11043",
@@ -187262,7 +187265,7 @@
     "padre": "auto_2835",
     "madre": "auto_11042",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11044",
@@ -187603,7 +187606,7 @@
     "padre": "auto_5495",
     "madre": "auto_7602",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11065",
@@ -187807,7 +187810,7 @@
     "padre": "auto_1100",
     "madre": "auto_11041",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11077",
@@ -187824,7 +187827,7 @@
     "padre": "auto_1100",
     "madre": "auto_11041",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11078",
@@ -187841,7 +187844,7 @@
     "padre": "auto_6699",
     "madre": "dog0344",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11079",
@@ -187926,7 +187929,7 @@
     "padre": "auto_7233",
     "madre": "auto_0679",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11084",
@@ -188181,7 +188184,7 @@
     "padre": "auto_1100",
     "madre": "auto_8018",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11099",
@@ -188198,7 +188201,7 @@
     "padre": "auto_1100",
     "madre": "auto_8018",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11100",
@@ -188215,7 +188218,7 @@
     "padre": "auto_2835",
     "madre": "auto_8018",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11101",
@@ -188597,7 +188600,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11123",
@@ -188632,7 +188635,7 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11126",
@@ -188650,7 +188653,7 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11127",
@@ -188667,7 +188670,7 @@
     "padre": "auto_0716",
     "madre": "auto_11122",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11128",
@@ -188702,7 +188705,7 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11130",
@@ -188720,7 +188723,7 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11131",
@@ -188958,7 +188961,7 @@
     "padre": "auto_4259",
     "madre": "auto_11145",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_11145",
@@ -189145,7 +189148,7 @@
     "padre": "dog0778",
     "madre": "auto_2916",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11156",
@@ -189213,7 +189216,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11160",
@@ -189385,7 +189388,7 @@
     "padre": "auto_11168",
     "madre": "auto_3909",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_11170",
@@ -189419,7 +189422,7 @@
     "padre": "auto_10980",
     "madre": "auto_11170",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_11172",
@@ -189623,7 +189626,7 @@
     "padre": "auto_10640",
     "madre": "auto_10625",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11186",
@@ -190019,7 +190022,7 @@
     "padre": "auto_11206",
     "madre": "auto_11207",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_11210",
@@ -190206,7 +190209,7 @@
     "padre": "auto_0716",
     "madre": "auto_0718",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_11221",
@@ -190769,7 +190772,7 @@
     "padre": "auto_11251",
     "madre": "auto_11238",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11254",
@@ -191079,7 +191082,7 @@
     "padre": "auto_11264",
     "madre": "auto_11269",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_11272",
@@ -191164,7 +191167,7 @@
     "padre": "auto_11270",
     "madre": "auto_11275",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11277",
@@ -191215,7 +191218,7 @@
     "padre": "auto_8789",
     "madre": "auto_7553",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_11280",
@@ -191698,7 +191701,7 @@
     "padre": "auto_4526",
     "madre": "auto_4031",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11308",
@@ -192138,7 +192141,7 @@
     "padre": "auto_11331",
     "madre": "auto_11329",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11333",
@@ -192284,7 +192287,7 @@
     "padre": "auto_11337",
     "madre": "auto_2376",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_11341",
@@ -192607,7 +192610,7 @@
     "padre": "auto_11298",
     "madre": "auto_11342",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11359",
@@ -192811,7 +192814,7 @@
     "padre": "auto_10463",
     "madre": "auto_11370",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11372",
@@ -192828,7 +192831,7 @@
     "padre": "auto_10463",
     "madre": "auto_11370",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11373",
@@ -192998,7 +193001,7 @@
     "padre": "auto_11379",
     "madre": "auto_11377",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11383",
@@ -193015,7 +193018,7 @@
     "padre": "auto_11379",
     "madre": "auto_11377",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11384",
@@ -193032,7 +193035,7 @@
     "padre": "auto_11379",
     "madre": "auto_11377",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11385",
@@ -193406,7 +193409,7 @@
     "padre": "auto_0915",
     "madre": "auto_4018",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_11407",
@@ -193476,7 +193479,7 @@
     "padre": "auto_0033",
     "madre": "auto_3494",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11411",
@@ -193850,7 +193853,7 @@
     "padre": "auto_3689",
     "madre": "auto_8275",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_11433",
@@ -194207,7 +194210,7 @@
     "padre": "dog0589",
     "madre": "auto_5730",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11454",
@@ -194292,7 +194295,7 @@
     "padre": "auto_11457",
     "madre": "auto_3684",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_11459",
@@ -194377,7 +194380,7 @@
     "padre": "auto_10436",
     "madre": "auto_11462",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11464",
@@ -194497,7 +194500,7 @@
     "padre": "auto_3140",
     "madre": "auto_3141",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11471",
@@ -194619,7 +194622,7 @@
     "padre": "auto_6887",
     "madre": "auto_6889",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_11478",
@@ -194636,7 +194639,7 @@
     "padre": "auto_2400",
     "madre": "auto_11477",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11479",
@@ -194653,7 +194656,7 @@
     "padre": "auto_2400",
     "madre": "auto_11477",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11480",
@@ -194670,7 +194673,7 @@
     "padre": "auto_2400",
     "madre": "auto_11477",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11481",
@@ -194687,7 +194690,7 @@
     "padre": "auto_3689",
     "madre": "auto_11461",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 2
   },
   {
     "id": "auto_11482",
@@ -194704,7 +194707,7 @@
     "padre": "auto_3689",
     "madre": "auto_11461",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 2
   },
   {
     "id": "auto_11483",
@@ -195095,7 +195098,7 @@
     "padre": "auto_11504",
     "madre": "auto_11502",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11506",
@@ -196050,7 +196053,7 @@
     "padre": "auto_11387",
     "madre": "auto_11388",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11563",
@@ -196084,7 +196087,7 @@
     "padre": "auto_5462",
     "madre": "auto_7091",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_11565",
@@ -196255,7 +196258,7 @@
     "padre": "auto_11574",
     "madre": "auto_10939",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11576",
@@ -196272,7 +196275,7 @@
     "padre": "auto_11574",
     "madre": "auto_10939",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11577",
@@ -196358,7 +196361,7 @@
     "padre": "auto_5507",
     "madre": "auto_4668",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11582",
@@ -196392,7 +196395,7 @@
     "padre": "auto_5654",
     "madre": "auto_11581",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11584",
@@ -196409,7 +196412,7 @@
     "padre": "auto_5654",
     "madre": "auto_11581",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11585",
@@ -196596,7 +196599,7 @@
     "padre": "auto_7678",
     "madre": "auto_8869",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11596",
@@ -196819,7 +196822,7 @@
     "padre": "auto_10736",
     "madre": "auto_11607",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11609",
@@ -197387,7 +197390,7 @@
     "padre": "auto_4019",
     "madre": "auto_11624",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11642",
@@ -197404,7 +197407,7 @@
     "padre": "auto_4019",
     "madre": "auto_11624",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11643",
@@ -197421,7 +197424,7 @@
     "padre": "auto_4019",
     "madre": "auto_11624",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11644",
@@ -197438,7 +197441,7 @@
     "padre": "auto_4019",
     "madre": "auto_11624",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11645",
@@ -197455,7 +197458,7 @@
     "padre": "auto_4019",
     "madre": "auto_11624",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11646",
@@ -197472,7 +197475,7 @@
     "padre": "auto_4019",
     "madre": "auto_11624",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11647",
@@ -197489,7 +197492,7 @@
     "padre": "auto_9936",
     "madre": "auto_11624",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_11648",
@@ -197850,7 +197853,7 @@
     "padre": "auto_9936",
     "madre": "auto_11658",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11669",
@@ -198517,7 +198520,7 @@
     "foto_list": [],
     "note_en": "Taken from Tajikistan.",
     "lastModified": "2026-10-12",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_11709",
@@ -199420,7 +199423,7 @@
     "padre": "auto_11756",
     "madre": "auto_8393",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_11765",
@@ -199933,7 +199936,7 @@
     "foto_list": [],
     "lastModified": "2026-10-12",
     "note_en": "This male ended up in Kazakhstan, where his bloodline spread, seriously contaminating the breed.",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_11796",
@@ -200155,7 +200158,7 @@
     "padre": "auto_7804",
     "madre": "auto_8174",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11809",
@@ -200325,7 +200328,7 @@
     "padre": "auto_8861",
     "madre": "auto_11817",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11819",
@@ -200342,7 +200345,7 @@
     "padre": "auto_8861",
     "madre": "auto_11817",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11820",
@@ -200376,7 +200379,7 @@
     "padre": "auto_8861",
     "madre": "auto_11817",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11822",
@@ -200393,7 +200396,7 @@
     "padre": "auto_8861",
     "madre": "auto_11817",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11823",
@@ -200410,7 +200413,7 @@
     "padre": "auto_8861",
     "madre": "auto_11817",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11824",
@@ -200461,7 +200464,7 @@
     "padre": "auto_8861",
     "madre": "auto_11817",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11827",
@@ -200734,7 +200737,7 @@
     "padre": "auto_11837",
     "madre": "auto_11841",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11843",
@@ -200870,7 +200873,7 @@
     "padre": "auto_5477",
     "madre": "auto_5472",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11851",
@@ -200887,7 +200890,7 @@
     "padre": "auto_5477",
     "madre": "auto_5472",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11852",
@@ -201058,7 +201061,7 @@
     "padre": "auto_10355",
     "madre": "auto_6503",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_11862",
@@ -201262,7 +201265,7 @@
     "padre": "auto_4667",
     "madre": "auto_4313",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_11874",
@@ -201279,7 +201282,7 @@
     "padre": "auto_11873",
     "madre": "auto_11770",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_11875",
@@ -201330,7 +201333,7 @@
     "padre": "auto_1190",
     "madre": "auto_10058",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11878",
@@ -201364,7 +201367,7 @@
     "padre": "auto_8498",
     "madre": "auto_8492",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11880",
@@ -201687,7 +201690,7 @@
     "padre": "auto_11895",
     "madre": "auto_11897",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_11899",
@@ -201823,7 +201826,7 @@
     "padre": "auto_2382",
     "madre": "auto_4618",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_11908",
@@ -202079,7 +202082,7 @@
     "padre": "auto_1100",
     "madre": "auto_11921",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11924",
@@ -202130,7 +202133,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_11927",
@@ -202470,7 +202473,7 @@
     "padre": "auto_11684",
     "madre": "auto_7408",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11947",
@@ -202810,7 +202813,7 @@
     "padre": "auto_11739",
     "madre": "auto_11957",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_11967",
@@ -203507,7 +203510,7 @@
     "padre": "auto_11948",
     "madre": "dog0451",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12008",
@@ -203915,7 +203918,7 @@
     "padre": "auto_12029",
     "madre": "auto_12030",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_12032",
@@ -204085,7 +204088,7 @@
     "padre": "auto_10640",
     "madre": "auto_12038",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_12042",
@@ -204465,7 +204468,7 @@
     "padre": "auto_11623",
     "madre": "auto_12058",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_12064",
@@ -205704,7 +205707,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12137",
@@ -207361,7 +207364,7 @@
     ],
     "note_en": "Taken from Kazakhstan.",
     "lastModified": "2026-10-14",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_12236",
@@ -207381,7 +207384,7 @@
       "images/auto_12236.jpg",
       "images/auto_12236_2.jpg"
     ],
-    "_tier": 2,
+    "_tier": 4,
     "lastModified": "2026-11-20"
   },
   {
@@ -207399,7 +207402,7 @@
     "padre": "auto_12235",
     "madre": "auto_2603",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12238",
@@ -207433,7 +207436,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_12240",
@@ -207450,7 +207453,7 @@
     "padre": "dog0997",
     "madre": "auto_12239",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_12241",
@@ -207467,7 +207470,7 @@
     "padre": "auto_12240",
     "madre": "auto_2603",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12242",
@@ -207484,7 +207487,7 @@
     "padre": "auto_12240",
     "madre": "auto_2603",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12243",
@@ -207518,7 +207521,7 @@
     "padre": "auto_12241",
     "madre": "auto_12238",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12245",
@@ -207620,7 +207623,7 @@
     "padre": "auto_12250",
     "madre": "auto_8087",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12252",
@@ -207705,7 +207708,7 @@
     "padre": "auto_12254",
     "madre": "auto_12255",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_12257",
@@ -207773,7 +207776,7 @@
     "padre": "auto_12252",
     "madre": "auto_12259",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12261",
@@ -208030,7 +208033,7 @@
     "padre": "auto_6195",
     "madre": "auto_8651",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_12276",
@@ -208167,7 +208170,7 @@
     "padre": "auto_3032",
     "madre": "auto_3016",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_12284",
@@ -208201,7 +208204,7 @@
     "padre": "auto_10157",
     "madre": "auto_12283",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_12286",
@@ -208252,7 +208255,7 @@
     "padre": "auto_1038",
     "madre": "auto_12291",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_12289",
@@ -208303,7 +208306,7 @@
     "padre": "auto_1038",
     "madre": "auto_12291",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_12293",
@@ -208371,7 +208374,7 @@
     "padre": "auto_5194",
     "madre": "dog0999",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12297",
@@ -208440,7 +208443,7 @@
     "padre": "auto_12296",
     "madre": "auto_12298",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12302",
@@ -208474,7 +208477,7 @@
     "padre": "auto_12296",
     "madre": "auto_12298",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12304",
@@ -208508,7 +208511,7 @@
     "padre": "auto_2116",
     "madre": "auto_12304",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_12306",
@@ -208733,7 +208736,7 @@
     "padre": "auto_12270",
     "madre": "auto_12269",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12319",
@@ -208750,7 +208753,7 @@
     "padre": "auto_12258",
     "madre": "auto_12318",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12320",
@@ -208835,7 +208838,7 @@
     "padre": "auto_12258",
     "madre": "auto_12321",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12325",
@@ -208937,7 +208940,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_12331",
@@ -209397,7 +209400,7 @@
     "padre": "auto_12356",
     "madre": "auto_7946",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_12358",
@@ -209448,7 +209451,7 @@
     "padre": "auto_10157",
     "madre": "auto_10166",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_12361",
@@ -209516,7 +209519,7 @@
     "padre": "auto_12349",
     "madre": "auto_12348",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12365",
@@ -209635,7 +209638,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12372",
@@ -210145,7 +210148,7 @@
     "padre": "auto_8939",
     "madre": "auto_12399",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12402",
@@ -210574,7 +210577,7 @@
     "padre": "auto_12425",
     "madre": "auto_12273",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12427",
@@ -210917,7 +210920,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12447",
@@ -211002,7 +211005,7 @@
     "padre": "auto_8077",
     "madre": "auto_12450",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_12452",
@@ -211019,7 +211022,7 @@
     "padre": "auto_8077",
     "madre": "auto_12450",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_12453",
@@ -211087,7 +211090,7 @@
     "padre": "auto_8501",
     "madre": "auto_12451",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_12457",
@@ -211342,7 +211345,7 @@
     "padre": "auto_3545",
     "madre": "auto_6044",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12472",
@@ -211410,7 +211413,7 @@
     "padre": "auto_12474",
     "madre": "auto_12472",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12476",
@@ -211495,7 +211498,7 @@
     "padre": "auto_8624",
     "madre": "auto_12478",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_12481",
@@ -211665,7 +211668,7 @@
     "padre": "auto_12373",
     "madre": "auto_12488",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_12492",
@@ -212364,7 +212367,7 @@
     "padre": "auto_2678",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12534",
@@ -212636,7 +212639,7 @@
     "padre": "auto_12547",
     "madre": "auto_12548",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12550",
@@ -212653,7 +212656,7 @@
     "padre": "auto_12547",
     "madre": "auto_12548",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12551",
@@ -212755,7 +212758,7 @@
     "padre": "auto_7956",
     "madre": "auto_8142",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12557",
@@ -212789,7 +212792,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12559",
@@ -212806,7 +212809,7 @@
     "padre": "auto_12557",
     "madre": "auto_12558",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_12560",
@@ -212908,7 +212911,7 @@
     "padre": "auto_12359",
     "madre": "auto_12563",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12566",
@@ -212993,7 +212996,7 @@
     "padre": "auto_12568",
     "madre": "auto_12569",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12571",
@@ -213112,7 +213115,7 @@
     "padre": "auto_9931",
     "madre": "auto_12576",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12578",
@@ -213188,7 +213191,7 @@
     "foto_list": [],
     "note_en": "It was said that this male, standing 96 cm at the withers, came from Central Asia, although no evidence was provided and no detail was given. Various rumours circulated about him, one of which claimed that he was born in Siberia to a Great Dane sire and a Saint Bernard dam. We will never know his true origins, but we can be sure that he was not a Central Asian Shepherd Dog.",
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12582",
@@ -213962,7 +213965,7 @@
     "padre": "auto_12594",
     "madre": "auto_12175",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12627",
@@ -214420,7 +214423,7 @@
     "padre": "auto_8646",
     "madre": "auto_12651",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12653",
@@ -214769,7 +214772,7 @@
     "foto_list": [],
     "note_en": "Taken from Afghanistan.",
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12673",
@@ -214788,7 +214791,7 @@
     "foto_list": [],
     "note_en": "Taken from Afghanistan.",
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12675",
@@ -214807,7 +214810,7 @@
     "foto_list": [],
     "note_en": "Taken from Afghanistan.",
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12676",
@@ -214824,7 +214827,7 @@
     "padre": "auto_12177",
     "madre": "auto_12675",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12677",
@@ -214841,7 +214844,7 @@
     "padre": "auto_12177",
     "madre": "auto_12675",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12678",
@@ -214858,7 +214861,7 @@
     "padre": "auto_12673",
     "madre": "auto_12677",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12679",
@@ -214892,7 +214895,7 @@
     "padre": "auto_12673",
     "madre": "auto_12676",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12681",
@@ -215676,7 +215679,7 @@
     "padre": "auto_12359",
     "madre": "auto_10978",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12728",
@@ -216087,7 +216090,7 @@
     "padre": "auto_12749",
     "madre": "auto_12752",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12752",
@@ -216224,7 +216227,7 @@
     "padre": "auto_10540",
     "madre": "auto_8444",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12760",
@@ -216462,7 +216465,7 @@
     "padre": "auto_12759",
     "madre": "auto_12772",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12774",
@@ -216666,7 +216669,7 @@
     "padre": "auto_1396",
     "madre": "dog0999",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_12786",
@@ -216734,7 +216737,7 @@
     "padre": "auto_8720",
     "madre": "auto_8717",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12790",
@@ -216819,7 +216822,7 @@
     "padre": "auto_12793",
     "madre": "auto_12791",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_12795",
@@ -217559,7 +217562,7 @@
     "padre": "auto_12835",
     "madre": "auto_12605",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12840",
@@ -218246,7 +218249,7 @@
     "padre": "auto_12877",
     "madre": "auto_12878",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12880",
@@ -219661,7 +219664,7 @@
     "padre": "auto_12185",
     "madre": "auto_12953",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12964",
@@ -219712,7 +219715,7 @@
     "padre": "auto_12185",
     "madre": "auto_12953",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_12967",
@@ -220001,7 +220004,7 @@
     "padre": "auto_10083",
     "madre": "auto_10084",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12984",
@@ -220018,7 +220021,7 @@
     "padre": "auto_10083",
     "madre": "auto_10084",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12985",
@@ -220052,7 +220055,7 @@
     "padre": "auto_12984",
     "madre": "auto_12985",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12987",
@@ -220069,7 +220072,7 @@
     "padre": "auto_12984",
     "madre": "auto_12985",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_12988",
@@ -220137,7 +220140,7 @@
     "padre": "auto_12987",
     "madre": "auto_7015",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_12992",
@@ -220461,7 +220464,7 @@
     "padre": "auto_4954",
     "madre": "auto_0023",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13010",
@@ -221262,7 +221265,7 @@
     "padre": "auto_0120",
     "madre": "auto_13055",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13059",
@@ -222011,7 +222014,7 @@
     "padre": "auto_0127",
     "madre": "auto_0128",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_13103",
@@ -222062,7 +222065,7 @@
     "padre": "auto_7150",
     "madre": "auto_7288",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_13106",
@@ -222096,7 +222099,7 @@
     "padre": "auto_7289",
     "madre": "auto_13106",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13108",
@@ -222402,7 +222405,7 @@
     "padre": "dog1161",
     "madre": "auto_1220",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13126",
@@ -223201,7 +223204,7 @@
     "padre": "auto_13118",
     "madre": "auto_13135",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13173",
@@ -223507,7 +223510,7 @@
     "padre": "auto_13118",
     "madre": "auto_13135",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13191",
@@ -223558,7 +223561,7 @@
     "padre": "auto_7625",
     "madre": "auto_11105",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13194",
@@ -223797,7 +223800,7 @@
     "padre": "auto_13192",
     "madre": "auto_13181",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13208",
@@ -223831,7 +223834,7 @@
     "padre": "auto_13192",
     "madre": "auto_13181",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13210",
@@ -223933,7 +223936,7 @@
     "padre": "auto_13143",
     "madre": "auto_13154",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13216",
@@ -223950,7 +223953,7 @@
     "padre": "auto_13143",
     "madre": "auto_13154",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13217",
@@ -224001,7 +224004,7 @@
     "padre": "auto_13165",
     "madre": "auto_13181",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13222",
@@ -224409,7 +224412,7 @@
     "padre": "auto_13229",
     "madre": "auto_13208",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13246",
@@ -224596,7 +224599,7 @@
     "padre": "auto_11067",
     "madre": "auto_13253",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_13257",
@@ -224698,7 +224701,7 @@
     "padre": "auto_3038",
     "madre": "auto_13261",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13263",
@@ -224715,7 +224718,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13264",
@@ -224919,7 +224922,7 @@
     "padre": "auto_13266",
     "madre": "auto_13208",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13276",
@@ -224970,7 +224973,7 @@
     "padre": "auto_13266",
     "madre": "auto_13208",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13279",
@@ -225395,7 +225398,7 @@
     "padre": "auto_13185",
     "madre": "auto_13209",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_13304",
@@ -225497,7 +225500,7 @@
     "padre": "auto_13185",
     "madre": "auto_13209",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13310",
@@ -225514,7 +225517,7 @@
     "padre": "auto_13185",
     "madre": "auto_13209",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13311",
@@ -225688,7 +225691,7 @@
     "padre": "auto_13316",
     "madre": "auto_12949",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_13322",
@@ -225847,7 +225850,7 @@
     "foto_list": [],
     "note_en": "Taken from Russia to Kazakhstan.",
     "lastModified": "2026-10-12",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_13332",
@@ -225953,7 +225956,7 @@
     "padre": "auto_13194",
     "madre": "auto_13300",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13338",
@@ -226055,7 +226058,7 @@
     "padre": "auto_13194",
     "madre": "auto_13300",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13344",
@@ -227126,7 +227129,7 @@
     "padre": "auto_7388",
     "madre": "auto_13406",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13408",
@@ -227228,7 +227231,7 @@
     "padre": "auto_0818",
     "madre": "dog1372",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13414",
@@ -227279,7 +227282,7 @@
     "padre": "auto_13408",
     "madre": "auto_7402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13417",
@@ -227296,7 +227299,7 @@
     "padre": "auto_13408",
     "madre": "auto_7402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13418",
@@ -227347,7 +227350,7 @@
     "padre": "auto_13408",
     "madre": "auto_7402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13421",
@@ -227364,7 +227367,7 @@
     "padre": "auto_13408",
     "madre": "auto_7402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13422",
@@ -227381,7 +227384,7 @@
     "padre": "auto_13408",
     "madre": "auto_7402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13423",
@@ -227398,7 +227401,7 @@
     "padre": "auto_13408",
     "madre": "auto_7402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13424",
@@ -227534,7 +227537,7 @@
     "padre": "auto_13394",
     "madre": "auto_13423",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13432",
@@ -227874,7 +227877,7 @@
     "padre": "auto_13408",
     "madre": "auto_13442",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13452",
@@ -227908,7 +227911,7 @@
     "padre": "auto_1286",
     "madre": "auto_13452",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13454",
@@ -228232,7 +228235,7 @@
     "padre": "auto_12570",
     "madre": "auto_13471",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13473",
@@ -228283,7 +228286,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13476",
@@ -228487,7 +228490,7 @@
     "padre": "auto_13414",
     "madre": "auto_13486",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_13488",
@@ -228606,7 +228609,7 @@
     "padre": "auto_13493",
     "madre": "auto_13406",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13495",
@@ -228623,7 +228626,7 @@
     "padre": "auto_13493",
     "madre": "auto_13406",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13496",
@@ -228895,7 +228898,7 @@
     "padre": "auto_13394",
     "madre": "auto_13501",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13512",
@@ -229184,7 +229187,7 @@
     "padre": "auto_7815",
     "madre": "auto_9905",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13530",
@@ -229218,7 +229221,7 @@
     "padre": "auto_13530",
     "madre": "auto_13528",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13531",
@@ -229577,7 +229580,7 @@
     "padre": "auto_13550",
     "madre": "auto_11241",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13552",
@@ -229594,7 +229597,7 @@
     "padre": "dog0589",
     "madre": "auto_13551",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13553",
@@ -229611,7 +229614,7 @@
     "padre": "auto_7958",
     "madre": "auto_10973",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13554",
@@ -229628,7 +229631,7 @@
     "padre": "auto_13548",
     "madre": "auto_13555",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13555",
@@ -229645,7 +229648,7 @@
     "padre": "auto_13556",
     "madre": "auto_13557",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13556",
@@ -229833,7 +229836,7 @@
     "padre": "auto_13566",
     "madre": "auto_10237",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_13568",
@@ -230056,7 +230059,7 @@
     "padre": "auto_13579",
     "madre": "auto_10030",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_13581",
@@ -230073,7 +230076,7 @@
     "padre": "auto_10026",
     "madre": "auto_13580",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13582",
@@ -230158,7 +230161,7 @@
     "padre": "auto_2187",
     "madre": "auto_0881",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_13587",
@@ -230396,7 +230399,7 @@
     "padre": "auto_2356",
     "madre": "auto_6502",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13602",
@@ -230961,7 +230964,7 @@
     "padre": "auto_13337",
     "madre": "auto_13289",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13635",
@@ -231046,7 +231049,7 @@
     "padre": "auto_13337",
     "madre": "auto_13289",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13640",
@@ -231337,7 +231340,7 @@
     "padre": "auto_13285",
     "madre": "auto_13650",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13657",
@@ -231405,7 +231408,7 @@
     "padre": "auto_13349",
     "madre": "auto_13656",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13661",
@@ -231439,7 +231442,7 @@
     "padre": "auto_13349",
     "madre": "auto_13656",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13663",
@@ -231456,7 +231459,7 @@
     "padre": "auto_13349",
     "madre": "auto_13656",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 3
   },
   {
     "id": "auto_13664",
@@ -231660,7 +231663,7 @@
     "padre": "auto_13349",
     "madre": "auto_13281",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13676",
@@ -231728,7 +231731,7 @@
     "padre": "auto_13285",
     "madre": "auto_13247",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 3
   },
   {
     "id": "auto_13680",
@@ -231847,7 +231850,7 @@
     "padre": "auto_13391",
     "madre": "auto_13432",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13687",
@@ -231932,7 +231935,7 @@
     "padre": "auto_13391",
     "madre": "auto_13432",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13692",
@@ -231949,7 +231952,7 @@
     "padre": "auto_7958",
     "madre": "auto_10533",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_13693",
@@ -232051,7 +232054,7 @@
     "padre": "auto_13236",
     "madre": "auto_13364",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13699",
@@ -232374,7 +232377,7 @@
     "padre": "auto_6861",
     "madre": "auto_13714",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13718",
@@ -234085,7 +234088,7 @@
     "padre": "auto_13815",
     "madre": "auto_12626",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13818",
@@ -234211,7 +234214,7 @@
     "padre": "auto_13798",
     "madre": "auto_12176",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13825",
@@ -234415,7 +234418,7 @@
     "padre": "",
     "madre": "",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13838",
@@ -234985,7 +234988,7 @@
     "padre": "auto_5253",
     "madre": "auto_5402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13870",
@@ -235002,7 +235005,7 @@
     "padre": "auto_5253",
     "madre": "auto_5402",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13871",
@@ -235090,7 +235093,7 @@
     "padre": "auto_6665",
     "madre": "auto_3945",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13876",
@@ -235158,7 +235161,7 @@
     "padre": "auto_1106",
     "madre": "dog1665",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13880",
@@ -235771,7 +235774,7 @@
     "padre": "auto_1133",
     "madre": "auto_13915",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_13917",
@@ -235890,7 +235893,7 @@
     "padre": "auto_3036",
     "madre": "auto_2833",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13924",
@@ -237084,7 +237087,7 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-10",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13991",
@@ -237192,7 +237195,7 @@
     "madre": "auto_12548",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_13997",
@@ -237665,7 +237668,7 @@
     "madre": "auto_14024",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_14024",
@@ -237827,7 +237830,7 @@
     "madre": "auto_8653",
     "foto_list": [],
     "lastModified": "2026-10-11",
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_14033",
@@ -238025,7 +238028,7 @@
     "madre": "auto_7559",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_14044",
@@ -238547,7 +238550,7 @@
     "madre": "",
     "foto_list": [],
     "lastModified": "2026-10-12",
-    "_tier": 2
+    "_tier": 1
   },
   {
     "id": "auto_14074",
@@ -238704,7 +238707,7 @@
       "images/auto_14081.jpg"
     ],
     "lastModified": "2026-10-15",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_14082",
@@ -239476,7 +239479,7 @@
     "madre": "dog1548",
     "foto_list": [],
     "lastModified": "2026-10-18",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_14123",
@@ -239494,7 +239497,7 @@
     "madre": "auto_14122",
     "foto_list": [],
     "lastModified": "2026-10-18",
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_14124",
@@ -240021,7 +240024,7 @@
       "images/auto_14152.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_14153",
@@ -240039,7 +240042,7 @@
     "madre": "auto_14147",
     "foto_list": [],
     "lastModified": "2026-10-19",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_14154",
@@ -240095,7 +240098,7 @@
       "images/auto_14156.jpg"
     ],
     "lastModified": "2026-10-19",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_14157",
@@ -240784,7 +240787,7 @@
     "madre": "auto_5408",
     "foto_list": [],
     "lastModified": "2026-10-24",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_14194",
@@ -240944,7 +240947,7 @@
       "images/auto_14201.jpg"
     ],
     "lastModified": "2026-10-24",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_14202",
@@ -241003,7 +241006,7 @@
     "madre": "auto_5408",
     "foto_list": [],
     "lastModified": "2026-10-24",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_14205",
@@ -241063,7 +241066,7 @@
       "images/auto_14207.jpg"
     ],
     "lastModified": "2026-10-24",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_14208",
@@ -241106,7 +241109,7 @@
       "images/auto_14209.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_14210",
@@ -241839,7 +241842,7 @@
       "images/auto_14246.jpg"
     ],
     "lastModified": "2026-11-12",
-    "_tier": 1
+    "_tier": 2
   },
   {
     "id": "auto_14247",
