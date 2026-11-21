@@ -62695,7 +62695,13 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_3754",
     "madre": "auto_3752",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_3756.jpg",
+      "images/auto_3756_2.jpg",
+      "images/auto_3756_3.jpg",
+      "images/auto_3756_4.jpg",
+      "images/auto_3756_5.jpg"
+    ],
     "note_en": "Taken from Uzbekistan, having come from Turkmenistan. It was initially believed that this male was the son of Kelte’s niece and of a son of Yalta, or of Kelte’s niece and of Yalta himself; it was later discovered that he came from the Turkmen region of Lebap, where he had been used for herding. The aforementioned fact does not affect the classification of this male, which in both cases would be “Purebred Turkmen Alabay”.",
     "lastModified": "2026-11-21",
     "_tier": 4
