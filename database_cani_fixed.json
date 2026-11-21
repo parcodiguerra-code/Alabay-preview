@@ -48843,8 +48843,12 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0490",
     "madre": "auto_2943",
-    "foto_list": [],
-    "_tier": 4
+    "foto_list": [
+      "images/auto_2944.jpg",
+      "images/auto_2944_2.jpg"
+    ],
+    "_tier": 4,
+    "lastModified": "2026-11-21"
   },
   {
     "id": "auto_2945",
