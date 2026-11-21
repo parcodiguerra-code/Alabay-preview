@@ -242055,15 +242055,16 @@
     "allevatore": "V. AYZENBERG",
     "proprietario": "A. KALASHNYUK",
     "paese": "RUSSIA",
-    "colore": "FAWN WITH WHITE",
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "note": "",
+    "note": "Secondo i documenti ufficiali il padre di questo maschio è Dzhura (ow. Nashulyan). In realtà, invece, suo padre è Doga, maschio appartenente a Kalashnyuk, proprietario anche di sua madre Rutay-Bigul. Ciò è stato testimoniato dal rinomato Viktor Ayzenberg, allevatore di Doga.",
+    "colore": "FAWN WITH WHITE",
     "padre": "auto_1403",
     "madre": "auto_14259",
     "foto_list": [],
     "lastModified": "2026-11-21",
-    "_tier": 4
+    "_tier": 4,
+    "note_en": "According to official documents, this male’s father is Dzhura (ow. Nashulyan). In reality, however, his father is Doga, a male owned by Kalashnyuk, who also owned his mother, Rutay-Bigul. This has been confirmed by the renowned Viktor Ayzenberg, Doga’s breeder."
   }
 ]
