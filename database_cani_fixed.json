@@ -84550,7 +84550,7 @@
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "2004-11-13",
-    "note": "",
+    "note": "Secondo i documenti ufficiali il padre di questo maschio è Dzhura (ow. Nashulyan). In realtà, invece, suo padre è Doga, maschio appartenente a Kalashnyuk, proprietario anche di sua madre Rutay-Bigul. Ciò è stato testimoniato dal rinomato Viktor Ayzenberg, allevatore di Doga.",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_14260",
     "madre": "auto_3317",
@@ -242058,7 +242058,7 @@
     "tipo": "CENTRAL ASIAN SHEPHERD DOG",
     "pedigree": "",
     "birth": "",
-    "note": "Secondo i documenti ufficiali il padre di questo maschio è Dzhura (ow. Nashulyan). In realtà, invece, suo padre è Doga, maschio appartenente a Kalashnyuk, proprietario anche di sua madre Rutay-Bigul. Ciò è stato testimoniato dal rinomato Viktor Ayzenberg, allevatore di Doga.",
+    "note": "",
     "colore": "FAWN WITH WHITE",
     "padre": "auto_1403",
     "madre": "auto_14259",
@@ -242066,7 +242066,6 @@
       "images/auto_14260.jpg"
     ],
     "lastModified": "2026-11-21",
-    "_tier": 4,
-    "note_en": "According to official documents, this male’s father is Dzhura (ow. Nashulyan). In reality, however, his father is Doga, a male owned by Kalashnyuk, who also owned his mother, Rutay-Bigul. This has been confirmed by the renowned Viktor Ayzenberg, Doga’s breeder."
+    "_tier": 4
   }
 ]
