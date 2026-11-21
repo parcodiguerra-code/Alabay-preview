@@ -58054,7 +58054,12 @@
     "colore": "WHITE WITH ORANGE",
     "padre": "dog0120",
     "madre": "auto_4538",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_3477.jpg",
+      "images/auto_3477_2.jpg",
+      "images/auto_3477_3.jpg",
+      "images/auto_3477_4.jpg"
+    ],
     "lastModified": "2026-11-21",
     "_tier": 4
   },
