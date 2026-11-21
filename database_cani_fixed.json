@@ -15511,8 +15511,11 @@
     "colore": "WHITE WITH TIGER STRIPES",
     "padre": "auto_0716",
     "madre": "auto_0714",
-    "foto_list": [],
-    "_tier": 4
+    "foto_list": [
+      "images/dog0906.jpg"
+    ],
+    "_tier": 4,
+    "lastModified": "2026-11-21"
   },
   {
     "id": "auto_0718",
@@ -220365,7 +220368,7 @@
     "madre": "auto_5981",
     "foto_list": [],
     "lastModified": "2026-10-23",
-    "_tier": 4
+    "_tier": 1
   },
   {
     "id": "auto_13001",
