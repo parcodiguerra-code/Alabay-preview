@@ -15230,8 +15230,8 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "",
-    "colore": "WHITE WITH REDDISH",
+    "note": "Preso in Turkmenistan.",
+    "colore": "WHITE WITH FAWN",
     "padre": "",
     "madre": "",
     "foto_list": [
@@ -15241,7 +15241,8 @@
       "images/auto_0708_4.jpg"
     ],
     "_tier": 4,
-    "lastModified": "2026-11-21"
+    "lastModified": "2026-11-21",
+    "note_en": "Taken from Turkmenistan."
   },
   {
     "id": "auto_0709",
