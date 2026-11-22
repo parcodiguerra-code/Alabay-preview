@@ -3796,7 +3796,12 @@
     "colore": "WHITE",
     "padre": "auto_0013",
     "madre": "auto_0161",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0164.jpg",
+      "images/auto_0164_2.jpg",
+      "images/auto_0164_3.jpg",
+      "images/auto_0164_4.jpg"
+    ],
     "_tier": 4,
     "lastModified": "2026-11-22"
   },
