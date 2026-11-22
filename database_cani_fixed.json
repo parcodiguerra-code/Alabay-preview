@@ -50603,7 +50603,12 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_2990",
     "madre": "dog1087",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_3044.jpg",
+      "images/auto_3044_2.jpg",
+      "images/auto_3044_3.jpg",
+      "images/auto_3044_4.jpg"
+    ],
     "_tier": 4,
     "lastModified": "2026-11-22"
   },
