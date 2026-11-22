@@ -127949,7 +127949,13 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_3043",
     "madre": "auto_2603",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_7601.jpg",
+      "images/auto_7601_2.jpg",
+      "images/auto_7601_3.jpg",
+      "images/auto_7601_4.jpg",
+      "images/auto_7601_5.jpg"
+    ],
     "_tier": 4,
     "lastModified": "2026-11-22"
   },
