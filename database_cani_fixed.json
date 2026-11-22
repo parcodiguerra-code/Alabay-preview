@@ -112488,7 +112488,11 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_6692",
     "madre": "auto_2989",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_6693.jpg",
+      "images/auto_6693_2.jpg",
+      "images/auto_6693_3.jpg"
+    ],
     "_tier": 4,
     "lastModified": "2026-11-22"
   },
