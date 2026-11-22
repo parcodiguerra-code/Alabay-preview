@@ -240989,7 +240989,10 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_0346",
     "madre": "auto_3464",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_14199.jpg",
+      "images/auto_14199_2.jpg"
+    ],
     "lastModified": "2026-11-22",
     "_tier": 4
   },
