@@ -240417,13 +240417,7 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_14167",
     "madre": "auto_7471",
-    "foto_list": [
-      "images/auto_14168.jpg",
-      "images/auto_14168_2.jpg",
-      "images/auto_14168_3.jpg",
-      "images/auto_14168_4.jpg",
-      "images/auto_14168_5.jpg"
-    ],
+    "foto_list": [],
     "lastModified": "2026-11-22",
     "_tier": 4
   },
