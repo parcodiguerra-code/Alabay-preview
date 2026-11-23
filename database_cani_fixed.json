@@ -242380,5 +242380,28 @@
     "foto_list": [],
     "lastModified": "2026-11-21",
     "_tier": 1
+  },
+  {
+    "id": "auto_14268",
+    "sesso": "M",
+    "name": "KABIR (ow. Cruciani)",
+    "allevatore": "B. CRUCIANI",
+    "proprietario": "B. CRUCIANI",
+    "paese": "ITALY",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "2015-03-16",
+    "note": "",
+    "padre": "auto_7515",
+    "madre": "auto_7508",
+    "foto_list": [
+      "images/auto_14268.jpg",
+      "images/auto_14268_2.jpg",
+      "images/auto_14268_3.jpg",
+      "images/auto_14268_4.jpg",
+      "images/auto_14268_5.jpg"
+    ],
+    "lastModified": "2026-11-23"
   }
 ]
