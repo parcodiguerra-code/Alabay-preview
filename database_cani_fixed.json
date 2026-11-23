@@ -242431,5 +242431,22 @@
     "madre": "auto_14270",
     "foto_list": [],
     "lastModified": "2026-11-23"
+  },
+  {
+    "id": "auto_14272",
+    "sesso": "M",
+    "name": "FAYZAR (ow. Dipaola)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "A. DIPAOLA",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 162414",
+    "birth": "2015-10-12",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23"
   }
 ]
