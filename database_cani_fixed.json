@@ -242482,5 +242482,22 @@
     "madre": "auto_14270",
     "foto_list": [],
     "lastModified": "2026-11-23"
+  },
+  {
+    "id": "auto_14275",
+    "sesso": "F",
+    "name": "FARZA (ow. Frezza)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "F. FREZZA",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 162421",
+    "birth": "2015-10-12",
+    "note": "",
+    "colore": "WHITE",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23"
   }
 ]
