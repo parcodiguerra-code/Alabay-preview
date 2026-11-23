@@ -242414,5 +242414,22 @@
     "foto_list": [],
     "lastModified": "2026-11-23",
     "_tier": 2
+  },
+  {
+    "id": "auto_14271",
+    "sesso": "M",
+    "name": "FORTA (ow. Vino)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "S. VINO",
+    "paese": "ITALY",
+    "colore": "WHITE WITH FAWN",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 162410",
+    "birth": "2015-10-12",
+    "note": "",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23"
   }
 ]
