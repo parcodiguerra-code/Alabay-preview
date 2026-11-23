@@ -242596,5 +242596,23 @@
     "foto_list": [],
     "lastModified": "2026-11-23",
     "_tier": 4
+  },
+  {
+    "id": "auto_14281",
+    "sesso": "M",
+    "name": "DAG (ow. Specchio)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "R. SPECCHIO",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1534270",
+    "birth": "2014-12-11",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23",
+    "_tier": 4
   }
 ]
