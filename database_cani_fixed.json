@@ -242649,5 +242649,22 @@
     "madre": "auto_4962",
     "foto_list": [],
     "lastModified": "2026-11-23"
+  },
+  {
+    "id": "auto_14284",
+    "sesso": "F",
+    "name": "ASIA (ow. Ferretti)",
+    "allevatore": "R. SPECCHIO",
+    "proprietario": "S. FERRETTI",
+    "paese": "ITALY",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1696987",
+    "birth": "2016-03-31",
+    "note": "",
+    "padre": "auto_14281",
+    "madre": "auto_14283",
+    "foto_list": [],
+    "lastModified": "2026-11-23"
   }
 ]
