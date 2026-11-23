@@ -242524,5 +242524,23 @@
     ],
     "lastModified": "2026-11-23",
     "_tier": 4
+  },
+  {
+    "id": "auto_14277",
+    "sesso": "F",
+    "name": "AYASHE (ow. Dipaola)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "A. DIPAOLA",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 162422",
+    "birth": "2015-10-12",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23",
+    "_tier": 4
   }
 ]
