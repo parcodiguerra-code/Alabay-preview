@@ -242560,5 +242560,41 @@
     "foto_list": [],
     "lastModified": "2026-11-23",
     "_tier": 4
+  },
+  {
+    "id": "auto_14279",
+    "sesso": "F",
+    "name": "DZHOTTY (ow. Vaglini)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "L. VAGLINI",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1534273",
+    "birth": "2014-12-11",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23",
+    "_tier": 4
+  },
+  {
+    "id": "auto_14280",
+    "sesso": "M",
+    "name": "DEY DAR (ow. Di Foggia)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "M. DI FOGGIA",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1534275",
+    "birth": "2014-12-11",
+    "note": "",
+    "colore": "WHITE WITH ORANGE",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23",
+    "_tier": 4
   }
 ]
