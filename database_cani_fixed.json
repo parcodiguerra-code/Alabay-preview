@@ -242666,5 +242666,22 @@
     "madre": "auto_14283",
     "foto_list": [],
     "lastModified": "2026-11-23"
+  },
+  {
+    "id": "auto_14285",
+    "sesso": "F",
+    "name": "ANIA (ow. Filograna)",
+    "allevatore": "R. SPECCHIO",
+    "proprietario": "L. FILOGRANA",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1696954",
+    "birth": "2016-03-31",
+    "note": "",
+    "colore": "WHITE WITH ORANGE",
+    "padre": "auto_14281",
+    "madre": "auto_14283",
+    "foto_list": [],
+    "lastModified": "2026-11-23"
   }
 ]
