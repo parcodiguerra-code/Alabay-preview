@@ -242632,5 +242632,22 @@
     "foto_list": [],
     "lastModified": "2026-11-23",
     "_tier": 4
+  },
+  {
+    "id": "auto_14283",
+    "sesso": "F",
+    "name": "TZ-NIKE MAKSIMUS HAN-MO",
+    "allevatore": "H. KOSTADINOV",
+    "proprietario": "R. SPECCHIO",
+    "paese": "BULGARIA",
+    "colore": "WHITE WITH ORANGE",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "439/ 13 PK CAO",
+    "birth": "2013-11-06",
+    "note": "",
+    "padre": "auto_5276",
+    "madre": "auto_4962",
+    "foto_list": [],
+    "lastModified": "2026-11-23"
   }
 ]
