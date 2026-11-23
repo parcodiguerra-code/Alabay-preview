@@ -242465,5 +242465,22 @@
     "madre": "auto_14270",
     "foto_list": [],
     "lastModified": "2026-11-23"
+  },
+  {
+    "id": "auto_14274",
+    "sesso": "F",
+    "name": "FIRYUZA (ow. De Biasi)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "W. DE BIASI",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 162417",
+    "birth": "2015-10-12",
+    "note": "",
+    "colore": "WHITE WITH FAWN AND GREY",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23"
   }
 ]
