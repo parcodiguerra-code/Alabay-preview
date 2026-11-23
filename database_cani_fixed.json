@@ -9137,14 +9137,21 @@
     "proprietario": "G. KYARIZOV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
-    "pedigree": "RKF R 0839",
+    "pedigree": "RKF R 0000839",
     "birth": "",
     "note": "",
-    "colore": "REDDISH",
+    "colore": "LIGHT REDDISH",
     "padre": "auto_0420",
     "madre": "auto_0421",
-    "foto_list": [],
-    "_tier": 4
+    "foto_list": [
+      "images/auto_0422.jpg",
+      "images/auto_0422_2.jpg",
+      "images/auto_0422_3.jpg",
+      "images/auto_0422_4.jpg",
+      "images/auto_0422_5.jpg"
+    ],
+    "_tier": 4,
+    "lastModified": "2026-11-23"
   },
   {
     "id": "auto_0423",
