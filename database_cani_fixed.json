@@ -242411,5 +242411,22 @@
     "foto_list": [],
     "_tier": 1,
     "lastModified": "2026-11-23"
+  },
+  {
+    "id": "auto_14270",
+    "sesso": "F",
+    "name": "E-DUSHMANKA OSOGOVSKI STRAJI",
+    "allevatore": "M. MARTINOV",
+    "proprietario": "A. DIPAOLA",
+    "paese": "BULGARIA",
+    "colore": "WHITE WITH BLACK",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "PK 2435814",
+    "birth": "2013-11-04",
+    "note": "",
+    "padre": "auto_0346",
+    "madre": "auto_5277",
+    "foto_list": [],
+    "lastModified": "2026-11-23"
   }
 ]
