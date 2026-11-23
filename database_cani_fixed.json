@@ -242542,5 +242542,23 @@
     "foto_list": [],
     "lastModified": "2026-11-23",
     "_tier": 4
+  },
+  {
+    "id": "auto_14278",
+    "sesso": "F",
+    "name": "DZHEIHUN (ow. Liuzzi)",
+    "allevatore": "F. LIUZZI",
+    "proprietario": "F. LIUZZI",
+    "paese": "ITALY",
+    "tipo": "CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "LOI 1534277",
+    "birth": "2014-12-11",
+    "note": "",
+    "colore": "WHITE WITH BLACK",
+    "padre": "auto_0354",
+    "madre": "auto_14270",
+    "foto_list": [],
+    "lastModified": "2026-11-23",
+    "_tier": 4
   }
 ]
