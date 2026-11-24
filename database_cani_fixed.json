@@ -235220,7 +235220,9 @@
     "colore": "BLACK WITH WHITE",
     "padre": "",
     "madre": "",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_13873.jpg"
+    ],
     "lastModified": "2026-11-24",
     "_tier": 4
   },
