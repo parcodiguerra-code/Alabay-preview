@@ -13798,11 +13798,9 @@
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0072",
     "madre": "auto_0077",
-    "foto_list": [
-      "images/dog0799.jpg"
-    ],
-    "lastModified": "2026-10-31",
-    "_tier": 2
+    "foto_list": [],
+    "lastModified": "2026-11-24",
+    "_tier": 4
   },
   {
     "id": "auto_0075",
@@ -104723,7 +104721,7 @@
     "padre": "auto_6225",
     "madre": "auto_6226",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_6228",
