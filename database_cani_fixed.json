@@ -28969,7 +28969,13 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_8320",
     "madre": "auto_8321",
-    "foto_list": [],
+    "foto_list": [
+      "images/dog1735.jpg",
+      "images/dog1735_2.jpg",
+      "images/dog1735_3.jpg",
+      "images/dog1735_4.jpg",
+      "images/dog1735_5.jpg"
+    ],
     "note_en": "Taken from Tajikistan.",
     "lastModified": "2026-11-24",
     "_tier": 4
