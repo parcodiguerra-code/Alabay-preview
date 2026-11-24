@@ -162323,12 +162323,9 @@
     "colore": "BLACK WITH WHITE",
     "padre": "auto_9586",
     "madre": "auto_9584",
-    "foto_list": [
-      "images/auto_9585.jpg",
-      "images/auto_9585_2.jpg"
-    ],
-    "lastModified": "2026-10-28",
-    "_tier": 1
+    "foto_list": [],
+    "lastModified": "2026-11-24",
+    "_tier": 4
   },
   {
     "id": "auto_9586",
