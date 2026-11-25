@@ -6823,12 +6823,13 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "LOI 1534250",
     "birth": "2014-11-08",
-    "note": "[Creato automaticamente come madre]",
-    "colore": "WHITE WITH BROWN",
+    "note": "",
+    "colore": "WHITE WITH FAWN",
     "padre": "dog0108",
     "madre": "dog0141",
     "foto_list": [],
-    "_tier": 4
+    "_tier": 4,
+    "lastModified": "2026-11-25"
   },
   {
     "id": "auto_0316",
