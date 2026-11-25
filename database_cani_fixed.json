@@ -6827,7 +6827,10 @@
     "colore": "WHITE WITH FAWN",
     "padre": "dog0108",
     "madre": "dog0141",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0315.jpg",
+      "images/auto_0315_2.jpg"
+    ],
     "_tier": 4,
     "lastModified": "2026-11-25"
   },
