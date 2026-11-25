@@ -6899,7 +6899,7 @@
     "padre": "dog0108",
     "madre": "auto_0129",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_0318",
@@ -23205,12 +23205,16 @@
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1991-12-03",
-    "note": "",
-    "colore": "WHITE WITH BROWN",
+    "note": "Portata dal Turkmenistan.",
+    "colore": "WHITE WITH FAWN",
     "padre": "",
     "madre": "",
-    "foto_list": [],
-    "_tier": 1
+    "foto_list": [
+      "images/dog1375.jpg"
+    ],
+    "_tier": 4,
+    "lastModified": "2026-11-25",
+    "note_en": "Brought from Turkmenistan."
   },
   {
     "id": "dog1376",
@@ -57308,7 +57312,7 @@
     "padre": "auto_1387",
     "madre": "auto_2667",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_3429",
@@ -82690,7 +82694,7 @@
     "padre": "auto_4028",
     "madre": "auto_0062",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4931",
@@ -82724,7 +82728,7 @@
     "padre": "auto_4028",
     "madre": "auto_0062",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_4933",
@@ -95201,7 +95205,7 @@
     "padre": "auto_2888",
     "madre": "auto_4676",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5665",
@@ -96310,7 +96314,7 @@
     "padre": "auto_5727",
     "madre": "auto_5726",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5729",
@@ -98450,7 +98454,7 @@
     "padre": "auto_2888",
     "madre": "auto_4676",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_5855",
@@ -130287,7 +130291,7 @@
     "padre": "dog0114",
     "madre": "auto_0186",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_7731",
@@ -162905,7 +162909,7 @@
       "images/auto_9611.jpg"
     ],
     "lastModified": "2026-10-26",
-    "_tier": 3
+    "_tier": 1
   },
   {
     "id": "auto_9612",
@@ -187564,7 +187568,7 @@
     "padre": "auto_4034",
     "madre": "auto_11045",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_11047",
@@ -220733,7 +220737,7 @@
     "padre": "auto_13008",
     "madre": "auto_13009",
     "foto_list": [],
-    "_tier": 1
+    "_tier": 4
   },
   {
     "id": "auto_13011",
@@ -241785,7 +241789,7 @@
       "images/auto_14229_5.jpg"
     ],
     "lastModified": "2026-11-17",
-    "_tier": 1
+    "_tier": 3
   },
   {
     "id": "auto_14230",
