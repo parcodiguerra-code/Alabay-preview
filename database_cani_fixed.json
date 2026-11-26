@@ -9307,12 +9307,12 @@
     "sesso": "M",
     "name": "AKBAY (ow. Gorohov)",
     "allevatore": "A. PERNAZAR",
-    "proprietario": "I. GOROHOV",
+    "proprietario": "A. PERNAZAR - I. GOROHOV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "1988-01-01",
-    "note": "Importato dal Turkmenistan.",
+    "note": "Preso dal Turkmenistan.",
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_0434",
     "madre": "auto_0435",
@@ -9323,7 +9323,7 @@
       "images/auto_0428_4.jpg",
       "images/auto_0428_5.jpg"
     ],
-    "note_en": "Imported from Turkmenistan.",
+    "note_en": "Taken from Turkmenistan.",
     "lastModified": "2026-11-26",
     "_tier": 4
   },
