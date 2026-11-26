@@ -214090,8 +214090,14 @@
     "colore": "REDDISH",
     "padre": "auto_12611",
     "madre": "auto_12613",
-    "foto_list": [],
-    "_tier": 4
+    "foto_list": [
+      "images/auto_12615.jpg",
+      "images/auto_12615_2.jpg",
+      "images/auto_12615_3.jpg",
+      "images/auto_12615_4.jpg"
+    ],
+    "_tier": 4,
+    "lastModified": "2026-11-26"
   },
   {
     "id": "auto_12616",
