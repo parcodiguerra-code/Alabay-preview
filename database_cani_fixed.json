@@ -9316,9 +9316,15 @@
     "colore": "WHITE WITH LIGHT FAWN",
     "padre": "auto_0434",
     "madre": "auto_0435",
-    "foto_list": [],
+    "foto_list": [
+      "images/auto_0428.jpg",
+      "images/auto_0428_2.jpg",
+      "images/auto_0428_3.jpg",
+      "images/auto_0428_4.jpg",
+      "images/auto_0428_5.jpg"
+    ],
     "note_en": "Imported from Turkmenistan.",
-    "lastModified": "2026-10-12",
+    "lastModified": "2026-11-26",
     "_tier": 4
   },
   {
