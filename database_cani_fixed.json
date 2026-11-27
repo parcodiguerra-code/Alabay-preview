@@ -243100,5 +243100,26 @@
     "foto_list": [],
     "_tier": 1,
     "lastModified": "2026-11-26"
+  },
+  {
+    "id": "auto_14290",
+    "sesso": "M",
+    "name": "ACHAK ASY ZHAR",
+    "allevatore": "T. KOBZEVA",
+    "proprietario": "T. KOBZEVA",
+    "paese": "RUSSIA",
+    "colore": "WHITE WITH BLACK",
+    "tipo": "PUREBRED CENTRAL ASIAN SHEPHERD DOG",
+    "pedigree": "",
+    "birth": "",
+    "note": "",
+    "padre": "auto_5658",
+    "madre": "auto_5158",
+    "foto_list": [
+      "images/auto_14290.jpg",
+      "images/auto_14290_2.jpg",
+      "images/auto_14290_3.jpg"
+    ],
+    "lastModified": "2026-11-27"
   }
 ]
