@@ -1495,7 +1495,7 @@
     "sesso": "F",
     "name": "VELKUSH IL TEGIN",
     "allevatore": "AKSENOV",
-    "proprietario": "L. MANEVIC",
+    "proprietario": "L. MANEVICH",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -1505,7 +1505,8 @@
     "padre": "dog0710",
     "madre": "auto_2239",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "dog0079",
@@ -9778,7 +9779,7 @@
       "images/auto_0447_2.jpg"
     ],
     "lastModified": "2026-11-22",
-    "_tier": 3
+    "_tier": 4
   },
   {
     "id": "auto_0448",
@@ -10836,7 +10837,7 @@
     "sesso": "M",
     "name": "ELBARS (EL-BARS) (ow. Nikolaeva)",
     "allevatore": "Y. MAMEDNIYAZOV",
-    "proprietario": "N. NIKOLAEVA - L. MANEVIC",
+    "proprietario": "N. NIKOLAEVA - L. MANEVICH",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF R 0114 (19-81)",
@@ -10851,8 +10852,8 @@
       "images/auto_0501_3.jpg",
       "images/auto_0501_4.jpg"
     ],
-    "lastModified": "2026-11-19",
-    "_tier": 2
+    "lastModified": "2026-11-27",
+    "_tier": 4
   },
   {
     "id": "auto_0502",
@@ -12584,23 +12585,29 @@
     "sesso": "F",
     "name": "KARAGEZ (ow. Nikolaeva)",
     "allevatore": "S. MEREDOV",
-    "proprietario": "N. NIKOLAEVA - L. MANEVIC",
+    "proprietario": "N. NIKOLAEVA - L. MANEVICH",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "Presa dal Turkmenistan.",
     "colore": "WHITE WITH BLACK",
     "padre": "auto_0067",
     "madre": "auto_0591",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27",
+    "verifica": {
+      "data": "2026-11-27",
+      "note": ""
+    },
+    "note_en": "Taken from Turkmenistan."
   },
   {
     "id": "dog0721",
     "sesso": "M",
     "name": "DEY-DAR (ow. Morozova)",
-    "allevatore": "N. NIKOLAEVA - N. MANEVIC",
+    "allevatore": "N. NIKOLAEVA - N. MANEVICH",
     "proprietario": "O. MOROZOVA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -12611,7 +12618,8 @@
     "padre": "auto_0501",
     "madre": "auto_0590",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "auto_0591",
@@ -12634,7 +12642,7 @@
     "id": "auto_0592",
     "sesso": "F",
     "name": "DZHURHANA (ow. Lobkovskaya)",
-    "allevatore": "N. NIKOLAEVA - N. MANEVIC",
+    "allevatore": "N. NIKOLAEVA - N. MANEVICH",
     "proprietario": "I. IVANOVA - I. LOBKOVSKAYA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -12645,7 +12653,8 @@
     "padre": "auto_0501",
     "madre": "auto_0590",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "dog0724",
@@ -13797,19 +13806,20 @@
   {
     "id": "auto_0653",
     "sesso": "F",
-    "name": "GAYRAT (ow. Manevic)",
-    "allevatore": "N. NIKOLAEVA - L. MANEVIC",
-    "proprietario": "L. MANEVIC",
+    "name": "GAYRAT (ow. Manevich)",
+    "allevatore": "N. NIKOLAEVA - L. MANEVICH",
+    "proprietario": "L. MANEVICH",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
     "birth": "",
-    "note": "[Creato automaticamente come madre]",
+    "note": "",
     "colore": "WHITE",
     "padre": "auto_0447",
     "madre": "auto_0654",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 3,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "auto_0654",
@@ -14315,9 +14325,9 @@
   {
     "id": "dog0824",
     "sesso": "F",
-    "name": "GOYUNCHI (ow. Manevic)",
+    "name": "GOYUNCHI (ow. Manevich)",
     "allevatore": "A. SARIYEV",
-    "proprietario": "L. MANEVIC",
+    "proprietario": "L. MANEVICH",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -14327,7 +14337,8 @@
     "padre": "auto_0053",
     "madre": "auto_0664",
     "foto_list": [],
-    "_tier": 3
+    "_tier": 4,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "auto_0667",
@@ -58299,7 +58310,7 @@
     "sesso": "F",
     "name": "KARAVAN ITI GAY-TER",
     "allevatore": "A. RAZUVAEV - T. GOROHOVA",
-    "proprietario": "L. MANEVIC",
+    "proprietario": "L. MANEVICH",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 2934214",
@@ -58309,7 +58320,8 @@
     "padre": "auto_0087",
     "madre": "auto_3477",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "auto_3481",
@@ -67690,8 +67702,8 @@
     "id": "auto_4035",
     "sesso": "M",
     "name": "GEK AZHDAR SARY (ow. Platunov)",
-    "allevatore": "MAMEDLYAZOV",
-    "proprietario": "L. MANEVIC - PLATUNOV",
+    "allevatore": "MAMEDNYAZOV",
+    "proprietario": "L. MANEVICH - PLATUNOV",
     "paese": "TURKMENISTAN",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -67702,7 +67714,7 @@
     "madre": "",
     "foto_list": [],
     "note_en": "Taken from Turkmenistan.",
-    "lastModified": "2026-10-12",
+    "lastModified": "2026-11-27",
     "_tier": 2
   },
   {
@@ -76139,7 +76151,7 @@
     "sesso": "F",
     "name": "GALLA-GERK TAU",
     "allevatore": "M. BYKOV",
-    "proprietario": "A. VASILIEV - L. MANEVIC",
+    "proprietario": "A. VASILIEV - L. MANEVICH",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "RKF 3562381",
@@ -76149,7 +76161,8 @@
     "padre": "auto_4534",
     "madre": "auto_4536",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "auto_4538",
@@ -76206,7 +76219,7 @@
     "id": "auto_4541",
     "sesso": "F",
     "name": "GAYRAT PAHTA",
-    "allevatore": "L. MANEVIC",
+    "allevatore": "L. MANEVICH",
     "proprietario": "A. GEBERG",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -76217,7 +76230,8 @@
     "padre": "auto_4540",
     "madre": "auto_3478",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "auto_4542",
@@ -76240,8 +76254,8 @@
     "id": "auto_4543",
     "sesso": "M",
     "name": "GAYRAT SABIR",
-    "allevatore": "A. GEBERG - L. MANEVIC",
-    "proprietario": "L. MANEVIC",
+    "allevatore": "A. GEBERG - L. MANEVICH",
+    "proprietario": "L. MANEVICH",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
     "pedigree": "",
@@ -76251,7 +76265,8 @@
     "padre": "auto_4542",
     "madre": "auto_4541",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "auto_4544",
@@ -76280,7 +76295,7 @@
     "id": "auto_4545",
     "sesso": "M",
     "name": "GAYRAT FARHAD",
-    "allevatore": "L. MANEVIC",
+    "allevatore": "L. MANEVICH",
     "proprietario": "O. IVANOVA",
     "paese": "RUSSIA",
     "tipo": "PUREBRED TURKMEN ALABAY",
@@ -76291,7 +76306,8 @@
     "padre": "auto_4543",
     "madre": "auto_4537",
     "foto_list": [],
-    "_tier": 2
+    "_tier": 2,
+    "lastModified": "2026-11-27"
   },
   {
     "id": "auto_4546",
@@ -241215,7 +241231,7 @@
     "madre": "auto_14191",
     "foto_list": [],
     "lastModified": "2026-10-20",
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_14193",
@@ -241251,7 +241267,7 @@
     "madre": "auto_14192",
     "foto_list": [],
     "lastModified": "2026-10-20",
-    "_tier": 2
+    "_tier": 4
   },
   {
     "id": "auto_14195",
